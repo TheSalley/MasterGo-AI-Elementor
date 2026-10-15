@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M-AI-E · MasterGo → Elementor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>M-AI-E</h1>
+    <span class="tag">MasterGo 设计稿 → AI → Elementor 页面</span>
+  </header>
+
+  <main class="layout">
+    <!-- ① 输入 -->
+    <section class="panel">
+      <h2>① 从 MasterGo 取数</h2>
+      <label>MasterGo 令牌（Token）<em class="hint">留空使用环境变量 MG_TOKEN</em>
+        <input id="mg-token" type="password" placeholder="mg_xxx（可留空，用服务端环境变量）" autocomplete="off" />
+      </label>
+      <label>设计稿链接或 fileId
+        <input id="mg-file" type="text" placeholder="https://mastergo.com/file/... 或纯 fileId" />
+      </label>
+      <button id="btn-parse">拉取设计数据</button>
+      <div id="parse-result" class="result"></div>
+    </section>
+
+    <!-- ② 转换 -->
+    <section class="panel">
+      <h2>② 转译为 Elementor 模板</h2>
+      <label class="check"><input id="llm-on" type="checkbox" /> LLM 语义化增强</label>
+      <div id="llm-cfg" class="llm-cfg">
+        <label>Base URL
+          <input id="llm-base" type="text" placeholder="https://api.openai.com/v1（留空用环境变量）" />
+        </label>
+        <label>API Key
+          <input id="llm-key" type="password" placeholder="sk-…（留空用环境变量）" autocomplete="off" />
+        </label>
+        <label>模型
+          <input id="llm-model" type="text" placeholder="gpt-4o-mini（留空用环境变量）" />
+        </label>
+      </div>
+      <button id="btn-convert" disabled>生成模板</button>
+      <div id="convert-result" class="result"></div>
+    </section>
+
+    <!-- ③ 交付 -->
+    <section class="panel">
+      <h2>③ 交付</h2>
+      <div class="deliver">
+        <button id="btn-download" disabled>下载 .json（手动导入）</button>
+        <a id="lnk-plugin" class="ghost" download="mae-import.zip" href="/api/site/plugin">下载导入插件 mae-import.zip</a>
+      </div>
+      <div class="import-box">
+        <label>站点地址
+          <input id="wp-site" type="text" placeholder="https://your-site.com" />
+        </label>
+        <label>接口密钥（插件中配置）
+          <input id="wp-key" type="text" placeholder="MAE_CHANGE_ME 或你改过的密钥" />
+        </label>
+        <label>页面标题
+          <input id="wp-title" type="text" placeholder="Home（留空用模板标题）" />
+        </label>
+        <div class="basic-auth">
+          <span class="auth-toggle"><input id="auth-on" type="checkbox" /> 站点需 nginx 登录（Basic Auth）</span>
+          <div id="auth-fields" class="llm-cfg">
+            <label>nginx 登录账号
+              <input id="auth-user" type="text" placeholder="access" />
+            </label>
+            <label>nginx 登录密码
+              <input id="auth-pass" type="password" placeholder="login" autocomplete="off" />
+            </label>
+          </div>
+        </div>
+        <button id="btn-import" disabled>一键写入站点</button>
+      </div>
+      <div id="import-result" class="result"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

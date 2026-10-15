@@ -1,0 +1,58 @@
+{
+  "sectionIndex": 10,
+  "section": {
+    "id": "177:9524",
+    "name": "组 5640",
+    "type": "GROUP"
+  },
+  "rootContainer": {
+    "width": "1920px",
+    "minHeight": "8232px",
+    "background": "#FFFFFF",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "paint_145:06455": {
+        "value": [
+          "linear-gradient(180deg, #FFFFFF 0%, #F5F5F5 100%)"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "GROUP",
+        "id": "177:9524",
+        "name": "组 5640",
+        "layoutStyle": {
+          "width": 1920,
+          "height": 648,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "children": [
+          {
+            "type": "LAYER",
+            "id": "177:9525",
+            "name": "image",
+            "layoutStyle": {
+              "width": 1920,
+              "height": 648,
+              "relativeX": 0,
+              "relativeY": 0,
+              "flipV": true
+            },
+            "fill": "paint_145:06455",
+            "_color": "linear-gradient(180deg, #FFFFFF 0%, #F5F5F5 100%)"
+          }
+        ]
+      }
+    ],
+    "components": []
+  },
+  "nodeCount": 2,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 11/29. MISSING 18 sections: [11,12,13,14,15,16,17,18,19,20... +8 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

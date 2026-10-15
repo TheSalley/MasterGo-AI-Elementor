@@ -1,0 +1,49 @@
+{
+  "sectionIndex": 3,
+  "section": {
+    "id": "177:9426",
+    "name": "矩形 2835",
+    "type": "PATH"
+  },
+  "rootContainer": {
+    "width": "1920px",
+    "minHeight": "8232px",
+    "background": "#FFFFFF",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 2,
+  "dsl": {
+    "styles": {
+      "paint_86:5194": {
+        "value": [
+          "#02132D"
+        ],
+        "token": "Q-背景深"
+      }
+    },
+    "nodes": [
+      {
+        "type": "PATH",
+        "id": "177:9426",
+        "name": "矩形 2835",
+        "layoutStyle": {
+          "width": 1920,
+          "height": 790,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "opacity": 0.699999988079071,
+        "svgKey": "S3:177:9426|177:9426",
+        "svgShortKey": "S3#0",
+        "svgName": ""
+      }
+    ],
+    "components": []
+  },
+  "nodeCount": 1,
+  "svgNodeCount": 1,
+  "hasStrippedSvgs": true,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 4/29. MISSING 25 sections: [4,5,6,7,8,9,10,11,12,13... +15 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

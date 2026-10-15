@@ -1,0 +1,235 @@
+{
+  "sectionIndex": 24,
+  "section": {
+    "id": "177:9767/134:5921",
+    "name": "组 5564",
+    "type": "GROUP"
+  },
+  "rootContainer": {
+    "width": "1920px",
+    "minHeight": "8232px",
+    "background": "#FFFFFF",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "font_86:5000": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 18,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "600"
+        },
+        "token": "Q-H6"
+      },
+      "font_86:5012": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 14,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "400"
+        },
+        "token": "Q-ps"
+      },
+      "paint_86:5202": {
+        "value": [
+          "#FFFFFF"
+        ],
+        "token": "Q-背景白"
+      }
+    },
+    "nodes": [
+      {
+        "type": "GROUP",
+        "id": "177:9767/134:5921",
+        "name": "组 5564",
+        "layoutStyle": {
+          "width": 72,
+          "height": 133,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "children": [
+          {
+            "type": "TEXT",
+            "id": "177:9767/107:03083",
+            "name": "新闻中心",
+            "layoutStyle": {
+              "width": 72,
+              "height": 22,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "fill": "paint_86:5202",
+            "_color": "#FFFFFF",
+            "_token": "Q-背景白",
+            "text": [
+              {
+                "text": "新闻中心",
+                "font": "font_86:5000"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 4,
+                "color": "paint_86:5202"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line",
+            "_placeholder": true
+          },
+          {
+            "type": "GROUP",
+            "id": "177:9767/107:03086",
+            "name": "组 5551",
+            "layoutStyle": {
+              "width": 56,
+              "height": 87,
+              "relativeX": 0,
+              "relativeY": 46
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "id": "177:9767/107:03087",
+                "name": "行业资讯",
+                "layoutStyle": {
+                  "width": 56,
+                  "height": 17,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "opacity": 0.800000011920929,
+                "fill": "paint_86:5202",
+                "_color": "#FFFFFF",
+                "_token": "Q-背景白",
+                "text": [
+                  {
+                    "text": "行业资讯",
+                    "font": "font_86:5012"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "color": "paint_86:5202"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line",
+                "_placeholder": true
+              },
+              {
+                "type": "TEXT",
+                "id": "177:9767/107:03090",
+                "name": "公司资讯",
+                "layoutStyle": {
+                  "width": 56,
+                  "height": 17,
+                  "relativeX": 0,
+                  "relativeY": 35
+                },
+                "opacity": 0.800000011920929,
+                "fill": "paint_86:5202",
+                "_color": "#FFFFFF",
+                "_token": "Q-背景白",
+                "text": [
+                  {
+                    "text": "公司资讯",
+                    "font": "font_86:5012"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "color": "paint_86:5202"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line",
+                "_placeholder": true
+              },
+              {
+                "type": "TEXT",
+                "id": "177:9767/107:03093",
+                "name": "展会新闻",
+                "layoutStyle": {
+                  "width": 56,
+                  "height": 17,
+                  "relativeX": 0,
+                  "relativeY": 70
+                },
+                "opacity": 0.800000011920929,
+                "fill": "paint_86:5202",
+                "_color": "#FFFFFF",
+                "_token": "Q-背景白",
+                "text": [
+                  {
+                    "text": "展会新闻",
+                    "font": "font_86:5012"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "color": "paint_86:5202"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line",
+                "_placeholder": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "新闻中心",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "行业资讯",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "公司资讯",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "展会新闻",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      }
+    ],
+    "placeholderTexts": [
+      "新闻中心",
+      "行业资讯",
+      "公司资讯",
+      "展会新闻"
+    ]
+  },
+  "nodeCount": 6,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 25/29. MISSING 4 sections: [25,26,27,28]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

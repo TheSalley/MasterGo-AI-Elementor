@@ -1,0 +1,45 @@
+{
+  "sectionIndex": 2,
+  "section": {
+    "id": "177:9425",
+    "name": "man holding stick near on transmission tower",
+    "type": "LAYER"
+  },
+  "rootContainer": {
+    "width": "1920px",
+    "minHeight": "8232px",
+    "background": "#FFFFFF",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "paint_145:00227": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/b4f25428e3142f654d02e42af69ed7df.jpg"
+          }
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "LAYER",
+        "id": "177:9425",
+        "name": "man holding stick near on transmission tower",
+        "layoutStyle": {
+          "width": 1920,
+          "height": 790,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "fill": "paint_145:00227"
+      }
+    ],
+    "components": []
+  },
+  "nodeCount": 1,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 3/29. MISSING 26 sections: [3,4,5,6,7,8,9,10,11,12... +16 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

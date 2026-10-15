@@ -1,0 +1,49 @@
+{
+  "sectionIndex": 8,
+  "section": {
+    "id": "177:9515",
+    "name": "圆形 12",
+    "type": "SVG_ELLIPSE"
+  },
+  "rootContainer": {
+    "width": "1920px",
+    "minHeight": "8232px",
+    "background": "#FFFFFF",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "paint_3:5656": {
+        "value": [
+          "#FFFFFF"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "SVG_ELLIPSE",
+        "id": "177:9515",
+        "name": "圆形 12",
+        "layoutStyle": {
+          "width": 2528,
+          "height": 105,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "fill": "paint_3:5656",
+        "_color": "#FFFFFF",
+        "svgKey": "S8:177:9515|177:9515",
+        "svgShortKey": "S8#0",
+        "svgName": ""
+      }
+    ],
+    "components": []
+  },
+  "nodeCount": 1,
+  "svgNodeCount": 1,
+  "hasStrippedSvgs": true,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 9/29. MISSING 20 sections: [9,10,11,12,13,14,15,16,17,18... +10 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

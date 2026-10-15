@@ -1,0 +1,207 @@
+{
+  "sectionIndex": 9,
+  "section": {
+    "id": "177:9516",
+    "name": "组 5642",
+    "type": "GROUP"
+  },
+  "rootContainer": {
+    "width": "1920px",
+    "minHeight": "8232px",
+    "background": "#FFFFFF",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "effect_3:5777": {
+        "value": []
+      },
+      "font_86:4957": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 42,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "600"
+        },
+        "token": "Q-H2"
+      },
+      "font_86:5012": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 14,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "400"
+        },
+        "token": "Q-ps"
+      },
+      "paint_3:5624": {
+        "value": [
+          "#FFFFFF"
+        ],
+        "token": "lf-bg白"
+      },
+      "paint_86:5157": {
+        "value": [
+          "#004EA2"
+        ],
+        "token": "Q-主蓝"
+      },
+      "paint_86:5186": {
+        "value": [
+          "#121212"
+        ],
+        "token": "Q-标题黑"
+      }
+    },
+    "nodes": [
+      {
+        "type": "GROUP",
+        "id": "177:9516",
+        "name": "组 5642",
+        "layoutStyle": {
+          "width": 398,
+          "height": 233,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "children": [
+          {
+            "type": "INSTANCE",
+            "id": "177:9517",
+            "name": "17",
+            "layoutStyle": {
+              "width": 120,
+              "height": 41,
+              "relativeX": 0,
+              "relativeY": 192
+            },
+            "fill": "paint_86:5157",
+            "_color": "#004EA2",
+            "_token": "Q-主蓝",
+            "effect": "effect_3:5777",
+            "componentInfo": {
+              "properties": {
+                "属性 1": "蓝底"
+              }
+            },
+            "children": [
+              {
+                "type": "FRAME",
+                "id": "177:9517/3:7132",
+                "name": "组 1",
+                "layoutStyle": {
+                  "width": 56,
+                  "height": 17,
+                  "relativeX": 32,
+                  "relativeY": 12
+                },
+                "children": [
+                  {
+                    "type": "TEXT",
+                    "id": "177:9517/3:7133",
+                    "name": "Discover more",
+                    "layoutStyle": {
+                      "width": 56,
+                      "height": 17,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "fill": "paint_3:5624",
+                    "_color": "#FFFFFF",
+                    "_token": "lf-bg白",
+                    "text": [
+                      {
+                        "text": "联系我们",
+                        "font": "font_86:5012"
+                      }
+                    ],
+                    "textColor": [
+                      {
+                        "start": 0,
+                        "end": 4,
+                        "color": "paint_3:5624"
+                      }
+                    ],
+                    "textAlign": "left",
+                    "textMode": "single-line"
+                  }
+                ],
+                "flexContainerInfo": {
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "mainSizing": "auto",
+                  "crossSizing": "auto",
+                  "gap": "6px"
+                }
+              }
+            ],
+            "componentId": "3:7131",
+            "_variantProps": {
+              "属性 1": "蓝底"
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "177:9521",
+            "name": "为什么选择全盛机电作为您的导电滑环供应商？",
+            "layoutStyle": {
+              "width": 398,
+              "height": 152,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "fill": "paint_86:5186",
+            "_color": "#121212",
+            "_token": "Q-标题黑",
+            "text": [
+              {
+                "text": "为什么选择全盛机电作为您的导电滑环供应商？",
+                "font": "font_86:4957"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 21,
+                "color": "paint_86:5186"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "auto-height",
+            "_placeholder": true
+          }
+        ]
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "联系我们",
+        "parentType": "FRAME",
+        "parentName": "组 1"
+      },
+      {
+        "text": "为什么选择全盛机电作为您的导电滑环供应商？",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      }
+    ],
+    "placeholderTexts": [
+      "为什么选择全盛机电作为您的导电滑环供应商？"
+    ]
+  },
+  "nodeCount": 5,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 10/29. MISSING 19 sections: [10,11,12,13,14,15,16,17,18,19... +9 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

@@ -1,0 +1,1318 @@
+{
+  "sectionIndex": 1,
+  "section": {
+    "id": "177:9363",
+    "name": "组 5608",
+    "type": "GROUP"
+  },
+  "rootContainer": {
+    "width": "1920px",
+    "minHeight": "8232px",
+    "background": "#FFFFFF",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "effect_3:5777": {
+        "value": []
+      },
+      "font_86:4957": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 42,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "600"
+        },
+        "token": "Q-H2"
+      },
+      "font_86:4961": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 32,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "600"
+        },
+        "token": "Q-H3"
+      },
+      "font_86:4965": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 24,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "600"
+        },
+        "token": "Q-H4"
+      },
+      "font_86:5004": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 16,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "150",
+          "letterSpacing": "auto",
+          "weight": "400"
+        },
+        "token": "Q-text"
+      },
+      "font_86:5008": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 16,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "600"
+        },
+        "token": "Q-buttom"
+      },
+      "font_86:5012": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 14,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "400"
+        },
+        "token": "Q-ps"
+      },
+      "paint_142:7037": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/aeb0021f9e0e2f56aa73f8d689a1de6c.JPG"
+          }
+        ]
+      },
+      "paint_142:9570": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/31a1bc24c66b553646e3ab2c4fbeb9de.JPG"
+          }
+        ]
+      },
+      "paint_142:9659": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/7227aafff690f16b0bbcce0aaf621ec4.jpg"
+          }
+        ]
+      },
+      "paint_142:9676": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/2f44c04bf9dae7f3e41856e7fe6ef9a2.JPG"
+          }
+        ]
+      },
+      "paint_142:9686": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/7d8d950819b6759204b07de0d7c302f6.JPG"
+          }
+        ]
+      },
+      "paint_3:5624": {
+        "value": [
+          "#FFFFFF"
+        ],
+        "token": "lf-bg白"
+      },
+      "paint_86:5157": {
+        "value": [
+          "#004EA2"
+        ],
+        "token": "Q-主蓝"
+      },
+      "paint_86:5186": {
+        "value": [
+          "#121212"
+        ],
+        "token": "Q-标题黑"
+      },
+      "paint_86:5188": {
+        "value": [
+          "#333333"
+        ],
+        "token": "Q-次级文字"
+      },
+      "paint_86:5196": {
+        "value": [
+          "#EEEEEE"
+        ],
+        "token": "Q-背景浅"
+      },
+      "paint_86:5202": {
+        "value": [
+          "#FFFFFF"
+        ],
+        "token": "Q-背景白"
+      },
+      "paint_86:5204": {
+        "value": [
+          "rgba(0, 0, 0, 0.1)"
+        ],
+        "token": "Q-边框灰"
+      }
+    },
+    "nodes": [
+      {
+        "type": "GROUP",
+        "id": "177:9363",
+        "name": "组 5608",
+        "layoutStyle": {
+          "width": 1920,
+          "height": 1370,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "children": [
+          {
+            "type": "LAYER",
+            "id": "177:9364",
+            "name": "矩形 2829",
+            "layoutStyle": {
+              "width": 1920,
+              "height": 1370,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "fill": "paint_86:5196",
+            "_color": "#EEEEEE",
+            "_token": "Q-背景浅"
+          },
+          {
+            "type": "TEXT",
+            "id": "177:9365",
+            "name": "产品中心",
+            "layoutStyle": {
+              "width": 168,
+              "height": 51,
+              "relativeX": 876,
+              "relativeY": 266
+            },
+            "fill": "paint_86:5186",
+            "_color": "#121212",
+            "_token": "Q-标题黑",
+            "text": [
+              {
+                "text": "产品中心",
+                "font": "font_86:4957"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 4,
+                "color": "paint_86:5186"
+              }
+            ],
+            "textAlign": "center",
+            "textMode": "single-line",
+            "_placeholder": true
+          },
+          {
+            "type": "GROUP",
+            "id": "177:9368",
+            "name": "组 5506",
+            "layoutStyle": {
+              "width": 1056,
+              "height": 44,
+              "relativeX": 432,
+              "relativeY": 381
+            },
+            "children": [
+              {
+                "type": "FRAME",
+                "id": "177:9369",
+                "name": "容器 68",
+                "layoutStyle": {
+                  "width": 1056,
+                  "height": 44,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "children": [
+                  {
+                    "type": "INSTANCE",
+                    "id": "177:9370",
+                    "name": "17",
+                    "layoutStyle": {
+                      "width": 160,
+                      "height": 41,
+                      "relativeX": 0,
+                      "relativeY": 1.5
+                    },
+                    "borderRadius": "100px",
+                    "flexContainerInfo": {
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "mainSizing": "fixed",
+                      "crossSizing": "auto",
+                      "gap": "32px",
+                      "padding": "12px 32px"
+                    },
+                    "fill": "paint_86:5157",
+                    "_color": "#004EA2",
+                    "_token": "Q-主蓝",
+                    "effect": "effect_3:5777",
+                    "componentInfo": {
+                      "properties": {
+                        "属性 1": "蓝底"
+                      }
+                    },
+                    "children": [
+                      {
+                        "type": "FRAME",
+                        "id": "177:9370/3:7132",
+                        "name": "组 1",
+                        "layoutStyle": {
+                          "width": 56,
+                          "height": 17,
+                          "relativeX": 32,
+                          "relativeY": 12
+                        },
+                        "children": [
+                          {
+                            "type": "TEXT",
+                            "id": "177:9370/3:7133",
+                            "name": "Discover more",
+                            "layoutStyle": {
+                              "width": 70,
+                              "height": 17,
+                              "relativeX": 0,
+                              "relativeY": 0
+                            },
+                            "fill": "paint_3:5624",
+                            "_color": "#FFFFFF",
+                            "_token": "lf-bg白",
+                            "text": [
+                              {
+                                "text": "电滑环系列",
+                                "font": "font_86:5012"
+                              }
+                            ],
+                            "textColor": [
+                              {
+                                "start": 0,
+                                "end": 5,
+                                "color": "paint_3:5624"
+                              }
+                            ],
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          }
+                        ],
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "mainSizing": "auto",
+                          "crossSizing": "auto",
+                          "gap": "6px"
+                        }
+                      }
+                    ],
+                    "componentId": "3:7131",
+                    "_variantProps": {
+                      "属性 1": "蓝底"
+                    }
+                  },
+                  {
+                    "type": "INSTANCE",
+                    "id": "177:9374",
+                    "name": "39",
+                    "layoutStyle": {
+                      "width": 160,
+                      "height": 44,
+                      "relativeX": 224,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "100px",
+                    "flexContainerInfo": {
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "mainSizing": "fixed",
+                      "crossSizing": "auto",
+                      "gap": "32px",
+                      "padding": "12px 32px"
+                    },
+                    "strokeColor": "paint_86:5204",
+                    "strokeType": "solid",
+                    "strokeAlign": "inside",
+                    "strokeWidth": "2px",
+                    "effect": "effect_3:5777",
+                    "componentInfo": {
+                      "properties": {
+                        "属性 1": "默认"
+                      }
+                    },
+                    "children": [
+                      {
+                        "type": "FRAME",
+                        "id": "177:9374/3:7346",
+                        "name": "组 1",
+                        "layoutStyle": {
+                          "width": 64,
+                          "height": 20,
+                          "relativeX": 32,
+                          "relativeY": 12
+                        },
+                        "children": [
+                          {
+                            "type": "TEXT",
+                            "id": "177:9374/3:7347",
+                            "name": "Discover more",
+                            "layoutStyle": {
+                              "width": 96,
+                              "height": 20,
+                              "relativeX": 0,
+                              "relativeY": 0
+                            },
+                            "fill": "paint_86:5188",
+                            "_color": "#333333",
+                            "_token": "Q-次级文字",
+                            "text": [
+                              {
+                                "text": "特殊信号滑环",
+                                "font": "font_86:5008"
+                              }
+                            ],
+                            "textColor": [
+                              {
+                                "start": 0,
+                                "end": 6,
+                                "color": "paint_86:5188"
+                              }
+                            ],
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          }
+                        ],
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "mainSizing": "auto",
+                          "crossSizing": "auto",
+                          "gap": "6px"
+                        }
+                      }
+                    ],
+                    "componentId": "3:7345",
+                    "_variantProps": {
+                      "属性 1": "默认"
+                    }
+                  },
+                  {
+                    "type": "INSTANCE",
+                    "id": "177:9378",
+                    "name": "40",
+                    "layoutStyle": {
+                      "width": 160,
+                      "height": 44,
+                      "relativeX": 448,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "100px",
+                    "flexContainerInfo": {
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "mainSizing": "fixed",
+                      "crossSizing": "auto",
+                      "gap": "32px",
+                      "padding": "12px 32px"
+                    },
+                    "strokeColor": "paint_86:5204",
+                    "strokeType": "solid",
+                    "strokeAlign": "inside",
+                    "strokeWidth": "2px",
+                    "effect": "effect_3:5777",
+                    "componentInfo": {
+                      "properties": {
+                        "属性 1": "默认"
+                      }
+                    },
+                    "children": [
+                      {
+                        "type": "FRAME",
+                        "id": "177:9378/3:7346",
+                        "name": "组 1",
+                        "layoutStyle": {
+                          "width": 64,
+                          "height": 20,
+                          "relativeX": 32,
+                          "relativeY": 12
+                        },
+                        "children": [
+                          {
+                            "type": "TEXT",
+                            "id": "177:9378/3:7347",
+                            "name": "Discover more",
+                            "layoutStyle": {
+                              "width": 96,
+                              "height": 20,
+                              "relativeX": 0,
+                              "relativeY": 0
+                            },
+                            "fill": "paint_86:5188",
+                            "_color": "#333333",
+                            "_token": "Q-次级文字",
+                            "text": [
+                              {
+                                "text": "光纤高频滑环",
+                                "font": "font_86:5008"
+                              }
+                            ],
+                            "textColor": [
+                              {
+                                "start": 0,
+                                "end": 6,
+                                "color": "paint_86:5188"
+                              }
+                            ],
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          }
+                        ],
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "mainSizing": "auto",
+                          "crossSizing": "auto",
+                          "gap": "6px"
+                        }
+                      }
+                    ],
+                    "componentId": "3:7345",
+                    "_variantProps": {
+                      "属性 1": "默认"
+                    }
+                  },
+                  {
+                    "type": "INSTANCE",
+                    "id": "177:9382",
+                    "name": "41",
+                    "layoutStyle": {
+                      "width": 160,
+                      "height": 44,
+                      "relativeX": 672,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "100px",
+                    "flexContainerInfo": {
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "mainSizing": "fixed",
+                      "crossSizing": "auto",
+                      "gap": "32px",
+                      "padding": "12px 32px"
+                    },
+                    "strokeColor": "paint_86:5204",
+                    "strokeType": "solid",
+                    "strokeAlign": "inside",
+                    "strokeWidth": "2px",
+                    "effect": "effect_3:5777",
+                    "componentInfo": {
+                      "properties": {
+                        "属性 1": "默认"
+                      }
+                    },
+                    "children": [
+                      {
+                        "type": "FRAME",
+                        "id": "177:9382/3:7346",
+                        "name": "组 1",
+                        "layoutStyle": {
+                          "width": 64,
+                          "height": 20,
+                          "relativeX": 32,
+                          "relativeY": 12
+                        },
+                        "children": [
+                          {
+                            "type": "TEXT",
+                            "id": "177:9382/3:7347",
+                            "name": "Discover more",
+                            "layoutStyle": {
+                              "width": 96,
+                              "height": 20,
+                              "relativeX": 0,
+                              "relativeY": 0
+                            },
+                            "fill": "paint_86:5188",
+                            "_color": "#333333",
+                            "_token": "Q-次级文字",
+                            "text": [
+                              {
+                                "text": "旋转接头系列",
+                                "font": "font_86:5008"
+                              }
+                            ],
+                            "textColor": [
+                              {
+                                "start": 0,
+                                "end": 6,
+                                "color": "paint_86:5188"
+                              }
+                            ],
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          }
+                        ],
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "mainSizing": "auto",
+                          "crossSizing": "auto",
+                          "gap": "6px"
+                        }
+                      }
+                    ],
+                    "componentId": "3:7345",
+                    "_variantProps": {
+                      "属性 1": "默认"
+                    }
+                  },
+                  {
+                    "type": "INSTANCE",
+                    "id": "177:9386",
+                    "name": "42",
+                    "layoutStyle": {
+                      "width": 160,
+                      "height": 44,
+                      "relativeX": 896,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "100px",
+                    "flexContainerInfo": {
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "mainSizing": "fixed",
+                      "crossSizing": "auto",
+                      "gap": "32px",
+                      "padding": "12px 32px"
+                    },
+                    "strokeColor": "paint_86:5204",
+                    "strokeType": "solid",
+                    "strokeAlign": "inside",
+                    "strokeWidth": "2px",
+                    "effect": "effect_3:5777",
+                    "componentInfo": {
+                      "properties": {
+                        "属性 1": "默认"
+                      }
+                    },
+                    "children": [
+                      {
+                        "type": "FRAME",
+                        "id": "177:9386/3:7346",
+                        "name": "组 1",
+                        "layoutStyle": {
+                          "width": 64,
+                          "height": 20,
+                          "relativeX": 32,
+                          "relativeY": 12
+                        },
+                        "children": [
+                          {
+                            "type": "TEXT",
+                            "id": "177:9386/3:7347",
+                            "name": "Discover more",
+                            "layoutStyle": {
+                              "width": 96,
+                              "height": 20,
+                              "relativeX": 0,
+                              "relativeY": 0
+                            },
+                            "fill": "paint_86:5188",
+                            "_color": "#333333",
+                            "_token": "Q-次级文字",
+                            "text": [
+                              {
+                                "text": "定制滑环系列\r",
+                                "font": "font_86:5008"
+                              }
+                            ],
+                            "textColor": [
+                              {
+                                "start": 0,
+                                "end": 7,
+                                "color": "paint_86:5188"
+                              }
+                            ],
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          }
+                        ],
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "mainSizing": "auto",
+                          "crossSizing": "auto",
+                          "gap": "6px"
+                        }
+                      }
+                    ],
+                    "componentId": "3:7345",
+                    "_variantProps": {
+                      "属性 1": "默认"
+                    }
+                  }
+                ],
+                "flexContainerInfo": {
+                  "flexDirection": "row",
+                  "alignItems": "center",
+                  "mainSizing": "auto",
+                  "crossSizing": "auto",
+                  "gap": "64px"
+                }
+              }
+            ]
+          },
+          {
+            "type": "GROUP",
+            "id": "177:9390",
+            "name": "组 5607",
+            "layoutStyle": {
+              "width": 1280,
+              "height": 753,
+              "relativeX": 320,
+              "relativeY": 470
+            },
+            "children": [
+              {
+                "type": "GROUP",
+                "id": "177:9391",
+                "name": "组 5605",
+                "layoutStyle": {
+                  "width": 1280,
+                  "height": 276,
+                  "relativeX": 0,
+                  "relativeY": 477
+                },
+                "children": [
+                  {
+                    "type": "INSTANCE",
+                    "id": "177:9392",
+                    "name": "组 5601",
+                    "layoutStyle": {
+                      "width": 298.6666564941406,
+                      "height": 276,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "177:9392/142:9572",
+                        "name": "矩形 2831",
+                        "layoutStyle": {
+                          "width": 298.6666564941406,
+                          "height": 276,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "borderRadius": "16px",
+                        "fill": "paint_86:5202",
+                        "_color": "#FFFFFF",
+                        "_token": "Q-背景白"
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "177:9392/142:9588",
+                        "name": "电滑环系列",
+                        "layoutStyle": {
+                          "width": 96,
+                          "height": 29,
+                          "relativeX": 101.33329010009766,
+                          "relativeY": 216
+                        },
+                        "fill": "paint_86:5186",
+                        "_color": "#121212",
+                        "_token": "Q-标题黑",
+                        "text": [
+                          {
+                            "text": "过孔滑环",
+                            "font": "font_86:4965"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 4,
+                            "color": "paint_86:5186"
+                          }
+                        ],
+                        "textAlign": "center",
+                        "textMode": "single-line"
+                      },
+                      {
+                        "type": "LAYER",
+                        "id": "177:9392/142:7036",
+                        "name": "过孔滑环",
+                        "layoutStyle": {
+                          "width": 156.44442749023438,
+                          "height": 176,
+                          "relativeX": 71.111083984375,
+                          "relativeY": 17
+                        },
+                        "fill": "paint_142:7037"
+                      }
+                    ],
+                    "componentId": "142:9611"
+                  },
+                  {
+                    "type": "INSTANCE",
+                    "id": "177:9395",
+                    "name": "组 5602",
+                    "layoutStyle": {
+                      "width": 298.6666564941406,
+                      "height": 276,
+                      "relativeX": 327.1111145019531,
+                      "relativeY": 0
+                    },
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "177:9395/142:9572",
+                        "name": "矩形 2831",
+                        "layoutStyle": {
+                          "width": 298.6666564941406,
+                          "height": 276,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "borderRadius": "16px",
+                        "fill": "paint_86:5202",
+                        "_color": "#FFFFFF",
+                        "_token": "Q-背景白"
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "177:9395/142:9588",
+                        "name": "电滑环系列",
+                        "layoutStyle": {
+                          "width": 96,
+                          "height": 29,
+                          "relativeX": 101.3332748413086,
+                          "relativeY": 216
+                        },
+                        "fill": "paint_86:5186",
+                        "_color": "#121212",
+                        "_token": "Q-标题黑",
+                        "text": [
+                          {
+                            "text": "帽型滑环",
+                            "font": "font_86:4965"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 4,
+                            "color": "paint_86:5186"
+                          }
+                        ],
+                        "textAlign": "center",
+                        "textMode": "single-line"
+                      },
+                      {
+                        "type": "LAYER",
+                        "id": "177:9395/142:7036",
+                        "name": "过孔滑环",
+                        "layoutStyle": {
+                          "width": 156.44442749023438,
+                          "height": 176,
+                          "relativeX": 71.111083984375,
+                          "relativeY": 17
+                        },
+                        "fill": "paint_142:9659"
+                      }
+                    ],
+                    "componentId": "142:9611"
+                  },
+                  {
+                    "type": "INSTANCE",
+                    "id": "177:9399",
+                    "name": "组 5603",
+                    "layoutStyle": {
+                      "width": 298.6666564941406,
+                      "height": 276,
+                      "relativeX": 654.2222290039062,
+                      "relativeY": 0
+                    },
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "177:9399/142:9572",
+                        "name": "矩形 2831",
+                        "layoutStyle": {
+                          "width": 298.6666564941406,
+                          "height": 276,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "borderRadius": "16px",
+                        "fill": "paint_86:5202",
+                        "_color": "#FFFFFF",
+                        "_token": "Q-背景白"
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "177:9399/142:9588",
+                        "name": "电滑环系列",
+                        "layoutStyle": {
+                          "width": 120,
+                          "height": 29,
+                          "relativeX": 89.3332748413086,
+                          "relativeY": 216
+                        },
+                        "fill": "paint_86:5186",
+                        "_color": "#121212",
+                        "_token": "Q-标题黑",
+                        "text": [
+                          {
+                            "text": "微距型滑环",
+                            "font": "font_86:4965"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 5,
+                            "color": "paint_86:5186"
+                          }
+                        ],
+                        "textAlign": "center",
+                        "textMode": "single-line"
+                      },
+                      {
+                        "type": "LAYER",
+                        "id": "177:9399/142:7036",
+                        "name": "过孔滑环",
+                        "layoutStyle": {
+                          "width": 156.44442749023438,
+                          "height": 176,
+                          "relativeX": 71.111083984375,
+                          "relativeY": 17
+                        },
+                        "fill": "paint_142:9676"
+                      }
+                    ],
+                    "componentId": "142:9611"
+                  },
+                  {
+                    "type": "INSTANCE",
+                    "id": "177:9403",
+                    "name": "组 5604",
+                    "layoutStyle": {
+                      "width": 298.6666564941406,
+                      "height": 276,
+                      "relativeX": 981.3333129882812,
+                      "relativeY": 0
+                    },
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "177:9403/142:9572",
+                        "name": "矩形 2831",
+                        "layoutStyle": {
+                          "width": 298.6666564941406,
+                          "height": 276,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "borderRadius": "16px",
+                        "fill": "paint_86:5202",
+                        "_color": "#FFFFFF",
+                        "_token": "Q-背景白"
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "177:9403/142:9588",
+                        "name": "电滑环系列",
+                        "layoutStyle": {
+                          "width": 120,
+                          "height": 29,
+                          "relativeX": 89.3332748413086,
+                          "relativeY": 216
+                        },
+                        "fill": "paint_86:5186",
+                        "_color": "#121212",
+                        "_token": "Q-标题黑",
+                        "text": [
+                          {
+                            "text": "直连型滑环",
+                            "font": "font_86:4965"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 5,
+                            "color": "paint_86:5186"
+                          }
+                        ],
+                        "textAlign": "center",
+                        "textMode": "single-line"
+                      },
+                      {
+                        "type": "LAYER",
+                        "id": "177:9403/142:7036",
+                        "name": "过孔滑环",
+                        "layoutStyle": {
+                          "width": 156.44442749023438,
+                          "height": 176,
+                          "relativeX": 71.111083984375,
+                          "relativeY": 17
+                        },
+                        "fill": "paint_142:9686"
+                      }
+                    ],
+                    "componentId": "142:9611"
+                  }
+                ]
+              },
+              {
+                "type": "GROUP",
+                "id": "177:9407",
+                "name": "组 5606",
+                "layoutStyle": {
+                  "width": 1280,
+                  "height": 450,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "177:9408",
+                    "name": "矩形 2828",
+                    "layoutStyle": {
+                      "width": 1280,
+                      "height": 450,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "16px",
+                    "fill": "paint_86:5202",
+                    "_color": "#FFFFFF",
+                    "_token": "Q-背景白"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "177:9409",
+                    "name": "电滑环系列",
+                    "layoutStyle": {
+                      "width": 504.8888854980469,
+                      "height": 408,
+                      "relativeX": 731.5555419921875,
+                      "relativeY": 21
+                    },
+                    "fill": "paint_142:9570"
+                  },
+                  {
+                    "type": "GROUP",
+                    "id": "177:9410",
+                    "name": "组 5599",
+                    "layoutStyle": {
+                      "width": 600,
+                      "height": 243,
+                      "relativeX": 66.66666412353516,
+                      "relativeY": 104
+                    },
+                    "children": [
+                      {
+                        "type": "GROUP",
+                        "id": "177:9411",
+                        "name": "组 5600",
+                        "layoutStyle": {
+                          "width": 600,
+                          "height": 243,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "children": [
+                          {
+                            "type": "TEXT",
+                            "id": "177:9412",
+                            "name": "全盛电滑环系列包括帽型滑环、微距型滑环、过孔滑环、微型过孔滑环、直连型滑环等。全盛电滑环通过标准化、模块化设计，产品规格齐全，完全满足360度无限制旋转的动力、控制及数字信号混合传输，并能为客户量身定制所需要的产品。",
+                            "layoutStyle": {
+                              "width": 600,
+                              "height": 72,
+                              "relativeX": 0,
+                              "relativeY": 66
+                            },
+                            "fill": "paint_86:5186",
+                            "_color": "#121212",
+                            "_token": "Q-标题黑",
+                            "text": [
+                              {
+                                "text": "T1|177:9412",
+                                "font": "font_86:5004"
+                              }
+                            ],
+                            "textColor": [
+                              {
+                                "start": 0,
+                                "end": 109,
+                                "color": "paint_86:5186"
+                              }
+                            ],
+                            "textAlign": "left",
+                            "textMode": "auto-height",
+                            "_placeholder": true
+                          },
+                          {
+                            "type": "TEXT",
+                            "id": "177:9415",
+                            "name": "电滑环系列",
+                            "layoutStyle": {
+                              "width": 142.22222900390625,
+                              "height": 39,
+                              "relativeX": 0,
+                              "relativeY": 0
+                            },
+                            "fill": "paint_86:5186",
+                            "_color": "#121212",
+                            "_token": "Q-标题黑",
+                            "text": [
+                              {
+                                "text": "电滑环系列\r",
+                                "font": "font_86:4961"
+                              }
+                            ],
+                            "textColor": [
+                              {
+                                "start": 0,
+                                "end": 6,
+                                "color": "paint_86:5186"
+                              }
+                            ],
+                            "textAlign": "left",
+                            "textMode": "single-line",
+                            "_placeholder": true
+                          },
+                          {
+                            "type": "GROUP",
+                            "id": "177:9418",
+                            "name": "组 5598",
+                            "layoutStyle": {
+                              "width": 64,
+                              "height": 24,
+                              "relativeX": 0,
+                              "relativeY": 219
+                            },
+                            "children": [
+                              {
+                                "type": "FRAME",
+                                "id": "177:9419",
+                                "name": "组 1",
+                                "layoutStyle": {
+                                  "width": 56,
+                                  "height": 17,
+                                  "relativeX": 0,
+                                  "relativeY": 0
+                                },
+                                "children": [
+                                  {
+                                    "type": "TEXT",
+                                    "id": "177:9420",
+                                    "name": "查看更多",
+                                    "layoutStyle": {
+                                      "width": 56,
+                                      "height": 17,
+                                      "relativeX": 0,
+                                      "relativeY": 0
+                                    },
+                                    "fill": "paint_86:5157",
+                                    "_color": "#004EA2",
+                                    "_token": "Q-主蓝",
+                                    "text": [
+                                      {
+                                        "text": "查看更多",
+                                        "font": "font_86:5012"
+                                      }
+                                    ],
+                                    "textColor": [
+                                      {
+                                        "start": 0,
+                                        "end": 4,
+                                        "color": "paint_86:5157"
+                                      }
+                                    ],
+                                    "textAlign": "left",
+                                    "textMode": "single-line",
+                                    "_placeholder": true
+                                  }
+                                ],
+                                "flexContainerInfo": {
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "mainSizing": "auto",
+                                  "crossSizing": "auto",
+                                  "gap": "6px"
+                                }
+                              },
+                              {
+                                "type": "PATH",
+                                "id": "177:9423",
+                                "name": "路径",
+                                "layoutStyle": {
+                                  "width": 8,
+                                  "height": 3.555555582046509,
+                                  "relativeX": 57.33,
+                                  "relativeY": 8.22
+                                },
+                                "path": [
+                                  {
+                                    "fill": "#004EA2",
+                                    "data": "",
+                                    "transform": "matrix(0,1,-1,0,69.11111068725586,-57.11111068725586)"
+                                  }
+                                ],
+                                "svgKey": "S1:组 5598|177:9423",
+                                "svgShortKey": "S1#0",
+                                "svgName": "组 5598"
+                              },
+                              {
+                                "type": "LAYER",
+                                "id": "177:9424",
+                                "name": "矩形 2830",
+                                "layoutStyle": {
+                                  "width": 64,
+                                  "relativeX": 0,
+                                  "relativeY": 23
+                                },
+                                "fill": "paint_86:5157",
+                                "_color": "#004EA2",
+                                "_token": "Q-主蓝"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "产品中心",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "电滑环系列",
+        "parentType": "FRAME",
+        "parentName": "组 1"
+      },
+      {
+        "text": "特殊信号滑环",
+        "parentType": "FRAME",
+        "parentName": "组 1"
+      },
+      {
+        "text": "光纤高频滑环",
+        "parentType": "FRAME",
+        "parentName": "组 1"
+      },
+      {
+        "text": "旋转接头系列",
+        "parentType": "FRAME",
+        "parentName": "组 1"
+      },
+      {
+        "text": "定制滑环系列\r",
+        "parentType": "FRAME",
+        "parentName": "组 1"
+      },
+      {
+        "text": "过孔滑环",
+        "parentType": "INSTANCE",
+        "parentName": "组 5601"
+      },
+      {
+        "text": "帽型滑环",
+        "parentType": "INSTANCE",
+        "parentName": "组 5602"
+      },
+      {
+        "text": "微距型滑环",
+        "parentType": "INSTANCE",
+        "parentName": "组 5603"
+      },
+      {
+        "text": "直连型滑环",
+        "parentType": "INSTANCE",
+        "parentName": "组 5604"
+      },
+      {
+        "text": "全盛电滑环系列包括帽型滑环、微距型滑环、过孔滑环、微型过孔滑环、直连型滑环等。全盛电滑环通过标准化、模块化设计，产品规格齐全，完全满足360度无限制旋转的动力、控制及数字信号混合传输，并能为客户量身定制所需要的产品。\r",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "电滑环系列\r",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "查看更多",
+        "_placeholder": true,
+        "parentType": "FRAME",
+        "parentName": "组 1"
+      }
+    ],
+    "placeholderTexts": [
+      "产品中心",
+      "T1|177:9412",
+      "电滑环系列",
+      "查看更多"
+    ]
+  },
+  "nodeCount": 50,
+  "svgNodeCount": 1,
+  "hasStrippedSvgs": true,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 2/29. MISSING 27 sections: [2,3,4,5,6,7,8,9,10,11... +17 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

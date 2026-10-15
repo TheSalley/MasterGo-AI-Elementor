@@ -1,0 +1,82 @@
+{
+  "sectionIndex": 25,
+  "section": {
+    "id": "177:9767/107:03263",
+    "name": "隐私政策 用户条款 Cookies",
+    "type": "TEXT"
+  },
+  "rootContainer": {
+    "width": "1920px",
+    "minHeight": "8232px",
+    "background": "#FFFFFF",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "font_86:5012": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 14,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "400"
+        },
+        "token": "Q-ps"
+      },
+      "paint_107:03268": {
+        "value": [
+          "rgba(255, 255, 255, 0.64)"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "TEXT",
+        "id": "177:9767/107:03263",
+        "name": "隐私政策 用户条款 Cookies",
+        "layoutStyle": {
+          "width": 224,
+          "height": 17,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "fill": "paint_107:03268",
+        "_color": "rgba(255, 255, 255, 0.64)",
+        "text": [
+          {
+            "text": "隐私政策         用户条款\r         Cookies",
+            "font": "font_86:5012"
+          }
+        ],
+        "textColor": [
+          {
+            "start": 0,
+            "end": 34,
+            "color": "paint_107:03268"
+          }
+        ],
+        "textAlign": "right",
+        "textMode": "single-line",
+        "_placeholder": true
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "隐私政策         用户条款\r         Cookies",
+        "_placeholder": true
+      }
+    ],
+    "placeholderTexts": [
+      "隐私政策         用户条款\r         Cookies"
+    ]
+  },
+  "nodeCount": 1,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 26/29. MISSING 3 sections: [26,27,28]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

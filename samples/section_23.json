@@ -1,0 +1,323 @@
+{
+  "sectionIndex": 23,
+  "section": {
+    "id": "177:9767/107:02898",
+    "name": "组 5555",
+    "type": "GROUP"
+  },
+  "rootContainer": {
+    "width": "1920px",
+    "minHeight": "8232px",
+    "background": "#FFFFFF",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "font_86:5000": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 18,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "600"
+        },
+        "token": "Q-H6"
+      },
+      "font_86:5012": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 14,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "400"
+        },
+        "token": "Q-ps"
+      },
+      "paint_86:5202": {
+        "value": [
+          "#FFFFFF"
+        ],
+        "token": "Q-背景白"
+      }
+    },
+    "nodes": [
+      {
+        "type": "GROUP",
+        "id": "177:9767/107:02898",
+        "name": "组 5555",
+        "layoutStyle": {
+          "width": 72,
+          "height": 238,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "children": [
+          {
+            "type": "TEXT",
+            "id": "177:9767/107:02899",
+            "name": "行业应用",
+            "layoutStyle": {
+              "width": 72,
+              "height": 22,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "fill": "paint_86:5202",
+            "_color": "#FFFFFF",
+            "_token": "Q-背景白",
+            "text": [
+              {
+                "text": "技术支持",
+                "font": "font_86:5000"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 4,
+                "color": "paint_86:5202"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "GROUP",
+            "id": "177:9767/107:02902",
+            "name": "组 5551",
+            "layoutStyle": {
+              "width": 56,
+              "height": 192,
+              "relativeX": 0,
+              "relativeY": 46
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "id": "177:9767/107:02903",
+                "name": "行业类目",
+                "layoutStyle": {
+                  "width": 56,
+                  "height": 17,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "opacity": 0.800000011920929,
+                "fill": "paint_86:5202",
+                "_color": "#FFFFFF",
+                "_token": "Q-背景白",
+                "text": [
+                  {
+                    "text": "滑环技术",
+                    "font": "font_86:5012"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "color": "paint_86:5202"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              {
+                "type": "TEXT",
+                "id": "177:9767/107:02906",
+                "name": "行业类目",
+                "layoutStyle": {
+                  "width": 56,
+                  "height": 17,
+                  "relativeX": 0,
+                  "relativeY": 35
+                },
+                "opacity": 0.800000011920929,
+                "fill": "paint_86:5202",
+                "_color": "#FFFFFF",
+                "_token": "Q-背景白",
+                "text": [
+                  {
+                    "text": "安装方式",
+                    "font": "font_86:5012"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "color": "paint_86:5202"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              {
+                "type": "TEXT",
+                "id": "177:9767/107:02909",
+                "name": "行业类目",
+                "layoutStyle": {
+                  "width": 56,
+                  "height": 17,
+                  "relativeX": 0,
+                  "relativeY": 70
+                },
+                "opacity": 0.800000011920929,
+                "fill": "paint_86:5202",
+                "_color": "#FFFFFF",
+                "_token": "Q-背景白",
+                "text": [
+                  {
+                    "text": "客户案例",
+                    "font": "font_86:5012"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "color": "paint_86:5202"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              {
+                "type": "TEXT",
+                "id": "177:9767/107:02912",
+                "name": "行业类目",
+                "layoutStyle": {
+                  "width": 56,
+                  "height": 17,
+                  "relativeX": 0,
+                  "relativeY": 105
+                },
+                "opacity": 0.800000011920929,
+                "fill": "paint_86:5202",
+                "_color": "#FFFFFF",
+                "_token": "Q-背景白",
+                "text": [
+                  {
+                    "text": "常见问题",
+                    "font": "font_86:5012"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "color": "paint_86:5202"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              {
+                "type": "TEXT",
+                "id": "177:9767/107:02915",
+                "name": "行业类目",
+                "layoutStyle": {
+                  "width": 56,
+                  "height": 17,
+                  "relativeX": 0,
+                  "relativeY": 140
+                },
+                "opacity": 0.800000011920929,
+                "fill": "paint_86:5202",
+                "_color": "#FFFFFF",
+                "_token": "Q-背景白",
+                "text": [
+                  {
+                    "text": "产品手册",
+                    "font": "font_86:5012"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "color": "paint_86:5202"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              {
+                "type": "TEXT",
+                "id": "177:9767/107:02918",
+                "name": "行业类目",
+                "layoutStyle": {
+                  "width": 56,
+                  "height": 17,
+                  "relativeX": 0,
+                  "relativeY": 175
+                },
+                "opacity": 0.800000011920929,
+                "fill": "paint_86:5202",
+                "_color": "#FFFFFF",
+                "_token": "Q-背景白",
+                "text": [
+                  {
+                    "text": "视频中心",
+                    "font": "font_86:5012"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "color": "paint_86:5202"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "技术支持",
+        "parentType": "GROUP"
+      },
+      {
+        "text": "滑环技术",
+        "parentType": "GROUP"
+      },
+      {
+        "text": "安装方式",
+        "parentType": "GROUP"
+      },
+      {
+        "text": "客户案例",
+        "parentType": "GROUP"
+      },
+      {
+        "text": "常见问题",
+        "parentType": "GROUP"
+      },
+      {
+        "text": "产品手册",
+        "parentType": "GROUP"
+      },
+      {
+        "text": "视频中心",
+        "parentType": "GROUP"
+      }
+    ]
+  },
+  "nodeCount": 9,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 24/29. MISSING 5 sections: [24,25,26,27,28]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

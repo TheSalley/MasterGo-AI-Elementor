@@ -1,0 +1,350 @@
+{
+  "sectionIndex": 27,
+  "section": {
+    "id": "177:9888",
+    "name": "蒙版组 4",
+    "type": "GROUP"
+  },
+  "rootContainer": {
+    "width": "1920px",
+    "minHeight": "8232px",
+    "background": "#FFFFFF",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "effect_3:5777": {
+        "value": []
+      },
+      "font_163:00211": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 24,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "32",
+          "letterSpacing": "auto",
+          "weight": "600"
+        }
+      },
+      "font_86:4953": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 52,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "600"
+        },
+        "token": "Q-H1"
+      },
+      "font_86:5012": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 14,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "400"
+        },
+        "token": "Q-ps"
+      },
+      "paint_102:5094": {
+        "value": [
+          "#FFFFFF"
+        ],
+        "token": "ZK-BG白"
+      },
+      "paint_170:7811": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/565bc208569418f0966a284a8a8b2456.png"
+          }
+        ]
+      },
+      "paint_3:5624": {
+        "value": [
+          "#FFFFFF"
+        ],
+        "token": "lf-bg白"
+      },
+      "paint_6:4407": {
+        "value": [
+          "#D8D8D8"
+        ]
+      },
+      "paint_86:5157": {
+        "value": [
+          "#004EA2"
+        ],
+        "token": "Q-主蓝"
+      }
+    },
+    "nodes": [
+      {
+        "type": "GROUP",
+        "id": "177:9888",
+        "name": "蒙版组 4",
+        "layoutStyle": {
+          "width": 1920,
+          "height": 960,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "children": [
+          {
+            "type": "PATH",
+            "id": "177:9889",
+            "name": "矩形 2898",
+            "layoutStyle": {
+              "width": 1920,
+              "height": 960,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "mask": "alpha",
+            "svgKey": "S27:蒙版组 4|177:9889",
+            "svgShortKey": "S27#0",
+            "svgName": "蒙版组 4"
+          },
+          {
+            "type": "LAYER",
+            "id": "177:9890",
+            "name": "man holding stick near on transmission tower",
+            "layoutStyle": {
+              "width": 1920,
+              "height": 960,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "fill": "paint_170:7811"
+          },
+          {
+            "type": "LAYER",
+            "id": "177:9891",
+            "name": "man holding stick near on transmission tower",
+            "layoutStyle": {
+              "width": 1920,
+              "height": 960,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "opacity": 0.30000001192092896,
+            "fill": "paint_86:5157",
+            "_color": "#004EA2",
+            "_token": "Q-主蓝"
+          },
+          {
+            "type": "GROUP",
+            "id": "177:9892",
+            "name": "组 5439",
+            "layoutStyle": {
+              "width": 628,
+              "height": 249,
+              "relativeX": 320,
+              "relativeY": 395
+            },
+            "children": [
+              {
+                "type": "GROUP",
+                "id": "177:9893",
+                "name": "组 5618",
+                "layoutStyle": {
+                  "width": 628,
+                  "height": 249,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "children": [
+                  {
+                    "type": "GROUP",
+                    "id": "177:9894",
+                    "name": "组 5438",
+                    "layoutStyle": {
+                      "width": 581,
+                      "height": 63,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "id": "177:9895",
+                        "name": "专注精密导电滑环20余年",
+                        "layoutStyle": {
+                          "width": 581,
+                          "height": 63,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "fill": "paint_102:5094",
+                        "_color": "#FFFFFF",
+                        "_token": "ZK-BG白",
+                        "text": [
+                          {
+                            "text": "专注精密导电滑环20余年",
+                            "font": "font_86:4953"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 12,
+                            "color": "paint_102:5094"
+                          }
+                        ],
+                        "textAlign": "left",
+                        "textMode": "single-line",
+                        "_placeholder": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "177:9898",
+                    "name": "自2002年以来，全盛机电聚焦创新技术与精密制造，引领滑环技术，为全球高端装备提供卓越的旋转传输解决方案",
+                    "layoutStyle": {
+                      "width": 628,
+                      "height": 64,
+                      "relativeX": 0,
+                      "relativeY": 82.628173828125
+                    },
+                    "fill": "paint_102:5094",
+                    "_color": "#FFFFFF",
+                    "_token": "ZK-BG白",
+                    "text": [
+                      {
+                        "text": "T27|177:9898",
+                        "font": "font_163:00211"
+                      }
+                    ],
+                    "textColor": [
+                      {
+                        "start": 0,
+                        "end": 52,
+                        "color": "paint_102:5094"
+                      }
+                    ],
+                    "textAlign": "left",
+                    "textMode": "auto-height",
+                    "_placeholder": true
+                  },
+                  {
+                    "type": "INSTANCE",
+                    "id": "177:9902",
+                    "name": "17",
+                    "layoutStyle": {
+                      "width": 120,
+                      "height": 41,
+                      "relativeX": 0,
+                      "relativeY": 208
+                    },
+                    "fill": "paint_86:5157",
+                    "_color": "#004EA2",
+                    "_token": "Q-主蓝",
+                    "effect": "effect_3:5777",
+                    "componentInfo": {
+                      "properties": {
+                        "属性 1": "蓝底"
+                      }
+                    },
+                    "children": [
+                      {
+                        "type": "FRAME",
+                        "id": "177:9902/3:7132",
+                        "name": "组 1",
+                        "layoutStyle": {
+                          "width": 56,
+                          "height": 17,
+                          "relativeX": 32,
+                          "relativeY": 12
+                        },
+                        "children": [
+                          {
+                            "type": "TEXT",
+                            "id": "177:9902/3:7133",
+                            "name": "Discover more",
+                            "layoutStyle": {
+                              "width": 56,
+                              "height": 17,
+                              "relativeX": 0,
+                              "relativeY": 0
+                            },
+                            "fill": "paint_3:5624",
+                            "_color": "#FFFFFF",
+                            "_token": "lf-bg白",
+                            "text": [
+                              {
+                                "text": "立即提交",
+                                "font": "font_86:5012"
+                              }
+                            ],
+                            "textColor": [
+                              {
+                                "start": 0,
+                                "end": 4,
+                                "color": "paint_3:5624"
+                              }
+                            ],
+                            "textAlign": "left",
+                            "textMode": "single-line"
+                          }
+                        ],
+                        "flexContainerInfo": {
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "mainSizing": "auto",
+                          "crossSizing": "auto",
+                          "gap": "6px"
+                        }
+                      }
+                    ],
+                    "componentId": "3:7131",
+                    "_variantProps": {
+                      "属性 1": "蓝底"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "专注精密导电滑环20余年",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "自2002年以来，全盛机电聚焦创新技术与精密制造，引领滑环技术，为全球高端装备提供卓越的旋转传输解决方案",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "立即提交",
+        "parentType": "FRAME",
+        "parentName": "组 1"
+      }
+    ],
+    "placeholderTexts": [
+      "专注精密导电滑环20余年",
+      "T27|177:9898"
+    ]
+  },
+  "nodeCount": 12,
+  "svgNodeCount": 1,
+  "hasStrippedSvgs": true,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 28/29. MISSING 1 sections: [28]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

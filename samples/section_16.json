@@ -1,0 +1,653 @@
+{
+  "sectionIndex": 16,
+  "section": {
+    "id": "177:9719",
+    "name": "组 5947",
+    "type": "GROUP"
+  },
+  "rootContainer": {
+    "width": "1920px",
+    "minHeight": "8232px",
+    "background": "#FFFFFF",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "effect_107:9359": {
+        "value": [
+          "box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);"
+        ]
+      },
+      "font_86:4957": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 42,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "600"
+        },
+        "token": "Q-H2"
+      },
+      "font_86:4965": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 24,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "600"
+        },
+        "token": "Q-H4"
+      },
+      "paint_102:03476": {
+        "value": [
+          "#FFFFFF"
+        ]
+      },
+      "paint_107:01721": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/0262614369128cce920c002645841a15.png"
+          }
+        ]
+      },
+      "paint_107:01729": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/0805f05e4d7c7bfffafa50bcc95ec8a5.jpeg"
+          }
+        ]
+      },
+      "paint_107:01733": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/8f7340c019353534a91c545af5a74c4b.jpg"
+          }
+        ]
+      },
+      "paint_107:01737": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/dbc58a23363696c0a1abc29598bce0b5.jpg"
+          }
+        ]
+      },
+      "paint_138:8611": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/fadf9b490027295ea33c88b213cbadb8.jpg"
+          }
+        ]
+      },
+      "paint_138:8615": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/a047cfbeabd92dcdc075f3d8b2ed305e.jpg"
+          }
+        ]
+      },
+      "paint_138:8619": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/38c9b05ac77d6f4142a2a7f96c999cea.jpg"
+          }
+        ]
+      },
+      "paint_138:8623": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/9cce9e841432a7c9b8827fb397157bd4.png"
+          }
+        ]
+      },
+      "paint_145:07902": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/4a97fd3d253d22dc2480ef2c33c33b2f.jpg"
+          }
+        ]
+      },
+      "paint_86:5186": {
+        "value": [
+          "#121212"
+        ],
+        "token": "Q-标题黑"
+      },
+      "paint_86:5204": {
+        "value": [
+          "rgba(0, 0, 0, 0.1)"
+        ],
+        "token": "Q-边框灰"
+      }
+    },
+    "nodes": [
+      {
+        "type": "GROUP",
+        "id": "177:9719",
+        "name": "组 5947",
+        "layoutStyle": {
+          "width": 1974,
+          "height": 332,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "children": [
+          {
+            "type": "TEXT",
+            "id": "177:9720",
+            "name": "合作客户",
+            "layoutStyle": {
+              "width": 168,
+              "height": 51,
+              "relativeX": 860,
+              "relativeY": 0
+            },
+            "fill": "paint_86:5186",
+            "_color": "#121212",
+            "_token": "Q-标题黑",
+            "text": [
+              {
+                "text": "合作客户",
+                "font": "font_86:4957"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 4,
+                "color": "paint_86:5186"
+              }
+            ],
+            "textAlign": "center",
+            "textMode": "single-line",
+            "_placeholder": true
+          },
+          {
+            "type": "TEXT",
+            "id": "177:9723",
+            "name": "我们的客户包括海康威视、华为、中国航天、中国电子、西门子、博世、施耐德、ABB、 三星等众多全球500强企业及国内外优秀企业。",
+            "layoutStyle": {
+              "width": 960,
+              "height": 87,
+              "relativeX": 464,
+              "relativeY": 83
+            },
+            "fill": "paint_86:5186",
+            "_color": "#121212",
+            "_token": "Q-标题黑",
+            "text": [
+              {
+                "text": "T16|177:9723",
+                "font": "font_86:4965"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 65,
+                "color": "paint_86:5186"
+              }
+            ],
+            "textAlign": "center",
+            "textMode": "auto-height",
+            "_placeholder": true
+          },
+          {
+            "type": "GROUP",
+            "id": "177:9726",
+            "name": "组 5566",
+            "layoutStyle": {
+              "width": 1974,
+              "height": 150,
+              "relativeX": 0,
+              "relativeY": 182
+            },
+            "children": [
+              {
+                "type": "INSTANCE",
+                "id": "177:9727",
+                "name": "组 5534",
+                "layoutStyle": {
+                  "width": 190,
+                  "height": 150,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "componentInfo": {},
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "177:9727/107:01621",
+                    "name": "1. 全景图",
+                    "layoutStyle": {
+                      "width": 190,
+                      "height": 150,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "8px",
+                    "fill": "paint_102:03476",
+                    "_color": "#FFFFFF",
+                    "strokeColor": "paint_86:5204",
+                    "strokeType": "solid",
+                    "strokeAlign": "inside",
+                    "strokeWidth": "1px",
+                    "effect": "effect_107:9359"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "177:9727/107:01622",
+                    "name": "高新技术企业",
+                    "layoutStyle": {
+                      "width": 161,
+                      "height": 119,
+                      "relativeX": 14,
+                      "relativeY": 15
+                    },
+                    "fill": "paint_107:01721"
+                  }
+                ],
+                "componentId": "107:01647"
+              },
+              {
+                "type": "INSTANCE",
+                "id": "177:9728",
+                "name": "组 5560",
+                "layoutStyle": {
+                  "width": 190,
+                  "height": 150,
+                  "relativeX": 892,
+                  "relativeY": 0
+                },
+                "componentInfo": {},
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "177:9728/107:01621",
+                    "name": "1. 全景图",
+                    "layoutStyle": {
+                      "width": 190,
+                      "height": 150,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "8px",
+                    "fill": "paint_102:03476",
+                    "_color": "#FFFFFF",
+                    "strokeColor": "paint_86:5204",
+                    "strokeType": "solid",
+                    "strokeAlign": "inside",
+                    "strokeWidth": "1px",
+                    "effect": "effect_107:9359"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "177:9728/107:01622",
+                    "name": "高新技术企业",
+                    "layoutStyle": {
+                      "width": 161,
+                      "height": 119,
+                      "relativeX": 14,
+                      "relativeY": 15
+                    },
+                    "fill": "paint_107:01737"
+                  }
+                ],
+                "componentId": "107:01647"
+              },
+              {
+                "type": "INSTANCE",
+                "id": "177:9729",
+                "name": "组 5535",
+                "layoutStyle": {
+                  "width": 190,
+                  "height": 150,
+                  "relativeX": 223,
+                  "relativeY": 0
+                },
+                "componentInfo": {},
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "177:9729/107:01621",
+                    "name": "1. 全景图",
+                    "layoutStyle": {
+                      "width": 190,
+                      "height": 150,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "8px",
+                    "fill": "paint_102:03476",
+                    "_color": "#FFFFFF",
+                    "strokeColor": "paint_86:5204",
+                    "strokeType": "solid",
+                    "strokeAlign": "inside",
+                    "strokeWidth": "1px",
+                    "effect": "effect_107:9359"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "177:9729/107:01622",
+                    "name": "高新技术企业",
+                    "layoutStyle": {
+                      "width": 161,
+                      "height": 119,
+                      "relativeX": 14,
+                      "relativeY": 15
+                    },
+                    "fill": "paint_145:07902"
+                  }
+                ],
+                "componentId": "107:01647"
+              },
+              {
+                "type": "INSTANCE",
+                "id": "177:9730",
+                "name": "组 5561",
+                "layoutStyle": {
+                  "width": 190,
+                  "height": 150,
+                  "relativeX": 1115,
+                  "relativeY": 0
+                },
+                "componentInfo": {},
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "177:9730/107:01621",
+                    "name": "1. 全景图",
+                    "layoutStyle": {
+                      "width": 190,
+                      "height": 150,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "8px",
+                    "fill": "paint_102:03476",
+                    "_color": "#FFFFFF",
+                    "strokeColor": "paint_86:5204",
+                    "strokeType": "solid",
+                    "strokeAlign": "inside",
+                    "strokeWidth": "1px",
+                    "effect": "effect_107:9359"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "177:9730/107:01622",
+                    "name": "高新技术企业",
+                    "layoutStyle": {
+                      "width": 161,
+                      "height": 119,
+                      "relativeX": 14,
+                      "relativeY": 15
+                    },
+                    "fill": "paint_138:8611"
+                  }
+                ],
+                "componentId": "107:01647"
+              },
+              {
+                "type": "INSTANCE",
+                "id": "177:9731",
+                "name": "组 5536",
+                "layoutStyle": {
+                  "width": 190,
+                  "height": 150,
+                  "relativeX": 446,
+                  "relativeY": 0
+                },
+                "componentInfo": {},
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "177:9731/107:01621",
+                    "name": "1. 全景图",
+                    "layoutStyle": {
+                      "width": 190,
+                      "height": 150,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "8px",
+                    "fill": "paint_102:03476",
+                    "_color": "#FFFFFF",
+                    "strokeColor": "paint_86:5204",
+                    "strokeType": "solid",
+                    "strokeAlign": "inside",
+                    "strokeWidth": "1px",
+                    "effect": "effect_107:9359"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "177:9731/107:01622",
+                    "name": "高新技术企业",
+                    "layoutStyle": {
+                      "width": 161,
+                      "height": 119,
+                      "relativeX": 14,
+                      "relativeY": 15
+                    },
+                    "fill": "paint_107:01729"
+                  }
+                ],
+                "componentId": "107:01647"
+              },
+              {
+                "type": "INSTANCE",
+                "id": "177:9732",
+                "name": "组 5563",
+                "layoutStyle": {
+                  "width": 190,
+                  "height": 150,
+                  "relativeX": 1338,
+                  "relativeY": 0
+                },
+                "componentInfo": {},
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "177:9732/107:01621",
+                    "name": "1. 全景图",
+                    "layoutStyle": {
+                      "width": 190,
+                      "height": 150,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "8px",
+                    "fill": "paint_102:03476",
+                    "_color": "#FFFFFF",
+                    "strokeColor": "paint_86:5204",
+                    "strokeType": "solid",
+                    "strokeAlign": "inside",
+                    "strokeWidth": "1px",
+                    "effect": "effect_107:9359"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "177:9732/107:01622",
+                    "name": "高新技术企业",
+                    "layoutStyle": {
+                      "width": 161,
+                      "height": 119,
+                      "relativeX": 14,
+                      "relativeY": 15
+                    },
+                    "fill": "paint_138:8615"
+                  }
+                ],
+                "componentId": "107:01647"
+              },
+              {
+                "type": "INSTANCE",
+                "id": "177:9733",
+                "name": "组 5564",
+                "layoutStyle": {
+                  "width": 190,
+                  "height": 150,
+                  "relativeX": 1561,
+                  "relativeY": 0
+                },
+                "componentInfo": {},
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "177:9733/107:01621",
+                    "name": "1. 全景图",
+                    "layoutStyle": {
+                      "width": 190,
+                      "height": 150,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "8px",
+                    "fill": "paint_102:03476",
+                    "_color": "#FFFFFF",
+                    "strokeColor": "paint_86:5204",
+                    "strokeType": "solid",
+                    "strokeAlign": "inside",
+                    "strokeWidth": "1px",
+                    "effect": "effect_107:9359"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "177:9733/107:01622",
+                    "name": "高新技术企业",
+                    "layoutStyle": {
+                      "width": 161,
+                      "height": 119,
+                      "relativeX": 14,
+                      "relativeY": 15
+                    },
+                    "fill": "paint_138:8619"
+                  }
+                ],
+                "componentId": "107:01647"
+              },
+              {
+                "type": "INSTANCE",
+                "id": "177:9734",
+                "name": "组 5565",
+                "layoutStyle": {
+                  "width": 190,
+                  "height": 150,
+                  "relativeX": 1784,
+                  "relativeY": 0
+                },
+                "componentInfo": {},
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "177:9734/107:01621",
+                    "name": "1. 全景图",
+                    "layoutStyle": {
+                      "width": 190,
+                      "height": 150,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "8px",
+                    "fill": "paint_102:03476",
+                    "_color": "#FFFFFF",
+                    "strokeColor": "paint_86:5204",
+                    "strokeType": "solid",
+                    "strokeAlign": "inside",
+                    "strokeWidth": "1px",
+                    "effect": "effect_107:9359"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "177:9734/107:01622",
+                    "name": "高新技术企业",
+                    "layoutStyle": {
+                      "width": 161,
+                      "height": 119,
+                      "relativeX": 14,
+                      "relativeY": 15
+                    },
+                    "fill": "paint_138:8623"
+                  }
+                ],
+                "componentId": "107:01647"
+              },
+              {
+                "type": "INSTANCE",
+                "id": "177:9735",
+                "name": "组 5537",
+                "layoutStyle": {
+                  "width": 190,
+                  "height": 150,
+                  "relativeX": 669,
+                  "relativeY": 0
+                },
+                "componentInfo": {},
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "177:9735/107:01621",
+                    "name": "1. 全景图",
+                    "layoutStyle": {
+                      "width": 190,
+                      "height": 150,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "8px",
+                    "fill": "paint_102:03476",
+                    "_color": "#FFFFFF",
+                    "strokeColor": "paint_86:5204",
+                    "strokeType": "solid",
+                    "strokeAlign": "inside",
+                    "strokeWidth": "1px",
+                    "effect": "effect_107:9359"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "177:9735/107:01622",
+                    "name": "高新技术企业",
+                    "layoutStyle": {
+                      "width": 161,
+                      "height": 119,
+                      "relativeX": 14,
+                      "relativeY": 15
+                    },
+                    "fill": "paint_107:01733"
+                  }
+                ],
+                "componentId": "107:01647"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "合作客户",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "我们的客户包括海康威视、华为、中国航天、中国电子、西门子、博世、施耐德、ABB、\n三星等众多全球500强企业及国内外优秀企业。\r\n",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      }
+    ],
+    "placeholderTexts": [
+      "合作客户",
+      "T16|177:9723"
+    ]
+  },
+  "nodeCount": 31,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 17/29. MISSING 12 sections: [17,18,19,20,21,22,23,24,25,26,27,28]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

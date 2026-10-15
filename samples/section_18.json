@@ -1,0 +1,82 @@
+{
+  "sectionIndex": 18,
+  "section": {
+    "id": "177:9767/107:03643",
+    "name": "footer",
+    "type": "GROUP"
+  },
+  "rootContainer": {
+    "width": "1920px",
+    "minHeight": "8232px",
+    "background": "#FFFFFF",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "paint_6:4407": {
+        "value": [
+          "#D8D8D8"
+        ]
+      },
+      "paint_86:5194": {
+        "value": [
+          "#02132D"
+        ],
+        "token": "Q-背景深"
+      }
+    },
+    "nodes": [
+      {
+        "type": "GROUP",
+        "id": "177:9767/107:03643",
+        "name": "footer",
+        "layoutStyle": {
+          "width": 1920,
+          "height": 800,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "children": [
+          {
+            "type": "PATH",
+            "id": "177:9767/129:6559",
+            "name": "矩形 2824",
+            "layoutStyle": {
+              "width": 1920,
+              "height": 616,
+              "relativeX": 0,
+              "relativeY": 0,
+              "flipV": true
+            },
+            "mask": "alpha",
+            "svgKey": "S18:footer|177:9767/129:6559",
+            "svgShortKey": "S18#0",
+            "svgName": "footer"
+          },
+          {
+            "type": "LAYER",
+            "id": "177:9767/107:02197",
+            "name": "矩形 2821",
+            "layoutStyle": {
+              "width": 1920,
+              "height": 894.3739013671875,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "fill": "paint_86:5194",
+            "_color": "#02132D",
+            "_token": "Q-背景深"
+          }
+        ]
+      }
+    ],
+    "components": []
+  },
+  "nodeCount": 3,
+  "svgNodeCount": 1,
+  "hasStrippedSvgs": true,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 19/29. MISSING 10 sections: [19,20,21,22,23,24,25,26,27,28]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

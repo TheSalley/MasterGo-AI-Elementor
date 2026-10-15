@@ -1,0 +1,994 @@
+{
+  "sectionIndex": 14,
+  "section": {
+    "id": "177:9652",
+    "name": "组 5944",
+    "type": "GROUP"
+  },
+  "rootContainer": {
+    "width": "1920px",
+    "minHeight": "8232px",
+    "background": "#FFFFFF",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "effect_3:5777": {
+        "value": []
+      },
+      "font_86:4957": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 42,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "600"
+        },
+        "token": "Q-H2"
+      },
+      "font_86:5000": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 18,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "600"
+        },
+        "token": "Q-H6"
+      },
+      "font_86:5012": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 14,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "400"
+        },
+        "token": "Q-ps"
+      },
+      "paint_145:04539": {
+        "value": [
+          "#1D1F24"
+        ],
+        "token": "G-正文"
+      },
+      "paint_145:04593": {
+        "value": [
+          "#FFFFFF"
+        ],
+        "token": "G-白BG"
+      },
+      "paint_145:07431": {
+        "value": [
+          "rgba(0, 0, 0, 0.1)"
+        ],
+        "token": "G-边框"
+      },
+      "paint_145:07509": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/249cdbba37413434b3540354fc0dfb56.png"
+          }
+        ]
+      },
+      "paint_145:07797": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/a39fda529fd3d92d72cb588e603c494d.png"
+          }
+        ]
+      },
+      "paint_3:5624": {
+        "value": [
+          "#FFFFFF"
+        ],
+        "token": "lf-bg白"
+      },
+      "paint_86:5157": {
+        "value": [
+          "#004EA2"
+        ],
+        "token": "Q-主蓝"
+      },
+      "paint_86:5186": {
+        "value": [
+          "#121212"
+        ],
+        "token": "Q-标题黑"
+      },
+      "paint_86:5196": {
+        "value": [
+          "#EEEEEE"
+        ],
+        "token": "Q-背景浅"
+      }
+    },
+    "nodes": [
+      {
+        "type": "GROUP",
+        "id": "177:9652",
+        "name": "组 5944",
+        "layoutStyle": {
+          "width": 1268,
+          "height": 573,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "children": [
+          {
+            "type": "GROUP",
+            "id": "177:9653",
+            "name": "组 5943",
+            "layoutStyle": {
+              "width": 1268,
+              "height": 478,
+              "relativeX": 0,
+              "relativeY": 95
+            },
+            "children": [
+              {
+                "type": "GROUP",
+                "id": "177:9654",
+                "name": "组 5935",
+                "layoutStyle": {
+                  "width": 405,
+                  "height": 478,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "177:9655",
+                    "name": "矩形 2813",
+                    "layoutStyle": {
+                      "width": 405,
+                      "height": 478,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "16px",
+                    "fill": "paint_145:04593",
+                    "_color": "#FFFFFF",
+                    "_token": "G-白BG",
+                    "strokeColor": "paint_145:07431",
+                    "strokeType": "solid",
+                    "strokeAlign": "inside",
+                    "strokeWidth": "1px",
+                    "effect": "effect_3:5777"
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "177:9656",
+                    "name": "滑环能转多久？决定滑环使用寿命的五个关键技术维度",
+                    "layoutStyle": {
+                      "width": 356,
+                      "height": 44,
+                      "relativeX": 27,
+                      "relativeY": 360
+                    },
+                    "fill": "paint_145:04539",
+                    "_color": "#1D1F24",
+                    "_token": "G-正文",
+                    "text": [
+                      {
+                        "text": "滑环能转多久？决定滑环使用寿命的五个关键技术维度",
+                        "font": "font_86:5000"
+                      }
+                    ],
+                    "textColor": [
+                      {
+                        "start": 0,
+                        "end": 24,
+                        "color": "paint_145:04539"
+                      }
+                    ],
+                    "textAlign": "left",
+                    "textMode": "auto-height",
+                    "_placeholder": true
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "177:9659",
+                    "name": "在滑环的选型参数表里，几乎每个型号都会标注一个\"额定寿命\"-通常以转数计算...",
+                    "layoutStyle": {
+                      "width": 356,
+                      "height": 34,
+                      "relativeX": 27,
+                      "relativeY": 422
+                    },
+                    "fill": "paint_145:04539",
+                    "_color": "#1D1F24",
+                    "_token": "G-正文",
+                    "text": [
+                      {
+                        "text": "在滑环的选型参数表里，几乎每个型号都会标注一个\"额定寿命\"-通常以转数计算...",
+                        "font": "font_86:5012"
+                      }
+                    ],
+                    "textColor": [
+                      {
+                        "start": 0,
+                        "end": 40,
+                        "color": "paint_145:04539"
+                      }
+                    ],
+                    "textAlign": "left",
+                    "textMode": "auto-height",
+                    "_placeholder": true
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "177:9662",
+                    "name": "2026-09-01",
+                    "layoutStyle": {
+                      "width": 356,
+                      "height": 17,
+                      "relativeX": 27,
+                      "relativeY": 324
+                    },
+                    "fill": "paint_86:5157",
+                    "_color": "#004EA2",
+                    "_token": "Q-主蓝",
+                    "text": [
+                      {
+                        "text": "2026-09-01",
+                        "font": "font_86:5012"
+                      }
+                    ],
+                    "textColor": [
+                      {
+                        "start": 0,
+                        "end": 10,
+                        "color": "paint_86:5157"
+                      }
+                    ],
+                    "textAlign": "left",
+                    "textMode": "auto-height",
+                    "_placeholder": true
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "177:9665",
+                    "name": "矩形 2814",
+                    "layoutStyle": {
+                      "width": 405,
+                      "height": 305,
+                      "relativeX": 0,
+                      "relativeY": 0.0009765625
+                    },
+                    "borderRadius": "16px 16px 0px 0px",
+                    "fill": "paint_145:07509"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "177:9666",
+                    "name": "矩形 2815",
+                    "layoutStyle": {
+                      "width": 358,
+                      "relativeX": 27,
+                      "relativeY": 412.0009765625
+                    },
+                    "fill": "paint_145:07431",
+                    "_color": "rgba(0, 0, 0, 0.1)",
+                    "_token": "G-边框"
+                  }
+                ]
+              },
+              {
+                "type": "GROUP",
+                "id": "177:9667",
+                "name": "组 5936",
+                "layoutStyle": {
+                  "width": 405,
+                  "height": 478,
+                  "relativeX": 432,
+                  "relativeY": 0
+                },
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "177:9668",
+                    "name": "矩形 2813",
+                    "layoutStyle": {
+                      "width": 405,
+                      "height": 478,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "16px",
+                    "fill": "paint_145:04593",
+                    "_color": "#FFFFFF",
+                    "_token": "G-白BG",
+                    "strokeColor": "paint_145:07431",
+                    "strokeType": "solid",
+                    "strokeAlign": "inside",
+                    "strokeWidth": "1px",
+                    "effect": "effect_3:5777"
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "177:9669",
+                    "name": "一只国产滑环的二十年：被\"卡脖子\"的技术是怎么突破的？",
+                    "layoutStyle": {
+                      "width": 356,
+                      "height": 44,
+                      "relativeX": 27,
+                      "relativeY": 360
+                    },
+                    "fill": "paint_145:04539",
+                    "_color": "#1D1F24",
+                    "_token": "G-正文",
+                    "text": [
+                      {
+                        "text": "一只国产滑环的二十年：被\"卡脖子\"的技术是怎么突破的？",
+                        "font": "font_86:5000"
+                      }
+                    ],
+                    "textColor": [
+                      {
+                        "start": 0,
+                        "end": 27,
+                        "color": "paint_145:04539"
+                      }
+                    ],
+                    "textAlign": "left",
+                    "textMode": "auto-height",
+                    "_placeholder": true
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "177:9672",
+                    "name": "在滑环的选型参数表里，几乎每个型号都会标注一个\"额定寿命\"-通常以转数计算...",
+                    "layoutStyle": {
+                      "width": 356,
+                      "height": 34,
+                      "relativeX": 27,
+                      "relativeY": 422
+                    },
+                    "fill": "paint_145:04539",
+                    "_color": "#1D1F24",
+                    "_token": "G-正文",
+                    "text": [
+                      {
+                        "text": "在滑环的选型参数表里，几乎每个型号都会标注一个\"额定寿命\"-通常以转数计算...",
+                        "font": "font_86:5012"
+                      }
+                    ],
+                    "textColor": [
+                      {
+                        "start": 0,
+                        "end": 40,
+                        "color": "paint_145:04539"
+                      }
+                    ],
+                    "textAlign": "left",
+                    "textMode": "auto-height",
+                    "_placeholder": true
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "177:9675",
+                    "name": "2026-09-01",
+                    "layoutStyle": {
+                      "width": 356,
+                      "height": 17,
+                      "relativeX": 27,
+                      "relativeY": 324
+                    },
+                    "fill": "paint_86:5157",
+                    "_color": "#004EA2",
+                    "_token": "Q-主蓝",
+                    "text": [
+                      {
+                        "text": "2026-09-01",
+                        "font": "font_86:5012"
+                      }
+                    ],
+                    "textColor": [
+                      {
+                        "start": 0,
+                        "end": 10,
+                        "color": "paint_86:5157"
+                      }
+                    ],
+                    "textAlign": "left",
+                    "textMode": "auto-height",
+                    "_placeholder": true
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "177:9678",
+                    "name": "矩形 2814",
+                    "layoutStyle": {
+                      "width": 405,
+                      "height": 305,
+                      "relativeX": 0,
+                      "relativeY": 0.0009765625
+                    },
+                    "borderRadius": "16px 16px 0px 0px",
+                    "fill": "paint_145:07797"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "177:9679",
+                    "name": "矩形 2815",
+                    "layoutStyle": {
+                      "width": 358,
+                      "relativeX": 27,
+                      "relativeY": 412.0009765625
+                    },
+                    "fill": "paint_145:07431",
+                    "_color": "rgba(0, 0, 0, 0.1)",
+                    "_token": "G-边框"
+                  }
+                ]
+              },
+              {
+                "type": "GROUP",
+                "id": "177:9680",
+                "name": "组 5937",
+                "layoutStyle": {
+                  "width": 405,
+                  "height": 478,
+                  "relativeX": 863,
+                  "relativeY": 0
+                },
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "177:9681",
+                    "name": "矩形 2813",
+                    "layoutStyle": {
+                      "width": 405,
+                      "height": 478,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "16px",
+                    "fill": "paint_86:5196",
+                    "_color": "#EEEEEE",
+                    "_token": "Q-背景浅",
+                    "strokeColor": "paint_145:07431",
+                    "strokeType": "solid",
+                    "strokeAlign": "inside",
+                    "strokeWidth": "1px",
+                    "effect": "effect_3:5777"
+                  },
+                  {
+                    "type": "GROUP",
+                    "id": "177:9682",
+                    "name": "组 5938",
+                    "layoutStyle": {
+                      "width": 356,
+                      "height": 74,
+                      "relativeX": 27,
+                      "relativeY": 28
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "id": "177:9683",
+                        "name": "全盛机电凭借多项核心实力和优势成为导电滑环行业的龙头企业",
+                        "layoutStyle": {
+                          "width": 356,
+                          "height": 44,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "fill": "paint_145:04539",
+                        "_color": "#1D1F24",
+                        "_token": "G-正文",
+                        "text": [
+                          {
+                            "text": "全盛机电凭借多项核心实力和优势成为导电滑环行业的龙头企业",
+                            "font": "font_86:5000"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 28,
+                            "color": "paint_145:04539"
+                          }
+                        ],
+                        "textAlign": "left",
+                        "textMode": "auto-height",
+                        "_placeholder": true
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "177:9686",
+                        "name": "2026-09-01",
+                        "layoutStyle": {
+                          "width": 356,
+                          "height": 17,
+                          "relativeX": 0,
+                          "relativeY": 57
+                        },
+                        "fill": "paint_86:5157",
+                        "_color": "#004EA2",
+                        "_token": "Q-主蓝",
+                        "text": [
+                          {
+                            "text": "2026-09-01",
+                            "font": "font_86:5012"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 10,
+                            "color": "paint_86:5157"
+                          }
+                        ],
+                        "textAlign": "left",
+                        "textMode": "auto-height",
+                        "_placeholder": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "GROUP",
+                    "id": "177:9689",
+                    "name": "组 5939",
+                    "layoutStyle": {
+                      "width": 356,
+                      "height": 74,
+                      "relativeX": 27,
+                      "relativeY": 138
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "id": "177:9690",
+                        "name": "高端导电滑环品牌厂家全盛机电深度解析及推荐理由",
+                        "layoutStyle": {
+                          "width": 356,
+                          "height": 65,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "fill": "paint_145:04539",
+                        "_color": "#1D1F24",
+                        "_token": "G-正文",
+                        "text": [
+                          {
+                            "text": "高端导电滑环品牌厂家全盛机电深度解析及推荐理由\r\n",
+                            "font": "font_86:5000"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 25,
+                            "color": "paint_145:04539"
+                          }
+                        ],
+                        "textAlign": "left",
+                        "textMode": "auto-height",
+                        "_placeholder": true
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "177:9693",
+                        "name": "2026-09-01",
+                        "layoutStyle": {
+                          "width": 356,
+                          "height": 17,
+                          "relativeX": 0,
+                          "relativeY": 57
+                        },
+                        "fill": "paint_86:5157",
+                        "_color": "#004EA2",
+                        "_token": "Q-主蓝",
+                        "text": [
+                          {
+                            "text": "2026-09-01",
+                            "font": "font_86:5012"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 10,
+                            "color": "paint_86:5157"
+                          }
+                        ],
+                        "textAlign": "left",
+                        "textMode": "auto-height",
+                        "_placeholder": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "GROUP",
+                    "id": "177:9696",
+                    "name": "组 5940",
+                    "layoutStyle": {
+                      "width": 356,
+                      "height": 74,
+                      "relativeX": 27,
+                      "relativeY": 248
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "id": "177:9697",
+                        "name": "喜报丨热烈庆祝搭载全盛长寿命星载滑环的海洋二号E卫星在酒泉发射成功",
+                        "layoutStyle": {
+                          "width": 356,
+                          "height": 65,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "fill": "paint_145:04539",
+                        "_color": "#1D1F24",
+                        "_token": "G-正文",
+                        "text": [
+                          {
+                            "text": "喜报丨热烈庆祝搭载全盛长寿命星载滑环的海洋二号E卫星在酒泉发射成功\r\n",
+                            "font": "font_86:5000"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 35,
+                            "color": "paint_145:04539"
+                          }
+                        ],
+                        "textAlign": "left",
+                        "textMode": "auto-height",
+                        "_placeholder": true
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "177:9700",
+                        "name": "2026-09-01",
+                        "layoutStyle": {
+                          "width": 356,
+                          "height": 17,
+                          "relativeX": 0,
+                          "relativeY": 57
+                        },
+                        "fill": "paint_86:5157",
+                        "_color": "#004EA2",
+                        "_token": "Q-主蓝",
+                        "text": [
+                          {
+                            "text": "2026-09-01",
+                            "font": "font_86:5012"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 10,
+                            "color": "paint_86:5157"
+                          }
+                        ],
+                        "textAlign": "left",
+                        "textMode": "auto-height",
+                        "_placeholder": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "GROUP",
+                    "id": "177:9703",
+                    "name": "组 5941",
+                    "layoutStyle": {
+                      "width": 356,
+                      "height": 74,
+                      "relativeX": 27,
+                      "relativeY": 358
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "id": "177:9704",
+                        "name": "一只国产滑环的二十年：被\"卡脖子\"的技术是怎么突破的？",
+                        "layoutStyle": {
+                          "width": 356,
+                          "height": 44,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "fill": "paint_145:04539",
+                        "_color": "#1D1F24",
+                        "_token": "G-正文",
+                        "text": [
+                          {
+                            "text": "一只国产滑环的二十年：被\"卡脖子\"的技术是怎么突破的？",
+                            "font": "font_86:5000"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 27,
+                            "color": "paint_145:04539"
+                          }
+                        ],
+                        "textAlign": "left",
+                        "textMode": "auto-height",
+                        "_placeholder": true
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "177:9707",
+                        "name": "2026-09-01",
+                        "layoutStyle": {
+                          "width": 356,
+                          "height": 17,
+                          "relativeX": 0,
+                          "relativeY": 57
+                        },
+                        "fill": "paint_86:5157",
+                        "_color": "#004EA2",
+                        "_token": "Q-主蓝",
+                        "text": [
+                          {
+                            "text": "2026-09-01",
+                            "font": "font_86:5012"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 10,
+                            "color": "paint_86:5157"
+                          }
+                        ],
+                        "textAlign": "left",
+                        "textMode": "auto-height",
+                        "_placeholder": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "GROUP",
+            "id": "177:9710",
+            "name": "组 5624",
+            "layoutStyle": {
+              "width": 1268,
+              "height": 51,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "id": "177:9711",
+                "name": "新闻动态",
+                "layoutStyle": {
+                  "width": 168,
+                  "height": 51,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "fill": "paint_86:5186",
+                "_color": "#121212",
+                "_token": "Q-标题黑",
+                "text": [
+                  {
+                    "text": "新闻动态",
+                    "font": "font_86:4957"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "color": "paint_86:5186"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line",
+                "_placeholder": true
+              },
+              {
+                "type": "INSTANCE",
+                "id": "177:9714",
+                "name": "17",
+                "layoutStyle": {
+                  "width": 180,
+                  "height": 41,
+                  "relativeX": 1088,
+                  "relativeY": 5
+                },
+                "borderRadius": "100px",
+                "flexContainerInfo": {
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "mainSizing": "fixed",
+                  "crossSizing": "auto",
+                  "gap": "32px",
+                  "padding": "12px 32px"
+                },
+                "fill": "paint_86:5157",
+                "_color": "#004EA2",
+                "_token": "Q-主蓝",
+                "effect": "effect_3:5777",
+                "componentInfo": {
+                  "properties": {
+                    "属性 1": "蓝底"
+                  }
+                },
+                "children": [
+                  {
+                    "type": "FRAME",
+                    "id": "177:9714/3:7132",
+                    "name": "组 1",
+                    "layoutStyle": {
+                      "width": 56,
+                      "height": 17,
+                      "relativeX": 32,
+                      "relativeY": 12
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "id": "177:9714/3:7133",
+                        "name": "Discover more",
+                        "layoutStyle": {
+                          "width": 56,
+                          "height": 17,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "fill": "paint_3:5624",
+                        "_color": "#FFFFFF",
+                        "_token": "lf-bg白",
+                        "text": [
+                          {
+                            "text": "发现更多",
+                            "font": "font_86:5012"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 4,
+                            "color": "paint_3:5624"
+                          }
+                        ],
+                        "textAlign": "left",
+                        "textMode": "single-line"
+                      }
+                    ],
+                    "flexContainerInfo": {
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "mainSizing": "auto",
+                      "crossSizing": "auto",
+                      "gap": "6px"
+                    }
+                  }
+                ],
+                "componentId": "3:7131",
+                "_variantProps": {
+                  "属性 1": "蓝底"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "滑环能转多久？决定滑环使用寿命的五个关键技术维度",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "在滑环的选型参数表里，几乎每个型号都会标注一个\"额定寿命\"-通常以转数计算...",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "2026-09-01",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "一只国产滑环的二十年：被\"卡脖子\"的技术是怎么突破的？",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "在滑环的选型参数表里，几乎每个型号都会标注一个\"额定寿命\"-通常以转数计算...",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "2026-09-01",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "全盛机电凭借多项核心实力和优势成为导电滑环行业的龙头企业",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "2026-09-01",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "高端导电滑环品牌厂家全盛机电深度解析及推荐理由\r\n",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "2026-09-01",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "喜报丨热烈庆祝搭载全盛长寿命星载滑环的海洋二号E卫星在酒泉发射成功\r\n",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "2026-09-01",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "一只国产滑环的二十年：被\"卡脖子\"的技术是怎么突破的？",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "2026-09-01",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "新闻动态",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "发现更多",
+        "parentType": "FRAME",
+        "parentName": "组 1"
+      }
+    ],
+    "placeholderTexts": [
+      "滑环能转多久？决定滑环使用寿命的五个关键技术维度",
+      "在滑环的选型参数表里，几乎每个型号都会标注一个\"额定寿命\"-通常以转数计算...",
+      "2026-09-01",
+      "一只国产滑环的二十年：被\"卡脖子\"的技术是怎么突破的？",
+      "全盛机电凭借多项核心实力和优势成为导电滑环行业的龙头企业",
+      "高端导电滑环品牌厂家全盛机电深度解析及推荐理由",
+      "喜报丨热烈庆祝搭载全盛长寿命星载滑环的海洋二号E卫星在酒泉发射成功",
+      "新闻动态"
+    ]
+  },
+  "nodeCount": 35,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 15/29. MISSING 14 sections: [15,16,17,18,19,20,21,22,23,24,25,26,27,28]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

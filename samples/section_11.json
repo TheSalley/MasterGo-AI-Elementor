@@ -1,0 +1,899 @@
+{
+  "sectionIndex": 11,
+  "section": {
+    "id": "177:9526",
+    "name": "容器 70",
+    "type": "FRAME"
+  },
+  "rootContainer": {
+    "width": "1920px",
+    "minHeight": "8232px",
+    "background": "#FFFFFF",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "effect_134:6424": {
+        "value": [
+          "box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);"
+        ]
+      },
+      "font_86:5000": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 18,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "600"
+        },
+        "token": "Q-H6"
+      },
+      "font_86:5012": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 14,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "400"
+        },
+        "token": "Q-ps"
+      },
+      "paint_1:099": {
+        "value": [
+          "#3D3D3D"
+        ]
+      },
+      "paint_86:5157": {
+        "value": [
+          "#004EA2"
+        ],
+        "token": "Q-主蓝"
+      },
+      "paint_86:5186": {
+        "value": [
+          "#121212"
+        ],
+        "token": "Q-标题黑"
+      },
+      "paint_86:5202": {
+        "value": [
+          "#FFFFFF"
+        ],
+        "token": "Q-背景白"
+      }
+    },
+    "nodes": [
+      {
+        "type": "FRAME",
+        "id": "177:9526",
+        "name": "容器 70",
+        "layoutStyle": {
+          "width": 405,
+          "height": 1212,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "children": [
+          {
+            "type": "INSTANCE",
+            "id": "177:9527",
+            "name": "组 5633",
+            "layoutStyle": {
+              "width": 405,
+              "height": 192,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "componentInfo": {},
+            "children": [
+              {
+                "type": "LAYER",
+                "id": "177:9527/145:00893",
+                "name": "矩形 2825",
+                "layoutStyle": {
+                  "width": 405,
+                  "height": 192,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "borderRadius": "16px",
+                "fill": "paint_86:5202",
+                "_color": "#FFFFFF",
+                "_token": "Q-背景白",
+                "effect": "effect_134:6424"
+              },
+              {
+                "type": "GROUP",
+                "id": "177:9527/145:01164",
+                "name": "组 5632",
+                "layoutStyle": {
+                  "width": 335,
+                  "height": 81,
+                  "relativeX": 35,
+                  "relativeY": 79
+                },
+                "children": [
+                  {
+                    "type": "FRAME",
+                    "id": "177:9527/145:03676",
+                    "name": "容器 69",
+                    "layoutStyle": {
+                      "width": 335,
+                      "height": 81,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "id": "177:9527/145:00960",
+                        "name": "定制化解决方案",
+                        "layoutStyle": {
+                          "width": 126,
+                          "height": 22,
+                          "relativeX": 104.5,
+                          "relativeY": 0
+                        },
+                        "fill": "paint_1:099",
+                        "_color": "#3D3D3D",
+                        "text": [
+                          {
+                            "text": "定制化解决方案\r",
+                            "font": "font_86:5000"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 8,
+                            "color": "paint_86:5186"
+                          }
+                        ],
+                        "textAlign": "center",
+                        "textMode": "single-line",
+                        "_placeholder": true
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "177:9527/145:01002",
+                        "name": "从标准产品到多通道、大电流、高转速等复杂需求，我们提供集电、气液、光纤于一体的组合滑环定制服务，精准适配各类特殊应用场景。",
+                        "layoutStyle": {
+                          "width": 335,
+                          "height": 51,
+                          "relativeX": 0,
+                          "relativeY": 30
+                        },
+                        "fill": "paint_1:099",
+                        "_color": "#3D3D3D",
+                        "text": [
+                          {
+                            "text": "T11|177:9527/145:01002",
+                            "font": "font_86:5012"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 61,
+                            "color": "paint_86:5186"
+                          }
+                        ],
+                        "textAlign": "center",
+                        "textMode": "auto-height",
+                        "_placeholder": true
+                      }
+                    ],
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "alignItems": "center",
+                      "mainSizing": "auto",
+                      "crossSizing": "auto",
+                      "gap": "8px"
+                    }
+                  }
+                ]
+              }
+            ],
+            "componentId": "145:01167"
+          },
+          {
+            "type": "INSTANCE",
+            "id": "177:9534",
+            "name": "组 5634",
+            "layoutStyle": {
+              "width": 405,
+              "height": 192,
+              "relativeX": 0,
+              "relativeY": 204
+            },
+            "componentInfo": {},
+            "children": [
+              {
+                "type": "LAYER",
+                "id": "177:9534/145:00893",
+                "name": "矩形 2825",
+                "layoutStyle": {
+                  "width": 405,
+                  "height": 192,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "borderRadius": "16px",
+                "fill": "paint_86:5202",
+                "_color": "#FFFFFF",
+                "_token": "Q-背景白",
+                "effect": "effect_134:6424"
+              },
+              {
+                "type": "GROUP",
+                "id": "177:9534/145:01164",
+                "name": "组 5632",
+                "layoutStyle": {
+                  "width": 335,
+                  "height": 81,
+                  "relativeX": 35,
+                  "relativeY": 79
+                },
+                "children": [
+                  {
+                    "type": "FRAME",
+                    "id": "177:9534/145:03676",
+                    "name": "容器 69",
+                    "layoutStyle": {
+                      "width": 335,
+                      "height": 81,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "id": "177:9534/145:00960",
+                        "name": "定制化解决方案",
+                        "layoutStyle": {
+                          "width": 126,
+                          "height": 22,
+                          "relativeX": 104.5,
+                          "relativeY": 0
+                        },
+                        "fill": "paint_86:5157",
+                        "_color": "#004EA2",
+                        "_token": "Q-主蓝",
+                        "text": [
+                          {
+                            "text": "深厚的研发实力\r",
+                            "font": "font_86:5000"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 8,
+                            "color": "paint_86:5186"
+                          }
+                        ],
+                        "textAlign": "center",
+                        "textMode": "single-line"
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "177:9534/145:01002",
+                        "name": "从标准产品到多通道、大电流、高转速等复杂需求，我们提供集电、气液、光纤于一体的组合滑环定制服务，精准适配各类特殊应用场景。",
+                        "layoutStyle": {
+                          "width": 335,
+                          "height": 51,
+                          "relativeX": 0,
+                          "relativeY": 30
+                        },
+                        "fill": "paint_86:5186",
+                        "_color": "#121212",
+                        "_token": "Q-标题黑",
+                        "text": [
+                          {
+                            "text": "T11|177:9534/145:01002",
+                            "font": "font_86:5012"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 58,
+                            "color": "paint_86:5186"
+                          }
+                        ],
+                        "textAlign": "center",
+                        "textMode": "auto-height"
+                      }
+                    ],
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "alignItems": "center",
+                      "mainSizing": "auto",
+                      "crossSizing": "auto",
+                      "gap": "8px"
+                    }
+                  }
+                ]
+              }
+            ],
+            "componentId": "145:01167"
+          },
+          {
+            "type": "INSTANCE",
+            "id": "177:9544",
+            "name": "组 5635",
+            "layoutStyle": {
+              "width": 405,
+              "height": 192,
+              "relativeX": 0,
+              "relativeY": 408
+            },
+            "componentInfo": {},
+            "children": [
+              {
+                "type": "LAYER",
+                "id": "177:9544/145:00893",
+                "name": "矩形 2825",
+                "layoutStyle": {
+                  "width": 405,
+                  "height": 192,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "borderRadius": "16px",
+                "fill": "paint_86:5202",
+                "_color": "#FFFFFF",
+                "_token": "Q-背景白",
+                "effect": "effect_134:6424"
+              },
+              {
+                "type": "GROUP",
+                "id": "177:9544/145:01164",
+                "name": "组 5632",
+                "layoutStyle": {
+                  "width": 335,
+                  "height": 81,
+                  "relativeX": 35,
+                  "relativeY": 79
+                },
+                "children": [
+                  {
+                    "type": "FRAME",
+                    "id": "177:9544/145:03676",
+                    "name": "容器 69",
+                    "layoutStyle": {
+                      "width": 335,
+                      "height": 81,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "id": "177:9544/145:00960",
+                        "name": "定制化解决方案",
+                        "layoutStyle": {
+                          "width": 126,
+                          "height": 22,
+                          "relativeX": 104.5,
+                          "relativeY": 0
+                        },
+                        "fill": "paint_86:5157",
+                        "_color": "#004EA2",
+                        "_token": "Q-主蓝",
+                        "text": [
+                          {
+                            "text": "严格的质量控制\r",
+                            "font": "font_86:5000"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 8,
+                            "color": "paint_86:5186"
+                          }
+                        ],
+                        "textAlign": "center",
+                        "textMode": "single-line"
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "177:9544/145:01002",
+                        "name": "从标准产品到多通道、大电流、高转速等复杂需求，我们提供集电、气液、光纤于一体的组合滑环定制服务，精准适配各类特殊应用场景。",
+                        "layoutStyle": {
+                          "width": 335,
+                          "height": 34,
+                          "relativeX": 0,
+                          "relativeY": 30
+                        },
+                        "fill": "paint_86:5186",
+                        "_color": "#121212",
+                        "_token": "Q-标题黑",
+                        "text": [
+                          {
+                            "text": "ISO体系认证，全流程质量管控贯穿设计、生产、测试各环节，确保每一只滑环都能稳定可靠、高品交付。\r",
+                            "font": "font_86:5012"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 49,
+                            "color": "paint_86:5186"
+                          }
+                        ],
+                        "textAlign": "center",
+                        "textMode": "auto-height"
+                      }
+                    ],
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "alignItems": "center",
+                      "mainSizing": "auto",
+                      "crossSizing": "auto",
+                      "gap": "8px"
+                    }
+                  }
+                ]
+              }
+            ],
+            "componentId": "145:01167"
+          },
+          {
+            "type": "INSTANCE",
+            "id": "177:9554",
+            "name": "组 5636",
+            "layoutStyle": {
+              "width": 405,
+              "height": 192,
+              "relativeX": 0,
+              "relativeY": 612
+            },
+            "componentInfo": {},
+            "children": [
+              {
+                "type": "LAYER",
+                "id": "177:9554/145:00893",
+                "name": "矩形 2825",
+                "layoutStyle": {
+                  "width": 405,
+                  "height": 192,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "borderRadius": "16px",
+                "fill": "paint_86:5202",
+                "_color": "#FFFFFF",
+                "_token": "Q-背景白",
+                "effect": "effect_134:6424"
+              },
+              {
+                "type": "GROUP",
+                "id": "177:9554/145:01164",
+                "name": "组 5632",
+                "layoutStyle": {
+                  "width": 335,
+                  "height": 81,
+                  "relativeX": 35,
+                  "relativeY": 79
+                },
+                "children": [
+                  {
+                    "type": "FRAME",
+                    "id": "177:9554/145:03676",
+                    "name": "容器 69",
+                    "layoutStyle": {
+                      "width": 335,
+                      "height": 81,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "id": "177:9554/145:00960",
+                        "name": "定制化解决方案",
+                        "layoutStyle": {
+                          "width": 126,
+                          "height": 22,
+                          "relativeX": 104.5,
+                          "relativeY": 0
+                        },
+                        "fill": "paint_86:5157",
+                        "_color": "#004EA2",
+                        "_token": "Q-主蓝",
+                        "text": [
+                          {
+                            "text": "高效生产和交付\r",
+                            "font": "font_86:5000"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 8,
+                            "color": "paint_86:5186"
+                          }
+                        ],
+                        "textAlign": "center",
+                        "textMode": "single-line"
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "177:9554/145:01002",
+                        "name": "从标准产品到多通道、大电流、高转速等复杂需求，我们提供集电、气液、光纤于一体的组合滑环定制服务，精准适配各类特殊应用场景。",
+                        "layoutStyle": {
+                          "width": 335,
+                          "height": 51,
+                          "relativeX": 0,
+                          "relativeY": 30
+                        },
+                        "fill": "paint_86:5186",
+                        "_color": "#121212",
+                        "_token": "Q-标题黑",
+                        "text": [
+                          {
+                            "text": "T11|177:9554/145:01002",
+                            "font": "font_86:5012"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 58,
+                            "color": "paint_86:5186"
+                          }
+                        ],
+                        "textAlign": "center",
+                        "textMode": "auto-height"
+                      }
+                    ],
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "alignItems": "center",
+                      "mainSizing": "auto",
+                      "crossSizing": "auto",
+                      "gap": "8px"
+                    }
+                  }
+                ]
+              }
+            ],
+            "componentId": "145:01167"
+          },
+          {
+            "type": "INSTANCE",
+            "id": "177:9564",
+            "name": "组 5637",
+            "layoutStyle": {
+              "width": 405,
+              "height": 192,
+              "relativeX": 0,
+              "relativeY": 816
+            },
+            "componentInfo": {},
+            "children": [
+              {
+                "type": "LAYER",
+                "id": "177:9564/145:00893",
+                "name": "矩形 2825",
+                "layoutStyle": {
+                  "width": 405,
+                  "height": 192,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "borderRadius": "16px",
+                "fill": "paint_86:5202",
+                "_color": "#FFFFFF",
+                "_token": "Q-背景白",
+                "effect": "effect_134:6424"
+              },
+              {
+                "type": "GROUP",
+                "id": "177:9564/145:01164",
+                "name": "组 5632",
+                "layoutStyle": {
+                  "width": 335,
+                  "height": 81,
+                  "relativeX": 35,
+                  "relativeY": 79
+                },
+                "children": [
+                  {
+                    "type": "FRAME",
+                    "id": "177:9564/145:03676",
+                    "name": "容器 69",
+                    "layoutStyle": {
+                      "width": 335,
+                      "height": 81,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "id": "177:9564/145:00960",
+                        "name": "定制化解决方案",
+                        "layoutStyle": {
+                          "width": 126,
+                          "height": 22,
+                          "relativeX": 104.5,
+                          "relativeY": 0
+                        },
+                        "fill": "paint_86:5157",
+                        "_color": "#004EA2",
+                        "_token": "Q-主蓝",
+                        "text": [
+                          {
+                            "text": "全程的服务保障",
+                            "font": "font_86:5000"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 7,
+                            "color": "paint_86:5186"
+                          }
+                        ],
+                        "textAlign": "center",
+                        "textMode": "single-line"
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "177:9564/145:01002",
+                        "name": "从标准产品到多通道、大电流、高转速等复杂需求，我们提供集电、气液、光纤于一体的组合滑环定制服务，精准适配各类特殊应用场景。",
+                        "layoutStyle": {
+                          "width": 335,
+                          "height": 51,
+                          "relativeX": 0,
+                          "relativeY": 30
+                        },
+                        "fill": "paint_86:5186",
+                        "_color": "#121212",
+                        "_token": "Q-标题黑",
+                        "text": [
+                          {
+                            "text": "T11|177:9564/145:01002",
+                            "font": "font_86:5012"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 57,
+                            "color": "paint_86:5186"
+                          }
+                        ],
+                        "textAlign": "center",
+                        "textMode": "auto-height"
+                      }
+                    ],
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "alignItems": "center",
+                      "mainSizing": "auto",
+                      "crossSizing": "auto",
+                      "gap": "8px"
+                    }
+                  }
+                ]
+              }
+            ],
+            "componentId": "145:01167"
+          },
+          {
+            "type": "INSTANCE",
+            "id": "177:9574",
+            "name": "组 5638",
+            "layoutStyle": {
+              "width": 405,
+              "height": 192,
+              "relativeX": 0,
+              "relativeY": 1020
+            },
+            "componentInfo": {},
+            "children": [
+              {
+                "type": "LAYER",
+                "id": "177:9574/145:00893",
+                "name": "矩形 2825",
+                "layoutStyle": {
+                  "width": 405,
+                  "height": 192,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "borderRadius": "16px",
+                "fill": "paint_86:5202",
+                "_color": "#FFFFFF",
+                "_token": "Q-背景白",
+                "effect": "effect_134:6424"
+              },
+              {
+                "type": "GROUP",
+                "id": "177:9574/145:01164",
+                "name": "组 5632",
+                "layoutStyle": {
+                  "width": 335,
+                  "height": 81,
+                  "relativeX": 35,
+                  "relativeY": 79
+                },
+                "children": [
+                  {
+                    "type": "FRAME",
+                    "id": "177:9574/145:03676",
+                    "name": "容器 69",
+                    "layoutStyle": {
+                      "width": 335,
+                      "height": 81,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "id": "177:9574/145:00960",
+                        "name": "定制化解决方案",
+                        "layoutStyle": {
+                          "width": 144,
+                          "height": 22,
+                          "relativeX": 95.5,
+                          "relativeY": 0
+                        },
+                        "fill": "paint_86:5157",
+                        "_color": "#004EA2",
+                        "_token": "Q-主蓝",
+                        "text": [
+                          {
+                            "text": "灵活的最小订购量\r",
+                            "font": "font_86:5000"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 9,
+                            "color": "paint_86:5186"
+                          }
+                        ],
+                        "textAlign": "center",
+                        "textMode": "single-line"
+                      },
+                      {
+                        "type": "TEXT",
+                        "id": "177:9574/145:01002",
+                        "name": "从标准产品到多通道、大电流、高转速等复杂需求，我们提供集电、气液、光纤于一体的组合滑环定制服务，精准适配各类特殊应用场景。",
+                        "layoutStyle": {
+                          "width": 335,
+                          "height": 51,
+                          "relativeX": 0,
+                          "relativeY": 30
+                        },
+                        "fill": "paint_86:5186",
+                        "_color": "#121212",
+                        "_token": "Q-标题黑",
+                        "text": [
+                          {
+                            "text": "T11|177:9574/145:01002",
+                            "font": "font_86:5012"
+                          }
+                        ],
+                        "textColor": [
+                          {
+                            "start": 0,
+                            "end": 57,
+                            "color": "paint_86:5186"
+                          }
+                        ],
+                        "textAlign": "center",
+                        "textMode": "auto-height"
+                      }
+                    ],
+                    "flexContainerInfo": {
+                      "flexDirection": "column",
+                      "alignItems": "center",
+                      "mainSizing": "auto",
+                      "crossSizing": "auto",
+                      "gap": "8px"
+                    }
+                  }
+                ]
+              }
+            ],
+            "componentId": "145:01167"
+          }
+        ],
+        "flexContainerInfo": {
+          "flexDirection": "column",
+          "mainSizing": "auto",
+          "crossSizing": "auto",
+          "gap": "12px"
+        }
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "定制化解决方案\r",
+        "_placeholder": true,
+        "parentType": "FRAME",
+        "parentName": "容器 69"
+      },
+      {
+        "text": "从标准产品到多通道、大电流、高转速等复杂需求，我们提供集电、气液、光纤于一体的组合滑环定制服务，精准适配各类特殊应用场景。",
+        "_placeholder": true,
+        "parentType": "FRAME",
+        "parentName": "容器 69"
+      },
+      {
+        "text": "深厚的研发实力\r",
+        "parentType": "FRAME",
+        "parentName": "容器 69"
+      },
+      {
+        "text": "专业技术团队，100余项发明及实用新型专利支撑。面对复杂应用，我们不仅提供产品，更提供敏捷的研发支持与深度技术协作。",
+        "parentType": "FRAME",
+        "parentName": "容器 69"
+      },
+      {
+        "text": "严格的质量控制\r",
+        "parentType": "FRAME",
+        "parentName": "容器 69"
+      },
+      {
+        "text": "ISO体系认证，全流程质量管控贯穿设计、生产、测试各环节，确保每一只滑环都能稳定可靠、高品交付。\r",
+        "parentType": "FRAME",
+        "parentName": "容器 69"
+      },
+      {
+        "text": "高效生产和交付\r",
+        "parentType": "FRAME",
+        "parentName": "容器 69"
+      },
+      {
+        "text": "2万多平米自建生产基地，数十台自研自动化设备，500多名员工协同作业。高效成熟的供应链体系，保障您的订单准时交付。\r",
+        "parentType": "FRAME",
+        "parentName": "容器 69"
+      },
+      {
+        "text": "全程的服务保障",
+        "parentType": "FRAME",
+        "parentName": "容器 69"
+      },
+      {
+        "text": "从售前咨询设计到售后安装维护，专业团队提供全周期一体化服务。我们与您共同开发，让设备的设计、生产、安装全程无忧。\r",
+        "parentType": "FRAME",
+        "parentName": "容器 69"
+      },
+      {
+        "text": "灵活的最小订购量\r",
+        "parentType": "FRAME",
+        "parentName": "容器 69"
+      },
+      {
+        "text": "无论您是原型测试还是小批量试产，我们都愿与您并肩前行。无最小起订量限制，让创新项目轻装上阵，从起步到量产一路相伴。",
+        "parentType": "FRAME",
+        "parentName": "容器 69"
+      }
+    ],
+    "placeholderTexts": [
+      "定制化解决方案",
+      "T11|177:9527/145:01002"
+    ]
+  },
+  "nodeCount": 37,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 12/29. MISSING 17 sections: [12,13,14,15,16,17,18,19,20,21... +7 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

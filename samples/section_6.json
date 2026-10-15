@@ -1,0 +1,37 @@
+{
+  "sectionIndex": 6,
+  "section": {
+    "id": "177:9469",
+    "name": "组 5085",
+    "type": "FRAME"
+  },
+  "rootContainer": {
+    "width": "1920px",
+    "minHeight": "8232px",
+    "background": "#FFFFFF",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {},
+    "nodes": [
+      {
+        "type": "FRAME",
+        "id": "177:9469",
+        "name": "组 5085",
+        "layoutStyle": {
+          "width": 144,
+          "height": 84,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "children": []
+      }
+    ],
+    "components": []
+  },
+  "nodeCount": 1,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 7/29. MISSING 22 sections: [7,8,9,10,11,12,13,14,15,16... +12 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

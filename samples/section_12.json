@@ -1,0 +1,695 @@
+{
+  "sectionIndex": 12,
+  "section": {
+    "id": "177:9584",
+    "name": "容器 66",
+    "type": "FRAME"
+  },
+  "rootContainer": {
+    "width": "1920px",
+    "minHeight": "8232px",
+    "background": "#FFFFFF",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "effect_107:00960": {
+        "value": [
+          "filter: blur(194px);"
+        ]
+      },
+      "effect_107:9359": {
+        "value": [
+          "box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);"
+        ]
+      },
+      "font_86:4957": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 42,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "600"
+        },
+        "token": "Q-H2"
+      },
+      "paint_102:03476": {
+        "value": [
+          "#FFFFFF"
+        ]
+      },
+      "paint_107:9635": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/c799ea864e5178697413d41ca4be940d.jpeg"
+          }
+        ]
+      },
+      "paint_107:9641": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/b9f8bcbbaf270209a7a968b02efbf600.jpg"
+          }
+        ]
+      },
+      "paint_107:9645": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/72eeeacaee459407b715bea7f64a48d3.jpeg"
+          }
+        ]
+      },
+      "paint_107:9649": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/c659d918f52cbd85aa5d81127eda695d.jpeg"
+          }
+        ]
+      },
+      "paint_107:9653": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/b97d45fae847abcc9105ca92abe05501.jpeg"
+          }
+        ]
+      },
+      "paint_107:9657": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/c0cc922460236f9f0adefdb8130ea052.jpeg"
+          }
+        ]
+      },
+      "paint_107:9661": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/36337bb53efdc2fbacb34e843213e992.jpeg"
+          }
+        ]
+      },
+      "paint_107:9695": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/eb658d6277c2206e664b5e507e299bbe.jpg"
+          }
+        ]
+      },
+      "paint_134:6296": {
+        "value": [
+          "linear-gradient(180deg, #F5F5F5 0%, #F5F5F5 100%)"
+        ]
+      },
+      "paint_134:6303": {
+        "value": [
+          "linear-gradient(180deg, rgba(245, 245, 245, 0) 0%, #F5F5F5 100%)"
+        ]
+      },
+      "paint_86:5157": {
+        "value": [
+          "#004EA2"
+        ],
+        "token": "Q-主蓝"
+      },
+      "paint_86:5194": {
+        "value": [
+          "#02132D"
+        ],
+        "token": "Q-背景深"
+      },
+      "paint_86:5202": {
+        "value": [
+          "#FFFFFF"
+        ],
+        "token": "Q-背景白"
+      },
+      "paint_86:5204": {
+        "value": [
+          "rgba(0, 0, 0, 0.1)"
+        ],
+        "token": "Q-边框灰"
+      }
+    },
+    "nodes": [
+      {
+        "type": "FRAME",
+        "id": "177:9584",
+        "name": "容器 66",
+        "layoutStyle": {
+          "width": 1968,
+          "height": 500,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "children": [
+          {
+            "type": "GROUP",
+            "id": "177:9585",
+            "name": "组 5528",
+            "layoutStyle": {
+              "width": 1968,
+              "height": 460,
+              "relativeX": 0,
+              "relativeY": 1
+            },
+            "children": [
+              {
+                "type": "GROUP",
+                "id": "177:9586",
+                "name": "bg",
+                "layoutStyle": {
+                  "width": 1920,
+                  "height": 460,
+                  "relativeX": 28,
+                  "relativeY": 0
+                },
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "177:9587",
+                    "name": "image",
+                    "layoutStyle": {
+                      "width": 1920,
+                      "height": 132,
+                      "relativeX": 0,
+                      "relativeY": 328,
+                      "flipV": true
+                    },
+                    "fill": "paint_134:6296",
+                    "_color": "linear-gradient(180deg, #F5F5F5 0%, #F5F5F5 100%)"
+                  },
+                  {
+                    "type": "FRAME",
+                    "id": "177:9588",
+                    "name": "BG",
+                    "layoutStyle": {
+                      "width": 1920,
+                      "height": 328,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "177:9589",
+                        "name": "矩形 2813",
+                        "layoutStyle": {
+                          "width": 1920,
+                          "height": 500,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "fill": "paint_86:5194",
+                        "_color": "#02132D",
+                        "_token": "Q-背景深"
+                      },
+                      {
+                        "type": "SVG_ELLIPSE",
+                        "id": "177:9590",
+                        "name": "圆形 10",
+                        "layoutStyle": {
+                          "width": 422,
+                          "height": 422,
+                          "relativeX": 1628,
+                          "relativeY": -103
+                        },
+                        "opacity": 0.800000011920929,
+                        "fill": "paint_86:5157",
+                        "_color": "#004EA2",
+                        "_token": "Q-主蓝",
+                        "effect": "effect_107:00960",
+                        "svgKey": "S12:BG|177:9590",
+                        "svgShortKey": "S12#0",
+                        "svgName": "BG"
+                      },
+                      {
+                        "type": "SVG_ELLIPSE",
+                        "id": "177:9591",
+                        "name": "圆形 11",
+                        "layoutStyle": {
+                          "width": 1036,
+                          "height": 1036,
+                          "relativeX": -518,
+                          "relativeY": 30
+                        },
+                        "opacity": 0.5,
+                        "fill": "paint_86:5157",
+                        "_color": "#004EA2",
+                        "_token": "Q-主蓝",
+                        "effect": "effect_107:00960"
+                      },
+                      {
+                        "type": "LAYER",
+                        "id": "177:9592",
+                        "name": "image",
+                        "layoutStyle": {
+                          "width": 1920,
+                          "height": 279,
+                          "relativeX": 0,
+                          "relativeY": 49
+                        },
+                        "fill": "paint_134:6303",
+                        "_color": "linear-gradient(180deg, rgba(245, 245, 245, 0) 0%, #F5F5F5 100%)"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "TEXT",
+                "id": "177:9593",
+                "name": "遵循国际标准，全维度权威认证",
+                "layoutStyle": {
+                  "width": 588,
+                  "height": 51,
+                  "relativeX": 690,
+                  "relativeY": 109
+                },
+                "fill": "paint_86:5202",
+                "_color": "#FFFFFF",
+                "_token": "Q-背景白",
+                "text": [
+                  {
+                    "text": "遵循国际标准，全维度权威认证",
+                    "font": "font_86:4957"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 14,
+                    "color": "paint_86:5202"
+                  }
+                ],
+                "textAlign": "center",
+                "textMode": "single-line",
+                "_placeholder": true
+              },
+              {
+                "type": "GROUP",
+                "id": "177:9596",
+                "name": "组 5518",
+                "layoutStyle": {
+                  "width": 1968,
+                  "height": 125,
+                  "relativeX": 0,
+                  "relativeY": 265
+                },
+                "children": [
+                  {
+                    "type": "INSTANCE",
+                    "id": "177:9597",
+                    "name": "组 5507",
+                    "layoutStyle": {
+                      "width": 190,
+                      "height": 125,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "177:9597/107:9604",
+                        "name": "1. 全景图",
+                        "layoutStyle": {
+                          "width": 190,
+                          "height": 125,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "borderRadius": "8px",
+                        "fill": "paint_102:03476",
+                        "_color": "#FFFFFF",
+                        "strokeColor": "paint_86:5204",
+                        "strokeType": "solid",
+                        "strokeAlign": "inside",
+                        "strokeWidth": "1px",
+                        "effect": "effect_107:9359"
+                      },
+                      {
+                        "type": "LAYER",
+                        "id": "177:9597/107:9605",
+                        "name": "高新技术企业",
+                        "layoutStyle": {
+                          "width": 161,
+                          "height": 99,
+                          "relativeX": 14,
+                          "relativeY": 13
+                        },
+                        "fill": "paint_107:9635"
+                      }
+                    ],
+                    "componentId": "107:9615"
+                  },
+                  {
+                    "type": "INSTANCE",
+                    "id": "177:9598",
+                    "name": "组 5508",
+                    "layoutStyle": {
+                      "width": 190,
+                      "height": 125,
+                      "relativeX": 254,
+                      "relativeY": 0
+                    },
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "177:9598/107:9604",
+                        "name": "1. 全景图",
+                        "layoutStyle": {
+                          "width": 190,
+                          "height": 125,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "borderRadius": "8px",
+                        "fill": "paint_102:03476",
+                        "_color": "#FFFFFF",
+                        "strokeColor": "paint_86:5204",
+                        "strokeType": "solid",
+                        "strokeAlign": "inside",
+                        "strokeWidth": "1px",
+                        "effect": "effect_107:9359"
+                      },
+                      {
+                        "type": "LAYER",
+                        "id": "177:9598/107:9605",
+                        "name": "高新技术企业",
+                        "layoutStyle": {
+                          "width": 161,
+                          "height": 99,
+                          "relativeX": 14,
+                          "relativeY": 13
+                        },
+                        "fill": "paint_107:9641"
+                      }
+                    ],
+                    "componentId": "107:9615"
+                  },
+                  {
+                    "type": "INSTANCE",
+                    "id": "177:9599",
+                    "name": "组 5509",
+                    "layoutStyle": {
+                      "width": 190,
+                      "height": 125,
+                      "relativeX": 508,
+                      "relativeY": 0
+                    },
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "177:9599/107:9604",
+                        "name": "1. 全景图",
+                        "layoutStyle": {
+                          "width": 190,
+                          "height": 125,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "borderRadius": "8px",
+                        "fill": "paint_102:03476",
+                        "_color": "#FFFFFF",
+                        "strokeColor": "paint_86:5204",
+                        "strokeType": "solid",
+                        "strokeAlign": "inside",
+                        "strokeWidth": "1px",
+                        "effect": "effect_107:9359"
+                      },
+                      {
+                        "type": "LAYER",
+                        "id": "177:9599/107:9605",
+                        "name": "高新技术企业",
+                        "layoutStyle": {
+                          "width": 161,
+                          "height": 99,
+                          "relativeX": 14,
+                          "relativeY": 13
+                        },
+                        "fill": "paint_107:9645"
+                      }
+                    ],
+                    "componentId": "107:9615"
+                  },
+                  {
+                    "type": "INSTANCE",
+                    "id": "177:9600",
+                    "name": "组 5510",
+                    "layoutStyle": {
+                      "width": 190,
+                      "height": 125,
+                      "relativeX": 762,
+                      "relativeY": 0
+                    },
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "177:9600/107:9604",
+                        "name": "1. 全景图",
+                        "layoutStyle": {
+                          "width": 190,
+                          "height": 125,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "borderRadius": "8px",
+                        "fill": "paint_102:03476",
+                        "_color": "#FFFFFF",
+                        "strokeColor": "paint_86:5204",
+                        "strokeType": "solid",
+                        "strokeAlign": "inside",
+                        "strokeWidth": "1px",
+                        "effect": "effect_107:9359"
+                      },
+                      {
+                        "type": "LAYER",
+                        "id": "177:9600/107:9605",
+                        "name": "高新技术企业",
+                        "layoutStyle": {
+                          "width": 161,
+                          "height": 99,
+                          "relativeX": 14,
+                          "relativeY": 13
+                        },
+                        "fill": "paint_107:9649"
+                      }
+                    ],
+                    "componentId": "107:9615"
+                  },
+                  {
+                    "type": "INSTANCE",
+                    "id": "177:9601",
+                    "name": "组 5511",
+                    "layoutStyle": {
+                      "width": 190,
+                      "height": 125,
+                      "relativeX": 1016,
+                      "relativeY": 0
+                    },
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "177:9601/107:9604",
+                        "name": "1. 全景图",
+                        "layoutStyle": {
+                          "width": 190,
+                          "height": 125,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "borderRadius": "8px",
+                        "fill": "paint_102:03476",
+                        "_color": "#FFFFFF",
+                        "strokeColor": "paint_86:5204",
+                        "strokeType": "solid",
+                        "strokeAlign": "inside",
+                        "strokeWidth": "1px",
+                        "effect": "effect_107:9359"
+                      },
+                      {
+                        "type": "LAYER",
+                        "id": "177:9601/107:9605",
+                        "name": "高新技术企业",
+                        "layoutStyle": {
+                          "width": 161,
+                          "height": 99,
+                          "relativeX": 14,
+                          "relativeY": 13
+                        },
+                        "fill": "paint_107:9653"
+                      }
+                    ],
+                    "componentId": "107:9615"
+                  },
+                  {
+                    "type": "INSTANCE",
+                    "id": "177:9602",
+                    "name": "组 5512",
+                    "layoutStyle": {
+                      "width": 190,
+                      "height": 125,
+                      "relativeX": 1270,
+                      "relativeY": 0
+                    },
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "177:9602/107:9604",
+                        "name": "1. 全景图",
+                        "layoutStyle": {
+                          "width": 190,
+                          "height": 125,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "borderRadius": "8px",
+                        "fill": "paint_102:03476",
+                        "_color": "#FFFFFF",
+                        "strokeColor": "paint_86:5204",
+                        "strokeType": "solid",
+                        "strokeAlign": "inside",
+                        "strokeWidth": "1px",
+                        "effect": "effect_107:9359"
+                      },
+                      {
+                        "type": "LAYER",
+                        "id": "177:9602/107:9605",
+                        "name": "高新技术企业",
+                        "layoutStyle": {
+                          "width": 161,
+                          "height": 99,
+                          "relativeX": 14,
+                          "relativeY": 13
+                        },
+                        "fill": "paint_107:9657"
+                      }
+                    ],
+                    "componentId": "107:9615"
+                  },
+                  {
+                    "type": "INSTANCE",
+                    "id": "177:9603",
+                    "name": "组 5513",
+                    "layoutStyle": {
+                      "width": 190,
+                      "height": 125,
+                      "relativeX": 1524,
+                      "relativeY": 0
+                    },
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "177:9603/107:9604",
+                        "name": "1. 全景图",
+                        "layoutStyle": {
+                          "width": 190,
+                          "height": 125,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "borderRadius": "8px",
+                        "fill": "paint_102:03476",
+                        "_color": "#FFFFFF",
+                        "strokeColor": "paint_86:5204",
+                        "strokeType": "solid",
+                        "strokeAlign": "inside",
+                        "strokeWidth": "1px",
+                        "effect": "effect_107:9359"
+                      },
+                      {
+                        "type": "LAYER",
+                        "id": "177:9603/107:9605",
+                        "name": "高新技术企业",
+                        "layoutStyle": {
+                          "width": 161,
+                          "height": 99,
+                          "relativeX": 14,
+                          "relativeY": 13
+                        },
+                        "fill": "paint_107:9661"
+                      }
+                    ],
+                    "componentId": "107:9615"
+                  },
+                  {
+                    "type": "INSTANCE",
+                    "id": "177:9604",
+                    "name": "组 5514",
+                    "layoutStyle": {
+                      "width": 190,
+                      "height": 125,
+                      "relativeX": 1778,
+                      "relativeY": 0
+                    },
+                    "componentInfo": {},
+                    "children": [
+                      {
+                        "type": "LAYER",
+                        "id": "177:9604/107:9604",
+                        "name": "1. 全景图",
+                        "layoutStyle": {
+                          "width": 190,
+                          "height": 125,
+                          "relativeX": 0,
+                          "relativeY": 0
+                        },
+                        "borderRadius": "8px",
+                        "fill": "paint_102:03476",
+                        "_color": "#FFFFFF",
+                        "strokeColor": "paint_86:5204",
+                        "strokeType": "solid",
+                        "strokeAlign": "inside",
+                        "strokeWidth": "1px",
+                        "effect": "effect_107:9359"
+                      },
+                      {
+                        "type": "LAYER",
+                        "id": "177:9604/107:9605",
+                        "name": "高新技术企业",
+                        "layoutStyle": {
+                          "width": 161,
+                          "height": 99,
+                          "relativeX": 14,
+                          "relativeY": 13
+                        },
+                        "fill": "paint_107:9695"
+                      }
+                    ],
+                    "componentId": "107:9615"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "遵循国际标准，全维度权威认证",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      }
+    ],
+    "placeholderTexts": [
+      "遵循国际标准，全维度权威认证"
+    ]
+  },
+  "nodeCount": 35,
+  "svgNodeCount": 2,
+  "hasStrippedSvgs": true,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 13/29. MISSING 16 sections: [13,14,15,16,17,18,19,20,21,22... +6 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}
