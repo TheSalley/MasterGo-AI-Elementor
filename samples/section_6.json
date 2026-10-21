@@ -1,37 +1,46 @@
 {
   "sectionIndex": 6,
   "section": {
-    "id": "177:9469",
-    "name": "组 5085",
-    "type": "FRAME"
+    "id": "185:8994",
+    "name": "1. 全景图",
+    "type": "LAYER"
   },
   "rootContainer": {
     "width": "1920px",
-    "minHeight": "8232px",
+    "minHeight": "8687px",
     "background": "#FFFFFF",
     "overflow": "hidden",
     "position": "relative"
   },
   "structureSiblingCount": 1,
   "dsl": {
-    "styles": {},
+    "styles": {
+      "paint_142:9953": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/b4f25428e3142f654d02e42af69ed7df.jpg"
+          }
+        ]
+      }
+    },
     "nodes": [
       {
-        "type": "FRAME",
-        "id": "177:9469",
-        "name": "组 5085",
+        "type": "LAYER",
+        "id": "185:8994",
+        "name": "1. 全景图",
         "layoutStyle": {
-          "width": 144,
-          "height": 84,
+          "width": 1280,
+          "height": 480,
           "relativeX": 0,
           "relativeY": 0
         },
-        "children": []
+        "borderRadius": "16px",
+        "fill": "paint_142:9953"
       }
     ],
     "components": []
   },
   "nodeCount": 1,
   "componentDocumentLinks": [],
-  "fetchProgress": "Fetched 7/29. MISSING 22 sections: [7,8,9,10,11,12,13,14,15,16... +12 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+  "fetchProgress": "Fetched 7/31. MISSING 24 sections: [7,8,9,10,11,12,13,14,15,16... +14 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
 }

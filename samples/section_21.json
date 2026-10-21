@@ -1,13 +1,13 @@
 {
   "sectionIndex": 21,
   "section": {
-    "id": "177:9767/107:02652",
-    "name": "组 5553",
-    "type": "GROUP"
+    "id": "185:9258/107:02313",
+    "name": "矩形 2822",
+    "type": "LAYER"
   },
   "rootContainer": {
     "width": "1920px",
-    "minHeight": "8232px",
+    "minHeight": "8687px",
     "background": "#FFFFFF",
     "overflow": "hidden",
     "position": "relative"
@@ -15,343 +15,29 @@
   "structureSiblingCount": 1,
   "dsl": {
     "styles": {
-      "font_86:5000": {
-        "value": {
-          "family": "Noto Sans SC",
-          "size": 18,
-          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
-          "decoration": "none",
-          "case": "none",
-          "lineHeight": "120",
-          "letterSpacing": "auto",
-          "weight": "600"
-        },
-        "token": "Q-H6"
-      },
-      "font_86:5012": {
-        "value": {
-          "family": "Noto Sans SC",
-          "size": 14,
-          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
-          "decoration": "none",
-          "case": "none",
-          "lineHeight": "120",
-          "letterSpacing": "auto",
-          "weight": "400"
-        },
-        "token": "Q-ps"
-      },
-      "paint_86:5202": {
+      "paint_107:02344": {
         "value": [
-          "#FFFFFF"
-        ],
-        "token": "Q-背景白"
+          "rgba(255, 255, 255, 0.2)"
+        ]
       }
     },
     "nodes": [
       {
-        "type": "GROUP",
-        "id": "177:9767/107:02652",
-        "name": "组 5553",
+        "type": "LAYER",
+        "id": "185:9258/107:02313",
+        "name": "矩形 2822",
         "layoutStyle": {
-          "width": 72,
-          "height": 343,
+          "width": 1920,
           "relativeX": 0,
           "relativeY": 0
         },
-        "children": [
-          {
-            "type": "TEXT",
-            "id": "177:9767/107:02653",
-            "name": "关于全盛",
-            "layoutStyle": {
-              "width": 72,
-              "height": 22,
-              "relativeX": 0,
-              "relativeY": 0
-            },
-            "fill": "paint_86:5202",
-            "_color": "#FFFFFF",
-            "_token": "Q-背景白",
-            "text": [
-              {
-                "text": "产品中心",
-                "font": "font_86:5000"
-              }
-            ],
-            "textColor": [
-              {
-                "start": 0,
-                "end": 4,
-                "color": "paint_86:5202"
-              }
-            ],
-            "textAlign": "left",
-            "textMode": "single-line"
-          },
-          {
-            "type": "GROUP",
-            "id": "177:9767/107:02656",
-            "name": "组 5551",
-            "layoutStyle": {
-              "width": 56,
-              "height": 297,
-              "relativeX": 0,
-              "relativeY": 46
-            },
-            "children": [
-              {
-                "type": "TEXT",
-                "id": "177:9767/107:02657",
-                "name": "公司介绍",
-                "layoutStyle": {
-                  "width": 56,
-                  "height": 17,
-                  "relativeX": 0,
-                  "relativeY": 0
-                },
-                "opacity": 0.800000011920929,
-                "fill": "paint_86:5202",
-                "_color": "#FFFFFF",
-                "_token": "Q-背景白",
-                "text": [
-                  {
-                    "text": "产品类目",
-                    "font": "font_86:5012"
-                  }
-                ],
-                "textColor": [
-                  {
-                    "start": 0,
-                    "end": 4,
-                    "color": "paint_86:5202"
-                  }
-                ],
-                "textAlign": "left",
-                "textMode": "single-line"
-              },
-              {
-                "type": "TEXT",
-                "id": "177:9767/107:02660",
-                "name": "公司介绍",
-                "layoutStyle": {
-                  "width": 56,
-                  "height": 17,
-                  "relativeX": 0,
-                  "relativeY": 35
-                },
-                "opacity": 0.800000011920929,
-                "fill": "paint_86:5202",
-                "_color": "#FFFFFF",
-                "_token": "Q-背景白",
-                "text": [
-                  {
-                    "text": "产品类目",
-                    "font": "font_86:5012"
-                  }
-                ],
-                "textColor": [
-                  {
-                    "start": 0,
-                    "end": 4,
-                    "color": "paint_86:5202"
-                  }
-                ],
-                "textAlign": "left",
-                "textMode": "single-line"
-              },
-              {
-                "type": "TEXT",
-                "id": "177:9767/107:02663",
-                "name": "发展历程",
-                "layoutStyle": {
-                  "width": 56,
-                  "height": 17,
-                  "relativeX": 0,
-                  "relativeY": 70
-                },
-                "opacity": 0.800000011920929,
-                "fill": "paint_86:5202",
-                "_color": "#FFFFFF",
-                "_token": "Q-背景白",
-                "text": [
-                  {
-                    "text": "产品类目",
-                    "font": "font_86:5012"
-                  }
-                ],
-                "textColor": [
-                  {
-                    "start": 0,
-                    "end": 4,
-                    "color": "paint_86:5202"
-                  }
-                ],
-                "textAlign": "left",
-                "textMode": "single-line"
-              },
-              {
-                "type": "TEXT",
-                "id": "177:9767/107:02666",
-                "name": "品牌故事",
-                "layoutStyle": {
-                  "width": 56,
-                  "height": 17,
-                  "relativeX": 0,
-                  "relativeY": 105
-                },
-                "opacity": 0.800000011920929,
-                "fill": "paint_86:5202",
-                "_color": "#FFFFFF",
-                "_token": "Q-背景白",
-                "text": [
-                  {
-                    "text": "产品类目",
-                    "font": "font_86:5012"
-                  }
-                ],
-                "textColor": [
-                  {
-                    "start": 0,
-                    "end": 4,
-                    "color": "paint_86:5202"
-                  }
-                ],
-                "textAlign": "left",
-                "textMode": "single-line"
-              },
-              {
-                "type": "TEXT",
-                "id": "177:9767/107:02669",
-                "name": "企业文化",
-                "layoutStyle": {
-                  "width": 56,
-                  "height": 17,
-                  "relativeX": 0,
-                  "relativeY": 140
-                },
-                "opacity": 0.800000011920929,
-                "fill": "paint_86:5202",
-                "_color": "#FFFFFF",
-                "_token": "Q-背景白",
-                "text": [
-                  {
-                    "text": "产品类目",
-                    "font": "font_86:5012"
-                  }
-                ],
-                "textColor": [
-                  {
-                    "start": 0,
-                    "end": 4,
-                    "color": "paint_86:5202"
-                  }
-                ],
-                "textAlign": "left",
-                "textMode": "single-line"
-              },
-              {
-                "type": "TEXT",
-                "id": "177:9767/107:02672",
-                "name": "资质荣誉",
-                "layoutStyle": {
-                  "width": 56,
-                  "height": 17,
-                  "relativeX": 0,
-                  "relativeY": 175
-                },
-                "opacity": 0.800000011920929,
-                "fill": "paint_86:5202",
-                "_color": "#FFFFFF",
-                "_token": "Q-背景白",
-                "text": [
-                  {
-                    "text": "产品类目",
-                    "font": "font_86:5012"
-                  }
-                ],
-                "textColor": [
-                  {
-                    "start": 0,
-                    "end": 4,
-                    "color": "paint_86:5202"
-                  }
-                ],
-                "textAlign": "left",
-                "textMode": "single-line"
-              },
-              {
-                "type": "TEXT",
-                "id": "177:9767/107:02675",
-                "name": "认证体系",
-                "layoutStyle": {
-                  "width": 56,
-                  "height": 17,
-                  "relativeX": 0,
-                  "relativeY": 210
-                },
-                "opacity": 0.800000011920929,
-                "fill": "paint_86:5202",
-                "_color": "#FFFFFF",
-                "_token": "Q-背景白",
-                "text": [
-                  {
-                    "text": "产品类目",
-                    "font": "font_86:5012"
-                  }
-                ],
-                "textColor": [
-                  {
-                    "start": 0,
-                    "end": 4,
-                    "color": "paint_86:5202"
-                  }
-                ],
-                "textAlign": "left",
-                "textMode": "single-line"
-              }
-            ]
-          }
-        ]
+        "fill": "paint_107:02344",
+        "_color": "rgba(255, 255, 255, 0.2)"
       }
     ],
-    "components": [],
-    "rowTexts": [
-      {
-        "text": "产品中心",
-        "parentType": "GROUP"
-      },
-      {
-        "text": "产品类目",
-        "parentType": "GROUP"
-      },
-      {
-        "text": "产品类目",
-        "parentType": "GROUP"
-      },
-      {
-        "text": "产品类目",
-        "parentType": "GROUP"
-      },
-      {
-        "text": "产品类目",
-        "parentType": "GROUP"
-      },
-      {
-        "text": "产品类目",
-        "parentType": "GROUP"
-      },
-      {
-        "text": "产品类目",
-        "parentType": "GROUP"
-      },
-      {
-        "text": "产品类目",
-        "parentType": "GROUP"
-      }
-    ]
+    "components": []
   },
-  "nodeCount": 10,
+  "nodeCount": 1,
   "componentDocumentLinks": [],
-  "fetchProgress": "Fetched 22/29. MISSING 7 sections: [22,23,24,25,26,27,28]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+  "fetchProgress": "Fetched 22/31. MISSING 9 sections: [22,23,24,25,26,27,28,29,30]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
 }

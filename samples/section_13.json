@@ -1,13 +1,13 @@
 {
   "sectionIndex": 13,
   "section": {
-    "id": "177:9605",
-    "name": "组 5951",
+    "id": "185:9079",
+    "name": "组 5612",
     "type": "GROUP"
   },
   "rootContainer": {
     "width": "1920px",
-    "minHeight": "8232px",
+    "minHeight": "8687px",
     "background": "#FFFFFF",
     "overflow": "hidden",
     "position": "relative"
@@ -15,10 +15,22 @@
   "structureSiblingCount": 1,
   "dsl": {
     "styles": {
-      "font_86:4957": {
+      "font_142:00326": {
         "value": {
           "family": "Noto Sans SC",
-          "size": 42,
+          "size": 80,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "uppercase",
+          "lineHeight": "100",
+          "letterSpacing": "auto",
+          "weight": "600"
+        }
+      },
+      "font_86:4961": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 32,
           "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
           "decoration": "none",
           "case": "none",
@@ -26,45 +38,35 @@
           "letterSpacing": "auto",
           "weight": "600"
         },
-        "token": "Q-H2"
+        "token": "Q-H3"
       },
-      "font_86:5000": {
+      "font_86:5004": {
         "value": {
           "family": "Noto Sans SC",
-          "size": 18,
-          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
-          "decoration": "none",
-          "case": "none",
-          "lineHeight": "120",
-          "letterSpacing": "auto",
-          "weight": "600"
-        },
-        "token": "Q-H6"
-      },
-      "font_86:5012": {
-        "value": {
-          "family": "Noto Sans SC",
-          "size": 14,
+          "size": 16,
           "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
           "decoration": "none",
           "case": "none",
-          "lineHeight": "120",
+          "lineHeight": "150",
           "letterSpacing": "auto",
           "weight": "400"
         },
-        "token": "Q-ps"
+        "token": "Q-text"
       },
-      "paint_145:04593": {
+      "paint_107:9035": {
+        "value": [
+          "linear-gradient(180deg, #3D3D3D 0%, rgba(61, 61, 61, 0) 100%)"
+        ]
+      },
+      "paint_1:099": {
+        "value": [
+          "#3D3D3D"
+        ]
+      },
+      "paint_3:5656": {
         "value": [
           "#FFFFFF"
-        ],
-        "token": "G-白BG"
-      },
-      "paint_3:5957": {
-        "value": [
-          "#1F1F1F"
-        ],
-        "token": "MD-vi黑"
+        ]
       },
       "paint_86:5157": {
         "value": [
@@ -78,127 +80,195 @@
         ],
         "token": "Q-标题黑"
       },
-      "paint_86:5196": {
+      "paint_86:5204": {
         "value": [
-          "#EEEEEE"
+          "rgba(0, 0, 0, 0.1)"
         ],
-        "token": "Q-背景浅"
-      },
-      "paint_86:5202": {
-        "value": [
-          "#FFFFFF"
-        ],
-        "token": "Q-背景白"
+        "token": "Q-边框灰"
       }
     },
     "nodes": [
       {
         "type": "GROUP",
-        "id": "177:9605",
-        "name": "组 5951",
+        "id": "185:9079",
+        "name": "组 5612",
         "layoutStyle": {
           "width": 1280,
-          "height": 498,
+          "height": 354.6666564941406,
           "relativeX": 0,
           "relativeY": 0
         },
         "children": [
           {
             "type": "GROUP",
-            "id": "177:9606",
-            "name": "组 5950",
+            "id": "185:9080",
+            "name": "组 5495",
             "layoutStyle": {
-              "width": 1280,
-              "height": 171,
+              "width": 388.4444580078125,
+              "height": 354.6666564941406,
               "relativeX": 0,
               "relativeY": 0
             },
             "children": [
               {
-                "type": "LAYER",
-                "id": "177:9607",
-                "name": "矩形 2876",
+                "type": "INSTANCE",
+                "id": "185:9081",
+                "name": "组件 1",
                 "layoutStyle": {
-                  "width": 1280,
-                  "height": 171,
+                  "width": 388.4444580078125,
+                  "height": 354.6666564941406,
                   "relativeX": 0,
                   "relativeY": 0
                 },
-                "borderRadius": "16px",
-                "fill": "paint_86:5157",
-                "_color": "#004EA2",
-                "_token": "Q-主蓝"
-              },
-              {
-                "type": "GROUP",
-                "id": "177:9608",
-                "name": "组 5641",
-                "layoutStyle": {
-                  "width": 1158,
-                  "height": 64,
-                  "relativeX": 61,
-                  "relativeY": 48
-                },
+                "componentInfo": {},
                 "children": [
                   {
-                    "type": "TEXT",
-                    "id": "177:9609",
-                    "name": "什么是滑环？",
+                    "type": "LAYER",
+                    "id": "185:9081/107:8797",
+                    "name": "矩形 2812",
                     "layoutStyle": {
-                      "width": 398,
-                      "height": 51,
+                      "width": 388.4444580078125,
+                      "height": 354.6666564941406,
                       "relativeX": 0,
                       "relativeY": 0
                     },
-                    "fill": "paint_86:5202",
-                    "_color": "#FFFFFF",
-                    "_token": "Q-背景白",
+                    "fill": "paint_3:5656",
+                    "_color": "#FFFFFF"
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "185:9081/107:9051",
+                    "name": "赋能无限旋转，连接智能未来",
+                    "layoutStyle": {
+                      "width": 208,
+                      "height": 24,
+                      "relativeX": 25.77783203125,
+                      "relativeY": 222.22222900390625
+                    },
+                    "fill": "paint_86:5186",
+                    "_color": "#121212",
+                    "_token": "Q-标题黑",
                     "text": [
                       {
-                        "text": "什么是滑环？",
-                        "font": "font_86:4957"
+                        "text": "赋能无限旋转，连接智能未来",
+                        "font": "font_86:5004"
+                      }
+                    ],
+                    "textColor": [
+                      {
+                        "start": 0,
+                        "end": 13,
+                        "color": "paint_86:5186"
+                      }
+                    ],
+                    "textAlign": "left",
+                    "textMode": "single-line",
+                    "_placeholder": true
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "185:9081/107:8802",
+                    "name": "输入文本",
+                    "layoutStyle": {
+                      "width": 64,
+                      "height": 39,
+                      "relativeX": 26.66650390625,
+                      "relativeY": 173.33331298828125
+                    },
+                    "fill": "paint_1:099",
+                    "_color": "#3D3D3D",
+                    "text": [
+                      {
+                        "text": "愿景",
+                        "font": "font_86:4961"
+                      }
+                    ],
+                    "textColor": [
+                      {
+                        "start": 0,
+                        "end": 2,
+                        "color": "paint_86:5186"
+                      }
+                    ],
+                    "textAlign": "left",
+                    "textMode": "single-line"
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "185:9081/107:8933",
+                    "name": "愿景",
+                    "layoutStyle": {
+                      "width": 270,
+                      "height": 80,
+                      "relativeX": 26.66650390625,
+                      "relativeY": 274.6666259765625
+                    },
+                    "opacity": 0.10000000149011612,
+                    "fill": "paint_1:099",
+                    "_color": "#3D3D3D",
+                    "text": [
+                      {
+                        "text": "vision",
+                        "font": "font_142:00326"
                       }
                     ],
                     "textColor": [
                       {
                         "start": 0,
                         "end": 6,
-                        "color": "paint_86:5202"
+                        "color": "paint_107:9035"
                       }
                     ],
                     "textAlign": "left",
-                    "textMode": "auto-height",
-                    "_placeholder": true
+                    "textMode": "single-line"
                   },
                   {
-                    "type": "TEXT",
-                    "id": "177:9612",
-                    "name": "滑环，就是负责为旋转体连通、输送能源与信号的电气部件。根据传输介质来区分，滑环分为电滑环、流体滑环、光滑环。滑环通常安装在设备的旋转中心，主要由旋转与静止两大部分组成。旋转部分连接设备的旋转结构并随之旋转运动，称为“转子”，静止部分连接设备的固定结构的能源，称为“定子”。",
+                    "type": "LAYER",
+                    "id": "185:9081/107:8886",
+                    "name": "矩形 2808",
                     "layoutStyle": {
-                      "width": 847,
-                      "height": 51,
-                      "relativeX": 311,
-                      "relativeY": 13
+                      "width": 337.77777099609375,
+                      "height": 0.8888888359069824,
+                      "relativeX": 25.77783203125,
+                      "relativeY": 128.888916015625
                     },
-                    "fill": "paint_86:5202",
-                    "_color": "#FFFFFF",
-                    "_token": "Q-背景白",
-                    "text": [
+                    "fill": "paint_86:5204",
+                    "_color": "rgba(0, 0, 0, 0.1)",
+                    "_token": "Q-边框灰"
+                  }
+                ],
+                "componentId": "107:9062"
+              },
+              {
+                "type": "FRAME",
+                "id": "185:9089",
+                "name": "容器",
+                "layoutStyle": {
+                  "width": 56.88888931274414,
+                  "height": 56.88888168334961,
+                  "relativeX": 26.66666603088379,
+                  "relativeY": 29.333332061767578
+                },
+                "children": [
+                  {
+                    "type": "PATH",
+                    "id": "185:9090",
+                    "name": "路径",
+                    "layoutStyle": {
+                      "width": 51.1707649230957,
+                      "height": 52.18220901489258,
+                      "relativeX": 3.41162109375,
+                      "relativeY": 2.353515625
+                    },
+                    "path": [
                       {
-                        "text": "T13|177:9612",
-                        "font": "font_86:5012"
+                        "fill": "#004EA2",
+                        "data": ""
                       }
                     ],
-                    "textColor": [
-                      {
-                        "start": 0,
-                        "end": 136,
-                        "color": "paint_86:5202"
-                      }
-                    ],
-                    "textAlign": "left",
-                    "textMode": "auto-height",
-                    "_placeholder": true
+                    "svgKey": "S13:容器|185:9090",
+                    "svgShortKey": "S13#0",
+                    "svgName": "容器"
                   }
                 ]
               }
@@ -206,847 +276,345 @@
           },
           {
             "type": "GROUP",
-            "id": "177:9615",
-            "name": "组 5949",
+            "id": "185:9091",
+            "name": "组 5496",
             "layoutStyle": {
-              "width": 1280,
-              "height": 295,
-              "relativeX": 0,
-              "relativeY": 203
+              "width": 388.4444580078125,
+              "height": 354.6666564941406,
+              "relativeX": 446.22222900390625,
+              "relativeY": 0
             },
             "children": [
               {
-                "type": "GROUP",
-                "id": "177:9616",
-                "name": "组 5920",
+                "type": "INSTANCE",
+                "id": "185:9092",
+                "name": "组件 1",
                 "layoutStyle": {
-                  "width": 625,
-                  "height": 295,
+                  "width": 388.4444580078125,
+                  "height": 354.6666564941406,
                   "relativeX": 0,
                   "relativeY": 0
                 },
+                "borderRadius": "16px",
+                "componentInfo": {},
                 "children": [
                   {
-                    "type": "INSTANCE",
-                    "id": "177:9617",
-                    "name": "组 5928",
+                    "type": "LAYER",
+                    "id": "185:9092/107:8797",
+                    "name": "矩形 2812",
                     "layoutStyle": {
-                      "width": 625,
-                      "height": 64,
-                      "relativeX": 0,
-                      "relativeY": 77
-                    },
-                    "componentInfo": {},
-                    "children": [
-                      {
-                        "type": "LAYER",
-                        "id": "177:9617/145:04775",
-                        "name": "矩形 2875",
-                        "layoutStyle": {
-                          "width": 625,
-                          "height": 64,
-                          "relativeX": 0,
-                          "relativeY": 0
-                        },
-                        "borderRadius": "8px",
-                        "fill": "paint_86:5196",
-                        "_color": "#EEEEEE",
-                        "_token": "Q-背景浅"
-                      },
-                      {
-                        "type": "GROUP",
-                        "id": "177:9617/145:04852",
-                        "name": "组 4950",
-                        "layoutStyle": {
-                          "width": 24,
-                          "height": 24,
-                          "relativeX": 590.6690063476562,
-                          "relativeY": 24
-                        },
-                        "children": [
-                          {
-                            "type": "LAYER",
-                            "id": "177:9617/145:04854",
-                            "name": "矩形",
-                            "layoutStyle": {
-                              "width": 14,
-                              "height": 1.5007908344268799,
-                              "relativeX": 0,
-                              "relativeY": 6.249755859375
-                            },
-                            "fill": "paint_3:5957",
-                            "_color": "#1F1F1F",
-                            "_token": "MD-vi黑"
-                          },
-                          {
-                            "type": "LAYER",
-                            "id": "177:9617/145:04853",
-                            "name": "矩形",
-                            "layoutStyle": {
-                              "width": 14,
-                              "height": 1.5007908344268799,
-                              "relativeX": 0,
-                              "relativeY": 6.25,
-                              "rotate": 90
-                            },
-                            "fill": "paint_3:5957",
-                            "_color": "#1F1F1F",
-                            "_token": "MD-vi黑"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "TEXT",
-                        "id": "177:9617/145:04776",
-                        "name": "为什么要使用滑环？",
-                        "layoutStyle": {
-                          "width": 180,
-                          "height": 22,
-                          "relativeX": 21.126708984375,
-                          "relativeY": 19
-                        },
-                        "fill": "paint_145:04593",
-                        "_color": "#FFFFFF",
-                        "_token": "G-白BG",
-                        "text": [
-                          {
-                            "text": "如何选择合适的滑环？\r",
-                            "font": "font_86:5000"
-                          }
-                        ],
-                        "textColor": [
-                          {
-                            "start": 0,
-                            "end": 11,
-                            "color": "paint_86:5186"
-                          }
-                        ],
-                        "textAlign": "left",
-                        "textMode": "single-line"
-                      }
-                    ],
-                    "componentId": "145:04774"
-                  },
-                  {
-                    "type": "INSTANCE",
-                    "id": "177:9620",
-                    "name": "组 5931",
-                    "layoutStyle": {
-                      "width": 625,
-                      "height": 64,
+                      "width": 388.4444580078125,
+                      "height": 354.6666564941406,
                       "relativeX": 0,
                       "relativeY": 0
                     },
-                    "componentInfo": {},
-                    "children": [
-                      {
-                        "type": "LAYER",
-                        "id": "177:9620/145:04775",
-                        "name": "矩形 2875",
-                        "layoutStyle": {
-                          "width": 625,
-                          "height": 64,
-                          "relativeX": 0,
-                          "relativeY": 0
-                        },
-                        "borderRadius": "8px",
-                        "fill": "paint_86:5196",
-                        "_color": "#EEEEEE",
-                        "_token": "Q-背景浅"
-                      },
-                      {
-                        "type": "GROUP",
-                        "id": "177:9620/145:04852",
-                        "name": "组 4950",
-                        "layoutStyle": {
-                          "width": 24,
-                          "height": 24,
-                          "relativeX": 590.6690063476562,
-                          "relativeY": 24
-                        },
-                        "children": [
-                          {
-                            "type": "LAYER",
-                            "id": "177:9620/145:04854",
-                            "name": "矩形",
-                            "layoutStyle": {
-                              "width": 14,
-                              "height": 1.5007908344268799,
-                              "relativeX": 0,
-                              "relativeY": 6.249755859375
-                            },
-                            "fill": "paint_3:5957",
-                            "_color": "#1F1F1F",
-                            "_token": "MD-vi黑"
-                          },
-                          {
-                            "type": "LAYER",
-                            "id": "177:9620/145:04853",
-                            "name": "矩形",
-                            "layoutStyle": {
-                              "width": 14,
-                              "height": 1.5007908344268799,
-                              "relativeX": 0,
-                              "relativeY": 6.25,
-                              "rotate": 90
-                            },
-                            "fill": "paint_3:5957",
-                            "_color": "#1F1F1F",
-                            "_token": "MD-vi黑"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "TEXT",
-                        "id": "177:9620/145:04776",
-                        "name": "为什么要使用滑环？",
-                        "layoutStyle": {
-                          "width": 162,
-                          "height": 22,
-                          "relativeX": 21.126708984375,
-                          "relativeY": 19
-                        },
-                        "fill": "paint_86:5186",
-                        "_color": "#121212",
-                        "_token": "Q-标题黑",
-                        "text": [
-                          {
-                            "text": "为什么要使用滑环？",
-                            "font": "font_86:5000"
-                          }
-                        ],
-                        "textColor": [
-                          {
-                            "start": 0,
-                            "end": 9,
-                            "color": "paint_86:5186"
-                          }
-                        ],
-                        "textAlign": "left",
-                        "textMode": "single-line",
-                        "_placeholder": true
-                      }
-                    ],
-                    "componentId": "145:04774"
+                    "fill": "paint_3:5656",
+                    "_color": "#FFFFFF"
                   },
                   {
-                    "type": "INSTANCE",
-                    "id": "177:9624",
-                    "name": "组 5929",
+                    "type": "TEXT",
+                    "id": "185:9092/107:9051",
+                    "name": "赋能无限旋转，连接智能未来",
                     "layoutStyle": {
-                      "width": 625,
-                      "height": 64,
-                      "relativeX": 0,
-                      "relativeY": 154
+                      "width": 320,
+                      "height": 24,
+                      "relativeX": 25.77783203125,
+                      "relativeY": 222.22222900390625
                     },
-                    "componentInfo": {},
-                    "children": [
+                    "fill": "paint_86:5186",
+                    "_color": "#121212",
+                    "_token": "Q-标题黑",
+                    "text": [
                       {
-                        "type": "LAYER",
-                        "id": "177:9624/145:04775",
-                        "name": "矩形 2875",
-                        "layoutStyle": {
-                          "width": 625,
-                          "height": 64,
-                          "relativeX": 0,
-                          "relativeY": 0
-                        },
-                        "borderRadius": "8px",
-                        "fill": "paint_86:5196",
-                        "_color": "#EEEEEE",
-                        "_token": "Q-背景浅"
-                      },
-                      {
-                        "type": "GROUP",
-                        "id": "177:9624/145:04852",
-                        "name": "组 4950",
-                        "layoutStyle": {
-                          "width": 24,
-                          "height": 24,
-                          "relativeX": 590.6690063476562,
-                          "relativeY": 24
-                        },
-                        "children": [
-                          {
-                            "type": "LAYER",
-                            "id": "177:9624/145:04854",
-                            "name": "矩形",
-                            "layoutStyle": {
-                              "width": 14,
-                              "height": 1.5007908344268799,
-                              "relativeX": 0,
-                              "relativeY": 6.249755859375
-                            },
-                            "fill": "paint_3:5957",
-                            "_color": "#1F1F1F",
-                            "_token": "MD-vi黑"
-                          },
-                          {
-                            "type": "LAYER",
-                            "id": "177:9624/145:04853",
-                            "name": "矩形",
-                            "layoutStyle": {
-                              "width": 14,
-                              "height": 1.5007908344268799,
-                              "relativeX": 0,
-                              "relativeY": 6.25,
-                              "rotate": 90
-                            },
-                            "fill": "paint_3:5957",
-                            "_color": "#1F1F1F",
-                            "_token": "MD-vi黑"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "TEXT",
-                        "id": "177:9624/145:04776",
-                        "name": "为什么要使用滑环？",
-                        "layoutStyle": {
-                          "width": 252,
-                          "height": 22,
-                          "relativeX": 21.126708984375,
-                          "relativeY": 19
-                        },
-                        "fill": "paint_86:5186",
-                        "_color": "#121212",
-                        "_token": "Q-标题黑",
-                        "text": [
-                          {
-                            "text": "能否根据需求提供定制化设计？\r",
-                            "font": "font_86:5000"
-                          }
-                        ],
-                        "textColor": [
-                          {
-                            "start": 0,
-                            "end": 15,
-                            "color": "paint_86:5186"
-                          }
-                        ],
-                        "textAlign": "left",
-                        "textMode": "single-line"
+                        "text": "为全球高端装备提供卓越的旋转传输解决方案",
+                        "font": "font_86:5004"
                       }
                     ],
-                    "componentId": "145:04774"
+                    "textColor": [
+                      {
+                        "start": 0,
+                        "end": 20,
+                        "color": "paint_86:5186"
+                      }
+                    ],
+                    "textAlign": "left",
+                    "textMode": "single-line"
                   },
                   {
-                    "type": "INSTANCE",
-                    "id": "177:9628",
-                    "name": "组 5930",
+                    "type": "TEXT",
+                    "id": "185:9092/107:8802",
+                    "name": "输入文本",
                     "layoutStyle": {
-                      "width": 625,
-                      "height": 64,
-                      "relativeX": 0,
-                      "relativeY": 231
+                      "width": 64,
+                      "height": 39,
+                      "relativeX": 26.66650390625,
+                      "relativeY": 173.33331298828125
                     },
-                    "componentInfo": {},
-                    "children": [
+                    "fill": "paint_86:5186",
+                    "_color": "#121212",
+                    "_token": "Q-标题黑",
+                    "text": [
                       {
-                        "type": "LAYER",
-                        "id": "177:9628/145:04775",
-                        "name": "矩形 2875",
-                        "layoutStyle": {
-                          "width": 625,
-                          "height": 64,
-                          "relativeX": 0,
-                          "relativeY": 0
-                        },
-                        "borderRadius": "8px",
-                        "fill": "paint_86:5196",
-                        "_color": "#EEEEEE",
-                        "_token": "Q-背景浅"
-                      },
-                      {
-                        "type": "GROUP",
-                        "id": "177:9628/145:04852",
-                        "name": "组 4950",
-                        "layoutStyle": {
-                          "width": 24,
-                          "height": 24,
-                          "relativeX": 590.6690063476562,
-                          "relativeY": 24
-                        },
-                        "children": [
-                          {
-                            "type": "LAYER",
-                            "id": "177:9628/145:04854",
-                            "name": "矩形",
-                            "layoutStyle": {
-                              "width": 14,
-                              "height": 1.5007908344268799,
-                              "relativeX": 0,
-                              "relativeY": 6.249755859375
-                            },
-                            "fill": "paint_3:5957",
-                            "_color": "#1F1F1F",
-                            "_token": "MD-vi黑"
-                          },
-                          {
-                            "type": "LAYER",
-                            "id": "177:9628/145:04853",
-                            "name": "矩形",
-                            "layoutStyle": {
-                              "width": 14,
-                              "height": 1.5007908344268799,
-                              "relativeX": 0,
-                              "relativeY": 6.25,
-                              "rotate": 90
-                            },
-                            "fill": "paint_3:5957",
-                            "_color": "#1F1F1F",
-                            "_token": "MD-vi黑"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "TEXT",
-                        "id": "177:9628/145:04776",
-                        "name": "为什么要使用滑环？",
-                        "layoutStyle": {
-                          "width": 198,
-                          "height": 22,
-                          "relativeX": 21.126708984375,
-                          "relativeY": 19
-                        },
-                        "fill": "paint_86:5186",
-                        "_color": "#121212",
-                        "_token": "Q-标题黑",
-                        "text": [
-                          {
-                            "text": "滑环可以传递哪些信号？\r",
-                            "font": "font_86:5000"
-                          }
-                        ],
-                        "textColor": [
-                          {
-                            "start": 0,
-                            "end": 12,
-                            "color": "paint_86:5186"
-                          }
-                        ],
-                        "textAlign": "left",
-                        "textMode": "single-line"
+                        "text": "使命",
+                        "font": "font_86:4961"
                       }
                     ],
-                    "componentId": "145:04774"
+                    "textColor": [
+                      {
+                        "start": 0,
+                        "end": 2,
+                        "color": "paint_86:5186"
+                      }
+                    ],
+                    "textAlign": "left",
+                    "textMode": "single-line"
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "185:9092/107:8933",
+                    "name": "愿景",
+                    "layoutStyle": {
+                      "width": 338,
+                      "height": 80,
+                      "relativeX": 26.66650390625,
+                      "relativeY": 274.6666259765625
+                    },
+                    "opacity": 0.10000000149011612,
+                    "fill": "paint_107:9035",
+                    "_color": "linear-gradient(180deg, #3D3D3D 0%, rgba(61, 61, 61, 0) 100%)",
+                    "text": [
+                      {
+                        "text": "MISSION",
+                        "font": "font_142:00326"
+                      }
+                    ],
+                    "textColor": [
+                      {
+                        "start": 0,
+                        "end": 7,
+                        "color": "paint_107:9035"
+                      }
+                    ],
+                    "textAlign": "left",
+                    "textMode": "single-line"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "185:9092/107:8886",
+                    "name": "矩形 2808",
+                    "layoutStyle": {
+                      "width": 337.77777099609375,
+                      "height": 0.8888888359069824,
+                      "relativeX": 25.77783203125,
+                      "relativeY": 128.888916015625
+                    },
+                    "fill": "paint_86:5204",
+                    "_color": "rgba(0, 0, 0, 0.1)",
+                    "_token": "Q-边框灰"
                   }
-                ]
+                ],
+                "componentId": "107:9062"
               },
               {
-                "type": "GROUP",
-                "id": "177:9632",
-                "name": "组 5948",
+                "type": "FRAME",
+                "id": "185:9103",
+                "name": "容器",
                 "layoutStyle": {
-                  "width": 625,
-                  "height": 295,
-                  "relativeX": 655,
-                  "relativeY": 0
+                  "width": 56.88888931274414,
+                  "height": 56.888893127441406,
+                  "relativeX": 24.88888931274414,
+                  "relativeY": 29.333332061767578
                 },
                 "children": [
                   {
-                    "type": "INSTANCE",
-                    "id": "177:9633",
-                    "name": "组 5931",
+                    "type": "PATH",
+                    "id": "185:9104",
+                    "name": "路径",
                     "layoutStyle": {
-                      "width": 625,
-                      "height": 64,
+                      "width": 50.11627197265625,
+                      "height": 50.70165252685547,
+                      "relativeX": 3.38427734375,
+                      "relativeY": 3.09375
+                    },
+                    "path": [
+                      {
+                        "fill": "#004EA2",
+                        "data": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "GROUP",
+            "id": "185:9105",
+            "name": "组 5497",
+            "layoutStyle": {
+              "width": 388.4444580078125,
+              "height": 354.6666564941406,
+              "relativeX": 891.5555419921875,
+              "relativeY": 0
+            },
+            "children": [
+              {
+                "type": "INSTANCE",
+                "id": "185:9106",
+                "name": "组件 1",
+                "layoutStyle": {
+                  "width": 388.4444580078125,
+                  "height": 354.6666564941406,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "borderRadius": "16px",
+                "componentInfo": {},
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "185:9106/107:8797",
+                    "name": "矩形 2812",
+                    "layoutStyle": {
+                      "width": 388.4444580078125,
+                      "height": 354.6666564941406,
                       "relativeX": 0,
                       "relativeY": 0
                     },
-                    "componentInfo": {},
-                    "children": [
-                      {
-                        "type": "LAYER",
-                        "id": "177:9633/145:04775",
-                        "name": "矩形 2875",
-                        "layoutStyle": {
-                          "width": 625,
-                          "height": 64,
-                          "relativeX": 0,
-                          "relativeY": 0
-                        },
-                        "borderRadius": "8px",
-                        "fill": "paint_86:5196",
-                        "_color": "#EEEEEE",
-                        "_token": "Q-背景浅"
-                      },
-                      {
-                        "type": "GROUP",
-                        "id": "177:9633/145:04852",
-                        "name": "组 4950",
-                        "layoutStyle": {
-                          "width": 24,
-                          "height": 24,
-                          "relativeX": 590.6690063476562,
-                          "relativeY": 24
-                        },
-                        "children": [
-                          {
-                            "type": "LAYER",
-                            "id": "177:9633/145:04854",
-                            "name": "矩形",
-                            "layoutStyle": {
-                              "width": 14,
-                              "height": 1.5007908344268799,
-                              "relativeX": 0,
-                              "relativeY": 6.249755859375
-                            },
-                            "fill": "paint_3:5957",
-                            "_color": "#1F1F1F",
-                            "_token": "MD-vi黑"
-                          },
-                          {
-                            "type": "LAYER",
-                            "id": "177:9633/145:04853",
-                            "name": "矩形",
-                            "layoutStyle": {
-                              "width": 14,
-                              "height": 1.5007908344268799,
-                              "relativeX": 0,
-                              "relativeY": 6.25,
-                              "rotate": 90
-                            },
-                            "fill": "paint_3:5957",
-                            "_color": "#1F1F1F",
-                            "_token": "MD-vi黑"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "TEXT",
-                        "id": "177:9633/145:04776",
-                        "name": "为什么要使用滑环？",
-                        "layoutStyle": {
-                          "width": 360,
-                          "height": 22,
-                          "relativeX": 21.126708984375,
-                          "relativeY": 19
-                        },
-                        "fill": "paint_86:5186",
-                        "_color": "#121212",
-                        "_token": "Q-标题黑",
-                        "text": [
-                          {
-                            "text": "滑环使用寿命有多长？可以连续旋转多少圈？\r",
-                            "font": "font_86:5000"
-                          }
-                        ],
-                        "textColor": [
-                          {
-                            "start": 0,
-                            "end": 21,
-                            "color": "paint_86:5186"
-                          }
-                        ],
-                        "textAlign": "left",
-                        "textMode": "single-line"
-                      }
-                    ],
-                    "componentId": "145:04774"
+                    "fill": "paint_3:5656",
+                    "_color": "#FFFFFF"
                   },
                   {
-                    "type": "INSTANCE",
-                    "id": "177:9637",
-                    "name": "组 5932",
+                    "type": "TEXT",
+                    "id": "185:9106/107:9051",
+                    "name": "赋能无限旋转，连接智能未来",
                     "layoutStyle": {
-                      "width": 625,
-                      "height": 64,
-                      "relativeX": 0,
-                      "relativeY": 77
+                      "width": 176,
+                      "height": 24,
+                      "relativeX": 25.77783203125,
+                      "relativeY": 222.22222900390625
                     },
-                    "componentInfo": {},
-                    "children": [
+                    "fill": "paint_86:5186",
+                    "_color": "#121212",
+                    "_token": "Q-标题黑",
+                    "text": [
                       {
-                        "type": "LAYER",
-                        "id": "177:9637/145:04775",
-                        "name": "矩形 2875",
-                        "layoutStyle": {
-                          "width": 625,
-                          "height": 64,
-                          "relativeX": 0,
-                          "relativeY": 0
-                        },
-                        "borderRadius": "8px",
-                        "fill": "paint_86:5196",
-                        "_color": "#EEEEEE",
-                        "_token": "Q-背景浅"
-                      },
-                      {
-                        "type": "GROUP",
-                        "id": "177:9637/145:04852",
-                        "name": "组 4950",
-                        "layoutStyle": {
-                          "width": 24,
-                          "height": 24,
-                          "relativeX": 590.6690063476562,
-                          "relativeY": 24
-                        },
-                        "children": [
-                          {
-                            "type": "LAYER",
-                            "id": "177:9637/145:04854",
-                            "name": "矩形",
-                            "layoutStyle": {
-                              "width": 14,
-                              "height": 1.5007908344268799,
-                              "relativeX": 0,
-                              "relativeY": 6.249755859375
-                            },
-                            "fill": "paint_3:5957",
-                            "_color": "#1F1F1F",
-                            "_token": "MD-vi黑"
-                          },
-                          {
-                            "type": "LAYER",
-                            "id": "177:9637/145:04853",
-                            "name": "矩形",
-                            "layoutStyle": {
-                              "width": 14,
-                              "height": 1.5007908344268799,
-                              "relativeX": 0,
-                              "relativeY": 6.25,
-                              "rotate": 90
-                            },
-                            "fill": "paint_3:5957",
-                            "_color": "#1F1F1F",
-                            "_token": "MD-vi黑"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "TEXT",
-                        "id": "177:9637/145:04776",
-                        "name": "为什么要使用滑环？",
-                        "layoutStyle": {
-                          "width": 234,
-                          "height": 22,
-                          "relativeX": 21.126708984375,
-                          "relativeY": 19
-                        },
-                        "fill": "paint_86:5186",
-                        "_color": "#121212",
-                        "_token": "Q-标题黑",
-                        "text": [
-                          {
-                            "text": "滑环支持的最高转速是多少？\r",
-                            "font": "font_86:5000"
-                          }
-                        ],
-                        "textColor": [
-                          {
-                            "start": 0,
-                            "end": 14,
-                            "color": "paint_86:5186"
-                          }
-                        ],
-                        "textAlign": "left",
-                        "textMode": "single-line"
+                        "text": "诚信、协作、务实、创新",
+                        "font": "font_86:5004"
                       }
                     ],
-                    "componentId": "145:04774"
+                    "textColor": [
+                      {
+                        "start": 0,
+                        "end": 11,
+                        "color": "paint_86:5186"
+                      }
+                    ],
+                    "textAlign": "left",
+                    "textMode": "single-line"
                   },
                   {
-                    "type": "INSTANCE",
-                    "id": "177:9641",
-                    "name": "组 5933",
+                    "type": "TEXT",
+                    "id": "185:9106/107:8802",
+                    "name": "输入文本",
                     "layoutStyle": {
-                      "width": 625,
-                      "height": 64,
-                      "relativeX": 0,
-                      "relativeY": 154
+                      "width": 96,
+                      "height": 39,
+                      "relativeX": 26.66650390625,
+                      "relativeY": 173.33331298828125
                     },
-                    "componentInfo": {},
-                    "children": [
+                    "fill": "paint_86:5186",
+                    "_color": "#121212",
+                    "_token": "Q-标题黑",
+                    "text": [
                       {
-                        "type": "LAYER",
-                        "id": "177:9641/145:04775",
-                        "name": "矩形 2875",
-                        "layoutStyle": {
-                          "width": 625,
-                          "height": 64,
-                          "relativeX": 0,
-                          "relativeY": 0
-                        },
-                        "borderRadius": "8px",
-                        "fill": "paint_86:5196",
-                        "_color": "#EEEEEE",
-                        "_token": "Q-背景浅"
-                      },
-                      {
-                        "type": "GROUP",
-                        "id": "177:9641/145:04852",
-                        "name": "组 4950",
-                        "layoutStyle": {
-                          "width": 24,
-                          "height": 24,
-                          "relativeX": 590.6690063476562,
-                          "relativeY": 24
-                        },
-                        "children": [
-                          {
-                            "type": "LAYER",
-                            "id": "177:9641/145:04854",
-                            "name": "矩形",
-                            "layoutStyle": {
-                              "width": 14,
-                              "height": 1.5007908344268799,
-                              "relativeX": 0,
-                              "relativeY": 6.249755859375
-                            },
-                            "fill": "paint_3:5957",
-                            "_color": "#1F1F1F",
-                            "_token": "MD-vi黑"
-                          },
-                          {
-                            "type": "LAYER",
-                            "id": "177:9641/145:04853",
-                            "name": "矩形",
-                            "layoutStyle": {
-                              "width": 14,
-                              "height": 1.5007908344268799,
-                              "relativeX": 0,
-                              "relativeY": 6.25,
-                              "rotate": 90
-                            },
-                            "fill": "paint_3:5957",
-                            "_color": "#1F1F1F",
-                            "_token": "MD-vi黑"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "TEXT",
-                        "id": "177:9641/145:04776",
-                        "name": "为什么要使用滑环？",
-                        "layoutStyle": {
-                          "width": 252,
-                          "height": 22,
-                          "relativeX": 21.126708984375,
-                          "relativeY": 19
-                        },
-                        "fill": "paint_86:5186",
-                        "_color": "#121212",
-                        "_token": "Q-标题黑",
-                        "text": [
-                          {
-                            "text": "滑环的防护等级（IP）是多少？\r",
-                            "font": "font_86:5000"
-                          }
-                        ],
-                        "textColor": [
-                          {
-                            "start": 0,
-                            "end": 16,
-                            "color": "paint_86:5186"
-                          }
-                        ],
-                        "textAlign": "left",
-                        "textMode": "single-line"
+                        "text": "价值观",
+                        "font": "font_86:4961"
                       }
                     ],
-                    "componentId": "145:04774"
+                    "textColor": [
+                      {
+                        "start": 0,
+                        "end": 3,
+                        "color": "paint_86:5186"
+                      }
+                    ],
+                    "textAlign": "left",
+                    "textMode": "single-line"
                   },
                   {
-                    "type": "INSTANCE",
-                    "id": "177:9645",
-                    "name": "组 5934",
+                    "type": "TEXT",
+                    "id": "185:9106/107:8933",
+                    "name": "愿景",
                     "layoutStyle": {
-                      "width": 625,
-                      "height": 64,
-                      "relativeX": 0,
-                      "relativeY": 231
+                      "width": 253,
+                      "height": 80,
+                      "relativeX": 26.66650390625,
+                      "relativeY": 274.6666259765625
                     },
-                    "componentInfo": {},
-                    "children": [
+                    "opacity": 0.10000000149011612,
+                    "fill": "paint_107:9035",
+                    "_color": "linear-gradient(180deg, #3D3D3D 0%, rgba(61, 61, 61, 0) 100%)",
+                    "text": [
                       {
-                        "type": "LAYER",
-                        "id": "177:9645/145:04775",
-                        "name": "矩形 2875",
-                        "layoutStyle": {
-                          "width": 625,
-                          "height": 64,
-                          "relativeX": 0,
-                          "relativeY": 0
-                        },
-                        "borderRadius": "8px",
-                        "fill": "paint_86:5196",
-                        "_color": "#EEEEEE",
-                        "_token": "Q-背景浅"
-                      },
-                      {
-                        "type": "GROUP",
-                        "id": "177:9645/145:04852",
-                        "name": "组 4950",
-                        "layoutStyle": {
-                          "width": 24,
-                          "height": 24,
-                          "relativeX": 590.6690063476562,
-                          "relativeY": 24
-                        },
-                        "children": [
-                          {
-                            "type": "LAYER",
-                            "id": "177:9645/145:04854",
-                            "name": "矩形",
-                            "layoutStyle": {
-                              "width": 14,
-                              "height": 1.5007908344268799,
-                              "relativeX": 0,
-                              "relativeY": 6.249755859375
-                            },
-                            "fill": "paint_3:5957",
-                            "_color": "#1F1F1F",
-                            "_token": "MD-vi黑"
-                          },
-                          {
-                            "type": "LAYER",
-                            "id": "177:9645/145:04853",
-                            "name": "矩形",
-                            "layoutStyle": {
-                              "width": 14,
-                              "height": 1.5007908344268799,
-                              "relativeX": 0,
-                              "relativeY": 6.25,
-                              "rotate": 90
-                            },
-                            "fill": "paint_3:5957",
-                            "_color": "#1F1F1F",
-                            "_token": "MD-vi黑"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "TEXT",
-                        "id": "177:9645/145:04776",
-                        "name": "为什么要使用滑环？",
-                        "layoutStyle": {
-                          "width": 198,
-                          "height": 22,
-                          "relativeX": 21.126708984375,
-                          "relativeY": 19
-                        },
-                        "fill": "paint_86:5186",
-                        "_color": "#121212",
-                        "_token": "Q-标题黑",
-                        "text": [
-                          {
-                            "text": "滑环的安装方式有几种？\r",
-                            "font": "font_86:5000"
-                          }
-                        ],
-                        "textColor": [
-                          {
-                            "start": 0,
-                            "end": 12,
-                            "color": "paint_86:5186"
-                          }
-                        ],
-                        "textAlign": "left",
-                        "textMode": "single-line"
+                        "text": "VALUE",
+                        "font": "font_142:00326"
                       }
                     ],
-                    "componentId": "145:04774"
+                    "textColor": [
+                      {
+                        "start": 0,
+                        "end": 5,
+                        "color": "paint_107:9035"
+                      }
+                    ],
+                    "textAlign": "left",
+                    "textMode": "single-line"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "185:9106/107:8886",
+                    "name": "矩形 2808",
+                    "layoutStyle": {
+                      "width": 337.77777099609375,
+                      "height": 0.8888888359069824,
+                      "relativeX": 25.77783203125,
+                      "relativeY": 128.888916015625
+                    },
+                    "fill": "paint_86:5204",
+                    "_color": "rgba(0, 0, 0, 0.1)",
+                    "_token": "Q-边框灰"
+                  }
+                ],
+                "componentId": "107:9062"
+              },
+              {
+                "type": "FRAME",
+                "id": "185:9117",
+                "name": "容器",
+                "layoutStyle": {
+                  "width": 56.88888931274414,
+                  "height": 50.13271713256836,
+                  "relativeX": 25.77777862548828,
+                  "relativeY": 32.888885498046875
+                },
+                "children": [
+                  {
+                    "type": "PATH",
+                    "id": "185:9118",
+                    "name": "路径",
+                    "layoutStyle": {
+                      "width": 56.89277648925781,
+                      "height": 50.13271713256836,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "path": [
+                      {
+                        "fill": "#004EA2",
+                        "data": ""
+                      }
+                    ]
                   }
                 ]
               }
@@ -1058,64 +626,59 @@
     "components": [],
     "rowTexts": [
       {
-        "text": "什么是滑环？",
-        "_placeholder": true,
-        "parentType": "GROUP"
-      },
-      {
-        "text": "滑环，就是负责为旋转体连通、输送能源与信号的电气部件。根据传输介质来区分，滑环分为电滑环、流体滑环、光滑环。滑环通常安装在设备的旋转中心，主要由旋转与静止两大部分组成。旋转部分连接设备的旋转结构并随之旋转运动，称为“转子”，静止部分连接设备的固定结构的能源，称为“定子”。",
-        "_placeholder": true,
-        "parentType": "GROUP"
-      },
-      {
-        "text": "如何选择合适的滑环？\r",
-        "parentType": "INSTANCE",
-        "parentName": "组 5928"
-      },
-      {
-        "text": "为什么要使用滑环？",
+        "text": "赋能无限旋转，连接智能未来",
         "_placeholder": true,
         "parentType": "INSTANCE",
-        "parentName": "组 5931"
+        "parentName": "组件 1"
       },
       {
-        "text": "能否根据需求提供定制化设计？\r",
+        "text": "愿景",
         "parentType": "INSTANCE",
-        "parentName": "组 5929"
+        "parentName": "组件 1"
       },
       {
-        "text": "滑环可以传递哪些信号？\r",
+        "text": "vision",
         "parentType": "INSTANCE",
-        "parentName": "组 5930"
+        "parentName": "组件 1"
       },
       {
-        "text": "滑环使用寿命有多长？可以连续旋转多少圈？\r",
+        "text": "为全球高端装备提供卓越的旋转传输解决方案",
         "parentType": "INSTANCE",
-        "parentName": "组 5931"
+        "parentName": "组件 1"
       },
       {
-        "text": "滑环支持的最高转速是多少？\r",
+        "text": "使命",
         "parentType": "INSTANCE",
-        "parentName": "组 5932"
+        "parentName": "组件 1"
       },
       {
-        "text": "滑环的防护等级（IP）是多少？\r",
+        "text": "MISSION",
         "parentType": "INSTANCE",
-        "parentName": "组 5933"
+        "parentName": "组件 1"
       },
       {
-        "text": "滑环的安装方式有几种？\r",
+        "text": "诚信、协作、务实、创新",
         "parentType": "INSTANCE",
-        "parentName": "组 5934"
+        "parentName": "组件 1"
+      },
+      {
+        "text": "价值观",
+        "parentType": "INSTANCE",
+        "parentName": "组件 1"
+      },
+      {
+        "text": "VALUE",
+        "parentType": "INSTANCE",
+        "parentName": "组件 1"
       }
     ],
     "placeholderTexts": [
-      "什么是滑环？",
-      "T13|177:9612",
-      "为什么要使用滑环？"
+      "赋能无限旋转，连接智能未来"
     ]
   },
-  "nodeCount": 57,
+  "nodeCount": 28,
+  "svgNodeCount": 3,
+  "hasStrippedSvgs": true,
   "componentDocumentLinks": [],
-  "fetchProgress": "Fetched 14/29. MISSING 15 sections: [14,15,16,17,18,19,20,21,22,23,24,25,26,27,28]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+  "fetchProgress": "Fetched 14/31. MISSING 17 sections: [14,15,16,17,18,19,20,21,22,23... +7 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
 }

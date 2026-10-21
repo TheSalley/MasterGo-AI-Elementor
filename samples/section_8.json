@@ -1,13 +1,13 @@
 {
   "sectionIndex": 8,
   "section": {
-    "id": "177:9515",
-    "name": "圆形 12",
-    "type": "SVG_ELLIPSE"
+    "id": "185:9016",
+    "name": "bg",
+    "type": "GROUP"
   },
   "rootContainer": {
     "width": "1920px",
-    "minHeight": "8232px",
+    "minHeight": "8687px",
     "background": "#FFFFFF",
     "overflow": "hidden",
     "position": "relative"
@@ -15,35 +15,208 @@
   "structureSiblingCount": 1,
   "dsl": {
     "styles": {
-      "paint_3:5656": {
+      "font_107:6740": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 180,
+          "style": "{\"fontStyle\":\"Bold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "700"
+        }
+      },
+      "font_86:4961": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 32,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "600"
+        },
+        "token": "Q-H3"
+      },
+      "paint_102:5127": {
         "value": [
           "#FFFFFF"
+        ],
+        "token": "纯白"
+      },
+      "paint_107:6428": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/2f069147bda6e260848c5160a7b78492.png"
+          }
         ]
+      },
+      "paint_107:6701": {
+        "value": [
+          "linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 75%)"
+        ]
+      },
+      "paint_125:6580": {
+        "value": [
+          "linear-gradient(180deg, rgba(2, 19, 45, 0) 0%, #0B203C 100%)"
+        ]
+      },
+      "paint_86:5194": {
+        "value": [
+          "#02132D"
+        ],
+        "token": "Q-背景深"
       }
     },
     "nodes": [
       {
-        "type": "SVG_ELLIPSE",
-        "id": "177:9515",
-        "name": "圆形 12",
+        "type": "GROUP",
+        "id": "185:9016",
+        "name": "bg",
         "layoutStyle": {
-          "width": 2528,
-          "height": 105,
+          "width": 1920,
+          "height": 762,
           "relativeX": 0,
           "relativeY": 0
         },
-        "fill": "paint_3:5656",
-        "_color": "#FFFFFF",
-        "svgKey": "S8:177:9515|177:9515",
-        "svgShortKey": "S8#0",
-        "svgName": ""
+        "children": [
+          {
+            "type": "LAYER",
+            "id": "185:9017",
+            "name": "矩形 2807",
+            "layoutStyle": {
+              "width": 1920,
+              "height": 762,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "fill": "paint_86:5194",
+            "_color": "#02132D",
+            "_token": "Q-背景深"
+          },
+          {
+            "type": "LAYER",
+            "id": "185:9018",
+            "name": "矩形 2806",
+            "layoutStyle": {
+              "width": 1920,
+              "height": 762,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "opacity": 0.20000000298023224,
+            "fill": "paint_107:6428"
+          },
+          {
+            "type": "LAYER",
+            "id": "185:9019",
+            "name": "矩形 2812",
+            "layoutStyle": {
+              "width": 1920,
+              "height": 267.8043518066406,
+              "relativeX": 0,
+              "relativeY": 494.1956481933594
+            },
+            "fill": "paint_125:6580",
+            "_color": "linear-gradient(180deg, rgba(2, 19, 45, 0) 0%, #0B203C 100%)"
+          },
+          {
+            "type": "GROUP",
+            "id": "185:9020",
+            "name": "组 5557",
+            "layoutStyle": {
+              "width": 1280,
+              "height": 198.78260803222656,
+              "relativeX": 320,
+              "relativeY": 74.5434799194336
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "id": "185:9021",
+                "name": "2002~2026",
+                "layoutStyle": {
+                  "width": 956,
+                  "height": 198.78260803222656,
+                  "relativeX": 162,
+                  "relativeY": 0
+                },
+                "opacity": 0.699999988079071,
+                "fill": "paint_107:6701",
+                "_color": "linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 75%)",
+                "text": [
+                  {
+                    "text": "2002~2026",
+                    "font": "font_107:6740"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 9,
+                    "color": "paint_107:6701"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line",
+                "_placeholder": true
+              },
+              {
+                "type": "TEXT",
+                "id": "185:9025",
+                "name": "自2002年以来，我们聚焦创新技术与精密制造，致力于成为全球旋转传输领域的技术标杆",
+                "layoutStyle": {
+                  "width": 1280,
+                  "height": 35.89130401611328,
+                  "relativeX": 0,
+                  "relativeY": 148.1666717529297
+                },
+                "fill": "paint_102:5127",
+                "_color": "#FFFFFF",
+                "_token": "纯白",
+                "text": [
+                  {
+                    "text": "自2002年以来，我们聚焦创新技术与精密制造，致力于成为全球旋转传输领域的技术标杆",
+                    "font": "font_86:4961"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 41,
+                    "color": "paint_102:5127"
+                  }
+                ],
+                "textAlign": "center",
+                "textMode": "single-line",
+                "_placeholder": true
+              }
+            ]
+          }
+        ]
       }
     ],
-    "components": []
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "2002~2026",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "自2002年以来，我们聚焦创新技术与精密制造，致力于成为全球旋转传输领域的技术标杆",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      }
+    ],
+    "placeholderTexts": [
+      "2002~2026",
+      "自2002年以来，我们聚焦创新技术与精密制造，致力于成为全球旋转传输领域的技术标杆"
+    ]
   },
-  "nodeCount": 1,
-  "svgNodeCount": 1,
-  "hasStrippedSvgs": true,
+  "nodeCount": 7,
   "componentDocumentLinks": [],
-  "fetchProgress": "Fetched 9/29. MISSING 20 sections: [9,10,11,12,13,14,15,16,17,18... +10 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+  "fetchProgress": "Fetched 9/31. MISSING 22 sections: [9,10,11,12,13,14,15,16,17,18... +12 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
 }

@@ -3,3 +3,6 @@ node_modules/
 *.log
 .DS_Store
 *.tmp
+server/data/
+.next/
+*.tsbuildinfo

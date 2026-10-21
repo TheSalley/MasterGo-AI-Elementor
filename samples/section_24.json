@@ -1,13 +1,13 @@
 {
   "sectionIndex": 24,
   "section": {
-    "id": "177:9767/134:5921",
-    "name": "组 5564",
+    "id": "185:9258/107:02774",
+    "name": "组 5554",
     "type": "GROUP"
   },
   "rootContainer": {
     "width": "1920px",
-    "minHeight": "8232px",
+    "minHeight": "8687px",
     "background": "#FFFFFF",
     "overflow": "hidden",
     "position": "relative"
@@ -51,19 +51,19 @@
     "nodes": [
       {
         "type": "GROUP",
-        "id": "177:9767/134:5921",
-        "name": "组 5564",
+        "id": "185:9258/107:02774",
+        "name": "组 5554",
         "layoutStyle": {
           "width": 72,
-          "height": 133,
+          "height": 273,
           "relativeX": 0,
           "relativeY": 0
         },
         "children": [
           {
             "type": "TEXT",
-            "id": "177:9767/107:03083",
-            "name": "新闻中心",
+            "id": "185:9258/107:02775",
+            "name": "产品中心",
             "layoutStyle": {
               "width": 72,
               "height": 22,
@@ -75,7 +75,7 @@
             "_token": "Q-背景白",
             "text": [
               {
-                "text": "新闻中心",
+                "text": "行业应用",
                 "font": "font_86:5000"
               }
             ],
@@ -87,24 +87,23 @@
               }
             ],
             "textAlign": "left",
-            "textMode": "single-line",
-            "_placeholder": true
+            "textMode": "single-line"
           },
           {
             "type": "GROUP",
-            "id": "177:9767/107:03086",
+            "id": "185:9258/107:02778",
             "name": "组 5551",
             "layoutStyle": {
               "width": 56,
-              "height": 87,
+              "height": 227,
               "relativeX": 0,
               "relativeY": 46
             },
             "children": [
               {
                 "type": "TEXT",
-                "id": "177:9767/107:03087",
-                "name": "行业资讯",
+                "id": "185:9258/107:02779",
+                "name": "产品类目",
                 "layoutStyle": {
                   "width": 56,
                   "height": 17,
@@ -117,7 +116,7 @@
                 "_token": "Q-背景白",
                 "text": [
                   {
-                    "text": "行业资讯",
+                    "text": "行业类目",
                     "font": "font_86:5012"
                   }
                 ],
@@ -129,13 +128,12 @@
                   }
                 ],
                 "textAlign": "left",
-                "textMode": "single-line",
-                "_placeholder": true
+                "textMode": "single-line"
               },
               {
                 "type": "TEXT",
-                "id": "177:9767/107:03090",
-                "name": "公司资讯",
+                "id": "185:9258/107:02782",
+                "name": "产品类目",
                 "layoutStyle": {
                   "width": 56,
                   "height": 17,
@@ -148,7 +146,7 @@
                 "_token": "Q-背景白",
                 "text": [
                   {
-                    "text": "公司资讯",
+                    "text": "行业类目",
                     "font": "font_86:5012"
                   }
                 ],
@@ -160,13 +158,12 @@
                   }
                 ],
                 "textAlign": "left",
-                "textMode": "single-line",
-                "_placeholder": true
+                "textMode": "single-line"
               },
               {
                 "type": "TEXT",
-                "id": "177:9767/107:03093",
-                "name": "展会新闻",
+                "id": "185:9258/107:02785",
+                "name": "产品类目",
                 "layoutStyle": {
                   "width": 56,
                   "height": 17,
@@ -179,7 +176,7 @@
                 "_token": "Q-背景白",
                 "text": [
                   {
-                    "text": "展会新闻",
+                    "text": "行业类目",
                     "font": "font_86:5012"
                   }
                 ],
@@ -191,8 +188,97 @@
                   }
                 ],
                 "textAlign": "left",
-                "textMode": "single-line",
-                "_placeholder": true
+                "textMode": "single-line"
+              },
+              {
+                "type": "TEXT",
+                "id": "185:9258/107:02788",
+                "name": "产品类目",
+                "layoutStyle": {
+                  "width": 56,
+                  "height": 17,
+                  "relativeX": 0,
+                  "relativeY": 105
+                },
+                "opacity": 0.800000011920929,
+                "fill": "paint_86:5202",
+                "_color": "#FFFFFF",
+                "_token": "Q-背景白",
+                "text": [
+                  {
+                    "text": "行业类目",
+                    "font": "font_86:5012"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "color": "paint_86:5202"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              {
+                "type": "TEXT",
+                "id": "185:9258/107:02791",
+                "name": "产品类目",
+                "layoutStyle": {
+                  "width": 56,
+                  "height": 17,
+                  "relativeX": 0,
+                  "relativeY": 140
+                },
+                "opacity": 0.800000011920929,
+                "fill": "paint_86:5202",
+                "_color": "#FFFFFF",
+                "_token": "Q-背景白",
+                "text": [
+                  {
+                    "text": "行业类目",
+                    "font": "font_86:5012"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "color": "paint_86:5202"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              {
+                "type": "TEXT",
+                "id": "185:9258/107:02794",
+                "name": "产品类目",
+                "layoutStyle": {
+                  "width": 56,
+                  "height": 17,
+                  "relativeX": 0,
+                  "relativeY": 175
+                },
+                "opacity": 0.800000011920929,
+                "fill": "paint_86:5202",
+                "_color": "#FFFFFF",
+                "_token": "Q-背景白",
+                "text": [
+                  {
+                    "text": "行业类目",
+                    "font": "font_86:5012"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "color": "paint_86:5202"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line"
               }
             ]
           }
@@ -202,34 +288,36 @@
     "components": [],
     "rowTexts": [
       {
-        "text": "新闻中心",
-        "_placeholder": true,
+        "text": "行业应用",
         "parentType": "GROUP"
       },
       {
-        "text": "行业资讯",
-        "_placeholder": true,
+        "text": "行业类目",
         "parentType": "GROUP"
       },
       {
-        "text": "公司资讯",
-        "_placeholder": true,
+        "text": "行业类目",
         "parentType": "GROUP"
       },
       {
-        "text": "展会新闻",
-        "_placeholder": true,
+        "text": "行业类目",
+        "parentType": "GROUP"
+      },
+      {
+        "text": "行业类目",
+        "parentType": "GROUP"
+      },
+      {
+        "text": "行业类目",
+        "parentType": "GROUP"
+      },
+      {
+        "text": "行业类目",
         "parentType": "GROUP"
       }
-    ],
-    "placeholderTexts": [
-      "新闻中心",
-      "行业资讯",
-      "公司资讯",
-      "展会新闻"
     ]
   },
-  "nodeCount": 6,
+  "nodeCount": 9,
   "componentDocumentLinks": [],
-  "fetchProgress": "Fetched 25/29. MISSING 4 sections: [25,26,27,28]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+  "fetchProgress": "Fetched 25/31. MISSING 6 sections: [25,26,27,28,29,30]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
 }

@@ -1,343 +1,367 @@
 {
   "sections": [
     {
-      "id": "177:9360",
-      "name": "bg",
-      "type": "GROUP",
-      "nodeCount": 3,
-      "x": 0,
-      "y": 5667,
-      "width": 1920,
-      "height": 1211,
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "177:9363",
-      "name": "组 5608",
-      "type": "GROUP",
-      "nodeCount": 50,
-      "x": 0,
-      "y": 801,
-      "width": 1920,
-      "height": 1370,
-      "textPreview": "产品中心",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "177:9425",
-      "name": "man holding stick near on transmission tower",
-      "type": "LAYER",
-      "nodeCount": 1,
-      "x": 0,
-      "y": 2962,
-      "width": 1920,
-      "height": 790,
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "177:9426",
-      "name": "矩形 2835",
-      "type": "PATH",
-      "nodeCount": 1,
-      "x": 0,
-      "y": 2962,
-      "width": 1920,
-      "height": 790,
-      "structureHash": "{\"t\":\"PATH\",\"l\":{\"w\":1920,\"h\":790}}",
-      "structureSiblingCount": 2
-    },
-    {
-      "id": "177:9427",
-      "name": "矩形 2836",
-      "type": "PATH",
-      "nodeCount": 1,
-      "x": 0,
-      "y": 2962,
-      "width": 1920,
-      "height": 790,
-      "structureHash": "{\"t\":\"PATH\",\"l\":{\"w\":1920,\"h\":790}}",
-      "structureSiblingCount": 2
-    },
-    {
-      "id": "177:9428",
-      "name": "组 5625",
-      "type": "GROUP",
-      "nodeCount": 37,
-      "x": 0,
-      "y": 2171,
-      "width": 1920,
-      "height": 791,
-      "textPreview": "航空航天\r",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "177:9469",
-      "name": "组 5085",
-      "type": "FRAME",
-      "nodeCount": 1,
-      "x": 498,
-      "y": 3423,
-      "width": 144,
-      "height": 84,
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "177:9470",
-      "name": "组 5631",
-      "type": "GROUP",
-      "nodeCount": 22,
-      "x": 320,
-      "y": 3146,
-      "width": 1280,
-      "height": 423,
-      "textPreview": "全盛机电创立于2003年，位于杭州临平经",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "177:9515",
-      "name": "圆形 12",
-      "type": "SVG_ELLIPSE",
-      "nodeCount": 1,
-      "x": -304,
-      "y": 3691,
-      "width": 2528,
-      "height": 105,
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "177:9516",
-      "name": "组 5642",
-      "type": "GROUP",
-      "nodeCount": 5,
-      "x": 320,
-      "y": 3816,
-      "width": 398,
-      "height": 233,
-      "textPreview": "联系我们",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "177:9524",
-      "name": "组 5640",
-      "type": "GROUP",
-      "nodeCount": 2,
-      "x": 0,
-      "y": 4981,
-      "width": 1920,
-      "height": 648,
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "177:9526",
-      "name": "容器 70",
-      "type": "FRAME",
-      "nodeCount": 37,
-      "x": 890,
-      "y": 3810,
-      "width": 405,
-      "height": 1212,
-      "textPreview": "定制化解决方案\r",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "177:9584",
-      "name": "容器 66",
-      "type": "FRAME",
-      "nodeCount": 35,
-      "x": -28,
-      "y": 4523,
-      "width": 1968,
-      "height": 500,
-      "textPreview": "遵循国际标准，全维度权威认证",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "177:9605",
-      "name": "组 5951",
-      "type": "GROUP",
-      "nodeCount": 57,
-      "x": 320,
-      "y": 5043,
-      "width": 1280,
-      "height": 498,
-      "textPreview": "什么是滑环？",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "177:9652",
-      "name": "组 5944",
-      "type": "GROUP",
-      "nodeCount": 35,
-      "x": 320,
-      "y": 5734,
-      "width": 1268,
-      "height": 573,
-      "textPreview": "滑环能转多久？决定滑环使用寿命的五个关键",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "177:9718",
-      "name": "矩形 2881",
-      "type": "LAYER",
-      "nodeCount": 1,
-      "x": 320,
-      "y": 5666,
-      "width": 1280,
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "177:9719",
-      "name": "组 5947",
-      "type": "GROUP",
-      "nodeCount": 31,
-      "x": 16,
-      "y": 6432,
-      "width": 1974,
-      "height": 332,
-      "textPreview": "合作客户",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "177:9736",
+      "id": "185:8926",
       "name": "contact",
       "type": "INSTANCE",
       "nodeCount": 32,
       "x": 0,
-      "y": 6875,
+      "y": 7330,
       "width": 1965,
       "height": 928,
       "textPreview": "欢迎给我们留言\r",
       "structureSiblingCount": 1
     },
     {
-      "id": "177:9767/107:03643",
+      "id": "185:8947",
+      "name": "bg",
+      "type": "GROUP",
+      "nodeCount": 3,
+      "x": 0,
+      "y": 5734,
+      "width": 1920,
+      "height": 1596,
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "185:8950",
+      "name": "image",
+      "type": "LAYER",
+      "nodeCount": 1,
+      "x": 0,
+      "y": 5611,
+      "width": 1920,
+      "height": 862,
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "185:8951",
+      "name": "image",
+      "type": "LAYER",
+      "nodeCount": 1,
+      "x": -1,
+      "y": 730,
+      "width": 1920,
+      "height": 704,
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "185:8952",
+      "name": "组 5616",
+      "type": "GROUP",
+      "nodeCount": 19,
+      "x": 741,
+      "y": 846,
+      "width": 859,
+      "height": 455,
+      "textPreview": "全盛机电创立于2003年，位于杭州临平经",
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "185:8993",
+      "name": "英文站",
+      "type": "LAYER",
+      "nodeCount": 1,
+      "x": 320,
+      "y": 911,
+      "width": 284,
+      "height": 284,
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "185:8994",
+      "name": "1. 全景图",
+      "type": "LAYER",
+      "nodeCount": 1,
+      "x": 320,
+      "y": 1434,
+      "width": 1280,
+      "height": 480,
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "185:8995",
+      "name": "组 5610",
+      "type": "GROUP",
+      "nodeCount": 24,
+      "x": 234,
+      "y": 1954,
+      "width": 1451,
+      "height": 274.6666564941406,
+      "textPreview": "大厅",
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "185:9016",
+      "name": "bg",
+      "type": "GROUP",
+      "nodeCount": 7,
+      "x": 0,
+      "y": 2352,
+      "width": 1920,
+      "height": 762,
+      "textPreview": "2002~2026",
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "185:9028",
+      "name": "组 5492",
+      "type": "GROUP",
+      "nodeCount": 32,
+      "x": 225,
+      "y": 2682,
+      "width": 1459,
+      "height": 404.1168212890625,
+      "textPreview": "2002",
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "185:9060",
+      "name": "38",
+      "type": "FRAME",
+      "nodeCount": 11,
+      "x": 0,
+      "y": 3114,
+      "width": 1920,
+      "height": 960,
+      "textPreview": "全盛品牌故事",
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "185:9075",
+      "name": "矩形 2811",
+      "type": "LAYER",
+      "nodeCount": 1,
+      "x": 0,
+      "y": 3953,
+      "width": 1920,
+      "height": 680,
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "185:9076",
+      "name": "我们的企业价值观",
+      "type": "TEXT",
+      "nodeCount": 1,
+      "x": 792,
+      "y": 3978,
+      "width": 336,
+      "height": 51,
+      "textPreview": "我们的企业价值观",
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "185:9079",
+      "name": "组 5612",
+      "type": "GROUP",
+      "nodeCount": 28,
+      "x": 320,
+      "y": 4103,
+      "width": 1280,
+      "height": 354.6666564941406,
+      "textPreview": "赋能无限旋转，连接智能未来",
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "185:9119",
+      "name": "组 5559",
+      "type": "GROUP",
+      "nodeCount": 41,
+      "x": 232,
+      "y": 4601,
+      "width": 1453,
+      "height": 545.80810546875,
+      "textPreview": "每一份荣誉，都来自信赖",
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "185:9159",
+      "name": "容器 66",
+      "type": "FRAME",
+      "nodeCount": 33,
+      "x": -28,
+      "y": 5282,
+      "width": 1968,
+      "height": 500,
+      "textPreview": "遵循国际标准，全维度权威认证",
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "185:9178",
+      "name": "组 5529",
+      "type": "GROUP",
+      "nodeCount": 47,
+      "x": 320,
+      "y": 5772,
+      "width": 1280,
+      "height": 1009.7786254882812,
+      "textPreview": "为什么选择全盛机电作为您的导电滑环供应商",
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "185:9242",
+      "name": "合作客户",
+      "type": "TEXT",
+      "nodeCount": 1,
+      "x": 876,
+      "y": 6897,
+      "width": 168,
+      "height": 51,
+      "textPreview": "合作客户",
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "185:9245",
+      "name": "我们的客户包括海康威视、华为、中国航天、中国电子、西门子、博世、施耐德、ABB、 三星等众多全球500强企业及国内外优秀企业。",
+      "type": "TEXT",
+      "nodeCount": 1,
+      "x": 480,
+      "y": 6980,
+      "width": 960,
+      "height": 87,
+      "textPreview": "我们的客户包括海康威视、华为、中国航天、",
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "185:9248",
+      "name": "组 5566",
+      "type": "GROUP",
+      "nodeCount": 28,
+      "x": 16,
+      "y": 7079,
+      "width": 1974,
+      "height": 150,
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "185:9258/107:03643",
       "name": "footer",
       "type": "GROUP",
       "nodeCount": 3,
       "x": 0,
-      "y": 7616,
+      "y": 8071,
       "width": 1920,
       "height": 800,
       "structureSiblingCount": 1
     },
     {
-      "id": "177:9767/107:02313",
+      "id": "185:9258/107:02313",
       "name": "矩形 2822",
       "type": "LAYER",
       "nodeCount": 1,
       "x": 0,
-      "y": 8179,
+      "y": 8634,
       "width": 1920,
-      "containerId": "177:9767",
+      "containerId": "185:9258",
       "structureSiblingCount": 1
     },
     {
-      "id": "177:9767/107:02650",
+      "id": "185:9258/107:02650",
       "name": "组 5552",
       "type": "GROUP",
       "nodeCount": 11,
       "x": 648,
-      "y": 7741,
+      "y": 8196,
       "width": 72,
       "height": 343,
       "textPreview": "关于全盛",
-      "containerId": "177:9767",
+      "containerId": "185:9258",
       "structureSiblingCount": 1
     },
     {
-      "id": "177:9767/107:02652",
+      "id": "185:9258/107:02652",
       "name": "组 5553",
       "type": "GROUP",
       "nodeCount": 10,
       "x": 868,
-      "y": 7741,
+      "y": 8196,
       "width": 72,
       "height": 343,
       "textPreview": "产品中心",
-      "containerId": "177:9767",
+      "containerId": "185:9258",
       "structureSiblingCount": 1
     },
     {
-      "id": "177:9767/107:02774",
+      "id": "185:9258/107:02774",
       "name": "组 5554",
       "type": "GROUP",
       "nodeCount": 9,
       "x": 1088,
-      "y": 7741,
+      "y": 8196,
       "width": 72,
       "height": 273,
       "textPreview": "行业应用",
-      "containerId": "177:9767",
+      "containerId": "185:9258",
       "structureSiblingCount": 1
     },
     {
-      "id": "177:9767/107:02898",
+      "id": "185:9258/107:02898",
       "name": "组 5555",
       "type": "GROUP",
       "nodeCount": 9,
       "x": 1308,
-      "y": 7741,
+      "y": 8196,
       "width": 72,
       "height": 238,
       "textPreview": "技术支持",
-      "containerId": "177:9767",
+      "containerId": "185:9258",
       "structureSiblingCount": 1
     },
     {
-      "id": "177:9767/134:5921",
+      "id": "185:9258/134:5921",
       "name": "组 5564",
       "type": "GROUP",
       "nodeCount": 6,
       "x": 1528,
-      "y": 7741,
+      "y": 8196,
       "width": 72,
       "height": 133,
       "textPreview": "新闻中心",
-      "containerId": "177:9767",
+      "containerId": "185:9258",
       "structureSiblingCount": 1
     },
     {
-      "id": "177:9767/107:03263",
+      "id": "185:9258/107:03263",
       "name": "隐私政策 用户条款 Cookies",
       "type": "TEXT",
       "nodeCount": 1,
       "x": 1399,
-      "y": 8194,
+      "y": 8649,
       "width": 224,
       "height": 17,
       "textPreview": "隐私政策         用户条款\r  ",
-      "containerId": "177:9767",
+      "containerId": "185:9258",
       "structureSiblingCount": 1
     },
     {
-      "id": "177:9767/142:00554",
+      "id": "185:9258/142:00554",
       "name": "组 5614",
       "type": "GROUP",
       "nodeCount": 25,
       "x": 320,
-      "y": 7738,
+      "y": 8193,
       "width": 419,
       "height": 419,
       "textPreview": "market@hzqs.com",
-      "containerId": "177:9767",
+      "containerId": "185:9258",
       "structureSiblingCount": 1
     },
     {
-      "id": "177:9888",
-      "name": "蒙版组 4",
+      "id": "185:9339",
+      "name": "banner",
       "type": "GROUP",
-      "nodeCount": 12,
+      "nodeCount": 9,
       "x": 0,
-      "y": 0,
+      "y": 170,
       "width": 1920,
-      "height": 960,
-      "textPreview": "专注精密导电滑环20余年",
+      "height": 586,
+      "textPreview": "关于我们",
       "structureSiblingCount": 1
     },
     {
-      "id": "177:9906",
+      "id": "185:9352",
       "name": "top",
-      "type": "FRAME",
+      "type": "INSTANCE",
       "nodeCount": 44,
       "x": 0,
       "y": 0,
@@ -347,56 +371,69 @@
       "structureSiblingCount": 1
     }
   ],
-  "totalSections": 29,
-  "totalNodes": 483,
+  "totalSections": 31,
+  "totalNodes": 441,
   "allTexts": [
-    "电滑环系列",
-    "特殊信号滑环",
-    "光纤高频滑环",
-    "旋转接头系列",
-    "定制滑环系列",
-    "过孔滑环",
-    "帽型滑环",
-    "微距型滑环",
-    "直连型滑环",
-    "航空航天",
-    "医疗设备",
-    "工业自动化",
-    "成立于杭州",
-    "2003",
-    "年导电滑环专业经验",
-    "产品出口国家",
-    "50+",
-    "发明和实用新型专利",
-    "100+",
-    "科研技术人员与员工",
-    "500+",
-    "立即提交",
-    "联系我们",
-    "深厚的研发实力",
-    "专业技术团队，100余项发明及实用新型专利支撑。面对复杂应用，我们不仅提供产品，更提供敏捷的研发支持与深度技术协作。",
-    "严格的质量控制",
-    "ISO体系认证，全流程质量管控贯穿设计、生产、测试各环节，确保每一只滑环都能稳定可靠、高品交付。",
-    "高效生产和交付",
-    "2万多平米自建生产基地，数十台自研自动化设备，500多名员工协同作业。高效成熟的供应链体系，保障您的订单准时交付。",
-    "全程的服务保障",
-    "从售前咨询设计到售后安装维护，专业团队提供全周期一体化服务。我们与您共同开发，让设备的设计、生产、安装全程无忧。",
-    "灵活的最小订购量",
-    "无论您是原型测试还是小批量试产，我们都愿与您并肩前行。无最小起订量限制，让创新项目轻装上阵，从起步到量产一路相伴。",
-    "如何选择合适的滑环？",
-    "能否根据需求提供定制化设计？",
-    "滑环可以传递哪些信号？",
-    "滑环使用寿命有多长？可以连续旋转多少圈？",
-    "滑环支持的最高转速是多少？",
-    "滑环的防护等级（IP）是多少？",
-    "滑环的安装方式有几种？",
-    "发现更多",
     "Name 姓名*",
     "Country 国家",
     "Company 公司*",
     "Industry 行业",
     "Email 邮箱 *",
     "Phone电话 *",
+    "立即提交",
+    "导电滑环专业经验",
+    "20+",
+    "发明和实用新型专利",
+    "100+",
+    "项",
+    "科研技术人员与员工",
+    "500+",
+    "人",
+    "大厅",
+    "生产车间",
+    "实验中心",
+    "技术中心",
+    "2002",
+    "推出国内首款自研精密导电滑环，填补国内技术空白",
+    "2003",
+    "杭州全盛电气有限公司成立",
+    "2006",
+    "通过IS09001质量管理体系认证",
+    "2010",
+    "更名为杭州全盛机电科技有限公司",
+    "愿景",
+    "vision",
+    "为全球高端装备提供卓越的旋转传输解决方案",
+    "使命",
+    "MISSION",
+    "诚信、协作、务实、创新",
+    "价值观",
+    "VALUE",
+    "高新技术企业",
+    "省级研究开发中心",
+    "专精特新小巨人",
+    "企业荣誉",
+    "专利证书",
+    "客户认可",
+    "体系认证",
+    "从标准产品到多通道、大电流、高转速等复杂需求，我们提供集电、气液、光纤于一体的组合滑环定制服务，精准适配各类特殊应用场景。",
+    "定制化解决方案",
+    "01",
+    "专业技术团队，100余项发明及实用新型专利支撑。面对复杂应用，我们不仅提供产品，更提供敏捷的研发支持与深度技术协作。",
+    "深厚的研发实力",
+    "02",
+    "ISO体系认证，全流程质量管控贯穿设计、生产、测试各环节，确保每一只滑环都能稳定可靠、高品交付。",
+    "严格的质量控制",
+    "03",
+    "2万多平米自建生产基地，数十台自研自动化设备，500多名员工协同作业。高效成熟的供应链体系，保障您的订单准时交付。",
+    "高效生产和交付",
+    "04",
+    "从售前咨询设计到售后安装维护，专业团队提供全周期一体化服务。我们与您共同开发，让设备的设计、生产、安装全程无忧。",
+    "全程的服务保障",
+    "05",
+    "无论您是原型测试还是小批量试产，我们都愿与您并肩前行。无最小起订量限制，让创新项目轻装上阵，从起步到量产一路相伴。",
+    "灵活的最小订购量",
+    "06",
     "关于全盛",
     "公司介绍",
     "发展历程",
@@ -420,12 +457,13 @@
     "+86 137 3815 5025",
     "+86 0571 86554726",
     "Copyright © 杭州全盛机电科技有限公司. 2026. All  rights  reserved",
-    "EN"
+    "EN",
+    "\"小巨人 \"企业"
   ],
   "rootMetadata": {
     "width": 1920,
-    "height": 8232,
-    "name": "01-Home",
+    "height": 8687,
+    "name": "02-About",
     "type": "FRAME",
     "fill": "paint_3:5656",
     "styles": {
@@ -434,12 +472,11 @@
           "#FFFFFF"
         ]
       },
-      "paint_145:08595": {
+      "paint_107:01805": {
         "value": [
           {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/4a755bd4001e184632966db10a318ae9.png"
-          },
-          "linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 31%)"
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/bfc11ffbeeb047588304a31dd8c70144.png"
+          }
         ]
       },
       "paint_145:23871": {
@@ -447,17 +484,33 @@
           "linear-gradient(180deg, rgba(245, 245, 245, 0) 0%, #EEEEEE 100%)"
         ]
       },
-      "paint_86:5196": {
+      "effect_134:6424": {
         "value": [
-          "#EEEEEE"
-        ],
-        "token": "Q-背景浅"
+          "box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);"
+        ]
       },
       "paint_86:5186": {
         "value": [
           "#121212"
         ],
         "token": "Q-标题黑"
+      },
+      "paint_1:099": {
+        "value": [
+          "#3D3D3D"
+        ]
+      },
+      "paint_86:5204": {
+        "value": [
+          "rgba(0, 0, 0, 0.1)"
+        ],
+        "token": "Q-边框灰"
+      },
+      "paint_86:5188": {
+        "value": [
+          "#333333"
+        ],
+        "token": "Q-次级文字"
       },
       "paint_86:5157": {
         "value": [
@@ -474,65 +527,89 @@
         ],
         "token": "lf-bg白"
       },
-      "paint_86:5204": {
+      "paint_107:01239": {
         "value": [
-          "rgba(0, 0, 0, 0.1)"
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/4a755bd4001e184632966db10a318ae9.png"
+          }
+        ]
+      },
+      "paint_134:6296": {
+        "value": [
+          "linear-gradient(180deg, #F5F5F5 0%, #F5F5F5 100%)"
+        ]
+      },
+      "paint_107:7499": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/1df0d814a57654f32757ee824e65bb12.png"
+          }
+        ]
+      },
+      "paint_102:5119": {
+        "value": [
+          "#000000"
         ],
-        "token": "Q-边框灰"
+        "token": "ZK-title"
       },
-      "paint_86:5188": {
-        "value": [
-          "#333333"
-        ],
-        "token": "Q-次级文字"
-      },
-      "paint_86:5202": {
-        "value": [
-          "#FFFFFF"
-        ],
-        "token": "Q-背景白"
-      },
-      "paint_142:7037": {
+      "paint_3:197": {
         "value": [
           {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/aeb0021f9e0e2f56aa73f8d689a1de6c.JPG"
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/a3faea0698afc4567b17e3878cc17372.png"
           }
         ]
       },
-      "paint_142:9659": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/7227aafff690f16b0bbcce0aaf621ec4.jpg"
-          }
-        ]
-      },
-      "paint_142:9676": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/2f44c04bf9dae7f3e41856e7fe6ef9a2.JPG"
-          }
-        ]
-      },
-      "paint_142:9686": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/7d8d950819b6759204b07de0d7c302f6.JPG"
-          }
-        ]
-      },
-      "paint_142:9570": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/31a1bc24c66b553646e3ab2c4fbeb9de.JPG"
-          }
-        ]
-      },
-      "paint_145:00227": {
+      "paint_142:9953": {
         "value": [
           {
             "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/b4f25428e3142f654d02e42af69ed7df.jpg"
           }
         ]
+      },
+      "paint_102:03476": {
+        "value": [
+          "#FFFFFF"
+        ]
+      },
+      "paint_102:03318": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/bd2a3190b3fdbd895f01c10723ec9677.JPG"
+          }
+        ]
+      },
+      "paint_102:03322": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/17c939573ad6f18a06868a937b75a1ba.JPG"
+          }
+        ]
+      },
+      "paint_138:5754": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/d56be7fcb5c09b49f1fd0eaa461c7428.jpg"
+          }
+        ]
+      },
+      "paint_102:03366": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/e7fa663cecdfff533d2cb0535a35a94c.jpg"
+          }
+        ]
+      },
+      "paint_3:6817": {
+        "value": [
+          "rgba(0, 0, 0, 0.1)"
+        ],
+        "token": "lf-边框"
+      },
+      "paint_3:6820": {
+        "value": [
+          "#121926"
+        ],
+        "token": "lf-主要内容"
       },
       "paint_86:5194": {
         "value": [
@@ -540,67 +617,140 @@
         ],
         "token": "Q-背景深"
       },
-      "paint_145:06694": {
-        "value": [
-          "linear-gradient(180deg, #02132D 0%, rgba(2, 19, 45, 0) 41%)"
-        ]
-      },
-      "paint_145:8047": {
+      "paint_107:6428": {
         "value": [
           {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/e5eb12c373e42d7ba57f4cd8e2385c65.jpg"
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/2f069147bda6e260848c5160a7b78492.png"
           }
         ]
       },
-      "paint_145:8060": {
+      "paint_125:6580": {
         "value": [
-          "linear-gradient(180deg, rgba(2, 19, 45, 0) 0%, #02132D 100%)"
+          "linear-gradient(180deg, rgba(2, 19, 45, 0) 0%, #0B203C 100%)"
         ]
       },
-      "paint_145:07375": {
+      "paint_107:6701": {
         "value": [
-          "rgba(255, 255, 255, 0.24)"
+          "linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 75%)"
         ]
       },
-      "paint_1:099": {
+      "paint_102:5127": {
         "value": [
-          "#3D3D3D"
+          "#FFFFFF"
+        ],
+        "token": "纯白"
+      },
+      "paint_107:6761": {
+        "value": [
+          "rgba(255, 255, 255, 0.4)"
         ]
       },
-      "paint_145:8475": {
+      "paint_86:5202": {
+        "value": [
+          "#FFFFFF"
+        ],
+        "token": "Q-背景白"
+      },
+      "paint_163:7826": {
         "value": [
           {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/077d965ab722cd69c8752ad417e6a699.jpeg"
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/7dceb4790e6c34e6c8a09c376e523418.jpeg"
           }
         ]
       },
-      "paint_145:8479": {
+      "paint_107:7345": {
+        "value": [
+          "linear-gradient(180deg, rgba(1, 13, 31, 0) 0%, #001E4C 100%)"
+        ]
+      },
+      "paint_107:6490": {
+        "value": [
+          "rgba(255, 255, 255, 0.4)"
+        ]
+      },
+      "paint_163:7830": {
         "value": [
           {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/4970885e698e6166fd820e9d59739ea5.jpg"
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/607ea9fed2a6291eb9f5a88848cfde02.jpeg"
           }
         ]
       },
-      "paint_145:8483": {
+      "paint_142:9976": {
         "value": [
           {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/a8eb6e5ea874499c2164bafb5bcd4d09.jpg"
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/a5293d5a9a767f92b4c243d7e1eaf92b.jpeg"
           }
         ]
       },
-      "paint_145:06455": {
+      "paint_163:7834": {
         "value": [
-          "linear-gradient(180deg, #FFFFFF 0%, #F5F5F5 100%)"
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/bd1a8902b2db2e8f4e5f4b8c6e618f2b.JPG"
+          }
         ]
       },
-      "effect_134:6424": {
+      "paint_125:8176": {
         "value": [
-          "box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);"
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/134726101006844/08085b302106f2778f8cda9cf878d5d6.jpg",
+            "filters": {
+              "temperature": -0.38506942987442017
+            }
+          }
         ]
       },
-      "paint_134:6296": {
+      "paint_125:8385": {
         "value": [
-          "linear-gradient(180deg, #F5F5F5 0%, #F5F5F5 100%)"
+          "linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(241, 241, 241, 0.8002) 63%, #EEEEEE 100%)"
+        ]
+      },
+      "paint_86:5165": {
+        "value": [
+          "#85C2EB"
+        ],
+        "token": "Q-辅浅蓝"
+      },
+      "paint_125:8197": {
+        "value": [
+          "linear-gradient(180deg, #EEEEEE 0%, rgba(238, 238, 238, 0) 100%)"
+        ]
+      },
+      "paint_107:9035": {
+        "value": [
+          "linear-gradient(180deg, #3D3D3D 0%, rgba(61, 61, 61, 0) 100%)"
+        ]
+      },
+      "effect_107:9359": {
+        "value": [
+          "box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);"
+        ]
+      },
+      "paint_107:9329": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/23cb4a2931fedcebff74c405289e86e7.jpg"
+          }
+        ]
+      },
+      "paint_107:9386": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/7a940229582039fe38ff5de5565b196d.png"
+          }
+        ]
+      },
+      "paint_107:9405": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/24276ccceae0ac40de0144a5be62f418.jpg"
+          }
+        ]
+      },
+      "paint_107:9413": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/c19dd94e3216e2fe0cd343704c32a7a8.jpg"
+          }
         ]
       },
       "effect_107:00960": {
@@ -611,16 +761,6 @@
       "paint_134:6303": {
         "value": [
           "linear-gradient(180deg, rgba(245, 245, 245, 0) 0%, #F5F5F5 100%)"
-        ]
-      },
-      "paint_102:03476": {
-        "value": [
-          "#FFFFFF"
-        ]
-      },
-      "effect_107:9359": {
-        "value": [
-          "box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);"
         ]
       },
       "paint_107:9635": {
@@ -679,47 +819,46 @@
           }
         ]
       },
-      "paint_3:5957": {
-        "value": [
-          "#1F1F1F"
-        ],
-        "token": "MD-vi黑"
-      },
-      "paint_145:04593": {
-        "value": [
-          "#FFFFFF"
-        ],
-        "token": "G-白BG"
-      },
-      "paint_145:07431": {
-        "value": [
-          "rgba(0, 0, 0, 0.1)"
-        ],
-        "token": "G-边框"
-      },
-      "paint_145:04539": {
-        "value": [
-          "#1D1F24"
-        ],
-        "token": "G-正文"
-      },
-      "paint_145:07509": {
+      "paint_138:6208": {
         "value": [
           {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/249cdbba37413434b3540354fc0dfb56.png"
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/63059905e14f82c350489bd384ae561d.png"
           }
         ]
       },
-      "paint_145:07797": {
+      "paint_107:00084": {
         "value": [
           {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/a39fda529fd3d92d72cb588e603c494d.png"
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/0ad66e6868d72b700e73562e8768d841.jpg"
           }
         ]
       },
-      "paint_6:4407": {
+      "paint_107:00088": {
         "value": [
-          "#D8D8D8"
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/ce960b49d4e2f4633ab94d13a17ca777.jpg"
+          }
+        ]
+      },
+      "paint_107:00119": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/08e00c4e9d870c4711c0faf48dcec39a.jpg"
+          }
+        ]
+      },
+      "paint_107:00123": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/135f75d5bfbd77f961e92e60277c5b85.jpg"
+          }
+        ]
+      },
+      "paint_107:00127": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/5dd7a17f799381bb41f8449970f2abb0.jpg"
+          }
         ]
       },
       "paint_107:01721": {
@@ -785,11 +924,9 @@
           }
         ]
       },
-      "paint_107:01805": {
+      "paint_6:4407": {
         "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/bfc11ffbeeb047588304a31dd8c70144.png"
-          }
+          "#D8D8D8"
         ]
       },
       "paint_107:02344": {
@@ -824,11 +961,16 @@
           "#02132D"
         ]
       },
-      "paint_170:7811": {
+      "paint_125:6052": {
         "value": [
           {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/565bc208569418f0966a284a8a8b2456.png"
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/e7c8a6fb67ef4b0d80018a7df4b6dc24.png"
           }
+        ]
+      },
+      "paint_102:01685": {
+        "value": [
+          "linear-gradient(90deg, #00142B 17%, rgba(2, 19, 45, 0.1) 58%)"
         ]
       },
       "paint_102:5094": {
@@ -858,62 +1000,69 @@
         "value": [
           "#FF0000"
         ]
-      },
-      "paint_102:5127": {
-        "value": [
-          "#FFFFFF"
-        ],
-        "token": "纯白"
       }
     },
     "allTexts": [
-      "电滑环系列",
-      "特殊信号滑环",
-      "光纤高频滑环",
-      "旋转接头系列",
-      "定制滑环系列",
-      "过孔滑环",
-      "帽型滑环",
-      "微距型滑环",
-      "直连型滑环",
-      "航空航天",
-      "医疗设备",
-      "工业自动化",
-      "成立于杭州",
-      "2003",
-      "年导电滑环专业经验",
-      "产品出口国家",
-      "50+",
-      "发明和实用新型专利",
-      "100+",
-      "科研技术人员与员工",
-      "500+",
-      "立即提交",
-      "联系我们",
-      "深厚的研发实力",
-      "专业技术团队，100余项发明及实用新型专利支撑。面对复杂应用，我们不仅提供产品，更提供敏捷的研发支持与深度技术协作。",
-      "严格的质量控制",
-      "ISO体系认证，全流程质量管控贯穿设计、生产、测试各环节，确保每一只滑环都能稳定可靠、高品交付。",
-      "高效生产和交付",
-      "2万多平米自建生产基地，数十台自研自动化设备，500多名员工协同作业。高效成熟的供应链体系，保障您的订单准时交付。",
-      "全程的服务保障",
-      "从售前咨询设计到售后安装维护，专业团队提供全周期一体化服务。我们与您共同开发，让设备的设计、生产、安装全程无忧。",
-      "灵活的最小订购量",
-      "无论您是原型测试还是小批量试产，我们都愿与您并肩前行。无最小起订量限制，让创新项目轻装上阵，从起步到量产一路相伴。",
-      "如何选择合适的滑环？",
-      "能否根据需求提供定制化设计？",
-      "滑环可以传递哪些信号？",
-      "滑环使用寿命有多长？可以连续旋转多少圈？",
-      "滑环支持的最高转速是多少？",
-      "滑环的防护等级（IP）是多少？",
-      "滑环的安装方式有几种？",
-      "发现更多",
       "Name 姓名*",
       "Country 国家",
       "Company 公司*",
       "Industry 行业",
       "Email 邮箱 *",
       "Phone电话 *",
+      "立即提交",
+      "导电滑环专业经验",
+      "20+",
+      "发明和实用新型专利",
+      "100+",
+      "项",
+      "科研技术人员与员工",
+      "500+",
+      "人",
+      "大厅",
+      "生产车间",
+      "实验中心",
+      "技术中心",
+      "2002",
+      "推出国内首款自研精密导电滑环，填补国内技术空白",
+      "2003",
+      "杭州全盛电气有限公司成立",
+      "2006",
+      "通过IS09001质量管理体系认证",
+      "2010",
+      "更名为杭州全盛机电科技有限公司",
+      "愿景",
+      "vision",
+      "为全球高端装备提供卓越的旋转传输解决方案",
+      "使命",
+      "MISSION",
+      "诚信、协作、务实、创新",
+      "价值观",
+      "VALUE",
+      "高新技术企业",
+      "省级研究开发中心",
+      "专精特新小巨人",
+      "企业荣誉",
+      "专利证书",
+      "客户认可",
+      "体系认证",
+      "从标准产品到多通道、大电流、高转速等复杂需求，我们提供集电、气液、光纤于一体的组合滑环定制服务，精准适配各类特殊应用场景。",
+      "定制化解决方案",
+      "01",
+      "专业技术团队，100余项发明及实用新型专利支撑。面对复杂应用，我们不仅提供产品，更提供敏捷的研发支持与深度技术协作。",
+      "深厚的研发实力",
+      "02",
+      "ISO体系认证，全流程质量管控贯穿设计、生产、测试各环节，确保每一只滑环都能稳定可靠、高品交付。",
+      "严格的质量控制",
+      "03",
+      "2万多平米自建生产基地，数十台自研自动化设备，500多名员工协同作业。高效成熟的供应链体系，保障您的订单准时交付。",
+      "高效生产和交付",
+      "04",
+      "从售前咨询设计到售后安装维护，专业团队提供全周期一体化服务。我们与您共同开发，让设备的设计、生产、安装全程无忧。",
+      "全程的服务保障",
+      "05",
+      "无论您是原型测试还是小批量试产，我们都愿与您并肩前行。无最小起订量限制，让创新项目轻装上阵，从起步到量产一路相伴。",
+      "灵活的最小订购量",
+      "06",
       "关于全盛",
       "公司介绍",
       "发展历程",
@@ -937,12 +1086,13 @@
       "+86 137 3815 5025",
       "+86 0571 86554726",
       "Copyright © 杭州全盛机电科技有限公司. 2026. All  rights  reserved",
-      "EN"
+      "EN",
+      "\"小巨人 \"企业"
     ]
   },
   "rootContainer": {
     "width": "1920px",
-    "minHeight": "8232px",
+    "minHeight": "8687px",
     "background": "#FFFFFF",
     "overflow": "hidden",
     "position": "relative"
@@ -951,25 +1101,25 @@
     {
       "name": "组 5562",
       "type": "GROUP",
-      "id": "177:9767/131:5843",
+      "id": "185:9258/131:5843",
       "width": 1920,
       "height": 707,
       "x": 0,
-      "y": 7738
+      "y": 8193
     },
     {
       "name": "组 5942",
       "type": "INSTANCE",
-      "id": "177:9767",
+      "id": "185:9258",
       "width": 1920,
       "height": 616,
       "x": 0,
-      "y": 7616,
+      "y": 8071,
       "componentInfo": {},
       "componentId": "145:08617"
     }
   ],
-  "nextAction": "STOP. This section LIST is only a directory — it has NO DSL nodes,  NO rowTexts. You CANNOT generate HTML from this list alone. Your NEXT ACTION: call mcp__getDesignSections with sectionIndex=0, then sectionIndex=1, ... up to sectionIndex=28 (total 29 calls). Fetch ALL 29 sections in batches of 3-5 before writing ANY HTML. Sections with nodeCount=3 and empty name are NOT empty — they contain real menu items and content (resolved from INSTANCE overrides during DSL transfer). WARNING: 2 sections have structureSiblingCount up to 2 — they look identical in the list (same nodeCount, empty name) but each has DIFFERENT text content and variant state. You MUST fetch ALL of them individually (do NOT skip any after fetching a few). Skipping sibling sections causes missing active-state styling and wrong menu item rendering. Skipping section DSL fetch is the #1 cause of missing menus, broken icons, and wrong data.",
+  "nextAction": "STOP. This section LIST is only a directory — it has NO DSL nodes,  NO rowTexts. You CANNOT generate HTML from this list alone. Your NEXT ACTION: call mcp__getDesignSections with sectionIndex=0, then sectionIndex=1, ... up to sectionIndex=30 (total 31 calls). Fetch ALL 31 sections in batches of 3-5 before writing ANY HTML. Sections with nodeCount=3 and empty name are NOT empty — they contain real menu items and content (resolved from INSTANCE overrides during DSL transfer). Skipping section DSL fetch is the #1 cause of missing menus, broken icons, and wrong data.",
   "rules": [
     "CRITICAL — Page positioning: the section LIST response contains splitContainers with page-absolute coordinates for each page region. Use splitContainers to construct the page skeleton (position:absolute with exact coordinates). Do NOT guess or stack with flex. IMPORTANT: splitContainers x/y are the container's absolute position on the canvas — they are NOT CSS margins/padding for child elements. Do NOT apply a container's y coordinate as top/margin-top on the main content wrapper. The main content area should start at top:0 within its own positioning context; sub-sections inside it use their own bbox y coordinates relative to the container, not to the page root.",
     "CRITICAL — Multi-column sidebar layout: render ALL sidebar levels as persistent visible columns positioned via splitContainers coordinates. Do NOT use position:absolute/fixed for submenu panels (they become floating overlays and break the main content width). Instead, lay out ALL columns (primary sidebar + submenu + main content) side-by-side using flex or absolute positioning that ACCOUNTS for every column's width. The main content area width = rootContainer.width minus ALL sidebar column widths. Do NOT use flex:1 for main content when there are multiple sidebar columns — it will expand into the submenu's space. Each sidebar column's width comes from its splitContainer entry.",

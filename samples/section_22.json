@@ -1,13 +1,13 @@
 {
   "sectionIndex": 22,
   "section": {
-    "id": "177:9767/107:02774",
-    "name": "组 5554",
+    "id": "185:9258/107:02650",
+    "name": "组 5552",
     "type": "GROUP"
   },
   "rootContainer": {
     "width": "1920px",
-    "minHeight": "8232px",
+    "minHeight": "8687px",
     "background": "#FFFFFF",
     "overflow": "hidden",
     "position": "relative"
@@ -41,6 +41,11 @@
         },
         "token": "Q-ps"
       },
+      "paint_1:099": {
+        "value": [
+          "#3D3D3D"
+        ]
+      },
       "paint_86:5202": {
         "value": [
           "#FFFFFF"
@@ -51,31 +56,30 @@
     "nodes": [
       {
         "type": "GROUP",
-        "id": "177:9767/107:02774",
-        "name": "组 5554",
+        "id": "185:9258/107:02650",
+        "name": "组 5552",
         "layoutStyle": {
           "width": 72,
-          "height": 273,
+          "height": 343,
           "relativeX": 0,
           "relativeY": 0
         },
         "children": [
           {
             "type": "TEXT",
-            "id": "177:9767/107:02775",
-            "name": "产品中心",
+            "id": "185:9258/107:02347",
+            "name": "输入文本",
             "layoutStyle": {
               "width": 72,
               "height": 22,
               "relativeX": 0,
               "relativeY": 0
             },
-            "fill": "paint_86:5202",
-            "_color": "#FFFFFF",
-            "_token": "Q-背景白",
+            "fill": "paint_1:099",
+            "_color": "#3D3D3D",
             "text": [
               {
-                "text": "行业应用",
+                "text": "关于全盛",
                 "font": "font_86:5000"
               }
             ],
@@ -91,19 +95,19 @@
           },
           {
             "type": "GROUP",
-            "id": "177:9767/107:02778",
+            "id": "185:9258/107:02640",
             "name": "组 5551",
             "layoutStyle": {
               "width": 56,
-              "height": 227,
+              "height": 297,
               "relativeX": 0,
               "relativeY": 46
             },
             "children": [
               {
                 "type": "TEXT",
-                "id": "177:9767/107:02779",
-                "name": "产品类目",
+                "id": "185:9258/107:02391",
+                "name": "关于全盛",
                 "layoutStyle": {
                   "width": 56,
                   "height": 17,
@@ -116,7 +120,7 @@
                 "_token": "Q-背景白",
                 "text": [
                   {
-                    "text": "行业类目",
+                    "text": "公司介绍",
                     "font": "font_86:5012"
                   }
                 ],
@@ -132,8 +136,8 @@
               },
               {
                 "type": "TEXT",
-                "id": "177:9767/107:02782",
-                "name": "产品类目",
+                "id": "185:9258/107:02442",
+                "name": "公司介绍",
                 "layoutStyle": {
                   "width": 56,
                   "height": 17,
@@ -146,7 +150,7 @@
                 "_token": "Q-背景白",
                 "text": [
                   {
-                    "text": "行业类目",
+                    "text": "发展历程",
                     "font": "font_86:5012"
                   }
                 ],
@@ -162,8 +166,8 @@
               },
               {
                 "type": "TEXT",
-                "id": "177:9767/107:02785",
-                "name": "产品类目",
+                "id": "185:9258/107:02461",
+                "name": "发展历程",
                 "layoutStyle": {
                   "width": 56,
                   "height": 17,
@@ -176,7 +180,7 @@
                 "_token": "Q-背景白",
                 "text": [
                   {
-                    "text": "行业类目",
+                    "text": "品牌故事",
                     "font": "font_86:5012"
                   }
                 ],
@@ -192,8 +196,8 @@
               },
               {
                 "type": "TEXT",
-                "id": "177:9767/107:02788",
-                "name": "产品类目",
+                "id": "185:9258/107:02482",
+                "name": "品牌故事",
                 "layoutStyle": {
                   "width": 56,
                   "height": 17,
@@ -206,7 +210,7 @@
                 "_token": "Q-背景白",
                 "text": [
                   {
-                    "text": "行业类目",
+                    "text": "企业文化",
                     "font": "font_86:5012"
                   }
                 ],
@@ -222,8 +226,8 @@
               },
               {
                 "type": "TEXT",
-                "id": "177:9767/107:02791",
-                "name": "产品类目",
+                "id": "185:9258/107:02502",
+                "name": "企业文化",
                 "layoutStyle": {
                   "width": 56,
                   "height": 17,
@@ -236,7 +240,7 @@
                 "_token": "Q-背景白",
                 "text": [
                   {
-                    "text": "行业类目",
+                    "text": "资质荣誉",
                     "font": "font_86:5012"
                   }
                 ],
@@ -252,8 +256,8 @@
               },
               {
                 "type": "TEXT",
-                "id": "177:9767/107:02794",
-                "name": "产品类目",
+                "id": "185:9258/107:02523",
+                "name": "资质荣誉",
                 "layoutStyle": {
                   "width": 56,
                   "height": 17,
@@ -266,7 +270,67 @@
                 "_token": "Q-背景白",
                 "text": [
                   {
-                    "text": "行业类目",
+                    "text": "认证体系",
+                    "font": "font_86:5012"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "color": "paint_86:5202"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              {
+                "type": "TEXT",
+                "id": "185:9258/107:02545",
+                "name": "认证体系",
+                "layoutStyle": {
+                  "width": 56,
+                  "height": 17,
+                  "relativeX": 0,
+                  "relativeY": 210
+                },
+                "opacity": 0.800000011920929,
+                "fill": "paint_86:5202",
+                "_color": "#FFFFFF",
+                "_token": "Q-背景白",
+                "text": [
+                  {
+                    "text": "企业优势",
+                    "font": "font_86:5012"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "color": "paint_86:5202"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              {
+                "type": "TEXT",
+                "id": "185:9258/107:02590",
+                "name": "企业优势",
+                "layoutStyle": {
+                  "width": 56,
+                  "height": 17,
+                  "relativeX": 0,
+                  "relativeY": 245
+                },
+                "opacity": 0.800000011920929,
+                "fill": "paint_86:5202",
+                "_color": "#FFFFFF",
+                "_token": "Q-背景白",
+                "text": [
+                  {
+                    "text": "合作客户",
                     "font": "font_86:5012"
                   }
                 ],
@@ -288,36 +352,44 @@
     "components": [],
     "rowTexts": [
       {
-        "text": "行业应用",
+        "text": "关于全盛",
         "parentType": "GROUP"
       },
       {
-        "text": "行业类目",
+        "text": "公司介绍",
         "parentType": "GROUP"
       },
       {
-        "text": "行业类目",
+        "text": "发展历程",
         "parentType": "GROUP"
       },
       {
-        "text": "行业类目",
+        "text": "品牌故事",
         "parentType": "GROUP"
       },
       {
-        "text": "行业类目",
+        "text": "企业文化",
         "parentType": "GROUP"
       },
       {
-        "text": "行业类目",
+        "text": "资质荣誉",
         "parentType": "GROUP"
       },
       {
-        "text": "行业类目",
+        "text": "认证体系",
+        "parentType": "GROUP"
+      },
+      {
+        "text": "企业优势",
+        "parentType": "GROUP"
+      },
+      {
+        "text": "合作客户",
         "parentType": "GROUP"
       }
     ]
   },
-  "nodeCount": 9,
+  "nodeCount": 11,
   "componentDocumentLinks": [],
-  "fetchProgress": "Fetched 23/29. MISSING 6 sections: [23,24,25,26,27,28]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+  "fetchProgress": "Fetched 23/31. MISSING 8 sections: [23,24,25,26,27,28,29,30]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
 }

@@ -1,13 +1,13 @@
 {
   "sectionIndex": 2,
   "section": {
-    "id": "177:9425",
-    "name": "man holding stick near on transmission tower",
+    "id": "185:8950",
+    "name": "image",
     "type": "LAYER"
   },
   "rootContainer": {
     "width": "1920px",
-    "minHeight": "8232px",
+    "minHeight": "8687px",
     "background": "#FFFFFF",
     "overflow": "hidden",
     "position": "relative"
@@ -15,31 +15,31 @@
   "structureSiblingCount": 1,
   "dsl": {
     "styles": {
-      "paint_145:00227": {
+      "paint_134:6296": {
         "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/b4f25428e3142f654d02e42af69ed7df.jpg"
-          }
+          "linear-gradient(180deg, #F5F5F5 0%, #F5F5F5 100%)"
         ]
       }
     },
     "nodes": [
       {
         "type": "LAYER",
-        "id": "177:9425",
-        "name": "man holding stick near on transmission tower",
+        "id": "185:8950",
+        "name": "image",
         "layoutStyle": {
           "width": 1920,
-          "height": 790,
+          "height": 862,
           "relativeX": 0,
-          "relativeY": 0
+          "relativeY": 0,
+          "flipV": true
         },
-        "fill": "paint_145:00227"
+        "fill": "paint_134:6296",
+        "_color": "linear-gradient(180deg, #F5F5F5 0%, #F5F5F5 100%)"
       }
     ],
     "components": []
   },
   "nodeCount": 1,
   "componentDocumentLinks": [],
-  "fetchProgress": "Fetched 3/29. MISSING 26 sections: [3,4,5,6,7,8,9,10,11,12... +16 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+  "fetchProgress": "Fetched 3/31. MISSING 28 sections: [3,4,5,6,7,8,9,10,11,12... +18 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
 }

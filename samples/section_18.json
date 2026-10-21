@@ -1,13 +1,13 @@
 {
   "sectionIndex": 18,
   "section": {
-    "id": "177:9767/107:03643",
-    "name": "footer",
-    "type": "GROUP"
+    "id": "185:9245",
+    "name": "我们的客户包括海康威视、华为、中国航天、中国电子、西门子、博世、施耐德、ABB、 三星等众多全球500强企业及国内外优秀企业。",
+    "type": "TEXT"
   },
   "rootContainer": {
     "width": "1920px",
-    "minHeight": "8232px",
+    "minHeight": "8687px",
     "background": "#FFFFFF",
     "overflow": "hidden",
     "position": "relative"
@@ -15,68 +15,70 @@
   "structureSiblingCount": 1,
   "dsl": {
     "styles": {
-      "paint_6:4407": {
-        "value": [
-          "#D8D8D8"
-        ]
+      "font_86:4965": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 24,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "600"
+        },
+        "token": "Q-H4"
       },
-      "paint_86:5194": {
+      "paint_86:5186": {
         "value": [
-          "#02132D"
+          "#121212"
         ],
-        "token": "Q-背景深"
+        "token": "Q-标题黑"
       }
     },
     "nodes": [
       {
-        "type": "GROUP",
-        "id": "177:9767/107:03643",
-        "name": "footer",
+        "type": "TEXT",
+        "id": "185:9245",
+        "name": "我们的客户包括海康威视、华为、中国航天、中国电子、西门子、博世、施耐德、ABB、 三星等众多全球500强企业及国内外优秀企业。",
         "layoutStyle": {
-          "width": 1920,
-          "height": 800,
+          "width": 960,
+          "height": 87,
           "relativeX": 0,
           "relativeY": 0
         },
-        "children": [
+        "fill": "paint_86:5186",
+        "_color": "#121212",
+        "_token": "Q-标题黑",
+        "text": [
           {
-            "type": "PATH",
-            "id": "177:9767/129:6559",
-            "name": "矩形 2824",
-            "layoutStyle": {
-              "width": 1920,
-              "height": 616,
-              "relativeX": 0,
-              "relativeY": 0,
-              "flipV": true
-            },
-            "mask": "alpha",
-            "svgKey": "S18:footer|177:9767/129:6559",
-            "svgShortKey": "S18#0",
-            "svgName": "footer"
-          },
-          {
-            "type": "LAYER",
-            "id": "177:9767/107:02197",
-            "name": "矩形 2821",
-            "layoutStyle": {
-              "width": 1920,
-              "height": 894.3739013671875,
-              "relativeX": 0,
-              "relativeY": 0
-            },
-            "fill": "paint_86:5194",
-            "_color": "#02132D",
-            "_token": "Q-背景深"
+            "text": "T18|185:9245",
+            "font": "font_86:4965"
           }
-        ]
+        ],
+        "textColor": [
+          {
+            "start": 0,
+            "end": 65,
+            "color": "paint_86:5186"
+          }
+        ],
+        "textAlign": "center",
+        "textMode": "auto-height",
+        "_placeholder": true
       }
     ],
-    "components": []
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "我们的客户包括海康威视、华为、中国航天、中国电子、西门子、博世、施耐德、ABB、\n三星等众多全球500强企业及国内外优秀企业。\r\n",
+        "_placeholder": true
+      }
+    ],
+    "placeholderTexts": [
+      "T18|185:9245"
+    ]
   },
-  "nodeCount": 3,
-  "svgNodeCount": 1,
-  "hasStrippedSvgs": true,
+  "nodeCount": 1,
   "componentDocumentLinks": [],
-  "fetchProgress": "Fetched 19/29. MISSING 10 sections: [19,20,21,22,23,24,25,26,27,28]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+  "fetchProgress": "Fetched 19/31. MISSING 12 sections: [19,20,21,22,23,24,25,26,27,28,29,30]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
 }

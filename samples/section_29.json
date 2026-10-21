@@ -1,0 +1,252 @@
+{
+  "sectionIndex": 29,
+  "section": {
+    "id": "185:9339",
+    "name": "banner",
+    "type": "GROUP"
+  },
+  "rootContainer": {
+    "width": "1920px",
+    "minHeight": "8687px",
+    "background": "#FFFFFF",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "structureSiblingCount": 1,
+  "dsl": {
+    "styles": {
+      "font_86:4953": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 52,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "600"
+        },
+        "token": "Q-H1"
+      },
+      "font_86:5012": {
+        "value": {
+          "family": "Noto Sans SC",
+          "size": 14,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "120",
+          "letterSpacing": "auto",
+          "weight": "400"
+        },
+        "token": "Q-ps"
+      },
+      "paint_102:01685": {
+        "value": [
+          "linear-gradient(90deg, #00142B 17%, rgba(2, 19, 45, 0.1) 58%)"
+        ]
+      },
+      "paint_102:5094": {
+        "value": [
+          "#FFFFFF"
+        ],
+        "token": "ZK-BG白"
+      },
+      "paint_102:5127": {
+        "value": [
+          "#FFFFFF"
+        ],
+        "token": "纯白"
+      },
+      "paint_125:6052": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/e7c8a6fb67ef4b0d80018a7df4b6dc24.png"
+          }
+        ]
+      },
+      "paint_6:4407": {
+        "value": [
+          "#D8D8D8"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "type": "GROUP",
+        "id": "185:9339",
+        "name": "banner",
+        "layoutStyle": {
+          "width": 1920,
+          "height": 586,
+          "relativeX": 0,
+          "relativeY": 0
+        },
+        "children": [
+          {
+            "type": "GROUP",
+            "id": "185:9340",
+            "name": "bg",
+            "layoutStyle": {
+              "width": 1920,
+              "height": 586,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "children": [
+              {
+                "type": "GROUP",
+                "id": "185:9341",
+                "name": "蒙版组 1",
+                "layoutStyle": {
+                  "width": 1920,
+                  "height": 586,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "children": [
+                  {
+                    "type": "PATH",
+                    "id": "185:9342",
+                    "name": "矩形 2824",
+                    "layoutStyle": {
+                      "width": 1920,
+                      "height": 586,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "mask": "alpha",
+                    "svgKey": "S29:蒙版组 1|185:9342",
+                    "svgShortKey": "S29#0",
+                    "svgName": "蒙版组 1"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "185:9343",
+                    "name": "man holding stick near on transmission tower",
+                    "layoutStyle": {
+                      "width": 1953,
+                      "height": 592,
+                      "relativeX": -32,
+                      "relativeY": 0
+                    },
+                    "fill": "paint_125:6052"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "185:9344",
+                    "name": "man holding stick near on transmission tower",
+                    "layoutStyle": {
+                      "width": 1922,
+                      "height": 560,
+                      "relativeX": -1,
+                      "relativeY": 0
+                    },
+                    "opacity": 0.6000000238418579,
+                    "fill": "paint_102:01685",
+                    "_color": "linear-gradient(90deg, #00142B 17%, rgba(2, 19, 45, 0.1) 58%)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "GROUP",
+            "id": "185:9345",
+            "name": "组 5438",
+            "layoutStyle": {
+              "width": 208,
+              "height": 92.371826171875,
+              "relativeX": 320,
+              "relativeY": 183.097900390625
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "id": "185:9346",
+                "name": "关于我们",
+                "layoutStyle": {
+                  "width": 208,
+                  "height": 63,
+                  "relativeX": 0,
+                  "relativeY": 29.371826171875
+                },
+                "fill": "paint_102:5094",
+                "_color": "#FFFFFF",
+                "_token": "ZK-BG白",
+                "text": [
+                  {
+                    "text": "关于我们",
+                    "font": "font_86:4953"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "color": "paint_102:5094"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line",
+                "_placeholder": true
+              },
+              {
+                "type": "TEXT",
+                "id": "185:9349",
+                "name": "Home / Active",
+                "layoutStyle": {
+                  "width": 91,
+                  "height": 18.75469970703125,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "fill": "paint_102:5127",
+                "_color": "#FFFFFF",
+                "_token": "纯白",
+                "text": [
+                  {
+                    "text": "Home / Active",
+                    "font": "font_86:5012"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 13,
+                    "color": "paint_102:5127"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line",
+                "_placeholder": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "关于我们",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      },
+      {
+        "text": "Home / Active",
+        "_placeholder": true,
+        "parentType": "GROUP"
+      }
+    ],
+    "placeholderTexts": [
+      "关于我们",
+      "Home / Active"
+    ]
+  },
+  "nodeCount": 9,
+  "svgNodeCount": 1,
+  "hasStrippedSvgs": true,
+  "componentDocumentLinks": [],
+  "fetchProgress": "Fetched 30/31. MISSING 1 sections: [30]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+}

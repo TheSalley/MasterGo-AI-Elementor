@@ -8,7 +8,7 @@ export function pluginPhp() {
 /**
  * Plugin Name: MAE Import
  * Description: 供 M-AI-E Web 工具一键导入 Elementor 页面模板
- * Version: 0.1
+ * Version: 0.2
  */
 if (!defined('ABSPATH')) exit;
 
@@ -38,7 +38,27 @@ add_action('rest_api_init', function () {
       return $incoming !== null && hash_equals(mae_get_key(), $incoming);
     },
   ));
+  // 连通性测试端点：站点管理页「测试连接」用
+  register_rest_route('mae/v1', '/test', array(
+    'methods' => 'GET',
+    'callback' => 'mae_test_connection',
+    'permission_callback' => function ($req) {
+      $incoming = $req->get_header('X-MAE-Key');
+      return $incoming !== null && hash_equals(mae_get_key(), $incoming);
+    },
+  ));
 });
+
+function mae_test_connection($req) {
+  return new WP_REST_Response(array(
+    'success' => true,
+    'plugin' => 'MAE Import',
+    'version' => '0.2',
+    'site' => get_site_url(),
+    'wp' => get_bloginfo('version'),
+    'php' => PHP_VERSION,
+  ), 200);
+}
 
 function mae_upload_image($req) {
   $body = json_decode($req->get_body(), true);
@@ -120,6 +140,49 @@ export function pluginZip() {
   });
 }
 
+// 测试某站点的连通性（走插件 /test 端点），返回 { ok, data?, error?, latencyMs? }
+/**
+ * @param {object} opts
+ * @param {string} opts.siteUrl
+ * @param {string} opts.apiKey
+ * @param {{username?: string, password?: string}|null} [opts.basicAuth] nginx Basic Auth（可选）
+ */
+export async function testSite({ siteUrl, apiKey, basicAuth = null }) {
+  const base = String(siteUrl || "").replace(/\/+$/, "");
+  if (!base) throw new Error("缺少站点地址");
+  if (!apiKey) throw new Error("缺少接口密钥");
+
+  const url = `${base}/wp-json/mae/v1/test`;
+  const started = Date.now();
+  let res;
+  try {
+    res = await fetch(url, {
+      method: "GET",
+      headers: { "X-MAE-Key": apiKey, ...authHeaders(basicAuth) },
+      signal: AbortSignal.timeout(8000),
+    });
+  } catch (e) {
+    return {
+      ok: false,
+      error: e.name === "TimeoutError" ? "连接超时（8 秒）" : `无法连接站点：${e.message}`,
+      latencyMs: Date.now() - started,
+    };
+  }
+
+  const latencyMs = Date.now() - started;
+  if (res.status === 404) {
+    return { ok: false, error: "站点未提供插件端点（404），请先安装 mae-import.zip 插件", latencyMs };
+  }
+  if (res.status === 401 || res.status === 403) {
+    return { ok: false, error: "接口密钥不正确，请在插件「设置」中核对 mae_api_key", latencyMs };
+  }
+  const d = await res.json().catch(() => ({}));
+  if (!res.ok || !d.success) {
+    return { ok: false, error: d.error || `站点返回 ${res.status}`, latencyMs };
+  }
+  return { ok: true, data: d, latencyMs };
+}
+
 // nginx Basic Auth 头（可选；填入则在请求中携带）
 function authHeaders(basicAuth) {
   if (basicAuth && basicAuth.username != null && basicAuth.password != null) {
@@ -143,7 +206,16 @@ async function uploadImageToSite(base, apiKey, dataB64, filename, basicAuth) {
 
 // 调用目标站插件端点，写入 Elementor 模板
 // 流程：下载 MasterGo 图 → 转 webp → 上传站点媒体库 → 替换模板 url → 导入
-// basicAuth: {username, password} 用于过 nginx Basic Auth（可选）
+/**
+ * @param {object} opts
+ * @param {string} opts.siteUrl
+ * @param {string} opts.apiKey
+ * @param {object} opts.template
+ * @param {string} [opts.pageTitle]
+ * @param {string} [opts.slug]
+ * @param {boolean} [opts.images]
+ * @param {{username?: string, password?: string}|null} [opts.basicAuth] nginx Basic Auth（可选）
+ */
 export async function importToSite({ siteUrl, apiKey, template, pageTitle, slug, images = true, basicAuth = null }) {
   const base = String(siteUrl || "").replace(/\/+$/, "");
   if (!base) throw new Error("缺少站点地址");

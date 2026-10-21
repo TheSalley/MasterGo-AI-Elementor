@@ -1,13 +1,13 @@
 {
   "sectionIndex": 7,
   "section": {
-    "id": "177:9470",
-    "name": "组 5631",
+    "id": "185:8995",
+    "name": "组 5610",
     "type": "GROUP"
   },
   "rootContainer": {
     "width": "1920px",
-    "minHeight": "8232px",
+    "minHeight": "8687px",
     "background": "#FFFFFF",
     "overflow": "hidden",
     "position": "relative"
@@ -15,13 +15,10 @@
   "structureSiblingCount": 1,
   "dsl": {
     "styles": {
-      "effect_3:5777": {
-        "value": []
-      },
-      "font_86:4953": {
+      "font_86:4969": {
         "value": {
           "family": "Noto Sans SC",
-          "size": 52,
+          "size": 20,
           "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
           "decoration": "none",
           "case": "none",
@@ -29,602 +26,418 @@
           "letterSpacing": "auto",
           "weight": "600"
         },
-        "token": "Q-H1"
+        "token": "Q-H5"
       },
-      "font_86:4957": {
-        "value": {
-          "family": "Noto Sans SC",
-          "size": 42,
-          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
-          "decoration": "none",
-          "case": "none",
-          "lineHeight": "120",
-          "letterSpacing": "auto",
-          "weight": "600"
-        },
-        "token": "Q-H2"
+      "paint_102:03318": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/bd2a3190b3fdbd895f01c10723ec9677.JPG"
+          }
+        ]
       },
-      "font_86:5004": {
-        "value": {
-          "family": "Noto Sans SC",
-          "size": 16,
-          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
-          "decoration": "none",
-          "case": "none",
-          "lineHeight": "150",
-          "letterSpacing": "auto",
-          "weight": "400"
-        },
-        "token": "Q-text"
+      "paint_102:03322": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/17c939573ad6f18a06868a937b75a1ba.JPG"
+          }
+        ]
       },
-      "font_86:5012": {
-        "value": {
-          "family": "Noto Sans SC",
-          "size": 14,
-          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
-          "decoration": "none",
-          "case": "none",
-          "lineHeight": "120",
-          "letterSpacing": "auto",
-          "weight": "400"
-        },
-        "token": "Q-ps"
+      "paint_102:03366": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/e7fa663cecdfff533d2cb0535a35a94c.jpg"
+          }
+        ]
       },
-      "paint_3:5624": {
+      "paint_102:03476": {
         "value": [
           "#FFFFFF"
-        ],
-        "token": "lf-bg白"
+        ]
       },
-      "paint_86:5157": {
+      "paint_138:5754": {
         "value": [
-          "#004EA2"
-        ],
-        "token": "Q-主蓝"
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/d56be7fcb5c09b49f1fd0eaa461c7428.jpg"
+          }
+        ]
       },
-      "paint_86:5202": {
+      "paint_3:6817": {
         "value": [
-          "#FFFFFF"
+          "rgba(0, 0, 0, 0.1)"
         ],
-        "token": "Q-背景白"
+        "token": "lf-边框"
+      },
+      "paint_3:6820": {
+        "value": [
+          "#121926"
+        ],
+        "token": "lf-主要内容"
+      },
+      "paint_86:5186": {
+        "value": [
+          "#121212"
+        ],
+        "token": "Q-标题黑"
+      },
+      "paint_86:5204": {
+        "value": [
+          "rgba(0, 0, 0, 0.1)"
+        ],
+        "token": "Q-边框灰"
       }
     },
     "nodes": [
       {
         "type": "GROUP",
-        "id": "177:9470",
-        "name": "组 5631",
+        "id": "185:8995",
+        "name": "组 5610",
         "layoutStyle": {
-          "width": 1280,
-          "height": 423,
+          "width": 1451,
+          "height": 274.6666564941406,
           "relativeX": 0,
           "relativeY": 0
         },
         "children": [
           {
-            "type": "TEXT",
-            "id": "177:9471",
-            "name": "全盛机电创立于2003年，位于杭州临平经济技术开发区，是行业领先的导电滑环解决方案供应商。公司生产的精密导电滑环广泛应用于安防监控、雷达天线、航空航天、风力发电、自动化设备、机器人、医疗设备及工程机械等行业。全盛机电通过持续的技术创新与可靠的精密制造，为全球高端装备客户提供卓越的旋转连接解决方案，驱动其设备实现无限旋转下的稳定传输。",
-            "layoutStyle": {
-              "width": 960,
-              "height": 72,
-              "relativeX": 160,
-              "relativeY": 94
-            },
-            "fill": "paint_86:5202",
-            "_color": "#FFFFFF",
-            "_token": "Q-背景白",
-            "text": [
-              {
-                "text": "T7|177:9471",
-                "font": "font_86:5004"
-              }
-            ],
-            "textColor": [
-              {
-                "start": 0,
-                "end": 167,
-                "color": "paint_86:5202"
-              }
-            ],
-            "textAlign": "center",
-            "textMode": "auto-height",
-            "_placeholder": true
-          },
-          {
-            "type": "TEXT",
-            "id": "177:9474",
-            "name": "关于我们",
-            "layoutStyle": {
-              "width": 168,
-              "height": 51,
-              "relativeX": 556,
-              "relativeY": 0
-            },
-            "fill": "paint_86:5202",
-            "_color": "#FFFFFF",
-            "_token": "Q-背景白",
-            "text": [
-              {
-                "text": "关于我们",
-                "font": "font_86:4957"
-              }
-            ],
-            "textColor": [
-              {
-                "start": 0,
-                "end": 4,
-                "color": "paint_86:5202"
-              }
-            ],
-            "textAlign": "center",
-            "textMode": "single-line",
-            "_placeholder": true
-          },
-          {
             "type": "GROUP",
-            "id": "177:9477",
-            "name": "组 5630",
+            "id": "185:8996",
+            "name": "组 5485",
             "layoutStyle": {
               "width": 1280,
-              "height": 73,
-              "relativeX": 0,
-              "relativeY": 221
+              "height": 274.6666564941406,
+              "relativeX": 86,
+              "relativeY": 0
             },
             "children": [
               {
                 "type": "INSTANCE",
-                "id": "177:9478",
-                "name": "组 5626",
+                "id": "185:8997",
+                "name": "组 5480",
                 "layoutStyle": {
-                  "width": 140,
-                  "height": 73,
+                  "width": 301.3333435058594,
+                  "height": 274.6666564941406,
                   "relativeX": 0,
                   "relativeY": 0
                 },
                 "componentInfo": {},
                 "children": [
                   {
-                    "type": "TEXT",
-                    "id": "177:9478/145:00310",
-                    "name": "导电滑环专业经验",
+                    "type": "LAYER",
+                    "id": "185:8997/102:03005",
+                    "name": "1. 全景图",
                     "layoutStyle": {
-                      "width": 70,
-                      "height": 17,
-                      "relativeX": 35,
-                      "relativeY": 65
+                      "width": 301.3333435058594,
+                      "height": 274.6666564941406,
+                      "relativeX": 0,
+                      "relativeY": 0
                     },
-                    "fill": "paint_86:5202",
+                    "borderRadius": "16px",
+                    "fill": "paint_102:03476",
                     "_color": "#FFFFFF",
-                    "_token": "Q-背景白",
+                    "strokeColor": "paint_86:5204",
+                    "strokeType": "solid",
+                    "strokeAlign": "inside",
+                    "strokeWidth": "1px"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "185:8997/107:5923",
+                    "name": "1. 全景图",
+                    "layoutStyle": {
+                      "width": 301.3333435058594,
+                      "height": 225.77777099609375,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "16px 16px 0px 0px",
+                    "fill": "paint_102:03318"
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "185:8997/102:03272",
+                    "name": "杭州全盛机电科技有限公司",
+                    "layoutStyle": {
+                      "width": 40,
+                      "height": 24,
+                      "relativeX": 131.11126708984375,
+                      "relativeY": 240.888916015625
+                    },
+                    "fill": "paint_86:5186",
+                    "_color": "#121212",
+                    "_token": "Q-标题黑",
                     "text": [
                       {
-                        "text": "成立于杭州\r",
-                        "font": "font_86:5012"
+                        "text": "大厅",
+                        "font": "font_86:4969"
                       }
                     ],
                     "textColor": [
                       {
                         "start": 0,
-                        "end": 6,
-                        "color": "paint_86:5202"
+                        "end": 2,
+                        "color": "paint_86:5186"
                       }
                     ],
                     "textAlign": "center",
                     "textMode": "single-line"
+                  }
+                ],
+                "componentId": "107:6004"
+              },
+              {
+                "type": "INSTANCE",
+                "id": "185:9000",
+                "name": "组 5481",
+                "layoutStyle": {
+                  "width": 301.3333435058594,
+                  "height": 274.6666564941406,
+                  "relativeX": 326.22222900390625,
+                  "relativeY": 0
+                },
+                "componentInfo": {},
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "185:9000/102:03005",
+                    "name": "1. 全景图",
+                    "layoutStyle": {
+                      "width": 301.3333435058594,
+                      "height": 274.6666564941406,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "16px",
+                    "fill": "paint_102:03476",
+                    "_color": "#FFFFFF",
+                    "strokeColor": "paint_86:5204",
+                    "strokeType": "solid",
+                    "strokeAlign": "inside",
+                    "strokeWidth": "1px"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "185:9000/107:5923",
+                    "name": "1. 全景图",
+                    "layoutStyle": {
+                      "width": 301.3333435058594,
+                      "height": 225.77777099609375,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "16px 16px 0px 0px",
+                    "fill": "paint_102:03322"
                   },
                   {
                     "type": "TEXT",
-                    "id": "177:9478/145:00314",
-                    "name": "20+",
+                    "id": "185:9000/102:03272",
+                    "name": "杭州全盛机电科技有限公司",
                     "layoutStyle": {
-                      "width": 121,
-                      "height": 63,
-                      "relativeX": 9.5,
-                      "relativeY": 0
+                      "width": 80,
+                      "height": 24,
+                      "relativeX": 111.11126708984375,
+                      "relativeY": 240.888916015625
                     },
-                    "fill": "paint_86:5202",
-                    "_color": "#FFFFFF",
-                    "_token": "Q-背景白",
+                    "fill": "paint_86:5186",
+                    "_color": "#121212",
+                    "_token": "Q-标题黑",
                     "text": [
                       {
-                        "text": "2003",
-                        "font": "font_86:4953"
+                        "text": "生产车间",
+                        "font": "font_86:4969"
                       }
                     ],
                     "textColor": [
                       {
                         "start": 0,
                         "end": 4,
-                        "color": "paint_86:5202"
+                        "color": "paint_86:5186"
                       }
                     ],
                     "textAlign": "center",
                     "textMode": "single-line"
                   }
                 ],
-                "componentId": "145:00375"
+                "componentId": "107:6004"
               },
               {
                 "type": "INSTANCE",
-                "id": "177:9483",
-                "name": "组 5626",
+                "id": "185:9004",
+                "name": "组 5482",
                 "layoutStyle": {
-                  "width": 140,
-                  "height": 73,
-                  "relativeX": 285,
+                  "width": 301.3333435058594,
+                  "height": 274.6666564941406,
+                  "relativeX": 978.6666870117188,
                   "relativeY": 0
                 },
                 "componentInfo": {},
                 "children": [
                   {
-                    "type": "TEXT",
-                    "id": "177:9483/145:00310",
-                    "name": "导电滑环专业经验",
+                    "type": "LAYER",
+                    "id": "185:9004/102:03005",
+                    "name": "1. 全景图",
                     "layoutStyle": {
-                      "width": 126,
-                      "height": 17,
-                      "relativeX": 7,
-                      "relativeY": 65
+                      "width": 301.3333435058594,
+                      "height": 274.6666564941406,
+                      "relativeX": 0,
+                      "relativeY": 0
                     },
-                    "fill": "paint_86:5202",
+                    "borderRadius": "16px",
+                    "fill": "paint_102:03476",
                     "_color": "#FFFFFF",
-                    "_token": "Q-背景白",
-                    "text": [
-                      {
-                        "text": "年导电滑环专业经验\r",
-                        "font": "font_86:5012"
-                      }
-                    ],
-                    "textColor": [
-                      {
-                        "start": 0,
-                        "end": 10,
-                        "color": "paint_86:5202"
-                      }
-                    ],
-                    "textAlign": "center",
-                    "textMode": "single-line"
+                    "strokeColor": "paint_86:5204",
+                    "strokeType": "solid",
+                    "strokeAlign": "inside",
+                    "strokeWidth": "1px"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "185:9004/107:5923",
+                    "name": "1. 全景图",
+                    "layoutStyle": {
+                      "width": 301.3333435058594,
+                      "height": 225.77777099609375,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "16px 16px 0px 0px",
+                    "fill": "paint_138:5754"
                   },
                   {
                     "type": "TEXT",
-                    "id": "177:9483/145:00314",
-                    "name": "20+",
+                    "id": "185:9004/102:03272",
+                    "name": "杭州全盛机电科技有限公司",
                     "layoutStyle": {
-                      "width": 91,
-                      "height": 63,
-                      "relativeX": 24.5,
-                      "relativeY": 0
+                      "width": 80,
+                      "height": 24,
+                      "relativeX": 111.11126708984375,
+                      "relativeY": 240.888916015625
                     },
-                    "fill": "paint_86:5202",
-                    "_color": "#FFFFFF",
-                    "_token": "Q-背景白",
+                    "fill": "paint_86:5186",
+                    "_color": "#121212",
+                    "_token": "Q-标题黑",
                     "text": [
                       {
-                        "text": "20+",
-                        "font": "font_86:4953"
-                      }
-                    ],
-                    "textColor": [
-                      {
-                        "start": 0,
-                        "end": 3,
-                        "color": "paint_86:5202"
-                      }
-                    ],
-                    "textAlign": "center",
-                    "textMode": "single-line",
-                    "_placeholder": true
-                  }
-                ],
-                "componentId": "145:00375"
-              },
-              {
-                "type": "INSTANCE",
-                "id": "177:9490",
-                "name": "组 5627",
-                "layoutStyle": {
-                  "width": 140,
-                  "height": 73,
-                  "relativeX": 570,
-                  "relativeY": 0
-                },
-                "componentInfo": {},
-                "children": [
-                  {
-                    "type": "TEXT",
-                    "id": "177:9490/145:00310",
-                    "name": "导电滑环专业经验",
-                    "layoutStyle": {
-                      "width": 84,
-                      "height": 17,
-                      "relativeX": 28,
-                      "relativeY": 65
-                    },
-                    "fill": "paint_86:5202",
-                    "_color": "#FFFFFF",
-                    "_token": "Q-背景白",
-                    "text": [
-                      {
-                        "text": "产品出口国家\r",
-                        "font": "font_86:5012"
-                      }
-                    ],
-                    "textColor": [
-                      {
-                        "start": 0,
-                        "end": 7,
-                        "color": "paint_86:5202"
-                      }
-                    ],
-                    "textAlign": "center",
-                    "textMode": "single-line"
-                  },
-                  {
-                    "type": "TEXT",
-                    "id": "177:9490/145:00314",
-                    "name": "20+",
-                    "layoutStyle": {
-                      "width": 91,
-                      "height": 63,
-                      "relativeX": 24.5,
-                      "relativeY": 0
-                    },
-                    "fill": "paint_86:5202",
-                    "_color": "#FFFFFF",
-                    "_token": "Q-背景白",
-                    "text": [
-                      {
-                        "text": "50+",
-                        "font": "font_86:4953"
-                      }
-                    ],
-                    "textColor": [
-                      {
-                        "start": 0,
-                        "end": 3,
-                        "color": "paint_86:5202"
-                      }
-                    ],
-                    "textAlign": "center",
-                    "textMode": "single-line"
-                  }
-                ],
-                "componentId": "145:00375"
-              },
-              {
-                "type": "INSTANCE",
-                "id": "177:9497",
-                "name": "组 5628",
-                "layoutStyle": {
-                  "width": 140,
-                  "height": 73,
-                  "relativeX": 855,
-                  "relativeY": 0
-                },
-                "componentInfo": {},
-                "children": [
-                  {
-                    "type": "TEXT",
-                    "id": "177:9497/145:00310",
-                    "name": "导电滑环专业经验",
-                    "layoutStyle": {
-                      "width": 126,
-                      "height": 17,
-                      "relativeX": 7,
-                      "relativeY": 65
-                    },
-                    "fill": "paint_86:5202",
-                    "_color": "#FFFFFF",
-                    "_token": "Q-背景白",
-                    "text": [
-                      {
-                        "text": "发明和实用新型专利\r",
-                        "font": "font_86:5012"
-                      }
-                    ],
-                    "textColor": [
-                      {
-                        "start": 0,
-                        "end": 10,
-                        "color": "paint_86:5202"
-                      }
-                    ],
-                    "textAlign": "center",
-                    "textMode": "single-line"
-                  },
-                  {
-                    "type": "TEXT",
-                    "id": "177:9497/145:00314",
-                    "name": "20+",
-                    "layoutStyle": {
-                      "width": 121,
-                      "height": 63,
-                      "relativeX": 9.5,
-                      "relativeY": 0
-                    },
-                    "fill": "paint_86:5202",
-                    "_color": "#FFFFFF",
-                    "_token": "Q-背景白",
-                    "text": [
-                      {
-                        "text": "100+",
-                        "font": "font_86:4953"
+                        "text": "实验中心",
+                        "font": "font_86:4969"
                       }
                     ],
                     "textColor": [
                       {
                         "start": 0,
                         "end": 4,
-                        "color": "paint_86:5202"
+                        "color": "paint_86:5186"
                       }
                     ],
                     "textAlign": "center",
                     "textMode": "single-line"
                   }
                 ],
-                "componentId": "145:00375"
+                "componentId": "107:6004"
               },
               {
                 "type": "INSTANCE",
-                "id": "177:9504",
-                "name": "组 5629",
+                "id": "185:9008",
+                "name": "组 5483",
                 "layoutStyle": {
-                  "width": 140,
-                  "height": 73,
-                  "relativeX": 1140,
+                  "width": 301.3333435058594,
+                  "height": 274.6666564941406,
+                  "relativeX": 652.4444580078125,
                   "relativeY": 0
                 },
                 "componentInfo": {},
                 "children": [
                   {
-                    "type": "TEXT",
-                    "id": "177:9504/145:00310",
-                    "name": "导电滑环专业经验",
+                    "type": "LAYER",
+                    "id": "185:9008/102:03005",
+                    "name": "1. 全景图",
                     "layoutStyle": {
-                      "width": 126,
-                      "height": 17,
-                      "relativeX": 7,
-                      "relativeY": 65
+                      "width": 301.3333435058594,
+                      "height": 274.6666564941406,
+                      "relativeX": 0,
+                      "relativeY": 0
                     },
-                    "fill": "paint_86:5202",
+                    "borderRadius": "16px",
+                    "fill": "paint_102:03476",
                     "_color": "#FFFFFF",
-                    "_token": "Q-背景白",
-                    "text": [
-                      {
-                        "text": "科研技术人员与员工",
-                        "font": "font_86:5012"
-                      }
-                    ],
-                    "textColor": [
-                      {
-                        "start": 0,
-                        "end": 9,
-                        "color": "paint_86:5202"
-                      }
-                    ],
-                    "textAlign": "center",
-                    "textMode": "single-line"
+                    "strokeColor": "paint_86:5204",
+                    "strokeType": "solid",
+                    "strokeAlign": "inside",
+                    "strokeWidth": "1px"
+                  },
+                  {
+                    "type": "LAYER",
+                    "id": "185:9008/107:5923",
+                    "name": "1. 全景图",
+                    "layoutStyle": {
+                      "width": 301.3333435058594,
+                      "height": 225.77777099609375,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "16px 16px 0px 0px",
+                    "fill": "paint_102:03366"
                   },
                   {
                     "type": "TEXT",
-                    "id": "177:9504/145:00314",
-                    "name": "20+",
+                    "id": "185:9008/102:03272",
+                    "name": "杭州全盛机电科技有限公司",
                     "layoutStyle": {
-                      "width": 121,
-                      "height": 63,
-                      "relativeX": 9.5,
-                      "relativeY": 0
+                      "width": 80,
+                      "height": 24,
+                      "relativeX": 111.11126708984375,
+                      "relativeY": 240.888916015625
                     },
-                    "fill": "paint_86:5202",
-                    "_color": "#FFFFFF",
-                    "_token": "Q-背景白",
+                    "fill": "paint_86:5186",
+                    "_color": "#121212",
+                    "_token": "Q-标题黑",
                     "text": [
                       {
-                        "text": "500+",
-                        "font": "font_86:4953"
+                        "text": "技术中心",
+                        "font": "font_86:4969"
                       }
                     ],
                     "textColor": [
                       {
                         "start": 0,
                         "end": 4,
-                        "color": "paint_86:5202"
+                        "color": "paint_86:5186"
                       }
                     ],
                     "textAlign": "center",
                     "textMode": "single-line"
                   }
                 ],
-                "componentId": "145:00375"
+                "componentId": "107:6004"
               }
             ]
           },
           {
-            "type": "INSTANCE",
-            "id": "177:9511",
-            "name": "17",
+            "type": "GROUP",
+            "id": "185:9012",
+            "name": "组 5484",
             "layoutStyle": {
-              "width": 180,
-              "height": 41,
-              "relativeX": 550,
-              "relativeY": 382
-            },
-            "borderRadius": "100px",
-            "flexContainerInfo": {
-              "flexDirection": "row",
-              "justifyContent": "center",
-              "alignItems": "center",
-              "mainSizing": "fixed",
-              "crossSizing": "auto",
-              "gap": "32px",
-              "padding": "12px 32px"
-            },
-            "fill": "paint_86:5157",
-            "_color": "#004EA2",
-            "_token": "Q-主蓝",
-            "effect": "effect_3:5777",
-            "componentInfo": {
-              "properties": {
-                "属性 1": "蓝底"
-              }
+              "width": 1451,
+              "height": 48,
+              "relativeX": 0,
+              "relativeY": 113
             },
             "children": [
               {
-                "type": "FRAME",
-                "id": "177:9511/3:7132",
-                "name": "组 1",
+                "type": "GROUP",
+                "id": "185:9013",
+                "name": "组 5609",
                 "layoutStyle": {
-                  "width": 56,
-                  "height": 17,
-                  "relativeX": 32,
-                  "relativeY": 12
+                  "width": 1451,
+                  "height": 48,
+                  "relativeX": 0,
+                  "relativeY": 0
                 },
-                "children": [
-                  {
-                    "type": "TEXT",
-                    "id": "177:9511/3:7133",
-                    "name": "Discover more",
-                    "layoutStyle": {
-                      "width": 56,
-                      "height": 17,
-                      "relativeX": 0,
-                      "relativeY": 0
-                    },
-                    "fill": "paint_3:5624",
-                    "_color": "#FFFFFF",
-                    "_token": "lf-bg白",
-                    "text": [
-                      {
-                        "text": "立即提交",
-                        "font": "font_86:5012"
-                      }
-                    ],
-                    "textColor": [
-                      {
-                        "start": 0,
-                        "end": 4,
-                        "color": "paint_3:5624"
-                      }
-                    ],
-                    "textAlign": "left",
-                    "textMode": "single-line"
-                  }
-                ],
-                "flexContainerInfo": {
-                  "flexDirection": "row",
-                  "justifyContent": "center",
-                  "alignItems": "center",
-                  "mainSizing": "auto",
-                  "crossSizing": "auto",
-                  "gap": "6px"
-                }
+                "_mergedVector": true,
+                "svgKey": "S7:组 5484|185:9013",
+                "svgShortKey": "S7#0",
+                "svgName": "组 5484"
               }
-            ],
-            "componentId": "3:7131",
-            "_variantProps": {
-              "属性 1": "蓝底"
-            }
+            ]
           }
         ]
       }
@@ -632,79 +445,30 @@
     "components": [],
     "rowTexts": [
       {
-        "text": "全盛机电创立于2003年，位于杭州临平经济技术开发区，是行业领先的导电滑环解决方案供应商。公司生产的精密导电滑环广泛应用于安防监控、雷达天线、航空航天、风力发电、自动化设备、机器人、医疗设备及工程机械等行业。全盛机电通过持续的技术创新与可靠的精密制造，为全球高端装备客户提供卓越的旋转连接解决方案，驱动其设备实现无限旋转下的稳定传输。",
-        "_placeholder": true,
-        "parentType": "GROUP"
-      },
-      {
-        "text": "关于我们",
-        "_placeholder": true,
-        "parentType": "GROUP"
-      },
-      {
-        "text": "成立于杭州\r",
+        "text": "大厅",
         "parentType": "INSTANCE",
-        "parentName": "组 5626"
+        "parentName": "组 5480"
       },
       {
-        "text": "2003",
+        "text": "生产车间",
         "parentType": "INSTANCE",
-        "parentName": "组 5626"
+        "parentName": "组 5481"
       },
       {
-        "text": "年导电滑环专业经验\r",
+        "text": "实验中心",
         "parentType": "INSTANCE",
-        "parentName": "组 5626"
+        "parentName": "组 5482"
       },
       {
-        "text": "20+",
-        "_placeholder": true,
+        "text": "技术中心",
         "parentType": "INSTANCE",
-        "parentName": "组 5626"
-      },
-      {
-        "text": "产品出口国家\r",
-        "parentType": "INSTANCE",
-        "parentName": "组 5627"
-      },
-      {
-        "text": "50+",
-        "parentType": "INSTANCE",
-        "parentName": "组 5627"
-      },
-      {
-        "text": "发明和实用新型专利\r",
-        "parentType": "INSTANCE",
-        "parentName": "组 5628"
-      },
-      {
-        "text": "100+",
-        "parentType": "INSTANCE",
-        "parentName": "组 5628"
-      },
-      {
-        "text": "科研技术人员与员工",
-        "parentType": "INSTANCE",
-        "parentName": "组 5629"
-      },
-      {
-        "text": "500+",
-        "parentType": "INSTANCE",
-        "parentName": "组 5629"
-      },
-      {
-        "text": "立即提交",
-        "parentType": "FRAME",
-        "parentName": "组 1"
+        "parentName": "组 5483"
       }
-    ],
-    "placeholderTexts": [
-      "T7|177:9471",
-      "关于我们",
-      "20+"
     ]
   },
-  "nodeCount": 22,
+  "nodeCount": 20,
+  "svgNodeCount": 1,
+  "hasStrippedSvgs": true,
   "componentDocumentLinks": [],
-  "fetchProgress": "Fetched 8/29. MISSING 21 sections: [8,9,10,11,12,13,14,15,16,17... +11 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+  "fetchProgress": "Fetched 8/31. MISSING 23 sections: [8,9,10,11,12,13,14,15,16,17... +13 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
 }

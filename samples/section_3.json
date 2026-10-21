@@ -1,49 +1,45 @@
 {
   "sectionIndex": 3,
   "section": {
-    "id": "177:9426",
-    "name": "矩形 2835",
-    "type": "PATH"
+    "id": "185:8951",
+    "name": "image",
+    "type": "LAYER"
   },
   "rootContainer": {
     "width": "1920px",
-    "minHeight": "8232px",
+    "minHeight": "8687px",
     "background": "#FFFFFF",
     "overflow": "hidden",
     "position": "relative"
   },
-  "structureSiblingCount": 2,
+  "structureSiblingCount": 1,
   "dsl": {
     "styles": {
-      "paint_86:5194": {
+      "paint_107:7499": {
         "value": [
-          "#02132D"
-        ],
-        "token": "Q-背景深"
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/1df0d814a57654f32757ee824e65bb12.png"
+          }
+        ]
       }
     },
     "nodes": [
       {
-        "type": "PATH",
-        "id": "177:9426",
-        "name": "矩形 2835",
+        "type": "LAYER",
+        "id": "185:8951",
+        "name": "image",
         "layoutStyle": {
           "width": 1920,
-          "height": 790,
+          "height": 704,
           "relativeX": 0,
           "relativeY": 0
         },
-        "opacity": 0.699999988079071,
-        "svgKey": "S3:177:9426|177:9426",
-        "svgShortKey": "S3#0",
-        "svgName": ""
+        "fill": "paint_107:7499"
       }
     ],
     "components": []
   },
   "nodeCount": 1,
-  "svgNodeCount": 1,
-  "hasStrippedSvgs": true,
   "componentDocumentLinks": [],
-  "fetchProgress": "Fetched 4/29. MISSING 25 sections: [4,5,6,7,8,9,10,11,12,13... +15 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+  "fetchProgress": "Fetched 4/31. MISSING 27 sections: [4,5,6,7,8,9,10,11,12,13... +17 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
 }
