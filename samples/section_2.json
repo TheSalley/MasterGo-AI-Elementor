@@ -1,13 +1,13 @@
 {
   "sectionIndex": 2,
   "section": {
-    "id": "185:8950",
-    "name": "image",
-    "type": "LAYER"
+    "id": "20:3353",
+    "name": "Banner",
+    "type": "FRAME"
   },
   "rootContainer": {
     "width": "1920px",
-    "minHeight": "8687px",
+    "minHeight": "4802px",
     "background": "#FFFFFF",
     "overflow": "hidden",
     "position": "relative"
@@ -15,31 +15,1086 @@
   "structureSiblingCount": 1,
   "dsl": {
     "styles": {
-      "paint_134:6296": {
+      "font_20:7548": {
+        "value": {
+          "family": "Libre Franklin",
+          "size": 48,
+          "style": "{\"fontStyle\":\"Bold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "uppercase",
+          "lineHeight": "auto",
+          "weight": "700"
+        }
+      },
+      "font_45:0536": {
+        "value": {
+          "family": "Libre Franklin",
+          "size": 16,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "24",
+          "weight": "400"
+        }
+      },
+      "font_5:0009": {
+        "value": {
+          "family": "Libre Franklin",
+          "size": 18,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "capitalize",
+          "lineHeight": "auto",
+          "weight": "400"
+        }
+      },
+      "font_5:0147": {
+        "value": {
+          "family": "Libre Franklin",
+          "size": 18,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "auto",
+          "weight": "400"
+        }
+      },
+      "font_5:22": {
+        "value": {
+          "family": "Poppins",
+          "size": 18,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "capitalize",
+          "lineHeight": "auto",
+          "weight": "600"
+        },
+        "token": "18标题"
+      },
+      "font_5:3612": {
+        "value": {
+          "family": "Libre Franklin",
+          "size": 18,
+          "style": "{\"fontStyle\":\"Bold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "35",
+          "weight": "700"
+        }
+      },
+      "font_5:3795": {
+        "value": {
+          "family": "Libre Franklin",
+          "size": 14,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "auto",
+          "weight": "400"
+        }
+      },
+      "paint_20:6656": {
         "value": [
-          "linear-gradient(180deg, #F5F5F5 0%, #F5F5F5 100%)"
+          "#000000"
+        ]
+      },
+      "paint_20:7510": {
+        "value": [
+          "rgba(0, 0, 0, 0.2)"
+        ]
+      },
+      "paint_21:0113": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/115713781704629/7e2af508f91c99811866936334517cc5.png"
+          }
+        ]
+      },
+      "paint_21:0124": {
+        "value": [
+          "#FDFDFD"
+        ]
+      },
+      "paint_2:3": {
+        "value": [
+          "#FFFFFF"
+        ]
+      },
+      "paint_34:9351": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/115713781704629/8355b5884344b6968fab8a0755334cb7.png"
+          }
+        ]
+      },
+      "paint_5:200": {
+        "value": [
+          "rgba(255, 255, 255, 0.01)"
+        ]
+      },
+      "paint_5:3723": {
+        "value": [
+          "#000000"
+        ]
+      },
+      "paint_5:520": {
+        "value": [
+          "#DDBC7E"
+        ]
+      },
+      "paint_5:536": {
+        "value": [
+          "#DDBC7E"
+        ],
+        "token": "主色"
+      },
+      "paint_5:59": {
+        "value": [
+          "#FFFFFF"
         ]
       }
     },
     "nodes": [
       {
-        "type": "LAYER",
-        "id": "185:8950",
-        "name": "image",
+        "type": "FRAME",
+        "id": "20:3353",
+        "name": "Banner",
         "layoutStyle": {
           "width": 1920,
-          "height": 862,
+          "height": 720,
           "relativeX": 0,
-          "relativeY": 0,
-          "flipV": true
+          "relativeY": 0
         },
-        "fill": "paint_134:6296",
-        "_color": "linear-gradient(180deg, #F5F5F5 0%, #F5F5F5 100%)"
+        "fill": "paint_2:3",
+        "_color": "#FFFFFF",
+        "children": [
+          {
+            "type": "LAYER",
+            "id": "45:0365",
+            "name": "image",
+            "layoutStyle": {
+              "width": 1920,
+              "height": 720,
+              "relativeX": 0,
+              "relativeY": 0,
+              "preserveRatio": true
+            },
+            "fill": "paint_34:9351"
+          },
+          {
+            "type": "GROUP",
+            "id": "58:4474",
+            "name": "组 5650",
+            "layoutStyle": {
+              "width": 1920,
+              "height": 80,
+              "relativeX": 0,
+              "relativeY": 0
+            },
+            "children": [
+              {
+                "type": "LAYER",
+                "id": "58:4500",
+                "name": "矩形 6",
+                "layoutStyle": {
+                  "width": 1920,
+                  "height": 80,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "fill": "paint_21:0124",
+                "_color": "#FDFDFD",
+                "strokeColor": "paint_20:7510",
+                "strokeType": "solid",
+                "strokeAlign": "inside",
+                "strokeWidth": "0px 0px 1px"
+              },
+              {
+                "type": "LAYER",
+                "id": "58:4501",
+                "name": "image",
+                "layoutStyle": {
+                  "width": 197,
+                  "height": 55,
+                  "relativeX": 240,
+                  "relativeY": 13,
+                  "preserveRatio": true
+                },
+                "fill": "paint_21:0113"
+              },
+              {
+                "type": "TEXT",
+                "id": "58:4488",
+                "name": "Home",
+                "layoutStyle": {
+                  "width": 51,
+                  "height": 22,
+                  "relativeX": 639,
+                  "relativeY": 29
+                },
+                "fill": "paint_20:6656",
+                "_color": "#000000",
+                "text": [
+                  {
+                    "text": "Home",
+                    "font": "font_5:0009"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "color": "paint_20:6656"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              {
+                "type": "TEXT",
+                "id": "58:4507",
+                "name": "About UE",
+                "layoutStyle": {
+                  "width": 80,
+                  "height": 22,
+                  "relativeX": 730,
+                  "relativeY": 29
+                },
+                "fill": "paint_20:6656",
+                "_color": "#000000",
+                "text": [
+                  {
+                    "text": "About UE",
+                    "font": "font_5:0147"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 8,
+                    "color": "paint_20:6656"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              {
+                "type": "TEXT",
+                "id": "58:4475",
+                "name": "UE News",
+                "layoutStyle": {
+                  "width": 76,
+                  "height": 22,
+                  "relativeX": 850,
+                  "relativeY": 29
+                },
+                "fill": "paint_20:6656",
+                "_color": "#000000",
+                "text": [
+                  {
+                    "text": "UE News",
+                    "font": "font_5:0147"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 7,
+                    "color": "paint_20:6656"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              {
+                "type": "TEXT",
+                "id": "58:4496",
+                "name": "Products",
+                "layoutStyle": {
+                  "width": 77,
+                  "height": 22,
+                  "relativeX": 966,
+                  "relativeY": 29
+                },
+                "fill": "paint_20:6656",
+                "_color": "#000000",
+                "text": [
+                  {
+                    "text": "Products",
+                    "font": "font_5:0147"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 8,
+                    "color": "paint_20:6656"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              {
+                "type": "TEXT",
+                "id": "58:4519",
+                "name": "R & D Center",
+                "layoutStyle": {
+                  "width": 109,
+                  "height": 22,
+                  "relativeX": 1083,
+                  "relativeY": 29
+                },
+                "fill": "paint_20:6656",
+                "_color": "#000000",
+                "text": [
+                  {
+                    "text": "R & D Center",
+                    "font": "font_5:0147"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 12,
+                    "color": "paint_20:6656"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              {
+                "type": "TEXT",
+                "id": "58:4484",
+                "name": "Join Us",
+                "layoutStyle": {
+                  "width": 59,
+                  "height": 22,
+                  "relativeX": 1232,
+                  "relativeY": 29
+                },
+                "fill": "paint_20:6656",
+                "_color": "#000000",
+                "text": [
+                  {
+                    "text": "Join Us",
+                    "font": "font_5:0147"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 7,
+                    "color": "paint_20:6656"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              {
+                "type": "TEXT",
+                "id": "58:4492",
+                "name": "Contact Us",
+                "layoutStyle": {
+                  "width": 93,
+                  "height": 22,
+                  "relativeX": 1331,
+                  "relativeY": 29
+                },
+                "fill": "paint_20:6656",
+                "_color": "#000000",
+                "text": [
+                  {
+                    "text": "Contact Us",
+                    "font": "font_5:0147"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 10,
+                    "color": "paint_20:6656"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              {
+                "type": "FRAME",
+                "id": "58:4511",
+                "name": "容器",
+                "layoutStyle": {
+                  "width": 24,
+                  "height": 24,
+                  "relativeX": 1464,
+                  "relativeY": 28,
+                  "preserveRatio": true
+                },
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "58:4515",
+                    "name": "矩形",
+                    "layoutStyle": {
+                      "width": 24,
+                      "height": 24,
+                      "relativeX": 0,
+                      "relativeY": 0,
+                      "constraint": {
+                        "horizontal": "SCALE",
+                        "vertical": "SCALE"
+                      }
+                    },
+                    "fill": "paint_5:200",
+                    "_color": "rgba(255, 255, 255, 0.01)"
+                  },
+                  {
+                    "type": "PATH",
+                    "id": "58:4514",
+                    "name": "路径",
+                    "layoutStyle": {
+                      "width": 20,
+                      "height": 20,
+                      "relativeX": 2,
+                      "relativeY": 2,
+                      "constraint": {
+                        "horizontal": "SCALE",
+                        "vertical": "SCALE"
+                      }
+                    },
+                    "path": [
+                      {
+                        "fill": "#000000",
+                        "data": "",
+                        "fillType": 1
+                      }
+                    ],
+                    "svgKey": "S2:容器|58:4514",
+                    "svgShortKey": "S2#0",
+                    "svgName": "容器"
+                  },
+                  {
+                    "type": "PATH",
+                    "id": "58:4518",
+                    "name": "路径",
+                    "layoutStyle": {
+                      "width": 20,
+                      "height": 0,
+                      "relativeX": 2,
+                      "relativeY": 12,
+                      "constraint": {
+                        "horizontal": "SCALE",
+                        "vertical": "SCALE"
+                      }
+                    },
+                    "_svgUnavailable": true
+                  },
+                  {
+                    "type": "PATH",
+                    "id": "58:4513",
+                    "name": "路径",
+                    "layoutStyle": {
+                      "width": 8,
+                      "height": 20,
+                      "relativeX": 8,
+                      "relativeY": 2,
+                      "constraint": {
+                        "horizontal": "SCALE",
+                        "vertical": "SCALE"
+                      }
+                    },
+                    "path": [
+                      {
+                        "fill": "#000000",
+                        "data": "",
+                        "fillType": 1
+                      }
+                    ],
+                    "svgKey": "S2:容器|58:4513_1",
+                    "svgShortKey": "S2#1",
+                    "svgName": "容器"
+                  },
+                  {
+                    "type": "PATH",
+                    "id": "58:4516",
+                    "name": "路径",
+                    "layoutStyle": {
+                      "width": 14.142145156860352,
+                      "height": 2.9289498329162598,
+                      "relativeX": 4.9287109375,
+                      "relativeY": 5.0703125,
+                      "constraint": {
+                        "horizontal": "SCALE",
+                        "vertical": "SCALE"
+                      }
+                    },
+                    "path": [
+                      {
+                        "fill": "#000000",
+                        "data": ""
+                      }
+                    ],
+                    "svgKey": "S2:容器|58:4516_2",
+                    "svgShortKey": "S2#2",
+                    "svgName": "容器"
+                  },
+                  {
+                    "type": "PATH",
+                    "id": "58:4517",
+                    "name": "路径",
+                    "layoutStyle": {
+                      "width": 14.142145156860352,
+                      "height": 2.9289493560791016,
+                      "relativeX": 4.9287109375,
+                      "relativeY": 16,
+                      "constraint": {
+                        "horizontal": "SCALE",
+                        "vertical": "SCALE"
+                      }
+                    },
+                    "path": [
+                      {
+                        "fill": "#000000",
+                        "data": ""
+                      }
+                    ],
+                    "svgKey": "S2:容器|58:4517_3",
+                    "svgShortKey": "S2#3",
+                    "svgName": "容器"
+                  },
+                  {
+                    "type": "FRAME",
+                    "id": "58:4512",
+                    "name": "容器",
+                    "layoutStyle": {
+                      "width": 24,
+                      "height": 24,
+                      "relativeX": 0,
+                      "relativeY": 0,
+                      "preserveRatio": true
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "FRAME",
+                "id": "58:4479",
+                "name": "容器",
+                "layoutStyle": {
+                  "width": 24,
+                  "height": 24,
+                  "relativeX": 1524,
+                  "relativeY": 28,
+                  "preserveRatio": true
+                },
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "58:4482",
+                    "name": "矩形",
+                    "layoutStyle": {
+                      "width": 24,
+                      "height": 24,
+                      "relativeX": 0,
+                      "relativeY": 0,
+                      "constraint": {
+                        "horizontal": "SCALE",
+                        "vertical": "SCALE"
+                      }
+                    },
+                    "fill": "paint_5:200",
+                    "_color": "rgba(255, 255, 255, 0.01)"
+                  },
+                  {
+                    "type": "PATH",
+                    "id": "58:4480",
+                    "name": "路径",
+                    "layoutStyle": {
+                      "width": 17,
+                      "height": 17,
+                      "relativeX": 2,
+                      "relativeY": 2,
+                      "constraint": {
+                        "horizontal": "SCALE",
+                        "vertical": "SCALE"
+                      }
+                    },
+                    "path": [
+                      {
+                        "fill": "#000000",
+                        "data": ""
+                      }
+                    ],
+                    "svgKey": "S2:容器|58:4480_4",
+                    "svgShortKey": "S2#4",
+                    "svgName": "容器"
+                  },
+                  {
+                    "type": "PATH",
+                    "id": "58:4483",
+                    "name": "路径",
+                    "layoutStyle": {
+                      "width": 5.6568498611450195,
+                      "height": 1.1715497970581055,
+                      "relativeX": 7.671875,
+                      "relativeY": 6,
+                      "constraint": {
+                        "horizontal": "SCALE",
+                        "vertical": "SCALE"
+                      }
+                    },
+                    "path": [
+                      {
+                        "fill": "#000000",
+                        "data": ""
+                      }
+                    ],
+                    "svgKey": "S2:容器|58:4483_5",
+                    "svgShortKey": "S2#5",
+                    "svgName": "容器"
+                  },
+                  {
+                    "type": "PATH",
+                    "id": "58:4481",
+                    "name": "路径",
+                    "layoutStyle": {
+                      "width": 4.242649078369141,
+                      "height": 4.242649078369141,
+                      "relativeX": 16.611328125,
+                      "relativeY": 16.611328125,
+                      "constraint": {
+                        "horizontal": "SCALE",
+                        "vertical": "SCALE"
+                      }
+                    },
+                    "path": [
+                      {
+                        "fill": "#000000",
+                        "data": ""
+                      }
+                    ],
+                    "svgKey": "S2:容器|58:4481_6",
+                    "svgShortKey": "S2#6",
+                    "svgName": "容器"
+                  }
+                ]
+              },
+              {
+                "type": "GROUP",
+                "id": "58:4502",
+                "name": "组 42",
+                "layoutStyle": {
+                  "width": 108,
+                  "height": 40,
+                  "relativeX": 1572,
+                  "relativeY": 20
+                },
+                "children": [
+                  {
+                    "type": "LAYER",
+                    "id": "58:4506",
+                    "name": "矩形 3",
+                    "layoutStyle": {
+                      "width": 108,
+                      "height": 40,
+                      "relativeX": 0,
+                      "relativeY": 0
+                    },
+                    "borderRadius": "2px",
+                    "fill": "paint_5:536",
+                    "_color": "#DDBC7E",
+                    "_token": "主色"
+                  },
+                  {
+                    "type": "TEXT",
+                    "id": "58:4503",
+                    "name": "quote",
+                    "layoutStyle": {
+                      "width": 56,
+                      "height": 27,
+                      "relativeX": 26,
+                      "relativeY": 6
+                    },
+                    "fill": "paint_5:59",
+                    "_color": "#FFFFFF",
+                    "text": [
+                      {
+                        "text": "quote",
+                        "font": "font_5:22"
+                      }
+                    ],
+                    "textColor": [
+                      {
+                        "start": 0,
+                        "end": 5,
+                        "color": "paint_5:59"
+                      }
+                    ],
+                    "textAlign": "left",
+                    "textMode": "single-line"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "id": "20:3355",
+            "name": "Reliable power.",
+            "layoutStyle": {
+              "width": 495,
+              "height": 58,
+              "relativeX": 240,
+              "relativeY": 203
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "I.T.E.Power Supply",
+                "font": "font_20:7548"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 18,
+                "color": "paint_5:3723"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "20:3363",
+            "name": "Power supplies engineered around your medical, connected and everyday applications.",
+            "layoutStyle": {
+              "width": 760,
+              "height": 168,
+              "relativeX": 240,
+              "relativeY": 285
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "T2|20:3363",
+                "font": "font_45:0536"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 684,
+                "color": "paint_5:3723"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "auto-height"
+          },
+          {
+            "type": "TEXT",
+            "id": "20:3371",
+            "name": "01 / 04",
+            "layoutStyle": {
+              "width": 46,
+              "height": 17,
+              "relativeX": 240,
+              "relativeY": 808
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "01 / 04",
+                "font": "font_5:3795"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 7,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "GROUP",
+            "id": "20:3422",
+            "name": "组 43",
+            "layoutStyle": {
+              "width": 226,
+              "height": 48,
+              "relativeX": 240,
+              "relativeY": 563
+            },
+            "children": [
+              {
+                "type": "LAYER",
+                "id": "20:3423",
+                "name": "矩形 5",
+                "layoutStyle": {
+                  "width": 275,
+                  "height": 48,
+                  "relativeX": 0,
+                  "relativeY": 0
+                },
+                "borderRadius": "2px",
+                "fill": "paint_5:536",
+                "_color": "#DDBC7E",
+                "_token": "主色"
+              },
+              {
+                "type": "TEXT",
+                "id": "20:3424",
+                "name": "Explore Products",
+                "layoutStyle": {
+                  "width": 201,
+                  "height": 35,
+                  "relativeX": 24,
+                  "relativeY": 7
+                },
+                "fill": "paint_2:3",
+                "_color": "#FFFFFF",
+                "text": [
+                  {
+                    "text": "View our product range",
+                    "font": "font_5:3612"
+                  }
+                ],
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 22,
+                    "color": "paint_2:3"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line"
+              },
+              {
+                "type": "FRAME",
+                "id": "20:3428",
+                "name": "容器",
+                "layoutStyle": {
+                  "width": 16,
+                  "height": 16,
+                  "relativeX": 232,
+                  "relativeY": 17,
+                  "preserveRatio": true
+                },
+                "children": [
+                  {
+                    "type": "PATH",
+                    "id": "20:3429",
+                    "name": "路径",
+                    "layoutStyle": {
+                      "width": 11.933333396911621,
+                      "height": 7.3333330154418945,
+                      "relativeX": 2,
+                      "relativeY": 4,
+                      "constraint": {
+                        "horizontal": "SCALE",
+                        "vertical": "SCALE"
+                      }
+                    },
+                    "path": [
+                      {
+                        "fill": "#FFFFFF",
+                        "data": ""
+                      }
+                    ],
+                    "svgKey": "S2:容器|20:3429_7",
+                    "svgShortKey": "S2#7",
+                    "svgName": "容器"
+                  }
+                ],
+                "borderRadius": "2px"
+              }
+            ]
+          },
+          {
+            "type": "LAYER",
+            "id": "20:3431",
+            "name": "矩形 7",
+            "layoutStyle": {
+              "width": 247,
+              "height": 2,
+              "relativeX": 294,
+              "relativeY": 817
+            },
+            "opacity": 0.23000000417232513,
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF"
+          },
+          {
+            "type": "LAYER",
+            "id": "20:3432",
+            "name": "矩形 8",
+            "layoutStyle": {
+              "width": 93,
+              "height": 2,
+              "relativeX": 294,
+              "relativeY": 817
+            },
+            "fill": "paint_5:520",
+            "_color": "#DDBC7E"
+          },
+          {
+            "type": "LAYER",
+            "id": "20:3433",
+            "name": "矩形 9",
+            "layoutStyle": {
+              "width": 33,
+              "height": 66,
+              "relativeX": 943,
+              "relativeY": 845
+            },
+            "opacity": 0.20000000298023224,
+            "borderRadius": "227px",
+            "strokeColor": "paint_2:3",
+            "strokeType": "solid",
+            "strokeAlign": "inside",
+            "strokeWidth": "1px"
+          },
+          {
+            "type": "FRAME",
+            "id": "20:3434",
+            "name": "容器",
+            "layoutStyle": {
+              "width": 16,
+              "height": 16,
+              "relativeX": 952,
+              "relativeY": 862,
+              "preserveRatio": true
+            },
+            "path": [
+              {
+                "fill": "#FFFFFF",
+                "data": ""
+              },
+              {
+                "fill": "#FFFFFF",
+                "data": ""
+              }
+            ],
+            "_mergedVector": true,
+            "svgKey": "S2:Banner|20:3434",
+            "svgShortKey": "S2#8",
+            "svgName": "Banner"
+          },
+          {
+            "type": "FRAME",
+            "id": "20:3437",
+            "name": "容器",
+            "layoutStyle": {
+              "width": 16,
+              "height": 16,
+              "relativeX": 952,
+              "relativeY": 886,
+              "preserveRatio": true,
+              "rotate": 90
+            },
+            "children": [
+              {
+                "type": "PATH",
+                "id": "20:3438",
+                "name": "路径",
+                "layoutStyle": {
+                  "width": 11.933333396911621,
+                  "height": 7.3333330154418945,
+                  "relativeX": 2,
+                  "relativeY": 4,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
+                },
+                "path": [
+                  {
+                    "fill": "#FFFFFF",
+                    "data": ""
+                  }
+                ],
+                "svgKey": "S2:容器|20:3438_8",
+                "svgShortKey": "S2#9",
+                "svgName": "容器"
+              }
+            ]
+          }
+        ]
       }
     ],
-    "components": []
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "Home",
+        "parentType": "GROUP",
+        "parentName": "Banner"
+      },
+      {
+        "text": "About UE",
+        "parentType": "GROUP",
+        "parentName": "Banner"
+      },
+      {
+        "text": "UE News",
+        "parentType": "GROUP",
+        "parentName": "Banner"
+      },
+      {
+        "text": "Products",
+        "parentType": "GROUP",
+        "parentName": "Banner"
+      },
+      {
+        "text": "R & D Center",
+        "parentType": "GROUP",
+        "parentName": "Banner"
+      },
+      {
+        "text": "Join Us",
+        "parentType": "GROUP",
+        "parentName": "Banner"
+      },
+      {
+        "text": "Contact Us",
+        "parentType": "GROUP",
+        "parentName": "Banner"
+      },
+      {
+        "text": "quote",
+        "parentType": "GROUP",
+        "parentName": "Banner"
+      },
+      {
+        "text": "I.T.E.Power Supply",
+        "parentType": "FRAME",
+        "parentName": "Banner"
+      },
+      {
+        "text": "UE Electronic was founded in 1989 and is a large-scale national high-tech enterprise integrating product development, manufacturing and sales. For over 30 years, UE Electronic has focused on innovation and reliability in ITE power supply technology and information technology equipment power supply products, including ITE power, ITE power adapter, complying with ITE safety standards power supply requirements and international EMC certifications. With over 40 invention patents and 136 utility model and appearance patents, our products deliver high reliability under 6KV lightning protection and six-level energy efficiency standards, widely used in communication and IT equipment.",
+        "parentType": "FRAME",
+        "parentName": "Banner"
+      },
+      {
+        "text": "01 / 04",
+        "parentType": "FRAME",
+        "parentName": "Banner"
+      },
+      {
+        "text": "View our product range",
+        "parentType": "GROUP",
+        "parentName": "Banner"
+      }
+    ]
   },
-  "nodeCount": 1,
+  "nodeCount": 42,
+  "svgNodeCount": 10,
+  "hasStrippedSvgs": true,
   "componentDocumentLinks": [],
-  "fetchProgress": "Fetched 3/31. MISSING 28 sections: [3,4,5,6,7,8,9,10,11,12... +18 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+  "fetchProgress": "Fetched 3/11. MISSING 8 sections: [3,4,5,6,7,8,9,10]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
 }

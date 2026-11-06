@@ -1,1125 +1,403 @@
 {
   "sections": [
     {
-      "id": "185:8926",
-      "name": "contact",
-      "type": "INSTANCE",
-      "nodeCount": 32,
-      "x": 0,
-      "y": 7330,
-      "width": 1965,
-      "height": 928,
-      "textPreview": "欢迎给我们留言\r",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:8947",
-      "name": "bg",
-      "type": "GROUP",
-      "nodeCount": 3,
-      "x": 0,
-      "y": 5734,
-      "width": 1920,
-      "height": 1596,
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:8950",
-      "name": "image",
+      "id": "58:7255",
+      "name": "矩形 2478",
       "type": "LAYER",
       "nodeCount": 1,
       "x": 0,
-      "y": 5611,
+      "y": 720,
       "width": 1920,
-      "height": 862,
+      "height": 97,
       "structureSiblingCount": 1
     },
     {
-      "id": "185:8951",
-      "name": "image",
-      "type": "LAYER",
-      "nodeCount": 1,
-      "x": -1,
-      "y": 730,
-      "width": 1920,
-      "height": 704,
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:8952",
-      "name": "组 5616",
-      "type": "GROUP",
-      "nodeCount": 19,
-      "x": 741,
-      "y": 846,
-      "width": 859,
-      "height": 455,
-      "textPreview": "全盛机电创立于2003年，位于杭州临平经",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:8993",
-      "name": "英文站",
-      "type": "LAYER",
-      "nodeCount": 1,
-      "x": 320,
-      "y": 911,
-      "width": 284,
-      "height": 284,
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:8994",
-      "name": "1. 全景图",
-      "type": "LAYER",
-      "nodeCount": 1,
-      "x": 320,
-      "y": 1434,
-      "width": 1280,
-      "height": 480,
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:8995",
-      "name": "组 5610",
-      "type": "GROUP",
-      "nodeCount": 24,
-      "x": 234,
-      "y": 1954,
-      "width": 1451,
-      "height": 274.6666564941406,
-      "textPreview": "大厅",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9016",
-      "name": "bg",
-      "type": "GROUP",
-      "nodeCount": 7,
-      "x": 0,
-      "y": 2352,
-      "width": 1920,
-      "height": 762,
-      "textPreview": "2002~2026",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9028",
-      "name": "组 5492",
-      "type": "GROUP",
-      "nodeCount": 32,
-      "x": 225,
-      "y": 2682,
-      "width": 1459,
-      "height": 404.1168212890625,
-      "textPreview": "2002",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9060",
-      "name": "38",
+      "id": "20:3845",
+      "name": "表单",
       "type": "FRAME",
-      "nodeCount": 11,
+      "nodeCount": 27,
       "x": 0,
-      "y": 3114,
+      "y": 3694,
       "width": 1920,
-      "height": 960,
-      "textPreview": "全盛品牌故事",
+      "height": 608,
+      "textPreview": "ABOUT UE ELECTRONIC",
       "structureSiblingCount": 1
     },
     {
-      "id": "185:9075",
-      "name": "矩形 2811",
-      "type": "LAYER",
-      "nodeCount": 1,
-      "x": 0,
-      "y": 3953,
-      "width": 1920,
-      "height": 680,
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9076",
-      "name": "我们的企业价值观",
-      "type": "TEXT",
-      "nodeCount": 1,
-      "x": 792,
-      "y": 3978,
-      "width": 336,
-      "height": 51,
-      "textPreview": "我们的企业价值观",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9079",
-      "name": "组 5612",
-      "type": "GROUP",
-      "nodeCount": 28,
-      "x": 320,
-      "y": 4103,
-      "width": 1280,
-      "height": 354.6666564941406,
-      "textPreview": "赋能无限旋转，连接智能未来",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9119",
-      "name": "组 5559",
-      "type": "GROUP",
-      "nodeCount": 41,
-      "x": 232,
-      "y": 4601,
-      "width": 1453,
-      "height": 545.80810546875,
-      "textPreview": "每一份荣誉，都来自信赖",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9159",
-      "name": "容器 66",
+      "id": "20:3353",
+      "name": "Banner",
       "type": "FRAME",
-      "nodeCount": 33,
-      "x": -28,
-      "y": 5282,
-      "width": 1968,
-      "height": 500,
-      "textPreview": "遵循国际标准，全维度权威认证",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9178",
-      "name": "组 5529",
-      "type": "GROUP",
-      "nodeCount": 47,
-      "x": 320,
-      "y": 5772,
-      "width": 1280,
-      "height": 1009.7786254882812,
-      "textPreview": "为什么选择全盛机电作为您的导电滑环供应商",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9242",
-      "name": "合作客户",
-      "type": "TEXT",
-      "nodeCount": 1,
-      "x": 876,
-      "y": 6897,
-      "width": 168,
-      "height": 51,
-      "textPreview": "合作客户",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9245",
-      "name": "我们的客户包括海康威视、华为、中国航天、中国电子、西门子、博世、施耐德、ABB、 三星等众多全球500强企业及国内外优秀企业。",
-      "type": "TEXT",
-      "nodeCount": 1,
-      "x": 480,
-      "y": 6980,
-      "width": 960,
-      "height": 87,
-      "textPreview": "我们的客户包括海康威视、华为、中国航天、",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9248",
-      "name": "组 5566",
-      "type": "GROUP",
-      "nodeCount": 28,
-      "x": 16,
-      "y": 7079,
-      "width": 1974,
-      "height": 150,
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9258/107:03643",
-      "name": "footer",
-      "type": "GROUP",
-      "nodeCount": 3,
-      "x": 0,
-      "y": 8071,
-      "width": 1920,
-      "height": 800,
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9258/107:02313",
-      "name": "矩形 2822",
-      "type": "LAYER",
-      "nodeCount": 1,
-      "x": 0,
-      "y": 8634,
-      "width": 1920,
-      "containerId": "185:9258",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9258/107:02650",
-      "name": "组 5552",
-      "type": "GROUP",
-      "nodeCount": 11,
-      "x": 648,
-      "y": 8196,
-      "width": 72,
-      "height": 343,
-      "textPreview": "关于全盛",
-      "containerId": "185:9258",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9258/107:02652",
-      "name": "组 5553",
-      "type": "GROUP",
-      "nodeCount": 10,
-      "x": 868,
-      "y": 8196,
-      "width": 72,
-      "height": 343,
-      "textPreview": "产品中心",
-      "containerId": "185:9258",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9258/107:02774",
-      "name": "组 5554",
-      "type": "GROUP",
-      "nodeCount": 9,
-      "x": 1088,
-      "y": 8196,
-      "width": 72,
-      "height": 273,
-      "textPreview": "行业应用",
-      "containerId": "185:9258",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9258/107:02898",
-      "name": "组 5555",
-      "type": "GROUP",
-      "nodeCount": 9,
-      "x": 1308,
-      "y": 8196,
-      "width": 72,
-      "height": 238,
-      "textPreview": "技术支持",
-      "containerId": "185:9258",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9258/134:5921",
-      "name": "组 5564",
-      "type": "GROUP",
-      "nodeCount": 6,
-      "x": 1528,
-      "y": 8196,
-      "width": 72,
-      "height": 133,
-      "textPreview": "新闻中心",
-      "containerId": "185:9258",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9258/107:03263",
-      "name": "隐私政策 用户条款 Cookies",
-      "type": "TEXT",
-      "nodeCount": 1,
-      "x": 1399,
-      "y": 8649,
-      "width": 224,
-      "height": 17,
-      "textPreview": "隐私政策         用户条款\r  ",
-      "containerId": "185:9258",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9258/142:00554",
-      "name": "组 5614",
-      "type": "GROUP",
-      "nodeCount": 25,
-      "x": 320,
-      "y": 8193,
-      "width": 419,
-      "height": 419,
-      "textPreview": "market@hzqs.com",
-      "containerId": "185:9258",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9339",
-      "name": "banner",
-      "type": "GROUP",
-      "nodeCount": 9,
-      "x": 0,
-      "y": 170,
-      "width": 1920,
-      "height": 586,
-      "textPreview": "关于我们",
-      "structureSiblingCount": 1
-    },
-    {
-      "id": "185:9352",
-      "name": "top",
-      "type": "INSTANCE",
       "nodeCount": 44,
       "x": 0,
       "y": 0,
       "width": 1920,
-      "height": 170,
-      "textPreview": "EN",
+      "height": 720,
+      "textPreview": "Home",
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "58:4916",
+      "name": "组 5675",
+      "type": "GROUP",
+      "nodeCount": 6,
+      "x": 240,
+      "y": 760,
+      "width": 136.5,
+      "height": 17,
+      "textPreview": "home",
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "58:7296",
+      "name": "组 5676",
+      "type": "GROUP",
+      "nodeCount": 20,
+      "x": 0,
+      "y": 817,
+      "width": 1680,
+      "height": 581.9998779296875,
+      "textPreview": "FEATURED PRODUCT",
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "58:7442",
+      "name": "组 5679",
+      "type": "GROUP",
+      "nodeCount": 20,
+      "x": 0,
+      "y": 1877,
+      "width": 1680,
+      "height": 530,
+      "textPreview": "FEATURED PRODUCT",
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "58:7435",
+      "name": "组 5678",
+      "type": "GROUP",
+      "nodeCount": 20,
+      "x": 207,
+      "y": 1347,
+      "width": 1713,
+      "height": 529.9998779296875,
+      "textPreview": "FEATURED PRODUCT",
+      "structureHash": "{\"t\":\"GROUP\",\"l\":{\"w\":1713,\"h\":529.9998779296875},\"c\":[{\"t\":\"LAYER\",\"l\":{\"w\":413,\"h\":414}},{\"t\":\"TEXT\",\"l\":{\"w\":125,\"h\":18}},{\"t\":\"TEXT\",\"l\":{\"w\":291,\"h\":39}},{\"t\":\"GROUP\",\"l\":{\"w\":226,\"h\":48},\"c\":[{\"t\":\"LAYER\",\"l\":{\"w\":226,\"h\":48}},{\"t\":\"TEXT\",\"l\":{\"w\":150,\"h\":35}},{\"t\":\"FRAME\",\"l\":{\"w\":16,\"h\":16},\"c\":[{\"t\":\"PATH\",\"l\":{\"w\":11.933333396911621,\"h\":7.3333330154418945}}]}]},{\"t\":\"TEXT\",\"l\":{\"w\":93,\"h\":30}},{\"t\":\"TEXT\",\"l\":{\"w\":108,\"h\":30}},{\"t\":\"TEXT\",\"l\":{\"w\":99,\"h\":30}},{\"t\":\"FRAME\",\"l\":{\"w\":32,\"h\":32},\"c\":[{\"t\":\"PATH\",\"l\":{\"w\":21.33333396911621,\"h\":24}}]},{\"t\":\"FRAME\",\"l\":{\"w\":32,\"h\":32},\"c\":[{\"t\":\"PATH\",\"l\":{\"w\":18.666667938232422,\"h\":26.666667938232422}}]},{\"t\":\"FRAME\",\"l\":{\"w\":32,\"h\":32},\"c\":[{\"t\":\"PATH\",\"l\":{\"w\":24,\"h\":26.666667938232422}}]},{\"t\":\"TEXT\",\"l\":{\"w\":521,\"h\":105}},{\"t\":\"LAYER\",\"l\":{\"w\":692,\"h\":430}}]}",
+      "structureSiblingCount": 2
+    },
+    {
+      "id": "58:7483",
+      "name": "组 5680",
+      "type": "GROUP",
+      "nodeCount": 20,
+      "x": 207,
+      "y": 2407,
+      "width": 1713,
+      "height": 529.9998779296875,
+      "textPreview": "FEATURED PRODUCT",
+      "structureHash": "{\"t\":\"GROUP\",\"l\":{\"w\":1713,\"h\":529.9998779296875},\"c\":[{\"t\":\"LAYER\",\"l\":{\"w\":413,\"h\":414}},{\"t\":\"TEXT\",\"l\":{\"w\":125,\"h\":18}},{\"t\":\"TEXT\",\"l\":{\"w\":291,\"h\":39}},{\"t\":\"GROUP\",\"l\":{\"w\":226,\"h\":48},\"c\":[{\"t\":\"LAYER\",\"l\":{\"w\":226,\"h\":48}},{\"t\":\"TEXT\",\"l\":{\"w\":150,\"h\":35}},{\"t\":\"FRAME\",\"l\":{\"w\":16,\"h\":16},\"c\":[{\"t\":\"PATH\",\"l\":{\"w\":11.933333396911621,\"h\":7.3333330154418945}}]}]},{\"t\":\"TEXT\",\"l\":{\"w\":93,\"h\":30}},{\"t\":\"TEXT\",\"l\":{\"w\":108,\"h\":30}},{\"t\":\"TEXT\",\"l\":{\"w\":99,\"h\":30}},{\"t\":\"FRAME\",\"l\":{\"w\":32,\"h\":32},\"c\":[{\"t\":\"PATH\",\"l\":{\"w\":21.33333396911621,\"h\":24}}]},{\"t\":\"FRAME\",\"l\":{\"w\":32,\"h\":32},\"c\":[{\"t\":\"PATH\",\"l\":{\"w\":18.666667938232422,\"h\":26.666667938232422}}]},{\"t\":\"FRAME\",\"l\":{\"w\":32,\"h\":32},\"c\":[{\"t\":\"PATH\",\"l\":{\"w\":24,\"h\":26.666667938232422}}]},{\"t\":\"TEXT\",\"l\":{\"w\":521,\"h\":105}},{\"t\":\"LAYER\",\"l\":{\"w\":692,\"h\":430}}]}",
+      "structureSiblingCount": 2
+    },
+    {
+      "id": "71:1860",
+      "name": "相关产品",
+      "type": "FRAME",
+      "nodeCount": 20,
+      "x": 0,
+      "y": 3037,
+      "width": 1920,
+      "height": 657,
+      "textPreview": "Professional electro",
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "90:6209",
+      "name": "Footeer",
+      "type": "FRAME",
+      "nodeCount": 47,
+      "x": 0,
+      "y": 4302,
+      "width": 1920,
+      "height": 500,
+      "textPreview": "Power supplies for m",
+      "structureSiblingCount": 1
+    },
+    {
+      "id": "90:7031",
+      "name": "组 5681",
+      "type": "GROUP",
+      "nodeCount": 23,
+      "x": 0,
+      "y": 1,
+      "width": 1920,
+      "height": 80,
+      "textPreview": "Home",
       "structureSiblingCount": 1
     }
   ],
-  "totalSections": 31,
-  "totalNodes": 441,
+  "totalSections": 11,
+  "totalNodes": 248,
   "allTexts": [
-    "Name 姓名*",
-    "Country 国家",
-    "Company 公司*",
-    "Industry 行业",
-    "Email 邮箱 *",
-    "Phone电话 *",
-    "立即提交",
-    "导电滑环专业经验",
-    "20+",
-    "发明和实用新型专利",
-    "100+",
-    "项",
-    "科研技术人员与员工",
-    "500+",
-    "人",
-    "大厅",
-    "生产车间",
-    "实验中心",
-    "技术中心",
-    "2002",
-    "推出国内首款自研精密导电滑环，填补国内技术空白",
-    "2003",
-    "杭州全盛电气有限公司成立",
-    "2006",
-    "通过IS09001质量管理体系认证",
-    "2010",
-    "更名为杭州全盛机电科技有限公司",
-    "愿景",
-    "vision",
-    "为全球高端装备提供卓越的旋转传输解决方案",
-    "使命",
-    "MISSION",
-    "诚信、协作、务实、创新",
-    "价值观",
-    "VALUE",
-    "高新技术企业",
-    "省级研究开发中心",
-    "专精特新小巨人",
-    "企业荣誉",
-    "专利证书",
-    "客户认可",
-    "体系认证",
-    "从标准产品到多通道、大电流、高转速等复杂需求，我们提供集电、气液、光纤于一体的组合滑环定制服务，精准适配各类特殊应用场景。",
-    "定制化解决方案",
-    "01",
-    "专业技术团队，100余项发明及实用新型专利支撑。面对复杂应用，我们不仅提供产品，更提供敏捷的研发支持与深度技术协作。",
-    "深厚的研发实力",
-    "02",
-    "ISO体系认证，全流程质量管控贯穿设计、生产、测试各环节，确保每一只滑环都能稳定可靠、高品交付。",
-    "严格的质量控制",
-    "03",
-    "2万多平米自建生产基地，数十台自研自动化设备，500多名员工协同作业。高效成熟的供应链体系，保障您的订单准时交付。",
-    "高效生产和交付",
-    "04",
-    "从售前咨询设计到售后安装维护，专业团队提供全周期一体化服务。我们与您共同开发，让设备的设计、生产、安装全程无忧。",
-    "全程的服务保障",
-    "05",
-    "无论您是原型测试还是小批量试产，我们都愿与您并肩前行。无最小起订量限制，让创新项目轻装上阵，从起步到量产一路相伴。",
-    "灵活的最小订购量",
-    "06",
-    "关于全盛",
-    "公司介绍",
-    "发展历程",
-    "品牌故事",
-    "企业文化",
-    "资质荣誉",
-    "认证体系",
-    "企业优势",
-    "合作客户",
-    "产品中心",
-    "产品类目",
-    "行业应用",
-    "行业类目",
-    "技术支持",
-    "滑环技术",
-    "安装方式",
-    "客户案例",
-    "常见问题",
-    "产品手册",
-    "视频中心",
-    "+86 137 3815 5025",
-    "+86 0571 86554726",
-    "Copyright © 杭州全盛机电科技有限公司. 2026. All  rights  reserved",
-    "EN",
-    "\"小巨人 \"企业"
+    "ABOUT UE ELECTRONIC",
+    "Company",
+    "Work Email",
+    "How can we help?",
+    "Full Name",
+    "Phone",
+    "*",
+    "Let’s talk about\nyour next project.",
+    "Share your application and power requirements with our team.",
+    "fuhua@fuhua-cn.com",
+    "+86 769 8602 2222",
+    "Send Inquiry",
+    "Home",
+    "About UE",
+    "UE News",
+    "Products",
+    "R & D Center",
+    "Join Us",
+    "Contact Us",
+    "quote",
+    "I.T.E.Power Supply",
+    "UE Electronic was founded in 1989 and is a large-scale national high-tech enterp",
+    "01 / 04",
+    "View our product range",
+    "home",
+    "Solution",
+    "/",
+    "FEATURED PRODUCT",
+    "UES500- SPAZ-OP",
+    "Explore Products",
+    "Medical and I.T.E.\napplications",
+    "2 MOPP\nisolation protection",
+    "Convection or\nforced-air cooling",
+    "Professional electronic power supply",
+    "UE Electronic is a leading power supply manufacturer in China, providing high-qu",
+    "Medical Power Supplies",
+    "Power for demanding healthcare applications.",
+    "Power supplies for medical, I.T.E., \nPoE and everyday charging\napplications.",
+    "© 2026 Fuhua Electronic Co., Ltd. All rights reserved.",
+    "AC-DC Power Adapter",
+    "Charger",
+    "About Us",
+    "Product",
+    "News",
+    "Fuhua Electronic Industrial Park, Xianglong Road, Huangzhou, New Town District, ",
+    "Let’s Connect",
+    "RBA Statemet",
+    "Trem of use",
+    "Cookie Policy",
+    "Privacy  Polict"
   ],
   "rootMetadata": {
     "width": 1920,
-    "height": 8687,
-    "name": "02-About",
+    "height": 4802,
+    "name": "Solution页",
     "type": "FRAME",
-    "fill": "paint_3:5656",
+    "fill": "paint_2:3",
     "styles": {
-      "paint_3:5656": {
+      "paint_2:3": {
         "value": [
           "#FFFFFF"
         ]
       },
-      "paint_107:01805": {
+      "paint_20:169": {
+        "value": [
+          "#FCFCFC"
+        ]
+      },
+      "paint_20:1519": {
+        "value": [
+          "#F1EEE5"
+        ]
+      },
+      "paint_5:536": {
+        "value": [
+          "#DDBC7E"
+        ],
+        "token": "主色"
+      },
+      "paint_5:3723": {
+        "value": [
+          "#000000"
+        ]
+      },
+      "paint_20:1122": {
+        "value": [
+          "#FA5151"
+        ]
+      },
+      "paint_34:9351": {
         "value": [
           {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/bfc11ffbeeb047588304a31dd8c70144.png"
+            "url": "https://image-resource.mastergo.com/111621696712363/115713781704629/8355b5884344b6968fab8a0755334cb7.png"
           }
         ]
       },
-      "paint_145:23871": {
+      "paint_21:0124": {
         "value": [
-          "linear-gradient(180deg, rgba(245, 245, 245, 0) 0%, #EEEEEE 100%)"
+          "#FDFDFD"
         ]
       },
-      "effect_134:6424": {
+      "paint_20:7510": {
         "value": [
-          "box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);"
+          "rgba(0, 0, 0, 0.2)"
         ]
       },
-      "paint_86:5186": {
+      "paint_21:0113": {
         "value": [
-          "#121212"
-        ],
-        "token": "Q-标题黑"
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/115713781704629/7e2af508f91c99811866936334517cc5.png"
+          }
+        ]
       },
-      "paint_1:099": {
+      "paint_20:6656": {
+        "value": [
+          "#000000"
+        ]
+      },
+      "paint_5:200": {
+        "value": [
+          "rgba(255, 255, 255, 0.01)"
+        ]
+      },
+      "paint_5:59": {
+        "value": [
+          "#FFFFFF"
+        ]
+      },
+      "paint_5:520": {
+        "value": [
+          "#DDBC7E"
+        ]
+      },
+      "paint_58:3384": {
         "value": [
           "#3D3D3D"
         ]
       },
-      "paint_86:5204": {
+      "paint_3:96": {
         "value": [
-          "rgba(0, 0, 0, 0.1)"
+          "#3D3D3D"
+        ]
+      },
+      "paint_19:2766": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/115713781704629/9694b393b42be0c505af54600ded413c.png"
+          }
+        ]
+      },
+      "paint_5:4770": {
+        "value": [
+          "#73756D"
         ],
-        "token": "Q-边框灰"
+        "token": "描述文字"
       },
-      "paint_86:5188": {
-        "value": [
-          "#333333"
-        ],
-        "token": "Q-次级文字"
-      },
-      "paint_86:5157": {
-        "value": [
-          "#004EA2"
-        ],
-        "token": "Q-主蓝"
-      },
-      "effect_3:5777": {
-        "value": []
-      },
-      "paint_3:5624": {
-        "value": [
-          "#FFFFFF"
-        ],
-        "token": "lf-bg白"
-      },
-      "paint_107:01239": {
+      "paint_5:2604": {
         "value": [
           {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/4a755bd4001e184632966db10a318ae9.png"
+            "url": "https://image-resource.mastergo.com/111621696712363/115713781704629/fe65a265e8ebad6c7e17523d8d61fb2d.png"
           }
         ]
       },
-      "paint_134:6296": {
+      "paint_5:4951": {
         "value": [
-          "linear-gradient(180deg, #F5F5F5 0%, #F5F5F5 100%)"
+          "#F6F5F1"
         ]
       },
-      "paint_107:7499": {
+      "paint_2:0244": {
         "value": [
           {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/1df0d814a57654f32757ee824e65bb12.png"
+            "url": "https://image-resource.mastergo.com/111621696712363/115713781704629/9f7936cfa73ed5e4c1d7143b19d776b3.png"
           }
         ]
       },
-      "paint_102:5119": {
-        "value": [
-          "#000000"
-        ],
-        "token": "ZK-title"
-      },
-      "paint_3:197": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/a3faea0698afc4567b17e3878cc17372.png"
-          }
-        ]
-      },
-      "paint_142:9953": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/b4f25428e3142f654d02e42af69ed7df.jpg"
-          }
-        ]
-      },
-      "paint_102:03476": {
-        "value": [
-          "#FFFFFF"
-        ]
-      },
-      "paint_102:03318": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/bd2a3190b3fdbd895f01c10723ec9677.JPG"
-          }
-        ]
-      },
-      "paint_102:03322": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/17c939573ad6f18a06868a937b75a1ba.JPG"
-          }
-        ]
-      },
-      "paint_138:5754": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/d56be7fcb5c09b49f1fd0eaa461c7428.jpg"
-          }
-        ]
-      },
-      "paint_102:03366": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/e7fa663cecdfff533d2cb0535a35a94c.jpg"
-          }
-        ]
-      },
-      "paint_3:6817": {
-        "value": [
-          "rgba(0, 0, 0, 0.1)"
-        ],
-        "token": "lf-边框"
-      },
-      "paint_3:6820": {
-        "value": [
-          "#121926"
-        ],
-        "token": "lf-主要内容"
-      },
-      "paint_86:5194": {
-        "value": [
-          "#02132D"
-        ],
-        "token": "Q-背景深"
-      },
-      "paint_107:6428": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/2f069147bda6e260848c5160a7b78492.png"
-          }
-        ]
-      },
-      "paint_125:6580": {
-        "value": [
-          "linear-gradient(180deg, rgba(2, 19, 45, 0) 0%, #0B203C 100%)"
-        ]
-      },
-      "paint_107:6701": {
-        "value": [
-          "linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 75%)"
-        ]
-      },
-      "paint_102:5127": {
-        "value": [
-          "#FFFFFF"
-        ],
-        "token": "纯白"
-      },
-      "paint_107:6761": {
-        "value": [
-          "rgba(255, 255, 255, 0.4)"
-        ]
-      },
-      "paint_86:5202": {
-        "value": [
-          "#FFFFFF"
-        ],
-        "token": "Q-背景白"
-      },
-      "paint_163:7826": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/7dceb4790e6c34e6c8a09c376e523418.jpeg"
-          }
-        ]
-      },
-      "paint_107:7345": {
-        "value": [
-          "linear-gradient(180deg, rgba(1, 13, 31, 0) 0%, #001E4C 100%)"
-        ]
-      },
-      "paint_107:6490": {
-        "value": [
-          "rgba(255, 255, 255, 0.4)"
-        ]
-      },
-      "paint_163:7830": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/607ea9fed2a6291eb9f5a88848cfde02.jpeg"
-          }
-        ]
-      },
-      "paint_142:9976": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/a5293d5a9a767f92b4c243d7e1eaf92b.jpeg"
-          }
-        ]
-      },
-      "paint_163:7834": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/bd1a8902b2db2e8f4e5f4b8c6e618f2b.JPG"
-          }
-        ]
-      },
-      "paint_125:8176": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/134726101006844/08085b302106f2778f8cda9cf878d5d6.jpg",
-            "filters": {
-              "temperature": -0.38506942987442017
-            }
-          }
-        ]
-      },
-      "paint_125:8385": {
-        "value": [
-          "linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(241, 241, 241, 0.8002) 63%, #EEEEEE 100%)"
-        ]
-      },
-      "paint_86:5165": {
-        "value": [
-          "#85C2EB"
-        ],
-        "token": "Q-辅浅蓝"
-      },
-      "paint_125:8197": {
-        "value": [
-          "linear-gradient(180deg, #EEEEEE 0%, rgba(238, 238, 238, 0) 100%)"
-        ]
-      },
-      "paint_107:9035": {
-        "value": [
-          "linear-gradient(180deg, #3D3D3D 0%, rgba(61, 61, 61, 0) 100%)"
-        ]
-      },
-      "effect_107:9359": {
-        "value": [
-          "box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);"
-        ]
-      },
-      "paint_107:9329": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/23cb4a2931fedcebff74c405289e86e7.jpg"
-          }
-        ]
-      },
-      "paint_107:9386": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/7a940229582039fe38ff5de5565b196d.png"
-          }
-        ]
-      },
-      "paint_107:9405": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/24276ccceae0ac40de0144a5be62f418.jpg"
-          }
-        ]
-      },
-      "paint_107:9413": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/c19dd94e3216e2fe0cd343704c32a7a8.jpg"
-          }
-        ]
-      },
-      "effect_107:00960": {
-        "value": [
-          "filter: blur(194px);"
-        ]
-      },
-      "paint_134:6303": {
-        "value": [
-          "linear-gradient(180deg, rgba(245, 245, 245, 0) 0%, #F5F5F5 100%)"
-        ]
-      },
-      "paint_107:9635": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/c799ea864e5178697413d41ca4be940d.jpeg"
-          }
-        ]
-      },
-      "paint_107:9641": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/b9f8bcbbaf270209a7a968b02efbf600.jpg"
-          }
-        ]
-      },
-      "paint_107:9645": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/72eeeacaee459407b715bea7f64a48d3.jpeg"
-          }
-        ]
-      },
-      "paint_107:9649": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/c659d918f52cbd85aa5d81127eda695d.jpeg"
-          }
-        ]
-      },
-      "paint_107:9653": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/b97d45fae847abcc9105ca92abe05501.jpeg"
-          }
-        ]
-      },
-      "paint_107:9657": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/c0cc922460236f9f0adefdb8130ea052.jpeg"
-          }
-        ]
-      },
-      "paint_107:9661": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/36337bb53efdc2fbacb34e843213e992.jpeg"
-          }
-        ]
-      },
-      "paint_107:9695": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/eb658d6277c2206e664b5e507e299bbe.jpg"
-          }
-        ]
-      },
-      "paint_138:6208": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/63059905e14f82c350489bd384ae561d.png"
-          }
-        ]
-      },
-      "paint_107:00084": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/0ad66e6868d72b700e73562e8768d841.jpg"
-          }
-        ]
-      },
-      "paint_107:00088": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/ce960b49d4e2f4633ab94d13a17ca777.jpg"
-          }
-        ]
-      },
-      "paint_107:00119": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/08e00c4e9d870c4711c0faf48dcec39a.jpg"
-          }
-        ]
-      },
-      "paint_107:00123": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/135f75d5bfbd77f961e92e60277c5b85.jpg"
-          }
-        ]
-      },
-      "paint_107:00127": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/5dd7a17f799381bb41f8449970f2abb0.jpg"
-          }
-        ]
-      },
-      "paint_107:01721": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/0262614369128cce920c002645841a15.png"
-          }
-        ]
-      },
-      "paint_107:01737": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/dbc58a23363696c0a1abc29598bce0b5.jpg"
-          }
-        ]
-      },
-      "paint_145:07902": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/4a97fd3d253d22dc2480ef2c33c33b2f.jpg"
-          }
-        ]
-      },
-      "paint_138:8611": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/fadf9b490027295ea33c88b213cbadb8.jpg"
-          }
-        ]
-      },
-      "paint_107:01729": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/0805f05e4d7c7bfffafa50bcc95ec8a5.jpeg"
-          }
-        ]
-      },
-      "paint_138:8615": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/a047cfbeabd92dcdc075f3d8b2ed305e.jpg"
-          }
-        ]
-      },
-      "paint_138:8619": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/38c9b05ac77d6f4142a2a7f96c999cea.jpg"
-          }
-        ]
-      },
-      "paint_138:8623": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/9cce9e841432a7c9b8827fb397157bd4.png"
-          }
-        ]
-      },
-      "paint_107:01733": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/8f7340c019353534a91c545af5a74c4b.jpg"
-          }
-        ]
-      },
-      "paint_6:4407": {
+      "paint_3:011": {
         "value": [
           "#D8D8D8"
         ]
       },
-      "paint_107:02344": {
-        "value": [
-          "rgba(255, 255, 255, 0.2)"
-        ]
-      },
-      "paint_107:03268": {
-        "value": [
-          "rgba(255, 255, 255, 0.64)"
-        ]
-      },
-      "paint_102:5462": {
+      "paint_34:0296": {
         "value": [
           {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/6fd6bf8027ff06c67e7b30c4f31752f5.png"
+            "url": "https://image-resource.mastergo.com/111621696712363/115713781704629/d7f2267b698b3052f130d6f698569df7.png"
           }
         ]
       },
-      "paint_107:03274": {
-        "value": [
-          "rgba(255, 255, 255, 0.64)"
-        ]
-      },
-      "paint_140:5978": {
-        "value": [
-          "#FFFFFF"
-        ]
-      },
-      "paint_140:6088": {
-        "value": [
-          "#02132D"
-        ]
-      },
-      "paint_125:6052": {
+      "paint_80:1838": {
         "value": [
           {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/e7c8a6fb67ef4b0d80018a7df4b6dc24.png"
+            "url": "https://image-resource.mastergo.com/111621696712363/115713781704629/6877103666664149b0bbcd9afdad350e.png"
           }
         ]
       },
-      "paint_102:01685": {
+      "paint_5:5526": {
         "value": [
-          "linear-gradient(90deg, #00142B 17%, rgba(2, 19, 45, 0.1) 58%)"
-        ]
-      },
-      "paint_102:5094": {
-        "value": [
-          "#FFFFFF"
-        ],
-        "token": "ZK-BG白"
-      },
-      "paint_102:5168": {
-        "value": [
-          "#FFFFFF"
-        ],
-        "token": "ZT-纯白"
-      },
-      "paint_102:5210": {
-        "value": [
-          "#000000"
-        ],
-        "token": "ZT-标题黑"
-      },
-      "paint_102:5220": {
-        "value": [
-          "#000066"
-        ]
-      },
-      "paint_102:5215": {
-        "value": [
-          "#FF0000"
+          "#F4F4F4"
         ]
       }
     },
     "allTexts": [
-      "Name 姓名*",
-      "Country 国家",
-      "Company 公司*",
-      "Industry 行业",
-      "Email 邮箱 *",
-      "Phone电话 *",
-      "立即提交",
-      "导电滑环专业经验",
-      "20+",
-      "发明和实用新型专利",
-      "100+",
-      "项",
-      "科研技术人员与员工",
-      "500+",
-      "人",
-      "大厅",
-      "生产车间",
-      "实验中心",
-      "技术中心",
-      "2002",
-      "推出国内首款自研精密导电滑环，填补国内技术空白",
-      "2003",
-      "杭州全盛电气有限公司成立",
-      "2006",
-      "通过IS09001质量管理体系认证",
-      "2010",
-      "更名为杭州全盛机电科技有限公司",
-      "愿景",
-      "vision",
-      "为全球高端装备提供卓越的旋转传输解决方案",
-      "使命",
-      "MISSION",
-      "诚信、协作、务实、创新",
-      "价值观",
-      "VALUE",
-      "高新技术企业",
-      "省级研究开发中心",
-      "专精特新小巨人",
-      "企业荣誉",
-      "专利证书",
-      "客户认可",
-      "体系认证",
-      "从标准产品到多通道、大电流、高转速等复杂需求，我们提供集电、气液、光纤于一体的组合滑环定制服务，精准适配各类特殊应用场景。",
-      "定制化解决方案",
-      "01",
-      "专业技术团队，100余项发明及实用新型专利支撑。面对复杂应用，我们不仅提供产品，更提供敏捷的研发支持与深度技术协作。",
-      "深厚的研发实力",
-      "02",
-      "ISO体系认证，全流程质量管控贯穿设计、生产、测试各环节，确保每一只滑环都能稳定可靠、高品交付。",
-      "严格的质量控制",
-      "03",
-      "2万多平米自建生产基地，数十台自研自动化设备，500多名员工协同作业。高效成熟的供应链体系，保障您的订单准时交付。",
-      "高效生产和交付",
-      "04",
-      "从售前咨询设计到售后安装维护，专业团队提供全周期一体化服务。我们与您共同开发，让设备的设计、生产、安装全程无忧。",
-      "全程的服务保障",
-      "05",
-      "无论您是原型测试还是小批量试产，我们都愿与您并肩前行。无最小起订量限制，让创新项目轻装上阵，从起步到量产一路相伴。",
-      "灵活的最小订购量",
-      "06",
-      "关于全盛",
-      "公司介绍",
-      "发展历程",
-      "品牌故事",
-      "企业文化",
-      "资质荣誉",
-      "认证体系",
-      "企业优势",
-      "合作客户",
-      "产品中心",
-      "产品类目",
-      "行业应用",
-      "行业类目",
-      "技术支持",
-      "滑环技术",
-      "安装方式",
-      "客户案例",
-      "常见问题",
-      "产品手册",
-      "视频中心",
-      "+86 137 3815 5025",
-      "+86 0571 86554726",
-      "Copyright © 杭州全盛机电科技有限公司. 2026. All  rights  reserved",
-      "EN",
-      "\"小巨人 \"企业"
+      "ABOUT UE ELECTRONIC",
+      "Company",
+      "Work Email",
+      "How can we help?",
+      "Full Name",
+      "Phone",
+      "*",
+      "Let’s talk about\nyour next project.",
+      "Share your application and power requirements with our team.",
+      "fuhua@fuhua-cn.com",
+      "+86 769 8602 2222",
+      "Send Inquiry",
+      "Home",
+      "About UE",
+      "UE News",
+      "Products",
+      "R & D Center",
+      "Join Us",
+      "Contact Us",
+      "quote",
+      "I.T.E.Power Supply",
+      "UE Electronic was founded in 1989 and is a large-scale national high-tech enterp",
+      "01 / 04",
+      "View our product range",
+      "home",
+      "Solution",
+      "/",
+      "FEATURED PRODUCT",
+      "UES500- SPAZ-OP",
+      "Explore Products",
+      "Medical and I.T.E.\napplications",
+      "2 MOPP\nisolation protection",
+      "Convection or\nforced-air cooling",
+      "Professional electronic power supply",
+      "UE Electronic is a leading power supply manufacturer in China, providing high-qu",
+      "Medical Power Supplies",
+      "Power for demanding healthcare applications.",
+      "Power supplies for medical, I.T.E., \nPoE and everyday charging\napplications.",
+      "© 2026 Fuhua Electronic Co., Ltd. All rights reserved.",
+      "AC-DC Power Adapter",
+      "Charger",
+      "About Us",
+      "Product",
+      "News",
+      "Fuhua Electronic Industrial Park, Xianglong Road, Huangzhou, New Town District, ",
+      "Let’s Connect",
+      "RBA Statemet",
+      "Trem of use",
+      "Cookie Policy",
+      "Privacy  Polict"
     ]
   },
   "rootContainer": {
     "width": "1920px",
-    "minHeight": "8687px",
+    "minHeight": "4802px",
     "background": "#FFFFFF",
     "overflow": "hidden",
     "position": "relative"
   },
-  "splitContainers": [
-    {
-      "name": "组 5562",
-      "type": "GROUP",
-      "id": "185:9258/131:5843",
-      "width": 1920,
-      "height": 707,
-      "x": 0,
-      "y": 8193
-    },
-    {
-      "name": "组 5942",
-      "type": "INSTANCE",
-      "id": "185:9258",
-      "width": 1920,
-      "height": 616,
-      "x": 0,
-      "y": 8071,
-      "componentInfo": {},
-      "componentId": "145:08617"
-    }
-  ],
-  "nextAction": "STOP. This section LIST is only a directory — it has NO DSL nodes,  NO rowTexts. You CANNOT generate HTML from this list alone. Your NEXT ACTION: call mcp__getDesignSections with sectionIndex=0, then sectionIndex=1, ... up to sectionIndex=30 (total 31 calls). Fetch ALL 31 sections in batches of 3-5 before writing ANY HTML. Sections with nodeCount=3 and empty name are NOT empty — they contain real menu items and content (resolved from INSTANCE overrides during DSL transfer). Skipping section DSL fetch is the #1 cause of missing menus, broken icons, and wrong data.",
+  "nextAction": "STOP. This section LIST is only a directory — it has NO DSL nodes,  NO rowTexts. You CANNOT generate HTML from this list alone. Your NEXT ACTION: call mcp__getDesignSections with sectionIndex=0, then sectionIndex=1, ... up to sectionIndex=10 (total 11 calls). Fetch ALL 11 sections in batches of 3-5 before writing ANY HTML. Sections with nodeCount=3 and empty name are NOT empty — they contain real menu items and content (resolved from INSTANCE overrides during DSL transfer). WARNING: 2 sections have structureSiblingCount up to 2 — they look identical in the list (same nodeCount, empty name) but each has DIFFERENT text content and variant state. You MUST fetch ALL of them individually (do NOT skip any after fetching a few). Skipping sibling sections causes missing active-state styling and wrong menu item rendering. Skipping section DSL fetch is the #1 cause of missing menus, broken icons, and wrong data.",
   "rules": [
     "CRITICAL — Page positioning: the section LIST response contains splitContainers with page-absolute coordinates for each page region. Use splitContainers to construct the page skeleton (position:absolute with exact coordinates). Do NOT guess or stack with flex. IMPORTANT: splitContainers x/y are the container's absolute position on the canvas — they are NOT CSS margins/padding for child elements. Do NOT apply a container's y coordinate as top/margin-top on the main content wrapper. The main content area should start at top:0 within its own positioning context; sub-sections inside it use their own bbox y coordinates relative to the container, not to the page root.",
     "CRITICAL — Multi-column sidebar layout: render ALL sidebar levels as persistent visible columns positioned via splitContainers coordinates. Do NOT use position:absolute/fixed for submenu panels (they become floating overlays and break the main content width). Instead, lay out ALL columns (primary sidebar + submenu + main content) side-by-side using flex or absolute positioning that ACCOUNTS for every column's width. The main content area width = rootContainer.width minus ALL sidebar column widths. Do NOT use flex:1 for main content when there are multiple sidebar columns — it will expand into the submenu's space. Each sidebar column's width comes from its splitContainer entry.",

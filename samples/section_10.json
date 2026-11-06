@@ -1,13 +1,13 @@
 {
   "sectionIndex": 10,
   "section": {
-    "id": "185:9060",
-    "name": "38",
-    "type": "FRAME"
+    "id": "90:7031",
+    "name": "组 5681",
+    "type": "GROUP"
   },
   "rootContainer": {
     "width": "1920px",
-    "minHeight": "8687px",
+    "minHeight": "4802px",
     "background": "#FFFFFF",
     "overflow": "hidden",
     "position": "relative"
@@ -15,248 +15,552 @@
   "structureSiblingCount": 1,
   "dsl": {
     "styles": {
-      "font_86:4957": {
+      "font_5:0009": {
         "value": {
-          "family": "Noto Sans SC",
-          "size": 42,
-          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "family": "Libre Franklin",
+          "size": 18,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
           "decoration": "none",
-          "case": "none",
-          "lineHeight": "120",
-          "letterSpacing": "auto",
-          "weight": "600"
-        },
-        "token": "Q-H2"
+          "case": "capitalize",
+          "lineHeight": "auto",
+          "weight": "400"
+        }
       },
-      "font_86:5004": {
+      "font_5:0147": {
         "value": {
-          "family": "Noto Sans SC",
-          "size": 16,
+          "family": "Libre Franklin",
+          "size": 18,
           "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
           "decoration": "none",
           "case": "none",
-          "lineHeight": "150",
-          "letterSpacing": "auto",
+          "lineHeight": "auto",
           "weight": "400"
-        },
-        "token": "Q-text"
+        }
       },
-      "paint_125:6580": {
+      "paint_20:6656": {
         "value": [
-          "linear-gradient(180deg, rgba(2, 19, 45, 0) 0%, #0B203C 100%)"
+          "#000000"
         ]
       },
-      "paint_125:8176": {
+      "paint_20:7510": {
+        "value": [
+          "rgba(0, 0, 0, 0.2)"
+        ]
+      },
+      "paint_21:0113": {
         "value": [
           {
-            "url": "https://image-resource.mastergo.com/111621696712363/134726101006844/08085b302106f2778f8cda9cf878d5d6.jpg",
-            "filters": {
-              "temperature": -0.38506942987442017
-            }
+            "url": "https://image-resource.mastergo.com/111621696712363/115713781704629/7e2af508f91c99811866936334517cc5.png"
           }
         ]
       },
-      "paint_125:8385": {
+      "paint_21:0124": {
         "value": [
-          "linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(241, 241, 241, 0.8002) 63%, #EEEEEE 100%)"
+          "#FDFDFD"
         ]
       },
-      "paint_86:5165": {
+      "paint_5:200": {
         "value": [
-          "#85C2EB"
-        ],
-        "token": "Q-辅浅蓝"
-      },
-      "paint_86:5194": {
-        "value": [
-          "#02132D"
-        ],
-        "token": "Q-背景深"
-      },
-      "paint_86:5202": {
-        "value": [
-          "#FFFFFF"
-        ],
-        "token": "Q-背景白"
+          "rgba(255, 255, 255, 0.01)"
+        ]
       }
     },
     "nodes": [
       {
-        "type": "FRAME",
-        "id": "185:9060",
-        "name": "38",
+        "type": "GROUP",
+        "id": "90:7031",
+        "name": "组 5681",
         "layoutStyle": {
           "width": 1920,
-          "height": 960,
+          "height": 80,
           "relativeX": 0,
           "relativeY": 0
         },
         "children": [
           {
-            "type": "GROUP",
-            "id": "185:9061",
-            "name": "bg",
+            "type": "LAYER",
+            "id": "90:7061",
+            "name": "矩形 6",
             "layoutStyle": {
               "width": 1920,
-              "height": 840,
+              "height": 80,
               "relativeX": 0,
               "relativeY": 0
             },
-            "children": [
-              {
-                "type": "LAYER",
-                "id": "185:9062",
-                "name": "image",
-                "layoutStyle": {
-                  "width": 1920,
-                  "height": 840,
-                  "relativeX": 0,
-                  "relativeY": 0
-                },
-                "fill": "paint_125:8176"
-              },
-              {
-                "type": "LAYER",
-                "id": "185:9063",
-                "name": "矩形 2811",
-                "layoutStyle": {
-                  "width": 1920,
-                  "height": 352,
-                  "relativeX": 0,
-                  "relativeY": 488
-                },
-                "fill": "paint_125:8385",
-                "_color": "linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(241, 241, 241, 0.8002) 63%, #EEEEEE 100%)"
-              },
-              {
-                "type": "LAYER",
-                "id": "185:9064",
-                "name": "矩形 2812",
-                "layoutStyle": {
-                  "width": 1920,
-                  "height": 291,
-                  "relativeX": 0,
-                  "relativeY": 0,
-                  "flipV": true
-                },
-                "fill": "paint_125:6580",
-                "_color": "linear-gradient(180deg, rgba(2, 19, 45, 0) 0%, #0B203C 100%)"
-              }
-            ]
+            "fill": "paint_21:0124",
+            "_color": "#FDFDFD",
+            "strokeColor": "paint_20:7510",
+            "strokeType": "solid",
+            "strokeAlign": "inside",
+            "strokeWidth": "0px 0px 1px"
+          },
+          {
+            "type": "LAYER",
+            "id": "90:7074",
+            "name": "image",
+            "layoutStyle": {
+              "width": 197,
+              "height": 55,
+              "relativeX": 240,
+              "relativeY": 13,
+              "preserveRatio": true
+            },
+            "fill": "paint_21:0113"
           },
           {
             "type": "TEXT",
-            "id": "185:9065",
-            "name": "全盛品牌故事",
+            "id": "90:7066",
+            "name": "Home",
             "layoutStyle": {
-              "width": 252,
-              "height": 51,
-              "relativeX": 320,
-              "relativeY": 48
+              "width": 51,
+              "height": 22,
+              "relativeX": 771,
+              "relativeY": 29
             },
-            "fill": "paint_86:5202",
-            "_color": "#FFFFFF",
-            "_token": "Q-背景白",
+            "fill": "paint_20:6656",
+            "_color": "#000000",
             "text": [
               {
-                "text": "全盛品牌故事",
-                "font": "font_86:4957"
+                "text": "Home",
+                "font": "font_5:0009"
               }
             ],
             "textColor": [
               {
                 "start": 0,
-                "end": 6,
-                "color": "paint_86:5202"
+                "end": 4,
+                "color": "paint_20:6656"
               }
             ],
             "textAlign": "left",
-            "textMode": "single-line",
-            "_placeholder": true
+            "textMode": "single-line"
           },
           {
-            "type": "GROUP",
-            "id": "185:9068",
-            "name": "组 5494",
+            "type": "TEXT",
+            "id": "90:7070",
+            "name": "About UE",
             "layoutStyle": {
-              "width": 848,
-              "height": 359,
-              "relativeX": 752,
-              "relativeY": 48
+              "width": 80,
+              "height": 22,
+              "relativeX": 862,
+              "relativeY": 29
+            },
+            "fill": "paint_20:6656",
+            "_color": "#000000",
+            "text": [
+              {
+                "text": "About UE",
+                "font": "font_5:0147"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 8,
+                "color": "paint_20:6656"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:7037",
+            "name": "UE News",
+            "layoutStyle": {
+              "width": 76,
+              "height": 22,
+              "relativeX": 982,
+              "relativeY": 29
+            },
+            "fill": "paint_20:6656",
+            "_color": "#000000",
+            "text": [
+              {
+                "text": "UE News",
+                "font": "font_5:0147"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 7,
+                "color": "paint_20:6656"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:7057",
+            "name": "Products",
+            "layoutStyle": {
+              "width": 77,
+              "height": 22,
+              "relativeX": 1098,
+              "relativeY": 29
+            },
+            "fill": "paint_20:6656",
+            "_color": "#000000",
+            "text": [
+              {
+                "text": "Products",
+                "font": "font_5:0147"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 8,
+                "color": "paint_20:6656"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:7053",
+            "name": "R & D Center",
+            "layoutStyle": {
+              "width": 109,
+              "height": 22,
+              "relativeX": 1215,
+              "relativeY": 29
+            },
+            "fill": "paint_20:6656",
+            "_color": "#000000",
+            "text": [
+              {
+                "text": "R & D Center",
+                "font": "font_5:0147"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 12,
+                "color": "paint_20:6656"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:7062",
+            "name": "Join Us",
+            "layoutStyle": {
+              "width": 59,
+              "height": 22,
+              "relativeX": 1364,
+              "relativeY": 29
+            },
+            "fill": "paint_20:6656",
+            "_color": "#000000",
+            "text": [
+              {
+                "text": "Join Us",
+                "font": "font_5:0147"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 7,
+                "color": "paint_20:6656"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:7049",
+            "name": "Contact Us",
+            "layoutStyle": {
+              "width": 93,
+              "height": 22,
+              "relativeX": 1463,
+              "relativeY": 29
+            },
+            "fill": "paint_20:6656",
+            "_color": "#000000",
+            "text": [
+              {
+                "text": "Contact Us",
+                "font": "font_5:0147"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 10,
+                "color": "paint_20:6656"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "FRAME",
+            "id": "90:7041",
+            "name": "容器",
+            "layoutStyle": {
+              "width": 24,
+              "height": 24,
+              "relativeX": 1596,
+              "relativeY": 28,
+              "preserveRatio": true
             },
             "children": [
               {
-                "type": "GROUP",
-                "id": "185:9069",
-                "name": "组 5493",
+                "type": "LAYER",
+                "id": "90:7045",
+                "name": "矩形",
                 "layoutStyle": {
-                  "width": 3,
-                  "height": 357.83819580078125,
-                  "relativeX": 845,
-                  "relativeY": 0
-                },
-                "children": [
-                  {
-                    "type": "LAYER",
-                    "id": "185:9070",
-                    "name": "矩形 2809",
-                    "layoutStyle": {
-                      "width": 3,
-                      "height": 46.47249221801758,
-                      "relativeX": 0,
-                      "relativeY": 0
-                    },
-                    "fill": "paint_86:5165",
-                    "_color": "#85C2EB",
-                    "_token": "Q-辅浅蓝"
-                  },
-                  {
-                    "type": "LAYER",
-                    "id": "185:9071",
-                    "name": "矩形 2810",
-                    "layoutStyle": {
-                      "width": 3,
-                      "height": 311.3656921386719,
-                      "relativeX": 0,
-                      "relativeY": 46.47,
-                      "flipV": true
-                    },
-                    "opacity": 0.5,
-                    "fill": "paint_86:5194",
-                    "_color": "#02132D",
-                    "_token": "Q-背景深"
+                  "width": 24,
+                  "height": 24,
+                  "relativeX": 0,
+                  "relativeY": 0,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
                   }
-                ]
+                },
+                "fill": "paint_5:200",
+                "_color": "rgba(255, 255, 255, 0.01)"
               },
               {
-                "type": "TEXT",
-                "id": "185:9072",
-                "name": "全盛机电的旅程起源于帽型滑环的一次技术创新。2002年，我们首次在国内研发出用于安防摄像机的帽型滑环。这一枚精巧的帽型滑环是摄像机云台结构里关键且精密的部件，用于传输电力和信号，是摄像机能实现360度无限旋转的关键。 2003年，杭州全盛电气有限公司正式成立，2010年，公司更名为杭州全盛机电科技有限公司。在这20多年中，我们深耕行业应用，先后推出过孔滑环、风电滑环、星载滑环、CT滑环、吊舱滑环等创新型产品系列。我们聚焦创新技术与精密制造，为全球高端装备提供卓越的旋转传输解决方案。 截至目前，我们累计向安防行业交付超过3000万只帽型滑环，帮助全国200个大中城市完成平安城市项目。作为安防系统的 “隐形旋转纽带”，我们让守护更精准、更持久，为千家万户的安全筑牢防线。 在过去十年间，我们交付超过35000只风电滑环，赋能风力发电总装机120GW，年发电量超过2600亿度，平均每年减少二氧化碳排放2亿吨以上。我们用精密制造驱动绿色能源转型，高防护滑环适配恶劣风场环境，降低传输损耗，让风电运维更高效、更环保。 2018年，“新技术试验双星”搭载着全盛机电的星载滑环，于西昌卫星发射中心使用长征二号丙运载火箭发射成功。这标志着我们在星载滑环领域成功突破国外技术垄断，实现了卫星的能源自主、姿态精确控制和任务有效执行。至今我们已经参与十余次卫星项目，并为中国航空航天事业做出贡献。 未来，我们将持续创新，用技术创新驱动产业升级，立志于成为全球旋转传输领域的技术标杆，让中国导电滑环赋能世界每一台旋转设备。",
+                "type": "PATH",
+                "id": "90:7047",
+                "name": "路径",
                 "layoutStyle": {
-                  "width": 800,
-                  "height": 359,
-                  "relativeX": 0,
-                  "relativeY": 0
+                  "width": 20,
+                  "height": 20,
+                  "relativeX": 2,
+                  "relativeY": 2,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
                 },
-                "fill": "paint_86:5202",
-                "_color": "#FFFFFF",
-                "_token": "Q-背景白",
-                "text": [
+                "path": [
                   {
-                    "text": "T10|185:9072",
-                    "font": "font_86:5004"
+                    "fill": "#000000",
+                    "data": "",
+                    "fillType": 1
                   }
                 ],
-                "textColor": [
+                "svgKey": "S10:容器|90:7047",
+                "svgShortKey": "S10#0",
+                "svgName": "容器"
+              },
+              {
+                "type": "PATH",
+                "id": "90:7042",
+                "name": "路径",
+                "layoutStyle": {
+                  "width": 20,
+                  "height": 0,
+                  "relativeX": 2,
+                  "relativeY": 12,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
+                },
+                "_svgUnavailable": true
+              },
+              {
+                "type": "PATH",
+                "id": "90:7044",
+                "name": "路径",
+                "layoutStyle": {
+                  "width": 8,
+                  "height": 20,
+                  "relativeX": 8,
+                  "relativeY": 2,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
+                },
+                "path": [
                   {
-                    "start": 0,
-                    "end": 671,
-                    "color": "paint_86:5202"
+                    "fill": "#000000",
+                    "data": "",
+                    "fillType": 1
                   }
                 ],
-                "textAlign": "left",
-                "textMode": "ellipsis",
-                "_placeholder": true
+                "svgKey": "S10:容器|90:7044_1",
+                "svgShortKey": "S10#1",
+                "svgName": "容器"
+              },
+              {
+                "type": "PATH",
+                "id": "90:7046",
+                "name": "路径",
+                "layoutStyle": {
+                  "width": 14.142145156860352,
+                  "height": 2.9289498329162598,
+                  "relativeX": 4.9287109375,
+                  "relativeY": 5.0703125,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
+                },
+                "path": [
+                  {
+                    "fill": "#000000",
+                    "data": ""
+                  }
+                ],
+                "svgKey": "S10:容器|90:7046_2",
+                "svgShortKey": "S10#2",
+                "svgName": "容器"
+              },
+              {
+                "type": "PATH",
+                "id": "90:7043",
+                "name": "路径",
+                "layoutStyle": {
+                  "width": 14.142145156860352,
+                  "height": 2.9289493560791016,
+                  "relativeX": 4.9287109375,
+                  "relativeY": 16,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
+                },
+                "path": [
+                  {
+                    "fill": "#000000",
+                    "data": ""
+                  }
+                ],
+                "svgKey": "S10:容器|90:7043_3",
+                "svgShortKey": "S10#3",
+                "svgName": "容器"
+              },
+              {
+                "type": "FRAME",
+                "id": "90:7048",
+                "name": "容器",
+                "layoutStyle": {
+                  "width": 24,
+                  "height": 24,
+                  "relativeX": 0,
+                  "relativeY": 0,
+                  "preserveRatio": true
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "id": "90:7032",
+            "name": "容器",
+            "layoutStyle": {
+              "width": 24,
+              "height": 24,
+              "relativeX": 1656,
+              "relativeY": 28,
+              "preserveRatio": true
+            },
+            "children": [
+              {
+                "type": "LAYER",
+                "id": "90:7035",
+                "name": "矩形",
+                "layoutStyle": {
+                  "width": 24,
+                  "height": 24,
+                  "relativeX": 0,
+                  "relativeY": 0,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
+                },
+                "fill": "paint_5:200",
+                "_color": "rgba(255, 255, 255, 0.01)"
+              },
+              {
+                "type": "PATH",
+                "id": "90:7033",
+                "name": "路径",
+                "layoutStyle": {
+                  "width": 17,
+                  "height": 17,
+                  "relativeX": 2,
+                  "relativeY": 2,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
+                },
+                "path": [
+                  {
+                    "fill": "#000000",
+                    "data": ""
+                  }
+                ],
+                "svgKey": "S10:容器|90:7033_4",
+                "svgShortKey": "S10#4",
+                "svgName": "容器"
+              },
+              {
+                "type": "PATH",
+                "id": "90:7034",
+                "name": "路径",
+                "layoutStyle": {
+                  "width": 5.6568498611450195,
+                  "height": 1.1715497970581055,
+                  "relativeX": 7.671875,
+                  "relativeY": 6,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
+                },
+                "path": [
+                  {
+                    "fill": "#000000",
+                    "data": ""
+                  }
+                ],
+                "svgKey": "S10:容器|90:7034_5",
+                "svgShortKey": "S10#5",
+                "svgName": "容器"
+              },
+              {
+                "type": "PATH",
+                "id": "90:7036",
+                "name": "路径",
+                "layoutStyle": {
+                  "width": 4.242649078369141,
+                  "height": 4.242649078369141,
+                  "relativeX": 16.611328125,
+                  "relativeY": 16.611328125,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
+                },
+                "path": [
+                  {
+                    "fill": "#000000",
+                    "data": ""
+                  }
+                ],
+                "svgKey": "S10:容器|90:7036_6",
+                "svgShortKey": "S10#6",
+                "svgName": "容器"
               }
             ]
           }
@@ -266,23 +570,38 @@
     "components": [],
     "rowTexts": [
       {
-        "text": "全盛品牌故事",
-        "_placeholder": true,
-        "parentType": "FRAME",
-        "parentName": "38"
+        "text": "Home",
+        "parentType": "GROUP"
       },
       {
-        "text": "全盛机电的旅程起源于帽型滑环的一次技术创新。2002年，我们首次在国内研发出用于安防摄像机的帽型滑环。这一枚精巧的帽型滑环是摄像机云台结构里关键且精密的部件，用于传输电力和信号，是摄像机能实现360度无限旋转的关键。\r\n\r\n2003年，杭州全盛电气有限公司正式成立，2010年，公司更名为杭州全盛机电科技有限公司。在这20多年中，我们深耕行业应用，先后推出过孔滑环、风电滑环、星载滑环、CT滑环、吊舱滑环等创新型产品系列。我们聚焦创新技术与精密制造，为全球高端装备提供卓越的旋转传输解决方案。\r\n\r\n截至目前，我们累计向安防行业交付超过3000万只帽型滑环，帮助全国200个大中城市完成平安城市项目。作为安防系统的 “隐形旋转纽带”，我们让守护更精准、更持久，为千家万户的安全筑牢防线。\r\n\r\n在过去十年间，我们交付超过35000只风电滑环，赋能风力发电总装机120GW，年发电量超过2600亿度，平均每年减少二氧化碳排放2亿吨以上。我们用精密制造驱动绿色能源转型，高防护滑环适配恶劣风场环境，降低传输损耗，让风电运维更高效、更环保。\r\n\r\n2018年，“新技术试验双星”搭载着全盛机电的星载滑环，于西昌卫星发射中心使用长征二号丙运载火箭发射成功。这标志着我们在星载滑环领域成功突破国外技术垄断，实现了卫星的能源自主、姿态精确控制和任务有效执行。至今我们已经参与十余次卫星项目，并为中国航空航天事业做出贡献。\r\n\r\n未来，我们将持续创新，用技术创新驱动产业升级，立志于成为全球旋转传输领域的技术标杆，让中国导电滑环赋能世界每一台旋转设备。\r\n",
-        "_placeholder": true,
+        "text": "About UE",
+        "parentType": "GROUP"
+      },
+      {
+        "text": "UE News",
+        "parentType": "GROUP"
+      },
+      {
+        "text": "Products",
+        "parentType": "GROUP"
+      },
+      {
+        "text": "R & D Center",
+        "parentType": "GROUP"
+      },
+      {
+        "text": "Join Us",
+        "parentType": "GROUP"
+      },
+      {
+        "text": "Contact Us",
         "parentType": "GROUP"
       }
-    ],
-    "placeholderTexts": [
-      "全盛品牌故事",
-      "T10|185:9072"
     ]
   },
-  "nodeCount": 11,
+  "nodeCount": 23,
+  "svgNodeCount": 7,
+  "hasStrippedSvgs": true,
   "componentDocumentLinks": [],
-  "fetchProgress": "Fetched 11/31. MISSING 20 sections: [11,12,13,14,15,16,17,18,19,20... +10 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+  "fetchProgress": "ALL 11 sections fetched. You can now generate the complete HTML."
 }

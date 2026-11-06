@@ -244,7 +244,11 @@ export default function TemplatesList() {
             </div>
           }
         >
-          {ptab === "visual" ? <VisualPreview id={viewId} /> : <TemplatePreview id={viewId} />}
+          {ptab === "visual" ? (
+            <VisualPreview id={viewId} src={`/api/preview/${viewId}/html`} designWidth={1280} />
+          ) : (
+            <TemplatePreview id={viewId} />
+          )}
         </Card>
       )}
     </div>

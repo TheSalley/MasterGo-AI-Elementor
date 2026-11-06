@@ -1,13 +1,13 @@
 {
   "sectionIndex": 3,
   "section": {
-    "id": "185:8951",
-    "name": "image",
-    "type": "LAYER"
+    "id": "58:4916",
+    "name": "组 5675",
+    "type": "GROUP"
   },
   "rootContainer": {
     "width": "1920px",
-    "minHeight": "8687px",
+    "minHeight": "4802px",
     "background": "#FFFFFF",
     "overflow": "hidden",
     "position": "relative"
@@ -15,31 +15,178 @@
   "structureSiblingCount": 1,
   "dsl": {
     "styles": {
-      "paint_107:7499": {
+      "font_20:2189": {
+        "value": {
+          "family": "Libre Franklin",
+          "size": 14,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "35",
+          "weight": "400"
+        }
+      },
+      "paint_3:96": {
         "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/1df0d814a57654f32757ee824e65bb12.png"
-          }
+          "#3D3D3D"
+        ]
+      },
+      "paint_58:3384": {
+        "value": [
+          "#3D3D3D"
         ]
       }
     },
     "nodes": [
       {
-        "type": "LAYER",
-        "id": "185:8951",
-        "name": "image",
+        "type": "GROUP",
+        "id": "58:4916",
+        "name": "组 5675",
         "layoutStyle": {
-          "width": 1920,
-          "height": 704,
+          "width": 136.5,
+          "height": 17,
           "relativeX": 0,
           "relativeY": 0
         },
-        "fill": "paint_107:7499"
+        "children": [
+          {
+            "type": "FRAME",
+            "id": "58:3383",
+            "name": "容器",
+            "layoutStyle": {
+              "width": 16,
+              "height": 16,
+              "relativeX": 0,
+              "relativeY": 1,
+              "preserveRatio": true
+            },
+            "children": [
+              {
+                "type": "PATH",
+                "id": "58:3386",
+                "name": "路径",
+                "layoutStyle": {
+                  "width": 14.532194137573242,
+                  "height": 13.462499618530273,
+                  "relativeX": 0.737548828125,
+                  "relativeY": 1.2874755859375,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
+                },
+                "svgKey": "S3:容器|58:3386",
+                "svgShortKey": "S3#0",
+                "svgName": "容器"
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "id": "58:4870",
+            "name": "文字 1",
+            "layoutStyle": {
+              "width": 38,
+              "height": 17,
+              "relativeX": 26,
+              "relativeY": 0
+            },
+            "fill": "paint_3:96",
+            "_color": "#3D3D3D",
+            "text": [
+              {
+                "text": "home",
+                "font": "font_20:2189"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 4,
+                "color": "paint_3:96"
+              }
+            ],
+            "textAlign": "center",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "58:4903",
+            "name": "home",
+            "layoutStyle": {
+              "width": 55,
+              "height": 17,
+              "relativeX": 81.5,
+              "relativeY": 0
+            },
+            "fill": "paint_3:96",
+            "_color": "#3D3D3D",
+            "text": [
+              {
+                "text": "Solution",
+                "font": "font_20:2189"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 8,
+                "color": "paint_3:96"
+              }
+            ],
+            "textAlign": "center",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "58:4895",
+            "name": "home",
+            "layoutStyle": {
+              "width": 5,
+              "height": 17,
+              "relativeX": 74.5,
+              "relativeY": 0
+            },
+            "fill": "paint_3:96",
+            "_color": "#3D3D3D",
+            "text": [
+              {
+                "text": "/",
+                "font": "font_20:2189"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 1,
+                "color": "paint_3:96"
+              }
+            ],
+            "textAlign": "center",
+            "textMode": "single-line"
+          }
+        ]
       }
     ],
-    "components": []
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "home",
+        "parentType": "GROUP"
+      },
+      {
+        "text": "Solution",
+        "parentType": "GROUP"
+      },
+      {
+        "text": "/",
+        "parentType": "GROUP"
+      }
+    ]
   },
-  "nodeCount": 1,
+  "nodeCount": 6,
+  "svgNodeCount": 1,
+  "hasStrippedSvgs": true,
   "componentDocumentLinks": [],
-  "fetchProgress": "Fetched 4/31. MISSING 27 sections: [4,5,6,7,8,9,10,11,12,13... +17 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+  "fetchProgress": "Fetched 4/11. MISSING 7 sections: [4,5,6,7,8,9,10]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
 }

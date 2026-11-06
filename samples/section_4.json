@@ -1,13 +1,13 @@
 {
   "sectionIndex": 4,
   "section": {
-    "id": "185:8952",
-    "name": "组 5616",
+    "id": "58:7296",
+    "name": "组 5676",
     "type": "GROUP"
   },
   "rootContainer": {
     "width": "1920px",
-    "minHeight": "8687px",
+    "minHeight": "4802px",
     "background": "#FFFFFF",
     "overflow": "hidden",
     "position": "relative"
@@ -15,545 +15,523 @@
   "structureSiblingCount": 1,
   "dsl": {
     "styles": {
-      "font_102:02279": {
+      "font_5:3612": {
         "value": {
-          "family": "Noto Sans SC",
-          "size": 20,
-          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "family": "Libre Franklin",
+          "size": 18,
+          "style": "{\"fontStyle\":\"Bold\",\"opsz\":\"auto\"}",
           "decoration": "none",
           "case": "none",
-          "lineHeight": "120",
-          "letterSpacing": "auto",
-          "weight": "600"
+          "lineHeight": "35",
+          "weight": "700"
         }
       },
-      "font_102:02426": {
+      "font_5:4059": {
         "value": {
-          "family": "Noto Sans SC",
-          "size": 80,
-          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
-          "decoration": "none",
-          "case": "none",
-          "lineHeight": "100",
-          "letterSpacing": "auto",
-          "weight": "600"
-        }
-      },
-      "font_86:4961": {
-        "value": {
-          "family": "Noto Sans SC",
-          "size": 32,
-          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
-          "decoration": "none",
-          "case": "none",
-          "lineHeight": "120",
-          "letterSpacing": "auto",
-          "weight": "600"
-        },
-        "token": "Q-H3"
-      },
-      "font_86:5004": {
-        "value": {
-          "family": "Noto Sans SC",
-          "size": 16,
+          "family": "Libre Franklin",
+          "size": 12,
           "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
           "decoration": "none",
           "case": "none",
-          "lineHeight": "150",
-          "letterSpacing": "auto",
+          "lineHeight": "18",
           "weight": "400"
-        },
-        "token": "Q-text"
+        }
       },
-      "font_86:5012": {
+      "font_5:4322": {
         "value": {
-          "family": "Noto Sans SC",
+          "family": "Libre Franklin",
+          "size": 32,
+          "style": "{\"fontStyle\":\"Medium\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "uppercase",
+          "lineHeight": "auto",
+          "weight": "500"
+        }
+      },
+      "font_5:5400": {
+        "value": {
+          "family": "Libre Franklin",
           "size": 14,
           "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
           "decoration": "none",
           "case": "none",
-          "lineHeight": "120",
-          "letterSpacing": "auto",
+          "lineHeight": "21",
           "weight": "400"
-        },
-        "token": "Q-ps"
+        }
       },
-      "paint_102:5119": {
+      "font_5:5831": {
+        "value": {
+          "family": "Libre Franklin",
+          "size": 12,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "21",
+          "weight": "400"
+        }
+      },
+      "paint_19:2766": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/115713781704629/9694b393b42be0c505af54600ded413c.png"
+          }
+        ]
+      },
+      "paint_2:3": {
+        "value": [
+          "#FFFFFF"
+        ]
+      },
+      "paint_3:96": {
+        "value": [
+          "#3D3D3D"
+        ]
+      },
+      "paint_5:2604": {
+        "value": [
+          {
+            "url": "https://image-resource.mastergo.com/111621696712363/115713781704629/fe65a265e8ebad6c7e17523d8d61fb2d.png"
+          }
+        ]
+      },
+      "paint_5:3723": {
         "value": [
           "#000000"
-        ],
-        "token": "ZK-title"
+        ]
       },
-      "paint_86:5157": {
+      "paint_5:4770": {
         "value": [
-          "#004EA2"
+          "#73756D"
         ],
-        "token": "Q-主蓝"
+        "token": "描述文字"
       },
-      "paint_86:5186": {
+      "paint_5:536": {
         "value": [
-          "#121212"
+          "#DDBC7E"
         ],
-        "token": "Q-标题黑"
-      },
-      "paint_86:5188": {
-        "value": [
-          "#333333"
-        ],
-        "token": "Q-次级文字"
+        "token": "主色"
       }
     },
     "nodes": [
       {
         "type": "GROUP",
-        "id": "185:8952",
-        "name": "组 5616",
+        "id": "58:7296",
+        "name": "组 5676",
         "layoutStyle": {
-          "width": 859,
-          "height": 455,
+          "width": 1680,
+          "height": 581.9998779296875,
           "relativeX": 0,
           "relativeY": 0
         },
         "children": [
           {
-            "type": "TEXT",
-            "id": "185:8953",
-            "name": "全盛机电创立于2003年，位于杭州临平经济技术开发区，是行业领先的导电滑环解决方案供应商。公司具有雄厚的研发设计能力，与国内外众多知名企业及科研院所有着长期而广泛的合作，2013年被评为国家高新技术企业，2022年被评为国家专精特新“小巨人”企业。 全盛机电生产的精密导电滑环广泛应用于安防监控、雷达天线、航空航天、风力发电、自动化设备、机器人、医疗设备及工程机械等行业，致力于为客户提供无限制旋转连接传输解决方案及高性价比产品。不仅可以提供通用导电滑环，还可以根据客户不同的技术要求，设计和生产各种多通道、大电流、高电压、高转速、高频率等及集电、气液、光纤通信于一体的复杂组合滑环。 全盛机电聚焦创新技术与精密制造，销售市场覆盖全国各省和自治区，并在国外设有10多个销售机构，产品出口世界50多个国家，为全球高端装备客户提供卓越的旋转连接解决方案，驱动其设备实现无限旋转下的稳定传输。",
+            "type": "LAYER",
+            "id": "58:6800",
+            "name": "image",
             "layoutStyle": {
-              "width": 859,
-              "height": 264,
+              "width": 413,
+              "height": 414,
               "relativeX": 0,
-              "relativeY": 73
+              "relativeY": 0,
+              "preserveRatio": true,
+              "rotate": 180,
+              "rotateX": 180,
+              "flipV": true
             },
-            "fill": "paint_86:5186",
-            "_color": "#121212",
-            "_token": "Q-标题黑",
+            "opacity": 0.05999999865889549,
+            "fill": "paint_19:2766"
+          },
+          {
+            "type": "TEXT",
+            "id": "58:6802",
+            "name": "FEATURED PRODUCT",
+            "layoutStyle": {
+              "width": 125,
+              "height": 18,
+              "relativeX": 240,
+              "relativeY": 99.9998779296875
+            },
+            "fill": "paint_5:536",
+            "_color": "#DDBC7E",
+            "_token": "主色",
             "text": [
               {
-                "text": "T4|185:8953",
-                "font": "font_86:5004"
+                "text": "FEATURED PRODUCT",
+                "font": "font_5:4059"
               }
             ],
             "textColor": [
               {
                 "start": 0,
-                "end": 397,
-                "color": "paint_86:5186"
+                "end": 16,
+                "color": "paint_5:536"
               }
             ],
             "textAlign": "left",
-            "textMode": "auto-height",
-            "_placeholder": true
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "58:6806",
+            "name": "UES500- SPAZ-OP",
+            "layoutStyle": {
+              "width": 291,
+              "height": 39,
+              "relativeX": 240,
+              "relativeY": 141.9998779296875
+            },
+            "fill": "paint_5:3723",
+            "_color": "#000000",
+            "text": [
+              {
+                "text": "UES500- SPAZ-OP",
+                "font": "font_5:4322"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 15,
+                "color": "paint_5:3723"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
           },
           {
             "type": "GROUP",
-            "id": "185:8956",
-            "name": "组 5615",
+            "id": "58:6814",
+            "name": "组 43",
             "layoutStyle": {
-              "width": 782,
-              "height": 84,
-              "relativeX": 0,
-              "relativeY": 371
+              "width": 226,
+              "height": 48,
+              "relativeX": 240,
+              "relativeY": 413.9998779296875
             },
             "children": [
               {
-                "type": "INSTANCE",
-                "id": "185:8957",
-                "name": "组 5085",
+                "type": "LAYER",
+                "id": "58:6815",
+                "name": "矩形 5",
                 "layoutStyle": {
-                  "width": 144,
-                  "height": 84,
+                  "width": 226,
+                  "height": 48,
                   "relativeX": 0,
                   "relativeY": 0
                 },
-                "componentInfo": {},
-                "children": [
-                  {
-                    "type": "TEXT",
-                    "id": "185:8957/102:02143",
-                    "name": "企业成立于",
-                    "layoutStyle": {
-                      "width": 112,
-                      "height": 17,
-                      "relativeX": 0,
-                      "relativeY": 101
-                    },
-                    "fill": "paint_102:5119",
-                    "_color": "#000000",
-                    "_token": "ZK-title",
-                    "text": [
-                      {
-                        "text": "导电滑环专业经验",
-                        "font": "font_86:5012"
-                      }
-                    ],
-                    "textColor": [
-                      {
-                        "start": 0,
-                        "end": 8,
-                        "color": "paint_86:5157"
-                      }
-                    ],
-                    "textAlign": "left",
-                    "textMode": "single-line"
-                  },
-                  {
-                    "type": "FRAME",
-                    "id": "185:8957/102:02264",
-                    "name": "容器 65",
-                    "layoutStyle": {
-                      "width": 172,
-                      "height": 80,
-                      "relativeX": 0,
-                      "relativeY": 20
-                    },
-                    "children": [
-                      {
-                        "type": "TEXT",
-                        "id": "185:8957/102:02138",
-                        "name": "2003",
-                        "layoutStyle": {
-                          "width": 140,
-                          "height": 80,
-                          "relativeX": 0,
-                          "relativeY": 0
-                        },
-                        "fill": "paint_102:5119",
-                        "_color": "#000000",
-                        "_token": "ZK-title",
-                        "text": [
-                          {
-                            "text": "20+",
-                            "font": "font_102:02426"
-                          }
-                        ],
-                        "textColor": [
-                          {
-                            "start": 0,
-                            "end": 3,
-                            "color": "paint_86:5157"
-                          }
-                        ],
-                        "textAlign": "left",
-                        "textMode": "single-line"
-                      },
-                      {
-                        "type": "TEXT",
-                        "id": "185:8957/102:02134",
-                        "name": "年",
-                        "layoutStyle": {
-                          "width": 20,
-                          "height": 24,
-                          "relativeX": 152,
-                          "relativeY": 56
-                        },
-                        "fill": "paint_102:5119",
-                        "_color": "#000000",
-                        "_token": "ZK-title",
-                        "text": [
-                          {
-                            "text": "年",
-                            "font": "font_102:02279"
-                          }
-                        ],
-                        "textColor": [
-                          {
-                            "start": 0,
-                            "end": 1,
-                            "color": "paint_102:5119"
-                          }
-                        ],
-                        "textAlign": "left",
-                        "textMode": "single-line",
-                        "_placeholder": true
-                      }
-                    ],
-                    "flexContainerInfo": {
-                      "flexDirection": "row",
-                      "alignItems": "flex-end",
-                      "mainSizing": "auto",
-                      "crossSizing": "auto",
-                      "gap": "12px"
-                    }
-                  }
-                ],
-                "componentId": "102:02133"
+                "borderRadius": "2px",
+                "fill": "paint_5:536",
+                "_color": "#DDBC7E",
+                "_token": "主色"
               },
               {
-                "type": "INSTANCE",
-                "id": "185:8966",
-                "name": "组 5086",
+                "type": "TEXT",
+                "id": "58:6816",
+                "name": "Explore Products",
                 "layoutStyle": {
-                  "width": 144,
-                  "height": 84,
-                  "relativeX": 321,
-                  "relativeY": 0
+                  "width": 150,
+                  "height": 35,
+                  "relativeX": 24,
+                  "relativeY": 7
                 },
-                "componentInfo": {},
-                "children": [
+                "fill": "paint_2:3",
+                "_color": "#FFFFFF",
+                "text": [
                   {
-                    "type": "TEXT",
-                    "id": "185:8966/102:02143",
-                    "name": "企业成立于",
-                    "layoutStyle": {
-                      "width": 126,
-                      "height": 17,
-                      "relativeX": 0,
-                      "relativeY": 101
-                    },
-                    "fill": "paint_86:5188",
-                    "_color": "#333333",
-                    "_token": "Q-次级文字",
-                    "text": [
-                      {
-                        "text": "发明和实用新型专利\r",
-                        "font": "font_86:5012"
-                      }
-                    ],
-                    "textColor": [
-                      {
-                        "start": 0,
-                        "end": 10,
-                        "color": "paint_86:5188"
-                      }
-                    ],
-                    "textAlign": "left",
-                    "textMode": "single-line"
-                  },
-                  {
-                    "type": "FRAME",
-                    "id": "185:8966/102:02264",
-                    "name": "容器 65",
-                    "layoutStyle": {
-                      "width": 172,
-                      "height": 80,
-                      "relativeX": 0,
-                      "relativeY": 20
-                    },
-                    "children": [
-                      {
-                        "type": "TEXT",
-                        "id": "185:8966/102:02138",
-                        "name": "2003",
-                        "layoutStyle": {
-                          "width": 186,
-                          "height": 80,
-                          "relativeX": 0,
-                          "relativeY": 0
-                        },
-                        "fill": "paint_86:5157",
-                        "_color": "#004EA2",
-                        "_token": "Q-主蓝",
-                        "text": [
-                          {
-                            "text": "100+",
-                            "font": "font_102:02426"
-                          }
-                        ],
-                        "textColor": [
-                          {
-                            "start": 0,
-                            "end": 4,
-                            "color": "paint_86:5157"
-                          }
-                        ],
-                        "textAlign": "left",
-                        "textMode": "single-line"
-                      },
-                      {
-                        "type": "TEXT",
-                        "id": "185:8966/102:02134",
-                        "name": "年",
-                        "layoutStyle": {
-                          "width": 20,
-                          "height": 24,
-                          "relativeX": 198,
-                          "relativeY": 56
-                        },
-                        "fill": "paint_102:5119",
-                        "_color": "#000000",
-                        "_token": "ZK-title",
-                        "text": [
-                          {
-                            "text": "项\r",
-                            "font": "font_102:02279"
-                          }
-                        ],
-                        "textColor": [
-                          {
-                            "start": 0,
-                            "end": 2,
-                            "color": "paint_102:5119"
-                          }
-                        ],
-                        "textAlign": "left",
-                        "textMode": "single-line"
-                      }
-                    ],
-                    "flexContainerInfo": {
-                      "flexDirection": "row",
-                      "alignItems": "flex-end",
-                      "mainSizing": "auto",
-                      "crossSizing": "auto",
-                      "gap": "12px"
-                    }
+                    "text": "Explore Products",
+                    "font": "font_5:3612"
                   }
                 ],
-                "componentId": "102:02133"
+                "textColor": [
+                  {
+                    "start": 0,
+                    "end": 16,
+                    "color": "paint_2:3"
+                  }
+                ],
+                "textAlign": "left",
+                "textMode": "single-line"
               },
               {
-                "type": "INSTANCE",
-                "id": "185:8978",
-                "name": "组 5087",
+                "type": "FRAME",
+                "id": "58:6820",
+                "name": "容器",
                 "layoutStyle": {
-                  "width": 144,
-                  "height": 84,
-                  "relativeX": 638,
-                  "relativeY": 0
+                  "width": 16,
+                  "height": 16,
+                  "relativeX": 186,
+                  "relativeY": 16,
+                  "preserveRatio": true
                 },
-                "componentInfo": {},
                 "children": [
                   {
-                    "type": "TEXT",
-                    "id": "185:8978/102:02143",
-                    "name": "企业成立于",
+                    "type": "PATH",
+                    "id": "58:6821",
+                    "name": "路径",
                     "layoutStyle": {
-                      "width": 126,
-                      "height": 17,
-                      "relativeX": 0,
-                      "relativeY": 101
+                      "width": 11.933333396911621,
+                      "height": 7.3333330154418945,
+                      "relativeX": 2,
+                      "relativeY": 4,
+                      "constraint": {
+                        "horizontal": "SCALE",
+                        "vertical": "SCALE"
+                      }
                     },
-                    "fill": "paint_86:5188",
-                    "_color": "#333333",
-                    "_token": "Q-次级文字",
-                    "text": [
+                    "path": [
                       {
-                        "text": "科研技术人员与员工",
-                        "font": "font_86:5012"
+                        "fill": "#FFFFFF",
+                        "data": ""
                       }
                     ],
-                    "textColor": [
-                      {
-                        "start": 0,
-                        "end": 9,
-                        "color": "paint_86:5188"
-                      }
-                    ],
-                    "textAlign": "left",
-                    "textMode": "single-line"
-                  },
-                  {
-                    "type": "FRAME",
-                    "id": "185:8978/102:02264",
-                    "name": "容器 65",
-                    "layoutStyle": {
-                      "width": 172,
-                      "height": 80,
-                      "relativeX": 0,
-                      "relativeY": 20
-                    },
-                    "children": [
-                      {
-                        "type": "TEXT",
-                        "id": "185:8978/102:02138",
-                        "name": "2003",
-                        "layoutStyle": {
-                          "width": 186,
-                          "height": 80,
-                          "relativeX": 0,
-                          "relativeY": 0
-                        },
-                        "fill": "paint_86:5157",
-                        "_color": "#004EA2",
-                        "_token": "Q-主蓝",
-                        "text": [
-                          {
-                            "text": "500+",
-                            "font": "font_102:02426"
-                          }
-                        ],
-                        "textColor": [
-                          {
-                            "start": 0,
-                            "end": 4,
-                            "color": "paint_86:5157"
-                          }
-                        ],
-                        "textAlign": "left",
-                        "textMode": "single-line"
-                      },
-                      {
-                        "type": "TEXT",
-                        "id": "185:8978/102:02134",
-                        "name": "年",
-                        "layoutStyle": {
-                          "width": 20,
-                          "height": 24,
-                          "relativeX": 198,
-                          "relativeY": 56
-                        },
-                        "fill": "paint_102:5119",
-                        "_color": "#000000",
-                        "_token": "ZK-title",
-                        "text": [
-                          {
-                            "text": "人",
-                            "font": "font_102:02279"
-                          }
-                        ],
-                        "textColor": [
-                          {
-                            "start": 0,
-                            "end": 1,
-                            "color": "paint_102:5119"
-                          }
-                        ],
-                        "textAlign": "left",
-                        "textMode": "single-line"
-                      }
-                    ],
-                    "flexContainerInfo": {
-                      "flexDirection": "row",
-                      "alignItems": "flex-end",
-                      "mainSizing": "auto",
-                      "crossSizing": "auto",
-                      "gap": "12px"
-                    }
+                    "svgKey": "S4:容器|58:6821",
+                    "svgShortKey": "S4#0",
+                    "svgName": "容器"
                   }
                 ],
-                "componentId": "102:02133"
+                "borderRadius": "2px"
               }
             ]
           },
           {
             "type": "TEXT",
-            "id": "185:8990",
-            "name": "杭州全盛机电科技有限公司",
+            "id": "58:6822",
+            "name": "Medical and I.T.E. applications",
             "layoutStyle": {
-              "width": 384,
-              "height": 39,
-              "relativeX": 0,
-              "relativeY": 0
+              "width": 93,
+              "height": 30,
+              "relativeX": 293,
+              "relativeY": 335.9998779296875
             },
-            "fill": "paint_86:5186",
-            "_color": "#121212",
-            "_token": "Q-标题黑",
+            "fill": "paint_3:96",
+            "_color": "#3D3D3D",
             "text": [
               {
-                "text": "杭州全盛机电科技有限公司",
-                "font": "font_86:4961"
+                "text": "Medical and I.T.E.\napplications",
+                "font": "font_5:5831"
               }
             ],
             "textColor": [
               {
                 "start": 0,
-                "end": 12,
-                "color": "paint_86:5186"
+                "end": 31,
+                "color": "paint_3:96"
               }
             ],
             "textAlign": "left",
-            "textMode": "single-line",
-            "_placeholder": true
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "58:6826",
+            "name": "2 MOPP isolation protection",
+            "layoutStyle": {
+              "width": 108,
+              "height": 30,
+              "relativeX": 486,
+              "relativeY": 333.9998779296875
+            },
+            "fill": "paint_3:96",
+            "_color": "#3D3D3D",
+            "text": [
+              {
+                "text": "2 MOPP\nisolation protection",
+                "font": "font_5:5831"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 27,
+                "color": "paint_3:96"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "58:6830",
+            "name": "Convection or forced-air cooling",
+            "layoutStyle": {
+              "width": 99,
+              "height": 30,
+              "relativeX": 695,
+              "relativeY": 333.9998779296875
+            },
+            "fill": "paint_3:96",
+            "_color": "#3D3D3D",
+            "text": [
+              {
+                "text": "Convection or\nforced-air cooling",
+                "font": "font_5:5831"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 32,
+                "color": "paint_3:96"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "FRAME",
+            "id": "58:6836",
+            "name": "medical",
+            "layoutStyle": {
+              "width": 32,
+              "height": 32,
+              "relativeX": 233,
+              "relativeY": 333.9998779296875,
+              "preserveRatio": true
+            },
+            "children": [
+              {
+                "type": "PATH",
+                "id": "58:6837",
+                "name": "路径",
+                "layoutStyle": {
+                  "width": 21.33333396911621,
+                  "height": 24,
+                  "relativeX": 5.333251953125,
+                  "relativeY": 4,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
+                },
+                "path": [
+                  {
+                    "fill": "#DDBC7E",
+                    "data": ""
+                  }
+                ],
+                "svgKey": "S4:medical|58:6837",
+                "svgShortKey": "S4#1",
+                "svgName": "medical"
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "id": "58:6838",
+            "name": "bolt",
+            "layoutStyle": {
+              "width": 32,
+              "height": 32,
+              "relativeX": 635,
+              "relativeY": 333.9998779296875,
+              "preserveRatio": true
+            },
+            "children": [
+              {
+                "type": "PATH",
+                "id": "58:6839",
+                "name": "路径",
+                "layoutStyle": {
+                  "width": 18.666667938232422,
+                  "height": 26.666667938232422,
+                  "relativeX": 6.666748046875,
+                  "relativeY": 2.6666259765625,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
+                },
+                "path": [
+                  {
+                    "fill": "#DDBC7E",
+                    "data": ""
+                  }
+                ],
+                "svgKey": "S4:bolt|58:6839",
+                "svgShortKey": "S4#2",
+                "svgName": "bolt"
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "id": "58:6840",
+            "name": "shield",
+            "layoutStyle": {
+              "width": 32,
+              "height": 32,
+              "relativeX": 426,
+              "relativeY": 333.9998779296875,
+              "preserveRatio": true
+            },
+            "children": [
+              {
+                "type": "PATH",
+                "id": "58:6841",
+                "name": "路径",
+                "layoutStyle": {
+                  "width": 24,
+                  "height": 26.666667938232422,
+                  "relativeX": 4,
+                  "relativeY": 2.6666259765625,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
+                },
+                "path": [
+                  {
+                    "fill": "#DDBC7E",
+                    "data": ""
+                  }
+                ],
+                "svgKey": "S4:shield|58:6841",
+                "svgShortKey": "S4#3",
+                "svgName": "shield"
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "id": "58:7115",
+            "name": "UE Electronic was founded in 1989 and is a large-scale national high-tech enterprise integrating product development, manufacturing and sales. For over 30 years, UE Electronic has focused on innovation and reliability in ITE power supply technology and information technology equipment power supply products, including ITE power,",
+            "layoutStyle": {
+              "width": 521,
+              "height": 105,
+              "relativeX": 246,
+              "relativeY": 204.9998779296875
+            },
+            "fill": "paint_5:4770",
+            "_color": "#73756D",
+            "_token": "描述文字",
+            "text": [
+              {
+                "text": "T4|58:7115",
+                "font": "font_5:5400"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 329,
+                "color": "paint_5:4770"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "auto-height"
+          },
+          {
+            "type": "LAYER",
+            "id": "58:7219",
+            "name": "image",
+            "layoutStyle": {
+              "width": 692,
+              "height": 430,
+              "relativeX": 988,
+              "relativeY": 100,
+              "preserveRatio": true
+            },
+            "fill": "paint_5:2604"
           }
         ]
       }
@@ -561,69 +539,38 @@
     "components": [],
     "rowTexts": [
       {
-        "text": "全盛机电创立于2003年，位于杭州临平经济技术开发区，是行业领先的导电滑环解决方案供应商。公司具有雄厚的研发设计能力，与国内外众多知名企业及科研院所有着长期而广泛的合作，2013年被评为国家高新技术企业，2022年被评为国家专精特新“小巨人”企业。\r\n\n全盛机电生产的精密导电滑环广泛应用于安防监控、雷达天线、航空航天、风力发电、自动化设备、机器人、医疗设备及工程机械等行业，致力于为客户提供无限制旋转连接传输解决方案及高性价比产品。不仅可以提供通用导电滑环，还可以根据客户不同的技术要求，设计和生产各种多通道、大电流、高电压、高转速、高频率等及集电、气液、光纤通信于一体的复杂组合滑环。\r\n\n全盛机电聚焦创新技术与精密制造，销售市场覆盖全国各省和自治区，并在国外设有10多个销售机构，产品出口世界50多个国家，为全球高端装备客户提供卓越的旋转连接解决方案，驱动其设备实现无限旋转下的稳定传输。",
-        "_placeholder": true,
+        "text": "FEATURED PRODUCT",
         "parentType": "GROUP"
       },
       {
-        "text": "导电滑环专业经验",
-        "parentType": "INSTANCE",
-        "parentName": "组 5085"
+        "text": "UES500- SPAZ-OP",
+        "parentType": "GROUP"
       },
       {
-        "text": "20+",
-        "parentType": "FRAME",
-        "parentName": "容器 65"
+        "text": "Explore Products",
+        "parentType": "GROUP"
       },
       {
-        "text": "年",
-        "_placeholder": true,
-        "parentType": "FRAME",
-        "parentName": "容器 65"
+        "text": "Medical and I.T.E.\napplications",
+        "parentType": "GROUP"
       },
       {
-        "text": "发明和实用新型专利\r",
-        "parentType": "INSTANCE",
-        "parentName": "组 5086"
+        "text": "2 MOPP\nisolation protection",
+        "parentType": "GROUP"
       },
       {
-        "text": "100+",
-        "parentType": "FRAME",
-        "parentName": "容器 65"
+        "text": "Convection or\nforced-air cooling",
+        "parentType": "GROUP"
       },
       {
-        "text": "项\r",
-        "parentType": "FRAME",
-        "parentName": "容器 65"
-      },
-      {
-        "text": "科研技术人员与员工",
-        "parentType": "INSTANCE",
-        "parentName": "组 5087"
-      },
-      {
-        "text": "500+",
-        "parentType": "FRAME",
-        "parentName": "容器 65"
-      },
-      {
-        "text": "人",
-        "parentType": "FRAME",
-        "parentName": "容器 65"
-      },
-      {
-        "text": "杭州全盛机电科技有限公司",
-        "_placeholder": true,
+        "text": "UE Electronic was founded in 1989 and is a large-scale national high-tech enterprise integrating product development, manufacturing and sales. For over 30 years, UE Electronic has focused on innovation and reliability in ITE power supply technology and information technology equipment power supply products, including ITE power,",
         "parentType": "GROUP"
       }
-    ],
-    "placeholderTexts": [
-      "T4|185:8953",
-      "年",
-      "杭州全盛机电科技有限公司"
     ]
   },
-  "nodeCount": 19,
+  "nodeCount": 20,
+  "svgNodeCount": 4,
+  "hasStrippedSvgs": true,
   "componentDocumentLinks": [],
-  "fetchProgress": "Fetched 5/31. MISSING 26 sections: [5,6,7,8,9,10,11,12,13,14... +16 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+  "fetchProgress": "Fetched 5/11. MISSING 6 sections: [5,6,7,8,9,10]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
 }

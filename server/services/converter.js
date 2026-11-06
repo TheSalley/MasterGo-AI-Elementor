@@ -105,8 +105,8 @@ function flexSettings(fci) {
   if (!fci) return s;
   if (fci.flexDirection) s.flex_direction = fci.flexDirection === "column" ? "column" : "row";
   if (fci.gap) s.flex_gap = px(fci.gap);
-  if (fci.justifyContent) s.justify_content = fci.justifyContent;
-  if (fci.alignItems) s.align_items = fci.alignItems;
+  if (fci.justifyContent) s.flex_justify_content = fci.justifyContent;
+  if (fci.alignItems) s.flex_align_items = fci.alignItems;
   const pad = parsePadding(fci.padding);
   if (pad) s.padding = pad;
   return s;

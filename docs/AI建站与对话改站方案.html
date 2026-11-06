@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="M-AI-E：从 MasterGo 设计稿到 Elementor 原生网站，以及客户通过 AI 对话持续改站的产品与技术方案。" />
+<meta name="theme-color" content="#0B1526" />
+<title>M-AI-E · AI 建站与对话改站方案</title>
+<script>document.documentElement.classList.add("js")</script>
+<style>
+:root{--ink:#0b1424;--ink2:#172238;--muted:#667386;--muted2:#8b97a9;--paper:#f5f7fb;--line:#e3e8f1;--line2:#d3dbe8;--blue:#2457f5;--blue2:#173bc0;--blue-soft:#eaf0ff;--cyan:#0bbcc8;--cyan-soft:#e5fbfc;--violet:#7157ff;--violet-soft:#f0edff;--amber-soft:#fff6e5;--green:#0b9469;--green-soft:#e7f8f1;--radius:24px;--shadow-sm:0 8px 28px rgba(15,33,68,.07)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}
+body{margin:0;color:var(--ink);background:var(--paper);font-family:"Aptos","Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;background:radial-gradient(900px 520px at 8% -8%,rgba(36,87,245,.12),transparent 65%),radial-gradient(760px 480px at 96% 2%,rgba(11,188,200,.11),transparent 62%),linear-gradient(180deg,#f8faff 0%,var(--paper) 42%,#f7f9fc 100%)}
+body:after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.5;background-image:linear-gradient(rgba(28,55,98,.028) 1px,transparent 1px),linear-gradient(90deg,rgba(28,55,98,.028) 1px,transparent 1px);background-size:36px 36px;mask-image:linear-gradient(to bottom,black,transparent 76%)}
+::selection{background:rgba(36,87,245,.18)}a{color:inherit}button,input{font:inherit}button{cursor:pointer}img,svg{display:block;max-width:100%}
+.wrap{width:min(1200px,calc(100% - 48px));margin:0 auto}
+.scroll-progress{position:fixed;top:0;left:0;width:0;height:3px;z-index:100;background:linear-gradient(90deg,var(--blue),var(--cyan),var(--violet));box-shadow:0 0 16px rgba(36,87,245,.55)}
+.site-header{position:sticky;top:0;z-index:90;border-bottom:1px solid rgba(220,228,240,.7);background:rgba(248,250,255,.78);backdrop-filter:blur(18px) saturate(1.4)}
+.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;flex-shrink:0}
+.brand-mark{width:40px;height:40px;border-radius:12px;background:linear-gradient(145deg,var(--blue),#1438ae);color:#fff;display:grid;place-items:center;font-weight:800;font-size:18px;letter-spacing:-.05em;box-shadow:0 8px 18px rgba(36,87,245,.26),inset 0 1px 0 rgba(255,255,255,.28)}
+.brand-name{font-size:15px;font-weight:750;letter-spacing:-.02em;line-height:1.15;display:block}.brand-sub{font-size:11px;color:var(--muted);margin-top:2px;display:block}
+.nav-links{display:flex;align-items:center;gap:5px}.nav-link{text-decoration:none;color:var(--muted);font-size:13px;font-weight:600;padding:8px 12px;border-radius:9px;transition:.2s;white-space:nowrap}
+.nav-link:hover{color:var(--ink);background:rgba(255,255,255,.8)}.nav-link.active{color:var(--blue);background:var(--blue-soft)}
+.nav-cta{border:0;border-radius:10px;padding:10px 16px;background:var(--ink);color:#fff;font-size:13px;font-weight:650;display:inline-flex;align-items:center;gap:8px;box-shadow:0 7px 18px rgba(11,20,36,.17);transition:.2s}
+.nav-cta:hover{transform:translateY(-1px);background:var(--ink2)}
+.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--blue);font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+.eyebrow:before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor;box-shadow:0 0 0 4px rgba(36,87,245,.1)}
+h1,h2,h3,h4{margin:0;letter-spacing:-.035em;line-height:1.16}h1{font-size:clamp(44px,5.2vw,72px);font-weight:790}h2{font-size:clamp(32px,3.7vw,48px);font-weight:770}h3{font-size:21px;font-weight:730}p{margin:0}
+.lead{color:var(--muted);font-size:18px;line-height:1.8}.section{padding:104px 0;position:relative}.section-tight{padding:76px 0}
+.section-head{display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);gap:48px;align-items:end;margin-bottom:42px}
+.section-head h2{margin-top:14px;max-width:690px}.section-head .lead{max-width:640px}
+.section-no{display:inline-flex;align-items:center;gap:10px;font-family:"Cascadia Code",Consolas,monospace;font-size:11px;font-weight:700;color:var(--muted2);letter-spacing:.08em}
+.section-no:after{content:"";width:34px;height:1px;background:var(--line2)}
+.hero{padding:76px 0 38px}.hero-grid{display:grid;grid-template-columns:1.04fr .96fr;gap:54px;align-items:center;min-height:610px}
+.hero-copy .eyebrow{margin-bottom:18px}.hero-copy h1{max-width:730px}.hero-copy .lead{max-width:610px;margin-top:25px;font-size:18.5px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:11px;margin-top:32px}
+.btn{border:0;border-radius:12px;padding:13px 20px;display:inline-flex;align-items:center;justify-content:center;gap:9px;font-size:14px;font-weight:700;text-decoration:none;transition:.2s}
+.btn:hover{transform:translateY(-2px)}.btn-primary{color:#fff;background:linear-gradient(135deg,var(--blue),#1949d8);box-shadow:0 14px 30px rgba(36,87,245,.25)}
+.btn-primary:hover{box-shadow:0 18px 38px rgba(36,87,245,.32)}.btn-ghost{color:var(--ink);background:rgba(255,255,255,.7);border:1px solid var(--line2);box-shadow:0 5px 14px rgba(15,33,68,.04)}
+.hero-meta{display:flex;align-items:center;gap:18px;margin-top:27px;color:var(--muted);font-size:12.5px;flex-wrap:wrap}
+.hero-meta span{display:inline-flex;align-items:center;gap:7px}.hero-meta i{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 0 4px rgba(11,148,105,.1)}
+.hero-visual{position:relative;min-height:530px;display:grid;place-items:center}
+.orb{position:absolute;width:430px;height:430px;border-radius:50%;background:radial-gradient(circle at 34% 30%,rgba(36,87,245,.27),rgba(11,188,200,.12) 45%,transparent 70%);filter:blur(8px);animation:float 8s ease-in-out infinite}
+.orb.two{width:300px;height:300px;right:-20px;top:20px;background:radial-gradient(circle,rgba(113,87,255,.18),transparent 68%);animation-delay:-3s}
+@keyframes float{0%,100%{transform:translate3d(0,0,0)}50%{transform:translate3d(0,-15px,0)}}
+.product-window{position:relative;z-index:2;width:100%;max-width:540px;background:rgba(255,255,255,.93);border:1px solid rgba(255,255,255,.9);border-radius:22px;box-shadow:0 36px 90px rgba(24,46,94,.19);overflow:hidden;transform:perspective(1100px) rotateY(-6deg) rotateX(2deg);transition:.45s}
+.product-window:hover{transform:perspective(1100px) rotateY(-2deg)}
+.window-bar{height:38px;background:#f7f9fd;border-bottom:1px solid #e9edf5;display:flex;align-items:center;gap:6px;padding:0 14px}
+.dot{width:7px;height:7px;border-radius:50%;background:#d5dce9}.dot:nth-child(1){background:#ff8a83}.dot:nth-child(2){background:#ffd36f}.dot:nth-child(3){background:#62d9a3}
+.window-title{margin-left:auto;font-size:10px;color:#8b97a9;font-family:"Cascadia Code",Consolas,monospace}
+.window-body{padding:16px}.mini-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+.mini-brand{display:flex;align-items:center;gap:8px;font-size:11px;font-weight:750}
+.mini-brand .logo{width:24px;height:24px;border-radius:7px;background:linear-gradient(135deg,var(--blue),var(--cyan));display:grid;place-items:center;color:#fff;font-size:11px}
+.mini-badge{border-radius:999px;padding:4px 8px;background:var(--green-soft);color:var(--green);font-size:9px;font-weight:700}
+.pipeline-mini{display:grid;grid-template-columns:1fr 28px 1fr 28px 1fr;align-items:stretch;gap:3px;margin-bottom:15px}
+.mini-node{border:1px solid var(--line);border-radius:10px;padding:10px 9px;background:#fbfcff}
+.mini-node .k{font-size:8px;color:var(--muted2);text-transform:uppercase;letter-spacing:.1em;font-weight:800}
+.mini-node .v{font-size:10.5px;font-weight:700;margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mini-node.accent{background:var(--blue-soft);border-color:#cfdbfb}.mini-arrow{display:grid;place-items:center;color:#b1bdd0;font-size:12px}
+.mini-section{border:1px solid var(--line);border-radius:11px;padding:11px;display:flex;align-items:center;gap:10px;margin-top:7px;background:#fff}
+.mini-thumb{width:48px;height:34px;border-radius:7px;background:linear-gradient(135deg,#dce6ff,#eef5ff);position:relative;flex-shrink:0;overflow:hidden}
+.mini-thumb:before{content:"";position:absolute;left:6px;right:6px;top:8px;height:4px;border-radius:3px;background:#7b99e6;box-shadow:0 7px 0 #c1d0ee,0 14px 0 #c1d0ee}
+.mini-section .info{min-width:0;flex:1}.mini-section .t{font-size:10px;font-weight:700}.mini-section .s{font-size:8.5px;color:var(--muted2);margin-top:2px}
+.mini-tag{font-size:8px;color:var(--blue);background:var(--blue-soft);padding:3px 6px;border-radius:5px;flex-shrink:0;font-weight:700}
+.mini-footer{display:flex;justify-content:space-between;align-items:center;padding-top:13px;font-size:9px;color:var(--muted2)}
+.mini-progress{width:100px;height:4px;border-radius:4px;background:#e9eef8;overflow:hidden}.mini-progress span{display:block;height:100%;width:78%;border-radius:inherit;background:linear-gradient(90deg,var(--blue),var(--cyan))}
+.floating-card{position:absolute;z-index:3;background:rgba(255,255,255,.95);border:1px solid rgba(224,231,244,.9);border-radius:14px;padding:10px 13px;box-shadow:0 14px 34px rgba(26,50,97,.14);display:flex;align-items:center;gap:9px;font-size:10px;font-weight:700;backdrop-filter:blur(8px)}
+.floating-card.a{left:-16px;bottom:66px;animation:float 6s ease-in-out infinite}.floating-card.b{right:-18px;top:45px;animation:float 7.5s ease-in-out infinite -2s}
+.floating-icon{width:26px;height:26px;border-radius:8px;display:grid;place-items:center;background:var(--violet-soft);color:var(--violet)}
+.floating-card small{display:block;font-weight:500;color:var(--muted2);font-size:8.5px;margin-top:1px}
+.stat-strip{display:grid;grid-template-columns:repeat(4,1fr);background:rgba(255,255,255,.78);border:1px solid rgba(224,231,244,.9);border-radius:18px;box-shadow:var(--shadow-sm);overflow:hidden}
+.stat{padding:23px 25px;border-right:1px solid var(--line)}.stat:last-child{border-right:0}
+.stat .num{font-size:28px;font-weight:780;letter-spacing:-.05em;line-height:1.15}.stat .num small{font-size:12px;font-weight:700;color:var(--muted2);margin-left:3px}
+.stat .label{color:var(--muted);font-size:12px;margin-top:4px}
+.card{background:rgba(255,255,255,.86);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm)}
+.callout{border-radius:var(--radius);padding:30px 32px;background:linear-gradient(135deg,#0c1830,#142648);color:#fff;position:relative;overflow:hidden;box-shadow:0 26px 60px rgba(12,24,48,.2)}
+.callout:after{content:"";position:absolute;width:360px;height:360px;right:-120px;top:-190px;border-radius:50%;background:radial-gradient(circle,rgba(49,108,255,.45),transparent 67%);pointer-events:none}
+.callout .eyebrow{color:#86a8ff}.callout h3{font-size:25px;margin-top:12px;max-width:720px}
+.callout p{color:#aebdd6;margin-top:10px;max-width:760px;font-size:14px}
+.callout-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:25px;position:relative;z-index:1}
+.callout-mini{border:1px solid rgba(255,255,255,.13);background:rgba(255,255,255,.055);border-radius:14px;padding:15px}
+.callout-mini .n{font-family:"Cascadia Code",Consolas,monospace;color:#799cff;font-size:10px;font-weight:700}
+.callout-mini .t{font-size:13px;font-weight:700;margin-top:5px}.callout-mini .d{font-size:11px;color:#93a5c2;margin-top:3px;line-height:1.55}
+.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.compare-card{padding:28px;border-radius:var(--radius);border:1px solid var(--line);background:rgba(255,255,255,.84);box-shadow:var(--shadow-sm)}
+.compare-card.done{border-top:3px solid var(--green)}.compare-card.gap{border-top:3px solid #ee9a19;background:linear-gradient(180deg,#fffdf8,rgba(255,255,255,.88))}
+.compare-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}.compare-head h3{font-size:18px}
+.pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:5px 10px;font-size:10px;font-weight:750;letter-spacing:.04em}
+.pill.green{color:var(--green);background:var(--green-soft)}.pill.amber{color:#a66808;background:var(--amber-soft)}.pill.blue{color:var(--blue);background:var(--blue-soft)}.pill.violet{color:var(--violet);background:var(--violet-soft)}
+.check-list{display:grid;gap:12px}.check-item{display:flex;gap:11px;align-items:flex-start;font-size:13.5px;color:var(--ink2)}
+.check-icon{width:21px;height:21px;border-radius:7px;display:grid;place-items:center;flex-shrink:0;margin-top:2px;font-size:11px;font-weight:800}
+.check-icon.ok{color:var(--green);background:var(--green-soft)}.check-icon.no{color:#a66808;background:var(--amber-soft)}
+.check-item small{display:block;color:var(--muted);font-size:11.5px;margin-top:2px;line-height:1.5}
+.flow-card{margin-top:18px;padding:30px;border-radius:var(--radius);background:#fff;border:1px solid var(--line);box-shadow:var(--shadow-sm)}
+.flow-title{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:25px}.flow-title h3{font-size:16px}.flow-title span{color:var(--muted2);font-size:11px}
+.current-flow{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;align-items:stretch}
+.current-step{position:relative;padding:15px;border-radius:13px;background:#f8faff;border:1px solid #e5ebf6}
+.current-step:not(:last-child):after{content:"›";position:absolute;right:-10px;top:50%;transform:translateY(-50%);color:#afbcd0;font-size:18px;z-index:1}
+.current-step .s-no{font-family:"Cascadia Code",Consolas,monospace;font-size:9px;color:var(--blue);font-weight:800}
+.current-step .s-name{font-size:12px;font-weight:750;margin-top:4px}.current-step .s-desc{font-size:10px;color:var(--muted);margin-top:2px;line-height:1.5}
+.flow-note{display:flex;align-items:center;gap:8px;margin-top:18px;padding:10px 13px;border-radius:10px;background:var(--amber-soft);color:#8b5d10;font-size:11px}.flow-note strong{color:#6f4705}
+.mode-tabs{display:flex;gap:6px;padding:5px;background:#e9eef7;border-radius:13px;width:fit-content;margin-bottom:26px;flex-wrap:wrap}
+.mode-tab{border:0;padding:10px 15px;border-radius:9px;background:transparent;color:var(--muted);font-size:13px;font-weight:700;transition:.2s}
+.mode-tab.active{background:#fff;color:var(--blue);box-shadow:0 4px 12px rgba(29,55,103,.1)}
+.mode-panel{display:none}.mode-panel.active{display:grid;grid-template-columns:1.17fr .83fr;gap:20px;animation:fadeUp .42s ease both}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.mode-card{padding:30px;border-radius:var(--radius);border:1px solid var(--line);background:rgba(255,255,255,.87);box-shadow:var(--shadow-sm)}
+.mode-card .mode-kicker{font-size:10px;font-weight:800;letter-spacing:.12em;color:var(--muted2);text-transform:uppercase}
+.mode-card h3{font-size:25px;margin-top:8px}.mode-card>p{color:var(--muted);font-size:13.5px;margin-top:8px;max-width:650px}
+.steps{display:grid;gap:0;margin-top:24px}
+.step-row{display:grid;grid-template-columns:30px 1fr;gap:14px;padding-bottom:20px;position:relative}
+.step-row:last-child{padding-bottom:0}.step-row:not(:last-child):before{content:"";position:absolute;left:14px;top:30px;bottom:0;width:1px;background:linear-gradient(var(--line2),transparent)}
+.step-num{width:29px;height:29px;border-radius:9px;background:var(--blue-soft);color:var(--blue);display:grid;place-items:center;font-size:10px;font-weight:800;font-family:"Cascadia Code",Consolas,monospace}
+.step-body .t{font-size:13.5px;font-weight:730}.step-body .d{font-size:11.5px;color:var(--muted);margin-top:2px;line-height:1.6}
+.outcome-card{padding:28px;border-radius:var(--radius);background:linear-gradient(150deg,#0c1830,#152745);color:#fff;box-shadow:0 24px 55px rgba(13,29,58,.2);display:flex;flex-direction:column;justify-content:space-between;min-height:100%;position:relative;overflow:hidden}
+.outcome-card:after{content:"";position:absolute;width:260px;height:260px;right:-110px;bottom:-130px;border-radius:50%;background:radial-gradient(circle,rgba(11,188,200,.28),transparent 68%)}
+.outcome-card .eyebrow{color:#80a4ff}.outcome-card h4{font-size:19px;margin-top:12px}
+.outcome-list{margin:18px 0 0;padding:0;list-style:none;display:grid;gap:11px;position:relative;z-index:1}
+.outcome-list li{font-size:12px;color:#b5c5df;display:flex;gap:9px;align-items:flex-start}
+.outcome-list li:before{content:"✓";color:#48d8b2;font-weight:800;flex-shrink:0}
+.outcome-tag{margin-top:23px;display:inline-flex;align-items:center;align-self:flex-start;gap:7px;border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:6px 10px;color:#c9d6eb;font-size:10px;position:relative;z-index:1}
+.pipeline{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:20px}
+.pipeline-card{padding:23px;background:rgba(255,255,255,.86);border:1px solid var(--line);border-radius:19px;box-shadow:0 6px 20px rgba(15,33,68,.045);transition:.2s}
+.pipeline-card:hover{transform:translateY(-3px);border-color:#c7d4ee}
+.pipeline-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+.pipeline-icon{width:36px;height:36px;border-radius:11px;background:var(--blue-soft);color:var(--blue);display:grid;place-items:center}
+.pipeline-num{font-family:"Cascadia Code",Consolas,monospace;font-size:10px;color:var(--muted2);font-weight:800}
+.pipeline-card h4{font-size:14px}.pipeline-card p{font-size:11.5px;color:var(--muted);margin-top:6px;line-height:1.6}
+.pipeline-card .out{font-size:9px;color:var(--blue);background:var(--blue-soft);border-radius:5px;padding:4px 7px;display:inline-block;margin-top:12px;font-weight:700}
+.dual-engine{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:20px}
+.engine-card{padding:26px;border-radius:20px;border:1px solid var(--line);background:#fff;box-shadow:var(--shadow-sm)}
+.engine-head{display:flex;align-items:center;justify-content:space-between;gap:12px}.engine-head h4{font-size:15px}
+.engine-bar{height:8px;border-radius:999px;background:#edf1f8;overflow:hidden;margin-top:17px}.engine-bar span{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--blue),#5f87ff)}
+.engine-card:nth-child(2) .engine-bar span{background:linear-gradient(90deg,var(--violet),#a995ff)}
+.engine-meta{display:flex;justify-content:space-between;margin-top:8px;color:var(--muted);font-size:10px}
+.engine-card p{font-size:12px;color:var(--muted);margin-top:12px;line-height:1.65}
+.chat-section{padding:108px 0;background:linear-gradient(180deg,transparent,rgba(230,236,248,.52) 32%,transparent)}
+.chat-lab{border-radius:28px;overflow:hidden;border:1px solid #dce4f1;background:#fff;box-shadow:0 35px 80px rgba(13,30,63,.15);display:grid;grid-template-columns:1.02fr .98fr;min-height:620px}
+.chat-panel{display:flex;flex-direction:column;min-width:0;background:#fff}
+.chat-head{padding:17px 20px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:12px}
+.chat-agent{display:flex;align-items:center;gap:10px}.agent-avatar{width:34px;height:34px;border-radius:11px;background:linear-gradient(135deg,var(--blue),var(--violet));color:#fff;display:grid;place-items:center;box-shadow:0 5px 12px rgba(36,87,245,.22)}
+.chat-agent .n{font-size:12.5px;font-weight:750;line-height:1.2}.chat-agent .s{font-size:9.5px;color:var(--green);margin-top:3px;display:flex;align-items:center;gap:5px}
+.chat-agent .s:before{content:"";width:5px;height:5px;border-radius:50%;background:var(--green)}
+.demo-badge{border-radius:999px;padding:5px 9px;background:#f1f4fa;color:var(--muted2);font-size:9px;font-weight:700}
+.chat-body{padding:20px 19px 12px;flex:1;overflow-y:auto;max-height:440px;scrollbar-width:thin}.msg{display:flex;gap:9px;margin-bottom:15px;align-items:flex-start}.msg.user{flex-direction:row-reverse}
+.msg-avatar{width:24px;height:24px;border-radius:8px;flex-shrink:0;display:grid;place-items:center;font-size:9px;font-weight:800}
+.msg.ai .msg-avatar{background:var(--violet-soft);color:var(--violet)}.msg.user .msg-avatar{background:var(--blue);color:#fff}
+.bubble{max-width:82%;border-radius:14px;padding:10px 12px;font-size:12px;line-height:1.65}
+.msg.ai .bubble{background:#f5f8fd;color:var(--ink2);border-top-left-radius:4px}.msg.user .bubble{background:linear-gradient(135deg,var(--blue),#1949d8);color:#fff;border-top-right-radius:4px;box-shadow:0 5px 14px rgba(36,87,245,.2)}
+.bubble .muted-line{display:block;color:var(--muted);font-size:10.5px;margin-top:6px}.msg.user .muted-line{color:rgba(255,255,255,.7)}
+.typing{display:inline-flex;gap:3px;align-items:center;height:12px}.typing i{width:4px;height:4px;border-radius:50%;background:#8da4cc;animation:blink 1.1s infinite}.typing i:nth-child(2){animation-delay:.15s}.typing i:nth-child(3){animation-delay:.3s}
+@keyframes blink{0%,80%,100%{opacity:.3;transform:translateY(0)}40%{opacity:1;transform:translateY(-2px)}}
+.suggestions{display:flex;gap:6px;flex-wrap:wrap;padding:0 19px 13px}
+.suggestion{border:1px solid #dbe4f2;background:#fff;border-radius:999px;padding:7px 10px;font-size:9.5px;color:#4f6280;font-weight:650;transition:.2s}
+.suggestion:hover{border-color:#a9bdf0;color:var(--blue);background:#f7f9ff;transform:translateY(-1px)}
+.chat-form{display:flex;gap:8px;padding:12px 17px 16px;border-top:1px solid var(--line);background:#fbfcff}
+.chat-form input{flex:1;min-width:0;border:1px solid #dce5f2;border-radius:10px;background:#fff;padding:10px 12px;font-size:11px;color:var(--ink);outline:none}
+.chat-form input:focus{border-color:#9eb6f4;box-shadow:0 0 0 3px rgba(36,87,245,.08)}
+.send-btn{border:0;width:38px;border-radius:10px;background:var(--blue);color:#fff;display:grid;place-items:center;flex-shrink:0}.send-btn:hover{background:var(--blue2)}
+.preview-panel{background:#edf2f9;border-left:1px solid #dce4f1;padding:19px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.preview-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px}.preview-toolbar .label{font-size:10px;font-weight:750;color:#66768d}
+.preview-tools{display:flex;align-items:center;gap:5px}.device{width:22px;height:19px;border-radius:4px;border:1px solid #cdd8e7;background:rgba(255,255,255,.7);display:grid;place-items:center;color:#8b9ab0;font-size:7px}
+.device.active{background:#fff;color:var(--blue);border-color:#aabdef}
+.browser{border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 10px 26px rgba(21,44,84,.1);border:1px solid #d5dfec;flex-shrink:0}
+.browser-bar{height:29px;display:flex;align-items:center;gap:5px;padding:0 10px;background:#f7f9fd;border-bottom:1px solid #e7edf6}.browser-bar .dot{width:6px;height:6px}
+.url{margin-left:7px;flex:1;border-radius:4px;background:#eef2f8;height:16px;color:#93a0b2;font-size:7px;display:flex;align-items:center;padding:0 7px;font-family:"Cascadia Code",Consolas,monospace}
+.demo-page{--accent:#2457f5;background:#fff;min-height:292px;position:relative;overflow:hidden}
+.demo-nav{display:flex;align-items:center;justify-content:space-between;padding:11px 14px;border-bottom:1px solid #f0f3f8}
+.demo-logo{display:flex;align-items:center;gap:5px;font-size:7px;font-weight:800;letter-spacing:.03em}
+.demo-logo:before{content:"";width:12px;height:12px;border-radius:3px;background:var(--accent)}
+.demo-nav-links{display:flex;gap:8px;font-size:6px;color:#8693a6}.demo-nav-cta{background:var(--accent);color:#fff;border-radius:3px;padding:4px 6px;font-size:6px;font-weight:700}
+.demo-hero{padding:24px 17px 18px;background:linear-gradient(145deg,#f7f9ff,#fff 52%,#f8faff)}
+.demo-hero .kicker{font-size:6px;font-weight:800;letter-spacing:.12em;color:var(--accent)}
+.demo-title{margin-top:7px;font-size:20px;line-height:1.18;font-weight:790;letter-spacing:-.05em;color:#111d33;max-width:310px}
+.demo-sub{margin-top:7px;color:#6f7d90;font-size:7.5px;line-height:1.6;max-width:280px}
+.demo-actions{margin-top:12px;display:flex;gap:6px;align-items:center}
+.demo-primary{background:var(--accent);color:#fff;border-radius:4px;padding:6px 9px;font-size:6px;font-weight:700}
+.demo-secondary{color:#4d5d73;border:1px solid #e0e6f0;border-radius:4px;padding:6px 9px;font-size:6px;font-weight:600}
+.demo-products{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;padding:13px 14px 16px;border-top:1px solid #f3f5f9}
+.demo-product{border:1px solid #edf1f7;border-radius:6px;padding:6px;background:#fbfcff}
+.demo-product .thumb{height:35px;border-radius:4px;background:linear-gradient(135deg,#e9f0ff,#f5f7fb);position:relative}
+.demo-product .thumb:after{content:"";position:absolute;inset:9px 14px;border:1px solid rgba(35,56,94,.12);border-radius:2px}
+.demo-product .t{font-size:6px;font-weight:700;margin-top:5px}.demo-product .s{font-size:5.2px;color:#99a4b3;margin-top:2px}
+.demo-flag{position:absolute;right:11px;top:43px;border-radius:999px;background:rgba(255,255,255,.9);border:1px solid #e1e8f2;padding:4px 7px;font-size:5.5px;font-weight:700;color:var(--accent);box-shadow:0 3px 10px rgba(22,48,92,.07)}
+.diff-card{border-radius:12px;background:#101d33;color:#e0e9f6;padding:14px 15px;box-shadow:0 10px 24px rgba(13,26,50,.16);min-height:136px}
+.diff-head{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.diff-title{display:flex;align-items:center;gap:7px;font-size:9.5px;font-weight:750;color:#f1f6ff}.diff-title i{width:6px;height:6px;border-radius:50%;background:#55d7b0;box-shadow:0 0 0 3px rgba(85,215,176,.1)}
+.diff-status{font-size:7px;color:#88a0c1;border:1px solid rgba(255,255,255,.12);border-radius:999px;padding:3px 6px}
+.diff-list{margin-top:10px;display:grid;gap:6px}.diff-row{display:grid;grid-template-columns:58px 1fr;gap:8px;font-family:"Cascadia Code",Consolas,monospace;font-size:8px;line-height:1.5}
+.diff-key{color:#93aad0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.diff-val{color:#c7d4e8;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.diff-val .add{color:#65dcb9}.diff-val .del{color:#ff9f9a;text-decoration:line-through;opacity:.75}
+.diff-empty{font-size:8.5px;color:#93aad0;margin-top:14px;line-height:1.7}
+.guard-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin-top:20px}
+.guard{padding:18px;border-radius:15px;border:1px solid var(--line);background:rgba(255,255,255,.82)}
+.guard .g-icon{width:29px;height:29px;border-radius:8px;display:grid;place-items:center;background:var(--blue-soft);color:var(--blue);margin-bottom:10px}
+.guard h4{font-size:12px}.guard p{font-size:10.5px;color:var(--muted);line-height:1.55;margin-top:4px}
+.conversation-flow{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-top:22px}
+.conv-step{position:relative;padding:13px 11px;border-radius:12px;background:rgba(255,255,255,.72);border:1px solid var(--line)}
+.conv-step:not(:last-child):after{content:"→";position:absolute;right:-9px;top:50%;transform:translateY(-50%);font-size:10px;color:#aeb9cb;z-index:1}
+.conv-step .cn{font-family:"Cascadia Code",Consolas,monospace;font-size:8px;color:var(--blue);font-weight:800}
+.conv-step .ct{font-size:10.5px;font-weight:720;margin-top:3px}.conv-step .cd{font-size:9px;color:var(--muted);margin-top:2px;line-height:1.45}
+.arch-promise{display:flex;align-items:center;gap:12px;margin-bottom:20px;padding:13px 16px;background:#fff;border:1px solid var(--line);border-radius:13px;color:var(--muted);font-size:12px}
+.arch-promise strong{color:var(--ink)}.arch-promise .mark{width:26px;height:26px;border-radius:8px;display:grid;place-items:center;background:var(--violet-soft);color:var(--violet);flex-shrink:0}
+.arch-board{border-radius:26px;overflow:hidden;background:linear-gradient(150deg,#0a1425,#0f1e36 58%,#112442);color:#d8e2f2;box-shadow:0 30px 70px rgba(9,20,39,.23);border:1px solid rgba(255,255,255,.06)}
+.arch-top{padding:20px 24px;border-bottom:1px solid rgba(255,255,255,.08);display:flex;align-items:center;justify-content:space-between;gap:15px}
+.arch-top .t{display:flex;align-items:center;gap:9px;font-size:12px;font-weight:750;color:#f0f5ff}.arch-top .t span{width:7px;height:7px;border-radius:50%;background:#4fd8b0;box-shadow:0 0 0 4px rgba(79,216,176,.09)}
+.arch-top .meta{font-family:"Cascadia Code",Consolas,monospace;font-size:8px;color:#6f88ae}
+.arch-layer{display:grid;grid-template-columns:116px 1fr;gap:16px;padding:18px 24px;border-bottom:1px solid rgba(255,255,255,.06)}.arch-layer:last-child{border-bottom:0}
+.layer-label{font-size:9px;letter-spacing:.12em;color:#91a6c6;text-transform:uppercase;font-weight:800;padding-top:10px}
+.layer-nodes{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.arch-node{border:1px solid rgba(255,255,255,.09);border-radius:10px;background:rgba(255,255,255,.04);padding:10px 11px;transition:.2s}
+.arch-node:hover{background:rgba(78,126,255,.1);border-color:rgba(110,151,255,.32)}
+.arch-node .an{font-size:10px;font-weight:750;color:#e4edfb}.arch-node .ad{font-size:8.5px;color:#91a6c6;margin-top:3px;line-height:1.45}
+.arch-node.hot{background:linear-gradient(145deg,rgba(36,87,245,.22),rgba(113,87,255,.13));border-color:rgba(105,143,255,.35)}.arch-node.hot .an{color:#fff}.arch-node.hot .ad{color:#a9bada}
+.arch-foot{padding:12px 24px;background:rgba(0,0,0,.13);display:flex;align-items:center;gap:15px;flex-wrap:wrap;color:#95aac8;font-size:9px}.arch-foot span{display:flex;align-items:center;gap:5px}.arch-foot i{width:5px;height:5px;border-radius:50%;background:#4fd8b0}
+.data-grid{display:grid;grid-template-columns:1.04fr .96fr;gap:18px;margin-top:20px}
+.code-card{border-radius:20px;overflow:hidden;background:#101d33;color:#c6d5e9;border:1px solid #1b2e4c;box-shadow:0 14px 34px rgba(13,29,58,.13)}
+.code-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 16px;background:#0c1729;border-bottom:1px solid #1c2e4b}
+.code-head .fn{font-family:"Cascadia Code",Consolas,monospace;font-size:9px;color:#97adcb}.code-head .copy{border:1px solid rgba(255,255,255,.11);background:rgba(255,255,255,.04);color:#9cb1cf;font-size:8px;border-radius:6px;padding:4px 7px}
+pre{margin:0;padding:17px 18px 20px;overflow-x:auto;font-family:"Cascadia Code",Consolas,monospace;font-size:10.5px;line-height:1.72;color:#bdcce1}
+.tok-k{color:#8fb7ff}.tok-s{color:#8fe0c1}.tok-n{color:#f3c37b}.tok-p{color:#c7b3ff}
+.data-note{padding:25px;border-radius:20px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow-sm)}
+.data-note h4{font-size:15px}.data-note p{color:var(--muted);font-size:11.5px;margin-top:7px;line-height:1.7}
+.data-list{display:grid;gap:9px;margin-top:18px}.data-row{display:flex;align-items:flex-start;gap:10px;padding:9px 0;border-bottom:1px solid #eef2f8}.data-row:last-child{border-bottom:0}
+.data-row .tag{flex-shrink:0;font-family:"Cascadia Code",Consolas,monospace;font-size:8px;color:var(--blue);background:var(--blue-soft);border-radius:5px;padding:3px 5px;margin-top:2px}
+.data-row .txt{font-size:10.5px;color:#53637a;line-height:1.55}.data-row .txt b{color:var(--ink);font-weight:720}
+.stack-table{margin-top:22px;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#fff;box-shadow:var(--shadow-sm)}
+.stack-row{display:grid;grid-template-columns:.7fr 1.1fr 1.5fr;gap:18px;padding:15px 20px;border-bottom:1px solid var(--line);align-items:start}.stack-row:last-child{border-bottom:0}
+.stack-row.head{background:#f7f9fd;color:var(--muted2);font-size:9px;text-transform:uppercase;letter-spacing:.1em;font-weight:800}
+.stack-row .layer{font-size:11px;font-weight:750;color:var(--ink)}.stack-row .now{font-size:10.5px;color:var(--muted)}.stack-row .recommend{font-size:10.5px;color:#34455d}
+.tag-now,.tag-add{display:inline-block;font-size:8px;border-radius:4px;padding:2px 5px;margin-right:4px;font-weight:700}
+.tag-now{background:var(--green-soft);color:var(--green)}.tag-add{background:var(--violet-soft);color:var(--violet)}
+.roadmap{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:20px}
+.phase{border-radius:22px;border:1px solid var(--line);background:#fff;overflow:hidden;box-shadow:var(--shadow-sm);display:flex;flex-direction:column}
+.phase.primary{border-color:#bfcff6;box-shadow:0 18px 50px rgba(36,87,245,.1)}
+.phase-head{padding:22px 22px 18px;border-bottom:1px solid var(--line);background:#fbfcff}.phase.primary .phase-head{background:linear-gradient(145deg,#f3f7ff,#fbfdff)}
+.phase-label{display:flex;justify-content:space-between;align-items:center;gap:10px}.phase-label .p{font-family:"Cascadia Code",Consolas,monospace;font-size:9px;color:var(--blue);font-weight:800}.phase-label .time{font-size:9px;color:var(--muted2)}
+.phase-head h3{font-size:18px;margin-top:9px}.phase-head p{color:var(--muted);font-size:11px;margin-top:5px;line-height:1.55}
+.phase-body{padding:20px 22px;flex:1}.phase-list{list-style:none;padding:0;margin:0;display:grid;gap:11px}
+.phase-list li{display:flex;gap:8px;font-size:10.5px;color:#4f6077;line-height:1.5}.phase-list li:before{content:"";width:5px;height:5px;border-radius:50%;background:#a7b9d7;flex-shrink:0;margin-top:6px}
+.phase-list li.key:before{background:var(--blue);box-shadow:0 0 0 3px var(--blue-soft)}
+.phase-foot{padding:0 22px 20px}.phase-deliverable{border-radius:10px;background:#f6f9ff;padding:9px 11px;font-size:9.5px;color:#526887;border:1px solid #e5edfc}.phase-deliverable b{color:var(--blue)}
+.kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin-top:20px}
+.kpi{padding:20px;border-radius:16px;background:#fff;border:1px solid var(--line);box-shadow:0 6px 18px rgba(15,33,68,.04)}
+.kpi .v{font-size:24px;font-weight:780;letter-spacing:-.05em;color:var(--ink);line-height:1.15}.kpi .v small{font-size:11px;color:var(--muted2);letter-spacing:0;font-weight:650}
+.kpi .k{color:var(--muted);font-size:9.5px;margin-top:4px;line-height:1.45}
+.risk-table{margin-top:20px;border:1px solid var(--line);border-radius:17px;overflow:hidden;background:#fff;box-shadow:var(--shadow-sm)}
+.risk-row{display:grid;grid-template-columns:.7fr 1.3fr 1.7fr;gap:16px;padding:14px 20px;border-bottom:1px solid var(--line);font-size:10.5px;align-items:start}.risk-row:last-child{border-bottom:0}
+.risk-row.head{background:#f7f9fd;color:var(--muted2);font-size:9px;letter-spacing:.08em;text-transform:uppercase;font-weight:800}
+.risk-row .r{font-weight:700;color:var(--ink)}.risk-row .i{color:var(--muted)}.risk-row .m{color:#3f5270}
+.next-card{display:grid;grid-template-columns:1.03fr .97fr;gap:26px;padding:33px;border-radius:26px;background:linear-gradient(145deg,#0b1629,#10213d 55%,#142c52);color:#fff;box-shadow:0 30px 65px rgba(10,24,46,.22);position:relative;overflow:hidden}
+.next-card:before{content:"";position:absolute;width:430px;height:430px;right:-160px;top:-200px;border-radius:50%;background:radial-gradient(circle,rgba(36,87,245,.4),transparent 68%)}
+.next-card .eyebrow{color:#89aaff}.next-card h2{font-size:32px;margin-top:12px;position:relative;z-index:1}
+.next-card p{color:#aebdd5;font-size:12.5px;margin-top:10px;max-width:590px;position:relative;z-index:1}
+.next-list{display:grid;gap:9px;position:relative;z-index:1;margin-top:21px}
+.next-item{display:flex;align-items:center;gap:10px;padding:10px 12px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.045);border-radius:10px}
+.next-item .num{width:20px;height:20px;border-radius:6px;background:rgba(84,132,255,.22);color:#93b1ff;display:grid;place-items:center;font-size:8px;font-weight:800;font-family:"Cascadia Code",Consolas,monospace;flex-shrink:0}
+.next-item .txt{font-size:10.5px;color:#c6d4e8}.next-side{position:relative;z-index:1;display:flex;flex-direction:column;justify-content:center;gap:10px}
+.decision{padding:16px;border-radius:14px;border:1px solid rgba(255,255,255,.13);background:rgba(255,255,255,.06)}
+.decision .d-k{font-size:8px;letter-spacing:.12em;color:#7e9bc6;text-transform:uppercase;font-weight:800}.decision .d-v{font-size:12px;color:#e8effb;font-weight:700;margin-top:5px}
+.decision .d-d{font-size:9.5px;color:#8fa5c3;margin-top:3px;line-height:1.5}.decision .d-v span{color:#6d8eff}
+footer{padding:36px 0 44px;border-top:1px solid var(--line);margin-top:85px}
+.footer-inner{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;flex-wrap:wrap}
+.footer-brand{display:flex;align-items:center;gap:9px;color:var(--muted);font-size:10.5px}
+.footer-note{color:var(--muted2);font-size:9.5px;line-height:1.7;max-width:560px}
+.footer-links{display:flex;gap:14px;color:var(--muted2);font-size:9.5px}.footer-links a{text-decoration:none}.footer-links a:hover{color:var(--blue)}
+html.js .reveal{opacity:0;transform:translateY(18px);transition:opacity .65s cubic-bezier(.2,.7,.2,1),transform .65s cubic-bezier(.2,.7,.2,1)}html.js .reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto;scroll-padding-top:0}*,*:before,*:after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}html.js .reveal{opacity:1;transform:none}}
+@media(max-width:1050px){.hero-grid{gap:25px}.nav-links .nav-link{padding:7px 8px;font-size:12px}.current-flow{grid-template-columns:repeat(3,1fr)}.current-step:not(:last-child):after{display:none}.conversation-flow{grid-template-columns:repeat(3,1fr)}.conv-step:not(:last-child):after{display:none}}
+@media(max-width:900px){.wrap{width:min(100% - 32px,760px)}.nav-links{display:none}.section{padding:76px 0}.section-head{grid-template-columns:1fr;gap:16px;margin-bottom:30px}.hero{padding-top:48px}.hero-grid{grid-template-columns:1fr;min-height:auto;gap:38px}.hero-copy{text-align:center}.hero-copy .lead{margin-left:auto;margin-right:auto}.hero-actions,.hero-meta{justify-content:center}.hero-visual{min-height:430px}.product-window{max-width:500px}.floating-card.a{left:5px;bottom:12px}.floating-card.b{right:5px;top:15px}.stat-strip{grid-template-columns:repeat(2,1fr)}.stat:nth-child(2){border-right:0}.stat:nth-child(1),.stat:nth-child(2){border-bottom:1px solid var(--line)}.compare-grid,.mode-panel.active,.dual-engine,.data-grid,.next-card{grid-template-columns:1fr}.pipeline{grid-template-columns:repeat(2,1fr)}.chat-lab{grid-template-columns:1fr}.preview-panel{border-left:0;border-top:1px solid #dce4f1}.guard-grid{grid-template-columns:repeat(2,1fr)}.arch-layer{grid-template-columns:1fr;gap:9px}.layer-label{padding-top:0}.roadmap{grid-template-columns:1fr}.kpi-grid{grid-template-columns:repeat(2,1fr)}.stack-row{grid-template-columns:.8fr 1fr 1.4fr;gap:10px;padding:13px 14px}.stack-row .layer,.stack-row .now,.stack-row .recommend{font-size:9.5px}}
+@media(max-width:620px){.wrap{width:calc(100% - 24px)}.nav{min-height:62px}.brand-sub{display:none}.brand-mark{width:34px;height:34px;border-radius:10px;font-size:15px}.nav-cta{padding:8px 11px;font-size:11px}h1{font-size:42px}.lead{font-size:15.5px}.hero-visual{min-height:360px}.product-window{transform:none}.floating-card{font-size:8.5px;padding:8px 9px}.floating-card.a{left:-4px;bottom:-10px}.floating-card.b{right:-4px;top:-10px}.stat{padding:17px 16px}.stat .num{font-size:23px}.callout{padding:24px 20px;border-radius:19px}.callout h3{font-size:20px}.callout-grid{grid-template-columns:1fr}.current-flow{grid-template-columns:1fr 1fr}.flow-card{padding:20px 16px}.mode-tabs{width:100%}.mode-tab{flex:1;padding:9px 7px;font-size:11px}.mode-card{padding:22px 18px}.pipeline{grid-template-columns:1fr}.chat-lab{border-radius:20px}.chat-body{max-height:360px}.preview-panel{padding:12px}.guard-grid{grid-template-columns:1fr}.conversation-flow{grid-template-columns:1fr 1fr}.arch-top{padding:15px 16px}.arch-layer{padding:14px 16px}.layer-nodes{grid-template-columns:1fr 1fr}.next-card{padding:23px 19px;border-radius:20px}.next-card h2{font-size:26px}.kpi-grid{grid-template-columns:1fr 1fr}.kpi{padding:15px}.kpi .v{font-size:20px}.risk-row{grid-template-columns:1fr;gap:3px;padding:12px 15px}.risk-row.head{display:none}.risk-row .r:before{content:"风险 · ";color:var(--muted2);font-weight:500}.stack-row{grid-template-columns:1fr;gap:5px}.stack-row.head{display:none}.footer-inner{flex-direction:column;gap:13px}}
+@media print{body{background:#fff}body:before,body:after,.site-header,.scroll-progress,.hero-actions,.chat-form,.suggestions,.copy,.footer-links{display:none!important}.section{padding:36px 0;break-inside:avoid}.hero{padding:20px 0}.card,.compare-card,.mode-card,.phase,.chat-lab,.arch-board,.next-card{box-shadow:none!important}.reveal{opacity:1!important;transform:none!important}.chat-lab{min-height:auto}.chat-body{max-height:none;overflow:visible}.chat-section{background:#fff}.product-window{transform:none}}
+</style>
+</head>
+<body>
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+<header class="site-header"><div class="wrap nav">
+<a class="brand" href="#top" aria-label="M-AI-E 方案首页"><span class="brand-mark">M</span><span><span class="brand-name">M-AI-E</span><span class="brand-sub">MasterGo → Elementor</span></span></a>
+<nav class="nav-links" aria-label="方案导航"><a class="nav-link" href="#overview">现状</a><a class="nav-link" href="#build">建站方案</a><a class="nav-link" href="#chat">对话改站</a><a class="nav-link" href="#architecture">架构</a><a class="nav-link" href="#roadmap">路线</a></nav>
+<button class="nav-cta" id="printBtn" type="button"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 14h12v8H6z"/></svg>打印 / PDF</button>
+</div></header>
+<main id="top">
+<section class="hero"><div class="wrap"><div class="hero-grid">
+<div class="hero-copy">
+<span class="eyebrow">AI Website Platform · Product Blueprint</span>
+<h1>让网站，<br />从一次对话开始。</h1>
+<p class="lead">把 MasterGo 设计稿转成可编辑的 Elementor 原生页面，再让客户用自然语言持续改站。不是生成一张好看的截图，而是交付一套<strong>能预览、能审批、能回滚</strong>的网站生产系统。</p>
+<div class="hero-actions"><a class="btn btn-primary" href="#chat">体验对话改站 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="btn btn-ghost" href="#roadmap">查看落地路线</a></div>
+<div class="hero-meta"><span><i></i>基于当前工程基线</span><span>29 Section 实测样本</span><span>Elementor 原生结构</span></div>
+</div>
+<div class="hero-visual" aria-label="MasterGo 到 Elementor 的自动化流程示意">
+<div class="orb"></div><div class="orb two"></div>
+<div class="floating-card b"><div class="floating-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3a7 7 0 0 0-7 7c0 3 1.8 5.2 4 6.3V21h6v-4.7c2.2-1.1 4-3.3 4-6.3a7 7 0 0 0-7-7Z"/><path d="M9 9h6M9 12h4"/></svg></div><div>LLM 语义理解<small>意图 · 上下文 · 约束</small></div></div>
+<div class="product-window"><div class="window-bar"><i class="dot"></i><i class="dot"></i><i class="dot"></i><span class="window-title">mae-console / build-run-024</span></div>
+<div class="window-body">
+<div class="mini-top"><div class="mini-brand"><span class="logo">M</span> AI 建站工作台</div><span class="mini-badge">● 可发布</span></div>
+<div class="pipeline-mini"><div class="mini-node accent"><div class="k">Input</div><div class="v">MasterGo 设计稿</div></div><div class="mini-arrow">→</div><div class="mini-node"><div class="k">Compiler</div><div class="v">Elementor 原生树</div></div><div class="mini-arrow">→</div><div class="mini-node"><div class="k">Delivery</div><div class="v">WordPress 页面</div></div></div>
+<div class="mini-section"><div class="mini-thumb"></div><div class="info"><div class="t">首页 · Hero Section</div><div class="s">3 个容器 · 6 个 Widget · 响应式已就绪</div></div><span class="mini-tag">可编辑</span></div>
+<div class="mini-section"><div class="mini-thumb" style="background:linear-gradient(135deg,#e7fbff,#f4fdff)"></div><div class="info"><div class="t">产品中心 · 卡片列表</div><div class="s">语义识别：products / loop-ready</div></div><span class="mini-tag">已映射</span></div>
+<div class="mini-section"><div class="mini-thumb" style="background:linear-gradient(135deg,#f0edff,#faf9ff)"></div><div class="info"><div class="t">客户改站 · 变更集</div><div class="s">标题文案 · 品牌色 · 审批后发布</div></div><span class="mini-tag">待确认</span></div>
+<div class="mini-footer"><span>整体还原度检查</span><div class="mini-progress"><span></span></div><span>78%</span></div>
+</div></div>
+<div class="floating-card a"><div class="floating-icon" style="background:var(--green-soft);color:var(--green)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></div><div>100% 可回滚<small>版本快照 · 审计留痕</small></div></div>
+</div></div>
+<div class="stat-strip reveal"><div class="stat"><div class="num">29 <small>section</small></div><div class="label">真实设计稿实测规模</div></div><div class="stat"><div class="num">原生 <small>Elementor</small></div><div class="label">产出可继续编辑，不是图片</div></div><div class="stat"><div class="num">&lt; 60 <small>秒</small></div><div class="label">目标：对话到可预览变更</div></div><div class="stat"><div class="num">3 <small>阶段</small></div><div class="label">从 MVP 到规模化交付</div></div></div>
+</div></section>
+<section class="section" id="overview"><div class="wrap">
+<div class="section-head reveal"><div><div class="section-no">01 / 现状判断</div><h2>链路已经跑通，<br />但还差一个“可对话”的入口。</h2></div><p class="lead">现有工程已经完成了设计稿取数、规则转译、可视化预览和 WordPress 写入。真正的产品跃迁，不是再做一个转换按钮，而是把 Elementor 页面变成 AI 能理解、能安全修改的“结构化站点”。</p></div>
+<div class="callout reveal"><span class="eyebrow">Core Insight</span><h3>AI 建站的关键，不是让大模型直接写 HTML，而是让它在受约束的站点模型上做决策。</h3><p>设计稿负责“还原”，编译器负责“确定性”，大模型负责“理解意图”。三者分开，才能同时获得高保真、可编辑和可回滚。</p>
+<div class="callout-grid"><div class="callout-mini"><div class="n">01 / DESIGN</div><div class="t">设计即输入</div><div class="d">MasterGo / Figma 设计稿、需求简报、模板都可以成为建站起点。</div></div><div class="callout-mini"><div class="n">02 / COMPILE</div><div class="t">编译即交付</div><div class="d">输出 Elementor 原生 Container / Widget，不是锁死的页面快照。</div></div><div class="callout-mini"><div class="n">03 / CONVERSE</div><div class="t">对话即修改</div><div class="d">客户说人话，系统生成小范围 ChangeSet，预览确认后发布。</div></div></div></div>
+<div class="compare-grid" style="margin-top:20px">
+<div class="compare-card done reveal"><div class="compare-head"><h3>当前已经具备</h3><span class="pill green">● 可用基线</span></div><div class="check-list">
+<div class="check-item"><span class="check-icon ok">✓</span><div>MasterGo Magic MCP 取数<small>按 Section 拉取 DSL、SVG，真实样本已完成 29 个区块测试。</small></div></div>
+<div class="check-item"><span class="check-icon ok">✓</span><div>确定性 DSL → Elementor 转译<small>Container / Heading / Image / Button / Text Editor 等原生元素。</small></div></div>
+<div class="check-item"><span class="check-icon ok">✓</span><div>可视化预览 + 结构树<small>桌面 / 平板 / 手机宽度预览，iframe 直出 HTML。</small></div></div>
+<div class="check-item"><span class="check-icon ok">✓</span><div>WordPress 一键写入<small>安装 mae-import 插件后创建草稿页，写入 _elementor_data，支持图片上传。</small></div></div>
+<div class="check-item"><span class="check-icon ok">✓</span><div>后台基础能力<small>登录、用户、站点、模板库、交付记录、SQLite 持久化。</small></div></div>
+</div></div>
+<div class="compare-card gap reveal"><div class="compare-head"><h3>面向“对话改站”还缺什么</h3><span class="pill amber">○ 待建设</span></div><div class="check-list">
+<div class="check-item"><span class="check-icon no">•</span><div>站点语义索引<small>目前只有 Elementor 树，没有“首页 / Hero / 主标题 / 产品区”这类可被 AI 定位的语义层。</small></div></div>
+<div class="check-item"><span class="check-icon no">•</span><div>对话与变更集 API<small>LLM 目前只做 Section 语义标注，不产生结构化修改，也没有预览和审批闭环。</small></div></div>
+<div class="check-item"><span class="check-icon no">•</span><div>版本快照与回滚<small>每次导入是新建草稿，冲突检测、页面版本、一键撤销还没有形成机制。</small></div></div>
+<div class="check-item"><span class="check-icon no">•</span><div>视觉回归测试<small>需要把“看起来有没有坏”变成可自动检查的截图差异，而不是只靠肉眼。</small></div></div>
+<div class="check-item"><span class="check-icon no">•</span><div>客户协作界面<small>客户不应进入工程后台；需要独立的预览链接、审批与权限边界。</small></div></div>
+</div></div></div>
+<div class="flow-card reveal"><div class="flow-title"><h3>当前主链路 · 一方向生产</h3><span>已落地 / 现有代码</span></div>
+<div class="current-flow"><div class="current-step"><div class="s-no">01</div><div class="s-name">MasterGo 取数</div><div class="s-desc">Magic MCP 按 Section 拉 DSL</div></div><div class="current-step"><div class="s-no">02</div><div class="s-name">规则转译</div><div class="s-desc">节点映射为 Elementor 树</div></div><div class="current-step"><div class="s-no">03</div><div class="s-name">模板入库</div><div class="s-desc">SQLite 历史 + 结构统计</div></div><div class="current-step"><div class="s-no">04</div><div class="s-name">预览验收</div><div class="s-desc">渲染 HTML / 三档宽度</div></div><div class="current-step"><div class="s-no">05</div><div class="s-name">写入站点</div><div class="s-desc">WP 插件创建草稿页</div></div></div>
+<div class="flow-note"><strong>关键缺口：</strong>这是一条“生成即结束”的单向链路。客户后续改文案、换图片、调布局，仍然要回到 Elementor 手工操作，AI 没有持续参与。</div></div>
+</div></section>
+<section class="section" id="build"><div class="wrap">
+<div class="section-head reveal"><div><div class="section-no">02 / AI 建站主方案</div><h2>三种入口，<br />一套站点编译器。</h2></div><p class="lead">不管客户从设计稿、需求简报还是现有模板开始，最终都进入同一条编译流水线：规范化 → 语义规划 → Elementor 生成 → 质量检查 → 交付发布。</p></div>
+<div class="reveal">
+<div class="mode-tabs" role="tablist" aria-label="建站入口"><button class="mode-tab active" type="button" role="tab" aria-selected="true" aria-controls="mode-design" data-mode="design">设计稿还原</button><button class="mode-tab" type="button" role="tab" aria-selected="false" aria-controls="mode-brief" data-mode="brief">需求简报生成</button><button class="mode-tab" type="button" role="tab" aria-selected="false" aria-controls="mode-template" data-mode="template">模板与品牌改写</button></div>
+<div class="mode-panel active" id="mode-design" role="tabpanel"><div class="mode-card"><div class="mode-kicker">Mode A · Design-to-Site</div><h3>把设计稿还原成可编辑的网站</h3><p>适合已有品牌视觉、需要快速落地的客户。保留设计意图，同时把“看起来像”升级为“在 Elementor 里真的能改”。</p>
+<div class="steps"><div class="step-row"><div class="step-num">01</div><div class="step-body"><div class="t">取数与清洗</div><div class="d">MasterGo Magic MCP / REST 拉取 Design IR，按页面与 Section 处理，图片与 SVG 分离。</div></div></div><div class="step-row"><div class="step-num">02</div><div class="step-body"><div class="t">语义结构识别</div><div class="d">识别导航、Hero、产品、优势、案例、CTA、表单、Footer；为每个区块生成稳定语义 ID。</div></div></div><div class="step-row"><div class="step-num">03</div><div class="step-body"><div class="t">响应式策略推理</div><div class="d">桌面画板推导平板 / 移动布局；多列转堆叠，装饰层按规则隐藏或降级。</div></div></div><div class="step-row"><div class="step-num">04</div><div class="step-body"><div class="t">Elementor 编译与校验</div><div class="d">生成 Container 树，执行 JSON Schema、Widget 白名单、ID 唯一性和可导入性校验。</div></div></div></div></div>
+<div class="outcome-card"><div><span class="eyebrow">Delivery</span><h4>可交付产物</h4><ul class="outcome-list"><li>Elementor 模板 .json / 直接写入草稿页</li><li>设计 Token 映射为全局颜色与字体</li><li>桌面 / 平板 / 手机三档预览</li><li>区块级语义索引，为后续对话改站准备</li><li>图片自动上传 WordPress 媒体库</li></ul></div><span class="outcome-tag">适合：品牌官网 / 落地页 / 活动页</span></div></div>
+<div class="mode-panel" id="mode-brief" role="tabpanel"><div class="mode-card"><div class="mode-kicker">Mode B · Brief-to-Site</div><h3>从一句需求，生成完整页面骨架</h3><p>适合还没有设计的客户。AI 先做信息架构和内容规划，再交给编译器产出页面；设计感来自品牌模板与设计系统，而不是随机生成。</p>
+<div class="steps"><div class="step-row"><div class="step-num">01</div><div class="step-body"><div class="t">需求访谈</div><div class="d">用对话补齐行业、受众、目标、页面清单、品牌资产、参考站点与禁忌项。</div></div></div><div class="step-row"><div class="step-num">02</div><div class="step-body"><div class="t">站点地图与内容大纲</div><div class="d">先生成页面结构、Section 顺序、每块内容目标和 CTA，不直接生成视觉代码。</div></div></div><div class="step-row"><div class="step-num">03</div><div class="step-body"><div class="t">品牌套用</div><div class="d">从品牌色、字体、圆角、间距、图片风格中选择设计 Token，绑定到 Elementor 全局样式。</div></div></div><div class="step-row"><div class="step-num">04</div><div class="step-body"><div class="t">分块生成与组装</div><div class="d">按 Section 生成原生 Widget，允许客户逐块确认，避免一次性产出不可控的大页面。</div></div></div></div></div>
+<div class="outcome-card"><div><span class="eyebrow">Delivery</span><h4>可交付产物</h4><ul class="outcome-list"><li>站点地图 + 页面内容大纲</li><li>品牌化页面初稿，可直接进入编辑器</li><li>每个 Section 的生成理由与替换建议</li><li>可复用的品牌 Token 与区块模板</li><li>后续对话式迭代入口</li></ul></div><span class="outcome-tag">适合：新品牌 / 中小企业 / 快速验证</span></div></div>
+<div class="mode-panel" id="mode-template" role="tabpanel"><div class="mode-card"><div class="mode-kicker">Mode C · Template-to-Brand</div><h3>选一个模板，改造成客户自己的网站</h3><p>适合已有成熟版式、需要批量复制的交付场景。核心不是“换颜色”，而是识别模板中的可变量，把结构复用到不同品牌和行业。</p>
+<div class="steps"><div class="step-row"><div class="step-num">01</div><div class="step-body"><div class="t">模板语义标注</div><div class="d">标记标题、正文、图片、按钮、卡片、价格、评价等变量，形成模板 Schema。</div></div></div><div class="step-row"><div class="step-num">02</div><div class="step-body"><div class="t">品牌资产注入</div><div class="d">Logo、色板、字体、图片风格、语气与 CTA 文案统一注入，保留原始布局节奏。</div></div></div><div class="step-row"><div class="step-num">03</div><div class="step-body"><div class="t">行业内容适配</div><div class="d">根据客户行业重写 Section 标题与卖点，检查内容长度对布局的影响。</div></div></div><div class="step-row"><div class="step-num">04</div><div class="step-body"><div class="t">批量页面组装</div><div class="d">首页、关于、产品、案例、联系页共用导航与 Footer，统一全局 Token。</div></div></div></div></div>
+<div class="outcome-card"><div><span class="eyebrow">Delivery</span><h4>可交付产物</h4><ul class="outcome-list"><li>多页面站点初稿</li><li>统一导航、Footer 与全局样式</li><li>模板变量清单与复用说明</li><li>内容替换记录与差异预览</li><li>面向客户的后续改站权限</li></ul></div><span class="outcome-tag">适合：代理商 / 批量建站 / 行业方案</span></div></div>
+</div>
+<div class="pipeline reveal">
+<div class="pipeline-card"><div class="pipeline-top"><div class="pipeline-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M4 7h16M4 12h10M4 17h7"/><circle cx="18" cy="17" r="3"/></svg></div><span class="pipeline-num">01</span></div><h4>Ingest · 统一取数</h4><p>设计稿、简报、模板、现有站点页面统一进入作业队列，保留来源与版本。</p><span class="out">输出：Design / Brief IR</span></div>
+<div class="pipeline-card"><div class="pipeline-top"><div class="pipeline-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 3 3 8l9 5 9-5-9-5Z"/><path d="m3 12 9 5 9-5M3 16l9 5 9-5"/></svg></div><span class="pipeline-num">02</span></div><h4>Normalize · 结构清洗</h4><p>去掉无效包裹、合并同构节点、统一间距与尺寸，生成稳定节点 ID。</p><span class="out">输出：Semantic IR</span></div>
+<div class="pipeline-card"><div class="pipeline-top"><div class="pipeline-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2Z"/></svg></div><span class="pipeline-num">03</span></div><h4>Plan · 语义规划</h4><p>识别区块角色、内容层级、响应式策略与动态数据绑定建议。</p><span class="out">输出：Build Plan</span></div>
+<div class="pipeline-card"><div class="pipeline-top"><div class="pipeline-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="m8 6-6 6 6 6M16 6l6 6-6 6M14 4l-4 16"/></svg></div><span class="pipeline-num">04</span></div><h4>Compile · 原生生成</h4><p>确定性编译器产出 Elementor Container / Widget，LLM 不直接拼整页 JSON。</p><span class="out">输出：_elementor_data</span></div>
+<div class="pipeline-card"><div class="pipeline-top"><div class="pipeline-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 2.5 2.5L16 9"/></svg></div><span class="pipeline-num">05</span></div><h4>Verify · 质量闸门</h4><p>Schema、可编辑性、响应式截图、视觉差异、文本白名单与链接检查。</p><span class="out">输出：QA Report</span></div>
+<div class="pipeline-card"><div class="pipeline-top"><div class="pipeline-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5"/><path d="M4 17v3h16v-3"/></svg></div><span class="pipeline-num">06</span></div><h4>Deliver · 发布与版本</h4><p>草稿 / 预览 / 正式发布分层；每次变更生成版本快照与回滚点。</p><span class="out">输出：Preview / Live</span></div>
+</div>
+<div class="dual-engine reveal"><div class="engine-card"><div class="engine-head"><h4>确定性编译器 · 主力</h4><span class="pill blue">稳定</span></div><div class="engine-bar"><span style="width:78%"></span></div><div class="engine-meta"><span>布局 / 样式 / 结构</span><span>可测试 · 可复现</span></div><p>负责所有“必须准确”的事情：节点映射、Elementor Schema、响应式断点、资源引用、导入兼容性。相同输入应得到相同输出。</p></div><div class="engine-card"><div class="engine-head"><h4>LLM 增强层 · 决策</h4><span class="pill violet">灵活</span></div><div class="engine-bar"><span style="width:34%"></span></div><div class="engine-meta"><span>语义 / 规划 / 文案</span><span>受约束 · 可回退</span></div><p>只做它擅长的事：理解意图、推断区块角色、提出布局策略、生成文案。输出必须经过 Schema 与业务规则校验，不能直接改生产站点。</p></div></div>
+</div></section>
+<section class="chat-section" id="chat"><div class="wrap">
+<div class="section-head reveal"><div><div class="section-no">03 / 客户对话改站</div><h2>客户说“再大气一点”，<br />系统知道该改哪里。</h2></div><p class="lead">对话不是聊天窗口，而是新的编辑界面。AI 负责把自然语言翻译成可审查的变更集，客户只需要看预览、点确认。</p></div>
+<div class="chat-lab reveal">
+<div class="chat-panel"><div class="chat-head"><div class="chat-agent"><div class="agent-avatar"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3a7 7 0 0 0-7 7c0 3 1.8 5.2 4 6.3V21h6v-4.7c2.2-1.1 4-3.3 4-6.3a7 7 0 0 0-7-7Z"/><path d="M9 9h6M9 12h4"/></svg></div><div><div class="n">M-AI-E 建站助手</div><div class="s">已读取首页 · 12 个区块 · 3 档响应式</div></div></div><span class="demo-badge">交互演示 · 模拟数据</span></div>
+<div class="chat-body" id="chatBody" aria-live="polite"><div class="msg ai"><div class="msg-avatar">AI</div><div class="bubble">你好，我正在查看「品牌官网 / 首页」。你可以直接告诉我希望怎么改，我会先生成预览和变更集，确认后才发布。<span class="muted-line">当前版本 v17 · 最近发布 2 小时前</span></div></div><div class="msg ai"><div class="msg-avatar">AI</div><div class="bubble">试试下面的指令，或直接输入你的想法：</div></div></div>
+<div class="suggestions" id="suggestions"><button class="suggestion" type="button" data-scenario="title">标题更有品牌感</button><button class="suggestion" type="button" data-scenario="layout">产品区三列 / 移动端滑动</button><button class="suggestion" type="button" data-scenario="brand">品牌色更克制</button></div>
+<form class="chat-form" id="chatForm"><input id="chatInput" type="text" aria-label="输入修改需求" placeholder="例如：把首屏标题改得更像消费品牌…" autocomplete="off" /><button class="send-btn" type="submit" aria-label="发送"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg></button></form></div>
+<div class="preview-panel"><div class="preview-toolbar"><span class="label">实时预览 · 首页</span><div class="preview-tools" aria-label="预览设备"><span class="device active">桌面</span><span class="device">平板</span><span class="device">手机</span></div></div>
+<div class="browser"><div class="browser-bar"><i class="dot"></i><i class="dot"></i><i class="dot"></i><div class="url">preview.mae.local / home / v18-draft</div></div>
+<div class="demo-page" id="demoPage"><div class="demo-nav"><div class="demo-logo">NORTHSTAR</div><div class="demo-nav-links"><span>产品</span><span>方案</span><span>案例</span></div><div class="demo-nav-cta">预约演示</div></div>
+<div class="demo-hero"><div class="kicker">Built for better business</div><div class="demo-title" id="demoTitle">让每一次交付，<br />都更接近设计。</div><div class="demo-sub" id="demoSub">从品牌官网到产品落地页，用一套可控的 AI 建站流程，把想法更快地变成真实网站。</div><div class="demo-actions"><span class="demo-primary">开始构建</span><span class="demo-secondary">查看方案</span></div><div class="demo-flag" id="demoFlag">Draft v18</div></div>
+<div class="demo-products" id="demoProducts"><div class="demo-product"><div class="thumb"></div><div class="t">品牌策略</div><div class="s">定位 · 叙事 · 视觉</div></div><div class="demo-product"><div class="thumb"></div><div class="t">体验设计</div><div class="s">页面 · 交互 · 内容</div></div><div class="demo-product"><div class="thumb"></div><div class="t">增长落地</div><div class="s">投放 · 转化 · 数据</div></div></div>
+</div></div>
+<div class="diff-card"><div class="diff-head"><div class="diff-title"><i></i><span>待应用的变更集</span></div><span class="diff-status" id="diffStatus">等待指令</span></div><div class="diff-list" id="diffList"><div class="diff-empty">客户发出修改后，这里会显示精确到语义节点的变更。发布前可逐条确认或整体回滚。</div></div></div>
+</div></div>
+<div class="guard-grid reveal"><div class="guard"><div class="g-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3 4 6v6c0 5 3.4 8.4 8 9 4.6-.6 8-4 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></div><h4>白名单变更</h4><p>只允许文案、样式、图片、顺序、可见性等受控操作，不接受任意 HTML / PHP。</p></div><div class="guard"><div class="g-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="M8 8h8M8 12h5M8 16h7"/></svg></div><h4>范围锁定</h4><p>每次对话都绑定站点、页面与基础版本，禁止跨站或越权修改。</p></div><div class="guard"><div class="g-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg></div><h4>预览与回滚</h4><p>先沙箱渲染再确认；每次发布保留快照，可按版本、按变更集回退。</p></div><div class="guard"><div class="g-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/><circle cx="12" cy="12" r="4"/></svg></div><h4>可解释执行</h4><p>展示改了哪个节点、为什么改、影响范围与风险等级，避免“黑盒发布”。</p></div></div>
+<div class="conversation-flow reveal"><div class="conv-step"><div class="cn">01</div><div class="ct">意图识别</div><div class="cd">识别修改对象、目标与约束</div></div><div class="conv-step"><div class="cn">02</div><div class="ct">上下文检索</div><div class="cd">定位页面、区块、组件与品牌 Token</div></div><div class="conv-step"><div class="cn">03</div><div class="ct">变更计划</div><div class="cd">生成结构化操作，不直接改站点</div></div><div class="conv-step"><div class="cn">04</div><div class="ct">沙箱预览</div><div class="cd">编译 Elementor 树并截图比对</div></div><div class="conv-step"><div class="cn">05</div><div class="ct">人工确认</div><div class="cd">客户 / 运营审阅差异与风险</div></div><div class="conv-step"><div class="cn">06</div><div class="ct">发布回滚</div><div class="cd">写入站点、留版本、可撤回</div></div></div>
+</div></section>
+<section class="section" id="architecture"><div class="wrap">
+<div class="section-head reveal"><div><div class="section-no">04 / 目标架构</div><h2>四层架构，<br />把对话关进安全的笼子。</h2></div><p class="lead">对话层只提出意图与操作，编译层负责生成合法的 Elementor 结构，交付层负责版本和安全。每一层都能独立测试、独立演进。</p></div>
+<div class="arch-promise reveal"><span class="mark"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3 4 6v6c0 5 3.4 8.4 8 9 4.6-.6 8-4 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></span><span><strong>安全边界：</strong>LLM 永远拿不到 WordPress 管理员密码，也不能直接执行插件代码；它只能调用受控工具，所有写操作都必须经过变更集与审批。</span></div>
+<div class="arch-board reveal"><div class="arch-top"><div class="t"><span></span>M-AI-E Site Intelligence Architecture</div><div class="meta">v1.0 / target state</div></div>
+<div class="arch-layer"><div class="layer-label">Experience<br />交互层</div><div class="layer-nodes"><div class="arch-node"><div class="an">管理后台 Copilot</div><div class="ad">建站、批量生成、团队审阅</div></div><div class="arch-node hot"><div class="an">客户预览链接</div><div class="ad">对话修改、差异确认、审批</div></div><div class="arch-node"><div class="an">WordPress 侧边栏</div><div class="ad">在站点内唤起改站助手</div></div><div class="arch-node"><div class="an">交付报告</div><div class="ad">变更记录、性能、可访问性</div></div></div></div>
+<div class="arch-layer"><div class="layer-label">Agent<br />编排层</div><div class="layer-nodes"><div class="arch-node"><div class="an">Intent Router</div><div class="ad">意图分类、澄清、范围校验</div></div><div class="arch-node"><div class="an">Site Retrieval</div><div class="ad">语义索引、区块与 Token 检索</div></div><div class="arch-node hot"><div class="an">Planner</div><div class="ad">生成变更计划与风险评估</div></div><div class="arch-node"><div class="an">Tool Executor</div><div class="ad">调用编译、预览、发布工具</div></div></div></div>
+<div class="arch-layer"><div class="layer-label">Compiler<br />编译层</div><div class="layer-nodes"><div class="arch-node"><div class="an">Semantic Site Model</div><div class="ad">页面 / 区块 / 节点 / 品牌 Token</div></div><div class="arch-node"><div class="an">Elementor Compiler</div><div class="ad">确定性生成 Container / Widget</div></div><div class="arch-node hot"><div class="an">ChangeSet Engine</div><div class="ad">Diff、合并、冲突检测、回滚</div></div><div class="arch-node"><div class="an">Schema / Guard</div><div class="ad">白名单、文本闭集、链接校验</div></div></div></div>
+<div class="arch-layer"><div class="layer-label">Delivery<br />交付层</div><div class="layer-nodes"><div class="arch-node"><div class="an">Sandbox Preview</div><div class="ad">隔离渲染，不触碰生产站点</div></div><div class="arch-node"><div class="an">Visual QA</div><div class="ad">Playwright 截图 + 像素差异</div></div><div class="arch-node"><div class="an">WP Adapter</div><div class="ad">快照、写入、发布、回滚</div></div><div class="arch-node"><div class="an">Version Store</div><div class="ad">页面版本、审计、恢复点</div></div></div></div>
+<div class="arch-foot"><span><i></i>现有 Next.js / SQLite / MCP 可复用</span><span><i></i>新增 Playwright + ChangeSet + 版本服务</span><span><i></i>Elementor 插件扩展 snapshot / apply / rollback</span></div></div>
+<div class="data-grid reveal"><div class="code-card"><div class="code-head"><span class="fn">change-set.example.json</span><button class="copy" type="button" data-copy="changeSetCode">复制</button></div><pre id="changeSetCode"><span class="tok-p">{</span>
+  <span class="tok-k">"siteId"</span>: <span class="tok-s">"site_8f2a"</span>,
+  <span class="tok-k">"pageId"</span>: <span class="tok-s">"page_home"</span>,
+  <span class="tok-k">"baseVersion"</span>: <span class="tok-s">"v17"</span>,
+  <span class="tok-k">"intent"</span>: <span class="tok-s">"首屏标题更有品牌感"</span>,
+  <span class="tok-k">"ops"</span>: <span class="tok-p">[</span>
+    <span class="tok-p">{</span>
+      <span class="tok-k">"op"</span>: <span class="tok-s">"update_text"</span>,
+      <span class="tok-k">"target"</span>: <span class="tok-s">"hero.title"</span>,
+      <span class="tok-k">"value"</span>: <span class="tok-s">"把每一次交付，做成品牌资产。"</span>
+    <span class="tok-p">}</span>,
+    <span class="tok-p">{</span>
+      <span class="tok-k">"op"</span>: <span class="tok-s">"update_style"</span>,
+      <span class="tok-k">"target"</span>: <span class="tok-s">"hero.subtitle"</span>,
+      <span class="tok-k">"props"</span>: <span class="tok-p">{</span> <span class="tok-k">"color"</span>: <span class="tok-s">"#5F6B7A"</span>, <span class="tok-k">"maxWidth"</span>: <span class="tok-n">560</span> <span class="tok-p">}</span>
+    <span class="tok-p">}</span>
+  <span class="tok-p">]</span>,
+  <span class="tok-k">"constraints"</span>: <span class="tok-p">[</span><span class="tok-s">"仅影响首页"</span>, <span class="tok-s">"保留响应式断点"</span><span class="tok-p">]</span>,
+  <span class="tok-k">"risk"</span>: <span class="tok-s">"low"</span>,
+  <span class="tok-k">"requiresApproval"</span>: <span class="tok-n">true</span>
+<span class="tok-p">}</span></pre></div>
+<div class="data-note"><h4>为什么是 ChangeSet，而不是“让 AI 重写整页”？</h4><p>整页重写会产生不可解释的漂移：客户只改一个标题，结果布局、图片、链接全变了。ChangeSet 把修改限定为可审查的最小操作，天然支持冲突检测、逐条确认和版本回滚。</p>
+<div class="data-list"><div class="data-row"><span class="tag">index</span><div class="txt"><b>站点语义模型</b>：为每个页面、Section、Widget 建立稳定 ID 与角色，例如 <code>home.hero.title</code>。</div></div><div class="data-row"><span class="tag">patch</span><div class="txt"><b>变更操作</b>：update_text / update_style / swap_image / reorder / insert / remove / toggle_visibility。</div></div><div class="data-row"><span class="tag">guard</span><div class="txt"><b>执行约束</b>：节点归属、Widget 类型、文本长度、颜色格式、链接协议、资源域名全部白名单校验。</div></div><div class="data-row"><span class="tag">audit</span><div class="txt"><b>审计与回滚</b>：记录对话、变更集、预览截图、审批人、发布时间与回滚点。</div></div></div></div></div>
+<div class="stack-table reveal"><div class="stack-row head"><div>层</div><div>当前实现</div><div>建议新增 / 升级</div></div><div class="stack-row"><div class="layer">交互</div><div class="now"><span class="tag-now">已有</span>Next.js 管理后台、预览、模板库</div><div class="recommend"><span class="tag-add">新增</span>客户预览空间、对话面板、变更审批、SSE 流式响应</div></div><div class="stack-row"><div class="layer">编排</div><div class="now"><span class="tag-now">部分</span>LLM 仅做 Section 语义标注</div><div class="recommend"><span class="tag-add">新增</span>意图路由、站点检索、Planner、工具调用、澄清策略</div></div><div class="stack-row"><div class="layer">编译</div><div class="now"><span class="tag-now">已有</span>规则转换器、Elementor JSON、预览渲染</div><div class="recommend"><span class="tag-add">升级</span>Semantic Site Model、ChangeSet Engine、JSON Schema、冲突检测</div></div><div class="stack-row"><div class="layer">交付</div><div class="now"><span class="tag-now">已有</span>WP 插件导入、媒体上传、交付记录</div><div class="recommend"><span class="tag-add">新增</span>snapshot / apply / rollback 端点、版本快照、发布审批</div></div><div class="stack-row"><div class="layer">质量</div><div class="now"><span class="tag-now">部分</span>规则校验、人工预览</div><div class="recommend"><span class="tag-add">新增</span>Playwright 截图、视觉差异、链接 / 性能 / 可访问性检查</div></div><div class="stack-row"><div class="layer">数据</div><div class="now"><span class="tag-now">已有</span>SQLite：用户 / 站点 / 模板 / 交付</div><div class="recommend"><span class="tag-add">升级</span>conversation / message / change_set / page_version / audit_log；SaaS 阶段迁移 Postgres</div></div></div>
+</div></section>
+<section class="section" id="roadmap"><div class="wrap">
+<div class="section-head reveal"><div><div class="section-no">05 / 落地路线</div><h2>先做最小闭环，<br />再让客户真正用起来。</h2></div><p class="lead">建议把“客户能改、能看到、能撤回”作为第一优先级，而不是一开始就做多租户、全站生成和复杂动效。8–12 周可以形成可演示、可试用的版本。</p></div>
+<div class="roadmap reveal">
+<article class="phase primary"><div class="phase-head"><div class="phase-label"><span class="p">P0 / CONVERSATION MVP</span><span class="time">2–3 周</span></div><h3>对话改站最小闭环</h3><p>让一个真实客户完成：说一句话 → 看到预览 → 确认 → 发布 → 撤回。</p></div><div class="phase-body"><ul class="phase-list"><li class="key">稳定语义 ID：page / section / widget 三级定位</li><li class="key">ChangeSet Schema 与白名单执行器</li><li>只支持 6 类操作：改文案、改颜色、换图片、调顺序、显隐、改链接</li><li>聊天面板 + SSE 流式回复 + 变更预览</li><li>WP 插件新增 snapshot / apply / rollback</li><li>单页、单站点、管理员审批</li></ul></div><div class="phase-foot"><div class="phase-deliverable"><b>验收：</b>客户改标题 / 品牌色，1 分钟内看到预览，可一键撤回。</div></div></article>
+<article class="phase"><div class="phase-head"><div class="phase-label"><span class="p">P1 / PRODUCTION</span><span class="time">4–6 周</span></div><h3>生产可用与视觉质量</h3><p>把演示变成可交付产品，解决“看起来有没有坏”和“谁能改什么”。</p></div><div class="phase-body"><ul class="phase-list"><li>Playwright 截图与视觉回归对比</li><li>响应式三档独立校验</li><li>角色权限：管理员 / 编辑 / 客户审阅</li><li>页面版本树、差异对比、按版本回滚</li><li>导航、Footer、全局色彩与字体同步</li><li>图片替换、媒体库与资源完整性检查</li><li>对话上下文记忆与多轮澄清</li></ul></div><div class="phase-foot"><div class="phase-deliverable"><b>验收：</b>变更预览通过率 ≥ 90%，发布失败可自动回滚。</div></div></article>
+<article class="phase"><div class="phase-head"><div class="phase-label"><span class="p">P2 / PLATFORM</span><span class="time">6–8 周</span></div><h3>多站点与规模化交付</h3><p>从工具升级为平台，支持代理商与批量客户。</p></div><div class="phase-body"><ul class="phase-list"><li>多租户、站点隔离、用量与配额</li><li>整站页面批量生成与共享导航 / Footer</li><li>行业模板库、品牌 Kit、区块复用</li><li>多语言内容生成与本地化</li><li>发布审批流、邮件通知、客户空间</li><li>A/B 版本、转化埋点与页面表现分析</li><li>插件版本管理、站点健康检查</li></ul></div><div class="phase-foot"><div class="phase-deliverable"><b>验收：</b>10+ 站点稳定运行，单站交付周期显著缩短。</div></div></article>
+</div>
+<div class="kpi-grid reveal"><div class="kpi"><div class="v">&lt; 10 <small>分钟</small></div><div class="k">从需求 / 设计稿到首个可预览页面</div></div><div class="kpi"><div class="v">&lt; 60 <small>秒</small></div><div class="k">客户端对话到变更预览</div></div><div class="kpi"><div class="v">100<small>%</small></div><div class="k">发布版本可回滚</div></div><div class="kpi"><div class="v">0 <small>任意代码</small></div><div class="k">LLM 可执行的非白名单操作</div></div></div>
+<div class="risk-table reveal"><div class="risk-row head"><div>风险</div><div>影响</div><div>应对策略</div></div><div class="risk-row"><div class="r">Elementor 版本差异</div><div class="i">Container / Section 结构、Widget 设置字段不一致，导致导入后样式偏差。</div><div class="m">锁定目标 Elementor 版本；Schema 按版本分支；导入前做兼容性探测。</div></div><div class="risk-row"><div class="r">LLM 不确定输出</div><div class="i">同一句话可能生成不同修改，难以复现和验收。</div><div class="m">结构化输出 + 低温度 + Schema 校验；保存决策日志与变更集。</div></div><div class="risk-row"><div class="r">客户越权修改</div><div class="i">误删区块、改坏全局样式、影响其他页面。</div><div class="m">站点 / 页面 / 节点范围锁定；风险分级；高风险操作强制二次确认。</div></div><div class="risk-row"><div class="r">提示注入与内容安全</div><div class="i">客户输入诱导 AI 泄露配置或执行非预期操作。</div><div class="m">工具权限隔离、系统提示与用户内容分层、输出白名单、审计告警。</div></div><div class="risk-row"><div class="r">响应式与视觉回归</div><div class="i">桌面正常但移动端错位，或修改标题导致换行溢出。</div><div class="m">三档截图回归、文本长度预算、布局约束、异常时阻止发布。</div></div><div class="risk-row"><div class="r">WordPress 插件权限</div><div class="i">导入端点成为攻击面，或写入失败造成页面半成品。</div><div class="m">短期密钥 + Basic Auth；最小权限；事务式写入；失败自动恢复快照。</div></div></div>
+</div></section>
+<section class="section-tight"><div class="wrap"><div class="next-card reveal"><div><span class="eyebrow">Next Move</span><h2>下一步，把一个“能演示的闭环”做出来。</h2><p>不要先扩功能清单。先选定一个真实站点、一个真实页面、三类高频修改，把对话、预览、审批、发布、回滚全部打通。</p><div class="next-list"><div class="next-item"><span class="num">01</span><span class="txt">冻结语义节点命名与 ChangeSet Schema（2 天）</span></div><div class="next-item"><span class="num">02</span><span class="txt">扩展 WP 插件：snapshot / apply / rollback（3 天）</span></div><div class="next-item"><span class="num">03</span><span class="txt">将现有模板索引为 Semantic Site Model（3 天）</span></div><div class="next-item"><span class="num">04</span><span class="txt">实现 Copilot 对话 MVP 与变更预览（1 周）</span></div><div class="next-item"><span class="num">05</span><span class="txt">接入 Playwright 视觉回归与回滚验收（1 周）</span></div></div></div>
+<div class="next-side"><div class="decision"><div class="d-k">MVP 完成定义</div><div class="d-v">客户能改 <span>文案 / 颜色 / 图片 / 顺序</span></div><div class="d-d">看到三档预览，确认后发布；任何一次发布都能一键回到上一版。</div></div><div class="decision"><div class="d-k">不建议现在做</div><div class="d-v">全站一键生成 / 任意代码执行</div><div class="d-d">先保证单页可控，再扩展页面数量与自动化程度。</div></div><div class="decision"><div class="d-k">产品定位</div><div class="d-v">设计稿还原 + 可持续运营的 AI 建站台</div><div class="d-d">差异化不在“生成”，而在“生成后还能安全地一直改”。</div></div></div></div></div></section>
+</main>
+<footer><div class="wrap footer-inner"><div><div class="footer-brand"><span class="brand-mark" style="width:28px;height:28px;border-radius:8px;font-size:12px">M</span> M-AI-E · AI 建站与对话改站方案</div><div class="footer-note" style="margin-top:9px">本方案基于当前仓库的 Next.js 管理后台、MasterGo Magic MCP 取数、规则转译器、Elementor 预览与 WordPress 导入插件能力整理。规划部分明确标注为待建设，可作为产品评审与技术拆项基线。</div></div><div class="footer-links"><a href="#overview">现状</a><a href="#build">建站</a><a href="#chat">对话</a><a href="#architecture">架构</a><a href="#roadmap">路线</a></div></div></footer>
+<script>
+(function(){
+  var $=function(s,r){return (r||document).querySelector(s)};
+  var $$=function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
+  var progress=$("#scrollProgress");
+  function updateProgress(){var d=document.documentElement,m=d.scrollHeight-d.clientHeight;progress.style.width=(m>0?(d.scrollTop/m)*100:0)+"%"}
+  window.addEventListener("scroll",updateProgress,{passive:true});updateProgress();
+  $("#printBtn").addEventListener("click",function(){window.print()});
+  var revealEls=$$(".reveal");
+  if("IntersectionObserver" in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.08,rootMargin:"0px 0px -38px 0px"});revealEls.forEach(function(el){io.observe(el)})}else{revealEls.forEach(function(el){el.classList.add("in")})}
+  var navLinks=$$(".nav-link"),sections=$$("main section[id]");
+  if("IntersectionObserver" in window){var spy=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;navLinks.forEach(function(a){a.classList.toggle("active",a.getAttribute("href")==="#"+e.target.id)})})},{rootMargin:"-35% 0px -55% 0px",threshold:0});sections.forEach(function(s){spy.observe(s)})}
+  var tabs=$$(".mode-tab"),panels=$$(".mode-panel");
+  tabs.forEach(function(tab){tab.addEventListener("click",function(){var mode=tab.dataset.mode;tabs.forEach(function(t){var a=t===tab;t.classList.toggle("active",a);t.setAttribute("aria-selected",String(a))});panels.forEach(function(p){p.classList.toggle("active",p.id==="mode-"+mode)})})});
+  $$(".copy").forEach(function(btn){btn.addEventListener("click",function(){var target=document.getElementById(btn.dataset.copy);if(!target)return;var old=btn.textContent;navigator.clipboard.writeText(target.innerText).then(function(){btn.textContent="已复制";setTimeout(function(){btn.textContent=old},1400)}).catch(function(){btn.textContent="复制失败";setTimeout(function(){btn.textContent=old},1400)})})});
+
+  var chatBody=$("#chatBody"),chatForm=$("#chatForm"),chatInput=$("#chatInput"),demoTitle=$("#demoTitle"),demoSub=$("#demoSub"),demoPage=$("#demoPage"),demoFlag=$("#demoFlag"),diffList=$("#diffList"),diffStatus=$("#diffStatus"),productGrid=$("#demoProducts"),busy=false;
+  var scenarios={
+    title:{user:"把首屏标题改得更有品牌感，副标题再口语一点。",ai:"已定位到首页 Hero 区。我保留了原句的节奏，把标题收短并加强品牌语气，同时把副标题改得更直接。变更只影响 hero 文案，不动布局。",diff:[["hero.title","让每一次交付，都更接近设计。","把每一次交付，做成品牌资产。"],["hero.subtitle","从品牌官网到产品落地页…","从第一版官网到持续增长，用一套可控的 AI 建站流程，把想法更快地变成真实网站。"]],title:"把每一次交付，<br>做成品牌资产。",sub:"从第一版官网到持续增长，用一套可控的 AI 建站流程，把想法更快地变成真实网站。",flag:"Draft v18 · 文案变更",status:"2 项待确认 · 低风险"},
+    layout:{user:"产品区改成三列，手机上改成横向滑动。",ai:"已找到 products 区块。桌面保持三列等宽，移动端切换为横向滚动并保留卡片宽度。没有改内容，只调整了布局和断点行为。",diff:[["products.grid","columns: 2","columns: 3"],["products.mobile","stack","scroll-x · snap"],["products.gap","24px","18px"]],title:"让每一次交付，<br>都更接近设计。",sub:"从品牌官网到产品落地页，用一套可控的 AI 建站流程，把想法更快地变成真实网站。",flag:"Draft v18 · 响应式",status:"3 项待确认 · 低风险",layout:true},
+    brand:{user:"品牌色更克制一些，保留现有布局。",ai:"我会把主色从高饱和蓝调整为更稳的深蓝，并同步按钮、链接和强调色。布局、图片和文案保持不变，所有颜色都走全局 Token。",diff:[["token.brand.primary","#2457F5","#183C7A"],["token.brand.accent","#0BBCC8","#5277B8"],["button.primary.bg","brand.primary","brand.primary"]],title:"让每一次交付，<br>都更接近设计。",sub:"从品牌官网到产品落地页，用一套可控的 AI 建站流程，把想法更快地变成真实网站。",flag:"Draft v18 · 品牌 Token",status:"2 项待确认 · 中风险",accent:"#183c7a"}
+  };
+  function appendMessage(role,text,extra){var msg=document.createElement("div");msg.className="msg "+role;msg.innerHTML='<div class="msg-avatar">'+(role==="ai"?"AI":"你")+'</div><div class="bubble">'+text+(extra?'<span class="muted-line">'+extra+"</span>":"")+"</div>";chatBody.appendChild(msg);chatBody.scrollTop=chatBody.scrollHeight;return msg}
+  function appendTyping(){var msg=document.createElement("div");msg.className="msg ai";msg.id="typingMsg";msg.innerHTML='<div class="msg-avatar">AI</div><div class="bubble"><span class="typing"><i></i><i></i><i></i></span></div>';chatBody.appendChild(msg);chatBody.scrollTop=chatBody.scrollHeight}
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"})[c]})}
+  function setDiff(rows,status){diffStatus.textContent=status;diffList.innerHTML="";rows.forEach(function(row){var div=document.createElement("div");div.className="diff-row";div.innerHTML='<span class="diff-key">'+esc(row[0])+'</span><span class="diff-val"><span class="del">'+esc(row[1])+'</span> <span class="add">→ '+esc(row[2])+"</span></span>";diffList.appendChild(div)})}
+  function applyScenario(key){var s=scenarios[key];if(!s||busy)return;busy=true;appendMessage("user",s.user);appendTyping();setTimeout(function(){var typing=$("#typingMsg");if(typing)typing.remove();appendMessage("ai",s.ai,"已生成 ChangeSet · 等待你的确认");demoTitle.innerHTML=s.title;demoSub.textContent=s.sub;demoFlag.textContent=s.flag;demoPage.style.setProperty("--accent",s.accent||"#2457f5");productGrid.style.gridTemplateColumns=s.layout?"repeat(3, 1fr)":"";productGrid.style.overflowX=s.layout?"auto":"";setDiff(s.diff,s.status);busy=false},720)}
+  $$(".suggestion").forEach(function(btn){btn.addEventListener("click",function(){applyScenario(btn.dataset.scenario)})});
+  chatForm.addEventListener("submit",function(e){e.preventDefault();var value=chatInput.value.trim();if(!value||busy)return;chatInput.value="";var key="title";if(/三列|移动|布局|响应|卡片/.test(value))key="layout";else if(/色|品牌|克制|风格/.test(value))key="brand";applyScenario(key)});
+})();
+</script>
+</body>
+</html>
+
+
+
+

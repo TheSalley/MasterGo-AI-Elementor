@@ -1,13 +1,13 @@
 {
   "sectionIndex": 9,
   "section": {
-    "id": "185:9028",
-    "name": "组 5492",
-    "type": "GROUP"
+    "id": "90:6209",
+    "name": "Footeer",
+    "type": "FRAME"
   },
   "rootContainer": {
     "width": "1920px",
-    "minHeight": "8687px",
+    "minHeight": "4802px",
     "background": "#FFFFFF",
     "overflow": "hidden",
     "position": "relative"
@@ -15,608 +15,1117 @@
   "structureSiblingCount": 1,
   "dsl": {
     "styles": {
-      "font_86:4965": {
+      "font_20:2343": {
         "value": {
-          "family": "Noto Sans SC",
-          "size": 24,
-          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
-          "decoration": "none",
-          "case": "none",
-          "lineHeight": "120",
-          "letterSpacing": "auto",
-          "weight": "600"
-        },
-        "token": "Q-H4"
-      },
-      "font_86:5004": {
-        "value": {
-          "family": "Noto Sans SC",
-          "size": 16,
+          "family": "Libre Franklin",
+          "size": 12,
           "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
           "decoration": "none",
           "case": "none",
-          "lineHeight": "150",
-          "letterSpacing": "auto",
+          "lineHeight": "auto",
           "weight": "400"
-        },
-        "token": "Q-text"
+        }
       },
-      "paint_102:5127": {
+      "font_5:3795": {
+        "value": {
+          "family": "Libre Franklin",
+          "size": 14,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "auto",
+          "weight": "400"
+        }
+      },
+      "font_90:5330": {
+        "value": {
+          "family": "Libre Franklin",
+          "size": 16,
+          "style": "{\"fontStyle\":\"Medium\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "24",
+          "weight": "500"
+        }
+      },
+      "font_90:5720": {
+        "value": {
+          "family": "Libre Franklin",
+          "size": 14,
+          "style": "{\"fontStyle\":\"Medium\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "21",
+          "weight": "500"
+        }
+      },
+      "font_90:5820": {
+        "value": {
+          "family": "Libre Franklin",
+          "size": 16,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "uppercase",
+          "lineHeight": "auto",
+          "weight": "600"
+        }
+      },
+      "paint_2:3": {
         "value": [
           "#FFFFFF"
-        ],
-        "token": "纯白"
-      },
-      "paint_107:6490": {
-        "value": [
-          "rgba(255, 255, 255, 0.4)"
         ]
       },
-      "paint_107:6761": {
-        "value": [
-          "rgba(255, 255, 255, 0.4)"
-        ]
-      },
-      "paint_107:7345": {
-        "value": [
-          "linear-gradient(180deg, rgba(1, 13, 31, 0) 0%, #001E4C 100%)"
-        ]
-      },
-      "paint_142:9976": {
+      "paint_34:0296": {
         "value": [
           {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/a5293d5a9a767f92b4c243d7e1eaf92b.jpeg"
+            "url": "https://image-resource.mastergo.com/111621696712363/115713781704629/d7f2267b698b3052f130d6f698569df7.png"
           }
         ]
       },
-      "paint_163:7826": {
+      "paint_5:536": {
+        "value": [
+          "#DDBC7E"
+        ],
+        "token": "主色"
+      },
+      "paint_5:5526": {
+        "value": [
+          "#F4F4F4"
+        ]
+      },
+      "paint_80:1838": {
         "value": [
           {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/7dceb4790e6c34e6c8a09c376e523418.jpeg"
+            "url": "https://image-resource.mastergo.com/111621696712363/115713781704629/6877103666664149b0bbcd9afdad350e.png"
           }
         ]
-      },
-      "paint_163:7830": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/607ea9fed2a6291eb9f5a88848cfde02.jpeg"
-          }
-        ]
-      },
-      "paint_163:7834": {
-        "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/bd1a8902b2db2e8f4e5f4b8c6e618f2b.JPG"
-          }
-        ]
-      },
-      "paint_1:099": {
-        "value": [
-          "#3D3D3D"
-        ]
-      },
-      "paint_3:6817": {
-        "value": [
-          "rgba(0, 0, 0, 0.1)"
-        ],
-        "token": "lf-边框"
-      },
-      "paint_86:5186": {
-        "value": [
-          "#121212"
-        ],
-        "token": "Q-标题黑"
-      },
-      "paint_86:5202": {
-        "value": [
-          "#FFFFFF"
-        ],
-        "token": "Q-背景白"
       }
     },
     "nodes": [
       {
-        "type": "GROUP",
-        "id": "185:9028",
-        "name": "组 5492",
+        "type": "FRAME",
+        "id": "90:6209",
+        "name": "Footeer",
         "layoutStyle": {
-          "width": 1459,
-          "height": 404.1168212890625,
+          "width": 1920,
+          "height": 500,
           "relativeX": 0,
           "relativeY": 0
         },
+        "fill": "paint_2:3",
+        "_color": "#FFFFFF",
         "children": [
           {
-            "type": "GROUP",
-            "id": "185:9029",
-            "name": "组 5490",
+            "type": "LAYER",
+            "id": "90:6210",
+            "name": "image",
             "layoutStyle": {
-              "width": 1459,
-              "height": 72,
+              "width": 1920,
+              "height": 500,
               "relativeX": 0,
-              "relativeY": 72
+              "relativeY": 0,
+              "preserveRatio": true
+            },
+            "fill": "paint_34:0296"
+          },
+          {
+            "type": "LAYER",
+            "id": "90:6211",
+            "name": "image",
+            "layoutStyle": {
+              "width": 276,
+              "height": 77,
+              "relativeX": 240,
+              "relativeY": 74,
+              "preserveRatio": true
+            },
+            "fill": "paint_80:1838"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6212",
+            "name": "Power supplies for medical, I.T.E., PoE and everyday charging applications.",
+            "layoutStyle": {
+              "width": 312,
+              "height": 72,
+              "relativeX": 240,
+              "relativeY": 209
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "T9|90:6212",
+                "font": "font_90:5330"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 76,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "auto-height"
+          },
+          {
+            "type": "PATH",
+            "id": "90:6216",
+            "name": "直线 10",
+            "layoutStyle": {
+              "width": 1440,
+              "relativeX": 240,
+              "relativeY": 448,
+              "preserveRatio": true
+            },
+            "opacity": 0.20000000298023224,
+            "_svgUnavailable": true
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6217",
+            "name": "© 2026 Fuhua Electronic Co., Ltd. All rights reserved.",
+            "layoutStyle": {
+              "width": 293,
+              "height": 15,
+              "relativeX": 240,
+              "relativeY": 465
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "T9|90:6217",
+                "font": "font_20:2343"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 54,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6221",
+            "name": "Products",
+            "layoutStyle": {
+              "width": 91,
+              "height": 19,
+              "relativeX": 744,
+              "relativeY": 88
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "Products",
+                "font": "font_90:5820"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 8,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6225",
+            "name": "AC-DC Power Adapter",
+            "layoutStyle": {
+              "width": 145,
+              "height": 17,
+              "relativeX": 744,
+              "relativeY": 135
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "AC-DC Power Adapter",
+                "font": "font_5:3795"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 19,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6229",
+            "name": "Home",
+            "layoutStyle": {
+              "width": 40,
+              "height": 17,
+              "relativeX": 1042,
+              "relativeY": 135
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "Home",
+                "font": "font_5:3795"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 4,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6233",
+            "name": "Charger",
+            "layoutStyle": {
+              "width": 53,
+              "height": 17,
+              "relativeX": 744,
+              "relativeY": 172
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "Charger",
+                "font": "font_5:3795"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 7,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6237",
+            "name": "About Us",
+            "layoutStyle": {
+              "width": 61,
+              "height": 17,
+              "relativeX": 1042,
+              "relativeY": 172
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "About Us",
+                "font": "font_5:3795"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 8,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6241",
+            "name": "Product",
+            "layoutStyle": {
+              "width": 53,
+              "height": 17,
+              "relativeX": 1042,
+              "relativeY": 209
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "Product",
+                "font": "font_5:3795"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 7,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6245",
+            "name": "+86 769 8602 2222",
+            "layoutStyle": {
+              "width": 133,
+              "height": 17,
+              "relativeX": 1271,
+              "relativeY": 187
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "+86 769 8602 2222",
+                "font": "font_5:3795"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 17,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6249",
+            "name": "News",
+            "layoutStyle": {
+              "width": 37,
+              "height": 17,
+              "relativeX": 1042,
+              "relativeY": 246
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "News",
+                "font": "font_5:3795"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 4,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6253",
+            "name": "fuhua@fuhua-cn.com",
+            "layoutStyle": {
+              "width": 139,
+              "height": 17,
+              "relativeX": 1271,
+              "relativeY": 224
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "fuhua@fuhua-cn.com",
+                "font": "font_5:3795"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 18,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6257",
+            "name": "R & D Center",
+            "layoutStyle": {
+              "width": 85,
+              "height": 17,
+              "relativeX": 1042,
+              "relativeY": 283
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "R & D Center",
+                "font": "font_5:3795"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 12,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6261",
+            "name": "Join Us",
+            "layoutStyle": {
+              "width": 46,
+              "height": 17,
+              "relativeX": 1042,
+              "relativeY": 320
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "Join Us",
+                "font": "font_5:3795"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 7,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6265",
+            "name": "Solution",
+            "layoutStyle": {
+              "width": 55,
+              "height": 17,
+              "relativeX": 1042,
+              "relativeY": 357
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "Solution",
+                "font": "font_5:3795"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 8,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6269",
+            "name": "Contact Us",
+            "layoutStyle": {
+              "width": 73,
+              "height": 17,
+              "relativeX": 1042,
+              "relativeY": 394
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "Contact Us",
+                "font": "font_5:3795"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 10,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6273",
+            "name": "Fuhua Electronic Industrial Park, Xianglong Road, Huangzhou, New Town District, Shilong Town, Dongguan, Guangdong Province, China. 523326 ↗",
+            "layoutStyle": {
+              "width": 408,
+              "height": 63,
+              "relativeX": 1272,
+              "relativeY": 261
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "T9|90:6273",
+                "font": "font_90:5720"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 139,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "auto-height"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6277",
+            "name": "Company",
+            "layoutStyle": {
+              "width": 85,
+              "height": 19,
+              "relativeX": 1042,
+              "relativeY": 88
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "Company",
+                "font": "font_90:5820"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 7,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6281",
+            "name": "Let’s Connect",
+            "layoutStyle": {
+              "width": 129,
+              "height": 19,
+              "relativeX": 1271,
+              "relativeY": 88
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "Let’s Connect",
+                "font": "font_90:5820"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 13,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6285",
+            "name": "RBA Statemet",
+            "layoutStyle": {
+              "width": 81,
+              "height": 15,
+              "relativeX": 1282,
+              "relativeY": 465
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "RBA Statemet",
+                "font": "font_20:2343"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 12,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6289",
+            "name": "Trem of use",
+            "layoutStyle": {
+              "width": 66,
+              "height": 15,
+              "relativeX": 1395,
+              "relativeY": 465
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "Trem of use",
+                "font": "font_20:2343"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 11,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6293",
+            "name": "Cookie Policy",
+            "layoutStyle": {
+              "width": 76,
+              "height": 15,
+              "relativeX": 1493,
+              "relativeY": 465
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "Cookie Policy",
+                "font": "font_20:2343"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 13,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "90:6297",
+            "name": "Privacy Polict",
+            "layoutStyle": {
+              "width": 79,
+              "height": 15,
+              "relativeX": 1601,
+              "relativeY": 465
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF",
+            "text": [
+              {
+                "text": "Privacy  Polict",
+                "font": "font_20:2343"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 15,
+                "color": "paint_2:3"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "LAYER",
+            "id": "90:6301",
+            "name": "矩形 2421",
+            "layoutStyle": {
+              "width": 30,
+              "height": 30,
+              "relativeX": 1272,
+              "relativeY": 137,
+              "preserveRatio": true
+            },
+            "borderRadius": "2px",
+            "fill": "paint_5:5526",
+            "_color": "#F4F4F4"
+          },
+          {
+            "type": "LAYER",
+            "id": "90:6302",
+            "name": "矩形 2422",
+            "layoutStyle": {
+              "width": 30,
+              "height": 30,
+              "relativeX": 1314,
+              "relativeY": 137,
+              "preserveRatio": true
+            },
+            "borderRadius": "2px",
+            "fill": "paint_5:5526",
+            "_color": "#F4F4F4"
+          },
+          {
+            "type": "LAYER",
+            "id": "90:6303",
+            "name": "矩形 2423",
+            "layoutStyle": {
+              "width": 30,
+              "height": 30,
+              "relativeX": 1356,
+              "relativeY": 137,
+              "preserveRatio": true
+            },
+            "borderRadius": "2px",
+            "fill": "paint_5:5526",
+            "_color": "#F4F4F4"
+          },
+          {
+            "type": "LAYER",
+            "id": "90:6304",
+            "name": "矩形 2424",
+            "layoutStyle": {
+              "width": 30,
+              "height": 30,
+              "relativeX": 1398,
+              "relativeY": 137,
+              "preserveRatio": true
+            },
+            "borderRadius": "2px",
+            "fill": "paint_5:5526",
+            "_color": "#F4F4F4"
+          },
+          {
+            "type": "LAYER",
+            "id": "90:6305",
+            "name": "矩形 2425",
+            "layoutStyle": {
+              "width": 30,
+              "height": 30,
+              "relativeX": 1440,
+              "relativeY": 137,
+              "preserveRatio": true
+            },
+            "borderRadius": "2px",
+            "fill": "paint_5:5526",
+            "_color": "#F4F4F4"
+          },
+          {
+            "type": "LAYER",
+            "id": "90:6306",
+            "name": "矩形 2426",
+            "layoutStyle": {
+              "width": 30,
+              "height": 30,
+              "relativeX": 1482,
+              "relativeY": 137,
+              "preserveRatio": true
+            },
+            "borderRadius": "2px",
+            "fill": "paint_5:5526",
+            "_color": "#F4F4F4"
+          },
+          {
+            "type": "FRAME",
+            "id": "90:6307",
+            "name": "容器",
+            "layoutStyle": {
+              "width": 16,
+              "height": 16,
+              "relativeX": 1363,
+              "relativeY": 144,
+              "preserveRatio": true
             },
             "children": [
               {
-                "type": "GROUP",
-                "id": "185:9030",
-                "name": "组 5611",
+                "type": "PATH",
+                "id": "90:6308",
+                "name": "路径",
                 "layoutStyle": {
-                  "width": 1459,
-                  "height": 72,
-                  "relativeX": 0,
-                  "relativeY": 0
+                  "width": 12,
+                  "height": 12,
+                  "relativeX": 2,
+                  "relativeY": 2,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
                 },
-                "_mergedVector": true,
-                "svgKey": "S9:组 5490|185:9030",
+                "path": [
+                  {
+                    "fill": "#DDBC7E",
+                    "data": ""
+                  }
+                ],
+                "svgKey": "S9:容器|90:6308",
                 "svgShortKey": "S9#0",
-                "svgName": "组 5490"
+                "svgName": "容器"
               }
             ]
           },
           {
-            "type": "GROUP",
-            "id": "185:9033",
-            "name": "组 5491",
+            "type": "FRAME",
+            "id": "90:6309",
+            "name": "容器",
             "layoutStyle": {
-              "width": 1280,
-              "height": 404.1168212890625,
-              "relativeX": 95,
-              "relativeY": 0
+              "width": 16,
+              "height": 16,
+              "relativeX": 1321,
+              "relativeY": 144,
+              "preserveRatio": true
             },
             "children": [
               {
-                "type": "INSTANCE",
-                "id": "185:9034",
-                "name": "组 5486",
+                "type": "PATH",
+                "id": "90:6310",
+                "name": "路径",
                 "layoutStyle": {
-                  "width": 301.75244140625,
-                  "height": 404.1168212890625,
-                  "relativeX": 0,
-                  "relativeY": 0
+                  "width": 14,
+                  "height": 9.8125,
+                  "relativeX": 1,
+                  "relativeY": 3.09375,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
                 },
-                "componentInfo": {},
-                "children": [
+                "path": [
                   {
-                    "type": "LAYER",
-                    "id": "185:9034/107:6314",
-                    "name": "1. 全景图",
-                    "layoutStyle": {
-                      "width": 301.75244140625,
-                      "height": 226.091796875,
-                      "relativeX": 0,
-                      "relativeY": 0
-                    },
-                    "borderRadius": "16px",
-                    "fill": "paint_163:7826"
-                  },
-                  {
-                    "type": "LAYER",
-                    "id": "185:9034/107:7198",
-                    "name": "1. 全景图",
-                    "layoutStyle": {
-                      "width": 301.75244140625,
-                      "height": 226.091796875,
-                      "relativeX": 0,
-                      "relativeY": 0
-                    },
-                    "borderRadius": "16px",
-                    "fill": "paint_107:7345",
-                    "_color": "linear-gradient(180deg, rgba(1, 13, 31, 0) 0%, #001E4C 100%)"
-                  },
-                  {
-                    "type": "TEXT",
-                    "id": "185:9034/107:6318",
-                    "name": "大厅",
-                    "layoutStyle": {
-                      "width": 56,
-                      "height": 29,
-                      "relativeX": 22.2529296875,
-                      "relativeY": 182.47564697265625
-                    },
-                    "fill": "paint_86:5186",
-                    "_color": "#121212",
-                    "_token": "Q-标题黑",
-                    "text": [
-                      {
-                        "text": "2002",
-                        "font": "font_86:4965"
-                      }
-                    ],
-                    "textColor": [
-                      {
-                        "start": 0,
-                        "end": 4,
-                        "color": "paint_102:5127"
-                      }
-                    ],
-                    "textAlign": "left",
-                    "textMode": "single-line"
-                  },
-                  {
-                    "type": "TEXT",
-                    "id": "185:9034/107:6338",
-                    "name": "自主创新研发精密导电滑环，国产首创，填补国内技术空白",
-                    "layoutStyle": {
-                      "width": 301.75244140625,
-                      "height": 105.0347671508789,
-                      "relativeX": 0,
-                      "relativeY": 263.47705078125
-                    },
-                    "fill": "paint_1:099",
-                    "_color": "#3D3D3D",
-                    "text": [
-                      {
-                        "text": "推出国内首款自研精密导电滑环，填补国内技术空白",
-                        "font": "font_86:5004"
-                      }
-                    ],
-                    "textColor": [
-                      {
-                        "start": 0,
-                        "end": 23,
-                        "color": "paint_102:5127"
-                      }
-                    ],
-                    "textAlign": "left",
-                    "textMode": "single-line"
-                  },
-                  {
-                    "type": "LAYER",
-                    "id": "185:9034/107:6435",
-                    "name": "矩形 2808",
-                    "layoutStyle": {
-                      "width": 301.75244140625,
-                      "height": 0.8901251554489136,
-                      "relativeX": 0,
-                      "relativeY": 249.23504638671875
-                    },
-                    "fill": "paint_107:6490",
-                    "_color": "rgba(255, 255, 255, 0.4)"
+                    "fill": "#DDBC7E",
+                    "data": ""
                   }
                 ],
-                "componentId": "107:6497"
-              },
-              {
-                "type": "INSTANCE",
-                "id": "185:9039",
-                "name": "组 5487",
-                "layoutStyle": {
-                  "width": 301.75244140625,
-                  "height": 404.1168212890625,
-                  "relativeX": 325.7857971191406,
-                  "relativeY": 0
-                },
-                "componentInfo": {},
-                "children": [
-                  {
-                    "type": "LAYER",
-                    "id": "185:9039/107:6314",
-                    "name": "1. 全景图",
-                    "layoutStyle": {
-                      "width": 301.75244140625,
-                      "height": 226.091796875,
-                      "relativeX": 0,
-                      "relativeY": 0
-                    },
-                    "borderRadius": "16px",
-                    "fill": "paint_163:7830"
-                  },
-                  {
-                    "type": "LAYER",
-                    "id": "185:9039/107:7198",
-                    "name": "1. 全景图",
-                    "layoutStyle": {
-                      "width": 301.75244140625,
-                      "height": 226.091796875,
-                      "relativeX": 0,
-                      "relativeY": 0
-                    },
-                    "borderRadius": "16px",
-                    "fill": "paint_107:7345",
-                    "_color": "linear-gradient(180deg, rgba(1, 13, 31, 0) 0%, #001E4C 100%)"
-                  },
-                  {
-                    "type": "TEXT",
-                    "id": "185:9039/107:6318",
-                    "name": "大厅",
-                    "layoutStyle": {
-                      "width": 56,
-                      "height": 29,
-                      "relativeX": 22.2529296875,
-                      "relativeY": 182.47564697265625
-                    },
-                    "fill": "paint_102:5127",
-                    "_color": "#FFFFFF",
-                    "_token": "纯白",
-                    "text": [
-                      {
-                        "text": "2003",
-                        "font": "font_86:4965"
-                      }
-                    ],
-                    "textColor": [
-                      {
-                        "start": 0,
-                        "end": 4,
-                        "color": "paint_102:5127"
-                      }
-                    ],
-                    "textAlign": "left",
-                    "textMode": "single-line"
-                  },
-                  {
-                    "type": "TEXT",
-                    "id": "185:9039/107:6338",
-                    "name": "自主创新研发精密导电滑环，国产首创，填补国内技术空白",
-                    "layoutStyle": {
-                      "width": 301.75244140625,
-                      "height": 105.0347671508789,
-                      "relativeX": 0,
-                      "relativeY": 263.47705078125
-                    },
-                    "fill": "paint_102:5127",
-                    "_color": "#FFFFFF",
-                    "_token": "纯白",
-                    "text": [
-                      {
-                        "text": "杭州全盛电气有限公司成立",
-                        "font": "font_86:5004"
-                      }
-                    ],
-                    "textColor": [
-                      {
-                        "start": 0,
-                        "end": 12,
-                        "color": "paint_102:5127"
-                      }
-                    ],
-                    "textAlign": "left",
-                    "textMode": "single-line"
-                  },
-                  {
-                    "type": "LAYER",
-                    "id": "185:9039/107:6435",
-                    "name": "矩形 2808",
-                    "layoutStyle": {
-                      "width": 301.75244140625,
-                      "height": 0.8901251554489136,
-                      "relativeX": 0,
-                      "relativeY": 249.23504638671875
-                    },
-                    "fill": "paint_107:6490",
-                    "_color": "rgba(255, 255, 255, 0.4)"
-                  }
-                ],
-                "componentId": "107:6497"
-              },
-              {
-                "type": "INSTANCE",
-                "id": "185:9046",
-                "name": "组 5488",
-                "layoutStyle": {
-                  "width": 301.75244140625,
-                  "height": 404.1168212890625,
-                  "relativeX": 652.4617309570312,
-                  "relativeY": 0
-                },
-                "componentInfo": {},
-                "children": [
-                  {
-                    "type": "LAYER",
-                    "id": "185:9046/107:6314",
-                    "name": "1. 全景图",
-                    "layoutStyle": {
-                      "width": 301.75244140625,
-                      "height": 226.091796875,
-                      "relativeX": 0,
-                      "relativeY": 0
-                    },
-                    "borderRadius": "16px",
-                    "fill": "paint_142:9976"
-                  },
-                  {
-                    "type": "LAYER",
-                    "id": "185:9046/107:7198",
-                    "name": "1. 全景图",
-                    "layoutStyle": {
-                      "width": 301.75244140625,
-                      "height": 226.091796875,
-                      "relativeX": 0,
-                      "relativeY": 0
-                    },
-                    "borderRadius": "16px",
-                    "fill": "paint_107:7345",
-                    "_color": "linear-gradient(180deg, rgba(1, 13, 31, 0) 0%, #001E4C 100%)"
-                  },
-                  {
-                    "type": "TEXT",
-                    "id": "185:9046/107:6318",
-                    "name": "大厅",
-                    "layoutStyle": {
-                      "width": 56,
-                      "height": 29,
-                      "relativeX": 22.2529296875,
-                      "relativeY": 182.47564697265625
-                    },
-                    "fill": "paint_102:5127",
-                    "_color": "#FFFFFF",
-                    "_token": "纯白",
-                    "text": [
-                      {
-                        "text": "2006",
-                        "font": "font_86:4965"
-                      }
-                    ],
-                    "textColor": [
-                      {
-                        "start": 0,
-                        "end": 4,
-                        "color": "paint_102:5127"
-                      }
-                    ],
-                    "textAlign": "left",
-                    "textMode": "single-line"
-                  },
-                  {
-                    "type": "TEXT",
-                    "id": "185:9046/107:6338",
-                    "name": "自主创新研发精密导电滑环，国产首创，填补国内技术空白",
-                    "layoutStyle": {
-                      "width": 301.75244140625,
-                      "height": 105.0347671508789,
-                      "relativeX": 0,
-                      "relativeY": 263.47705078125
-                    },
-                    "fill": "paint_102:5127",
-                    "_color": "#FFFFFF",
-                    "_token": "纯白",
-                    "text": [
-                      {
-                        "text": "通过IS09001质量管理体系认证",
-                        "font": "font_86:5004"
-                      }
-                    ],
-                    "textColor": [
-                      {
-                        "start": 0,
-                        "end": 17,
-                        "color": "paint_102:5127"
-                      }
-                    ],
-                    "textAlign": "left",
-                    "textMode": "single-line"
-                  },
-                  {
-                    "type": "LAYER",
-                    "id": "185:9046/107:6435",
-                    "name": "矩形 2808",
-                    "layoutStyle": {
-                      "width": 301.75244140625,
-                      "height": 0.8901251554489136,
-                      "relativeX": 0,
-                      "relativeY": 249.23504638671875
-                    },
-                    "fill": "paint_107:6490",
-                    "_color": "rgba(255, 255, 255, 0.4)"
-                  }
-                ],
-                "componentId": "107:6497"
-              },
-              {
-                "type": "INSTANCE",
-                "id": "185:9053",
-                "name": "组 5489",
-                "layoutStyle": {
-                  "width": 301.75244140625,
-                  "height": 404.1168212890625,
-                  "relativeX": 978.24755859375,
-                  "relativeY": 0
-                },
-                "componentInfo": {},
-                "children": [
-                  {
-                    "type": "LAYER",
-                    "id": "185:9053/107:6314",
-                    "name": "1. 全景图",
-                    "layoutStyle": {
-                      "width": 301.75244140625,
-                      "height": 226.091796875,
-                      "relativeX": 0,
-                      "relativeY": 0
-                    },
-                    "borderRadius": "16px",
-                    "fill": "paint_163:7834"
-                  },
-                  {
-                    "type": "LAYER",
-                    "id": "185:9053/107:7198",
-                    "name": "1. 全景图",
-                    "layoutStyle": {
-                      "width": 301.75244140625,
-                      "height": 226.091796875,
-                      "relativeX": 0,
-                      "relativeY": 0
-                    },
-                    "borderRadius": "16px",
-                    "fill": "paint_107:7345",
-                    "_color": "linear-gradient(180deg, rgba(1, 13, 31, 0) 0%, #001E4C 100%)"
-                  },
-                  {
-                    "type": "TEXT",
-                    "id": "185:9053/107:6318",
-                    "name": "大厅",
-                    "layoutStyle": {
-                      "width": 56,
-                      "height": 29,
-                      "relativeX": 22.2529296875,
-                      "relativeY": 182.47564697265625
-                    },
-                    "fill": "paint_102:5127",
-                    "_color": "#FFFFFF",
-                    "_token": "纯白",
-                    "text": [
-                      {
-                        "text": "2010",
-                        "font": "font_86:4965"
-                      }
-                    ],
-                    "textColor": [
-                      {
-                        "start": 0,
-                        "end": 4,
-                        "color": "paint_102:5127"
-                      }
-                    ],
-                    "textAlign": "left",
-                    "textMode": "single-line"
-                  },
-                  {
-                    "type": "TEXT",
-                    "id": "185:9053/107:6338",
-                    "name": "自主创新研发精密导电滑环，国产首创，填补国内技术空白",
-                    "layoutStyle": {
-                      "width": 301.75244140625,
-                      "height": 105.0347671508789,
-                      "relativeX": 0,
-                      "relativeY": 263.47705078125
-                    },
-                    "fill": "paint_102:5127",
-                    "_color": "#FFFFFF",
-                    "_token": "纯白",
-                    "text": [
-                      {
-                        "text": "更名为杭州全盛机电科技有限公司",
-                        "font": "font_86:5004"
-                      }
-                    ],
-                    "textColor": [
-                      {
-                        "start": 0,
-                        "end": 15,
-                        "color": "paint_102:5127"
-                      }
-                    ],
-                    "textAlign": "left",
-                    "textMode": "single-line"
-                  },
-                  {
-                    "type": "LAYER",
-                    "id": "185:9053/107:6435",
-                    "name": "矩形 2808",
-                    "layoutStyle": {
-                      "width": 301.75244140625,
-                      "height": 0.8901251554489136,
-                      "relativeX": 0,
-                      "relativeY": 249.23504638671875
-                    },
-                    "fill": "paint_107:6490",
-                    "_color": "rgba(255, 255, 255, 0.4)"
-                  }
-                ],
-                "componentId": "107:6497"
+                "svgKey": "S9:容器|90:6310_1",
+                "svgShortKey": "S9#1",
+                "svgName": "容器"
               }
             ]
+          },
+          {
+            "type": "FRAME",
+            "id": "90:6311",
+            "name": "容器",
+            "layoutStyle": {
+              "width": 16,
+              "height": 16,
+              "relativeX": 1279,
+              "relativeY": 144,
+              "preserveRatio": true
+            },
+            "children": [
+              {
+                "type": "PATH",
+                "id": "90:6312",
+                "name": "路径",
+                "layoutStyle": {
+                  "width": 16,
+                  "height": 16,
+                  "relativeX": 0,
+                  "relativeY": 0,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
+                },
+                "path": [
+                  {
+                    "fill": "#DDBC7E",
+                    "data": ""
+                  }
+                ],
+                "svgKey": "S9:容器|90:6312_2",
+                "svgShortKey": "S9#2",
+                "svgName": "容器"
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "id": "90:6313",
+            "name": "容器",
+            "layoutStyle": {
+              "width": 16,
+              "height": 16,
+              "relativeX": 1405,
+              "relativeY": 144,
+              "preserveRatio": true
+            },
+            "children": [
+              {
+                "type": "PATH",
+                "id": "90:6314",
+                "name": "路径",
+                "layoutStyle": {
+                  "width": 12.49178695678711,
+                  "height": 12.49155330657959,
+                  "relativeX": 1.7557373046875,
+                  "relativeY": 1.75439453125,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
+                },
+                "path": [
+                  {
+                    "fill": "#DDBC7E",
+                    "data": ""
+                  }
+                ],
+                "svgKey": "S9:容器|90:6314_3",
+                "svgShortKey": "S9#3",
+                "svgName": "容器"
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "id": "90:6315",
+            "name": "容器",
+            "layoutStyle": {
+              "width": 16,
+              "height": 16,
+              "relativeX": 1447,
+              "relativeY": 144,
+              "preserveRatio": true
+            },
+            "children": [
+              {
+                "type": "PATH",
+                "id": "90:6316",
+                "name": "路径",
+                "layoutStyle": {
+                  "width": 13.996315002441406,
+                  "height": 15.99605941772461,
+                  "relativeX": 1.003662109375,
+                  "relativeY": 0,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
+                },
+                "path": [
+                  {
+                    "fill": "#DDBC7E",
+                    "data": ""
+                  }
+                ],
+                "svgKey": "S9:容器|90:6316_4",
+                "svgShortKey": "S9#4",
+                "svgName": "容器"
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "id": "90:6317",
+            "name": "容器",
+            "layoutStyle": {
+              "width": 16,
+              "height": 16,
+              "relativeX": 1489,
+              "relativeY": 144,
+              "preserveRatio": true
+            },
+            "children": [
+              {
+                "type": "PATH",
+                "id": "90:6318",
+                "name": "路径",
+                "layoutStyle": {
+                  "width": 14.000175476074219,
+                  "height": 14,
+                  "relativeX": 0.9998779296875,
+                  "relativeY": 1,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
+                },
+                "path": [
+                  {
+                    "fill": "#DDBC7E",
+                    "data": ""
+                  }
+                ],
+                "svgKey": "S9:容器|90:6318_5",
+                "svgShortKey": "S9#5",
+                "svgName": "容器"
+              }
+            ]
+          },
+          {
+            "type": "PATH",
+            "id": "90:6319",
+            "name": "直线 49",
+            "layoutStyle": {
+              "width": 16,
+              "relativeX": null,
+              "relativeY": null,
+              "preserveRatio": true
+            },
+            "opacity": 0.20000000298023224,
+            "_svgUnavailable": true
+          },
+          {
+            "type": "PATH",
+            "id": "90:6320",
+            "name": "直线 50",
+            "layoutStyle": {
+              "width": 16,
+              "relativeX": null,
+              "relativeY": null,
+              "preserveRatio": true
+            },
+            "opacity": 0.20000000298023224,
+            "_svgUnavailable": true
+          },
+          {
+            "type": "PATH",
+            "id": "90:6321",
+            "name": "直线 51",
+            "layoutStyle": {
+              "width": 16,
+              "relativeX": null,
+              "relativeY": null,
+              "preserveRatio": true
+            },
+            "opacity": 0.20000000298023224,
+            "_svgUnavailable": true
           }
         ]
       }
@@ -624,50 +1133,120 @@
     "components": [],
     "rowTexts": [
       {
-        "text": "2002",
-        "parentType": "INSTANCE",
-        "parentName": "组 5486"
+        "text": "Power supplies for medical, I.T.E., \nPoE and everyday charging\napplications.",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
       },
       {
-        "text": "推出国内首款自研精密导电滑环，填补国内技术空白",
-        "parentType": "INSTANCE",
-        "parentName": "组 5486"
+        "text": "© 2026 Fuhua Electronic Co., Ltd. All rights reserved.",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
       },
       {
-        "text": "2003",
-        "parentType": "INSTANCE",
-        "parentName": "组 5487"
+        "text": "Products",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
       },
       {
-        "text": "杭州全盛电气有限公司成立",
-        "parentType": "INSTANCE",
-        "parentName": "组 5487"
+        "text": "AC-DC Power Adapter",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
       },
       {
-        "text": "2006",
-        "parentType": "INSTANCE",
-        "parentName": "组 5488"
+        "text": "Home",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
       },
       {
-        "text": "通过IS09001质量管理体系认证",
-        "parentType": "INSTANCE",
-        "parentName": "组 5488"
+        "text": "Charger",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
       },
       {
-        "text": "2010",
-        "parentType": "INSTANCE",
-        "parentName": "组 5489"
+        "text": "About Us",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
       },
       {
-        "text": "更名为杭州全盛机电科技有限公司",
-        "parentType": "INSTANCE",
-        "parentName": "组 5489"
+        "text": "Product",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
+      },
+      {
+        "text": "+86 769 8602 2222",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
+      },
+      {
+        "text": "News",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
+      },
+      {
+        "text": "fuhua@fuhua-cn.com",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
+      },
+      {
+        "text": "R & D Center",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
+      },
+      {
+        "text": "Join Us",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
+      },
+      {
+        "text": "Solution",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
+      },
+      {
+        "text": "Contact Us",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
+      },
+      {
+        "text": "Fuhua Electronic Industrial Park, Xianglong Road, Huangzhou, New Town District, Shilong Town, Dongguan, Guangdong Province, China. 523326 ↗",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
+      },
+      {
+        "text": "Company",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
+      },
+      {
+        "text": "Let’s Connect",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
+      },
+      {
+        "text": "RBA Statemet",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
+      },
+      {
+        "text": "Trem of use",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
+      },
+      {
+        "text": "Cookie Policy",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
+      },
+      {
+        "text": "Privacy  Polict",
+        "parentType": "FRAME",
+        "parentName": "Footeer"
       }
     ]
   },
-  "nodeCount": 28,
-  "svgNodeCount": 1,
+  "nodeCount": 47,
+  "svgNodeCount": 6,
   "hasStrippedSvgs": true,
   "componentDocumentLinks": [],
-  "fetchProgress": "Fetched 10/31. MISSING 21 sections: [10,11,12,13,14,15,16,17,18,19... +11 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+  "fetchProgress": "Fetched 10/11. MISSING 1 sections: [10]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
 }

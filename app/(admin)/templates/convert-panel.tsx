@@ -405,7 +405,11 @@ export default function ConvertWizard() {
                 ))}
               </span>
             </h3>
-            {tab === "visual" ? <VisualPreview id={conv.id} /> : <TemplatePreview id={conv.id} />}
+            {tab === "visual" ? (
+              <VisualPreview id={conv.id} src={`/api/preview/${conv.id}/html`} designWidth={1280} />
+            ) : (
+              <TemplatePreview id={conv.id} />
+            )}
             <div className="mt-4 flex flex-wrap gap-2">
               <a
                 className="inline-flex items-center rounded-md border border-slate-200 bg-white px-3.5 py-2 text-sm font-medium text-blue-600 transition hover:bg-slate-50"

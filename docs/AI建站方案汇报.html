@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MasterGo 设计稿转 WordPress</title>
+<style>
+:root{
+  --ink:#101828;--body:#42526b;--muted:#718096;--line:#dce5f0;
+  --bg:#f4f7fb;--card:#fff;--blue:#2554e8;--blue-dark:#173bb5;
+  --blue-soft:#edf2ff;--teal:#0d9488;--teal-soft:#e9faf7;
+  --violet:#6957d7;--violet-soft:#f1efff;--amber:#c26a07;--amber-soft:#fff5e8;
+  --radius:24px;--shadow:0 18px 50px rgba(23,43,77,.09);
+}
+*{box-sizing:border-box}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font-family:"Aptos","Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+  font-size:20px;line-height:1.65;-webkit-font-smoothing:antialiased;
+}
+body::before{
+  content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:radial-gradient(850px 520px at 0% -10%,rgba(37,84,232,.13),transparent 68%),radial-gradient(700px 460px at 100% 0%,rgba(13,148,136,.10),transparent 64%);
+}
+h1,h2,h3,p{margin:0}
+.wrap{width:min(1160px,calc(100% - 48px));margin:0 auto}
+.top{height:78px;display:flex;align-items:center;border-bottom:1px solid rgba(220,229,240,.9);background:rgba(248,251,255,.88);backdrop-filter:blur(16px)}
+.brand{display:flex;align-items:center;gap:13px;font-size:20px;font-weight:800}
+.mark{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;color:#fff;font-size:18px;font-weight:900;background:linear-gradient(145deg,var(--blue),var(--blue-dark));box-shadow:0 10px 24px rgba(37,84,232,.24)}
+.brand span:last-child{color:var(--muted);font-weight:600}
+.hero{padding:72px 0 42px}
+.hero-grid{display:grid;grid-template-columns:1.06fr .94fr;gap:56px;align-items:center}
+.kicker{font-size:17px;font-weight:800;color:var(--blue);letter-spacing:.08em}
+h1{margin-top:16px;font-size:clamp(56px,6.7vw,82px);line-height:1.08;letter-spacing:-.055em;font-weight:850}
+h1 em{font-style:normal;color:var(--blue)}
+.lead{max-width:590px;margin-top:26px;font-size:23px;line-height:1.7;color:var(--body)}
+.lead b{color:var(--ink)}
+.tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.tags span{padding:9px 15px;border-radius:999px;background:#fff;border:1px solid var(--line);color:#31435d;font-size:17px;font-weight:700}
+.flow-card{background:var(--card);border:1px solid #e4ebf5;border-radius:28px;padding:28px;box-shadow:var(--shadow)}
+.flow-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}
+.flow-head h2{font-size:23px}
+.live{padding:6px 12px;border-radius:999px;background:var(--teal-soft);color:var(--teal);font-size:15px;font-weight:800;white-space:nowrap}
+.flow-item{display:grid;grid-template-columns:58px 1fr;gap:15px;align-items:center}
+.flow-icon{width:58px;height:58px;border-radius:17px;display:grid;place-items:center;background:var(--blue-soft);color:var(--blue);font-size:21px;font-weight:900;border:1px solid #dbe5ff}
+.flow-item:nth-child(3) .flow-icon{background:var(--teal-soft);color:var(--teal);border-color:#ccefe9}
+.flow-item:nth-child(5) .flow-icon{background:var(--violet-soft);color:var(--violet);border-color:#ded9ff}
+.flow-item:nth-child(7) .flow-icon{background:var(--amber-soft);color:var(--amber);border-color:#ffe2bc}
+.flow-title{font-size:25px;font-weight:800;line-height:1.3}
+.flow-sub{font-size:17px;color:var(--muted);line-height:1.45;margin-top:2px}
+.down{height:28px;margin-left:29px;width:2px;background:#cdd8e8;position:relative}
+.down::after{content:"";position:absolute;bottom:-2px;left:-4px;border-left:5px solid transparent;border-right:5px solid transparent;border-top:7px solid #aebdd2}
+.section{padding:56px 0 0}
+.section-head{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:start;padding-bottom:24px;border-bottom:1px solid var(--line);margin-bottom:26px}
+.sec-no{width:54px;height:54px;border-radius:16px;display:grid;place-items:center;background:var(--blue);color:#fff;font-size:18px;font-weight:900;box-shadow:0 10px 24px rgba(37,84,232,.20)}
+.section-head h2{font-size:clamp(40px,4.5vw,54px);line-height:1.15;letter-spacing:-.045em;font-weight:850}
+.section-head p{font-size:21px;color:var(--body);margin-top:7px;max-width:780px}
+.route{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.route-card{position:relative;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:26px 24px;box-shadow:0 8px 26px rgba(23,43,77,.055)}
+.route-card::after{content:"";position:absolute;top:50%;right:-20px;width:15px;height:15px;border-top:3px solid #b8c6d9;border-right:3px solid #b8c6d9;transform:translateY(-50%) rotate(45deg)}
+.route-card:last-child::after{display:none}
+.route-no{font-size:16px;font-weight:900;color:var(--blue);letter-spacing:.08em}
+.route-card h3{font-size:28px;letter-spacing:-.03em;margin-top:8px;line-height:1.25}
+.route-card p{font-size:18px;color:var(--body);margin-top:8px;line-height:1.55}
+.icon-box{width:46px;height:46px;border-radius:13px;display:grid;place-items:center;margin-bottom:18px;background:var(--blue-soft);color:var(--blue);font-size:20px;font-weight:900}
+.route-card:nth-child(2) .icon-box{background:var(--teal-soft);color:var(--teal)}
+.route-card:nth-child(3) .icon-box{background:var(--violet-soft);color:var(--violet)}
+.route-card:nth-child(4) .icon-box{background:var(--amber-soft);color:var(--amber)}
+.value-row{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}
+.value{display:flex;align-items:center;gap:13px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.7);padding:15px 18px;font-size:19px;font-weight:750}
+.value i{width:28px;height:28px;flex:0 0 28px;border-radius:50%;display:grid;place-items:center;background:var(--teal-soft);color:var(--teal);font-style:normal;font-size:16px;font-weight:900}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.step{position:relative;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px 24px 24px;box-shadow:0 8px 26px rgba(23,43,77,.05);display:flex;flex-direction:column;min-height:310px}
+.step::after{content:"";position:absolute;top:44px;right:-18px;width:12px;height:12px;border-top:3px solid #bac7d8;border-right:3px solid #bac7d8;transform:rotate(45deg)}
+.step:last-child::after{display:none}
+.step-top{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.step-no{font-size:46px;font-weight:900;line-height:1;color:#cbd7ea;letter-spacing:-.05em}
+.step-tag{padding:5px 11px;border-radius:999px;background:var(--blue-soft);color:var(--blue);font-size:14px;font-weight:800}
+.step:nth-child(2) .step-tag{background:var(--teal-soft);color:var(--teal)}
+.step:nth-child(3) .step-tag{background:var(--violet-soft);color:var(--violet)}
+.step:nth-child(4) .step-tag{background:var(--amber-soft);color:var(--amber)}
+.step h3{font-size:29px;line-height:1.25;letter-spacing:-.03em;margin-top:13px}
+.step p{font-size:19px;line-height:1.6;color:var(--body);margin-top:9px}
+.out{margin-top:auto;padding-top:16px;border-top:1px solid var(--line);font-size:17px;color:var(--muted)}
+.out b{color:var(--ink);display:block;font-size:15px;letter-spacing:.06em;margin-bottom:1px}
+.mapping{background:#fff;border:1px solid var(--line);border-radius:28px;box-shadow:var(--shadow);padding:30px}
+.mapping-grid{display:grid;grid-template-columns:1fr 140px 1.12fr;gap:22px;align-items:center}
+.panel-label{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:16px;font-weight:900;letter-spacing:.07em;color:var(--muted);margin-bottom:14px}
+.panel-label span{color:var(--blue);background:var(--blue-soft);padding:4px 10px;border-radius:999px;font-size:14px;letter-spacing:0}
+.html-stack{display:grid;gap:10px}
+.html-item{display:flex;align-items:center;justify-content:space-between;gap:12px;border:1px solid var(--line);border-radius:14px;background:#f8faff;padding:14px 16px;font-size:19px;font-weight:750}
+.html-item code{font-family:"Cascadia Code","Consolas",monospace;font-size:15px;color:var(--violet);background:var(--violet-soft);padding:3px 8px;border-radius:6px}
+.map-center{text-align:center}
+.map-pill{display:inline-block;padding:9px 13px;border-radius:10px;background:var(--blue);color:#fff;font-size:16px;font-weight:800;box-shadow:0 8px 18px rgba(37,84,232,.20)}
+.arrow-line{height:2px;background:linear-gradient(90deg,#d7e1f0,var(--blue));position:relative;margin:13px 0}
+.arrow-line::after{content:"";position:absolute;right:-1px;top:-5px;border-top:6px solid transparent;border-bottom:6px solid transparent;border-left:9px solid var(--blue)}
+.map-note{font-size:14px;color:var(--muted);line-height:1.45}
+.json-box{border-radius:16px;background:#101828;padding:20px 22px;color:#dbe7ff}
+.json-title{font-size:14px;font-weight:800;color:#8fb0ff;letter-spacing:.08em;margin-bottom:10px}
+.tree{font-family:"Cascadia Code","Consolas",monospace;font-size:17px;line-height:1.8}
+.tree div{white-space:nowrap}
+.tree .t1{color:#fff;font-weight:700}.tree .t2{color:#8fd8cb}.tree .t3{color:#c7b8ff}.tree .t4{color:#f5c982}.tree .muted{color:#66758c}
+.cap-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:22px}
+.cap{border:1px solid var(--line);border-radius:14px;background:#f9fbff;padding:12px;text-align:center;font-size:16px;font-weight:750;color:#34465f}
+.checks{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.check{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px 18px;box-shadow:0 6px 20px rgba(23,43,77,.04)}
+.check-icon{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:var(--teal-soft);color:var(--teal);font-size:20px;font-weight:900;margin-bottom:15px}
+.check h3{font-size:23px;line-height:1.3;letter-spacing:-.02em}
+.check p{font-size:17px;color:var(--body);margin-top:6px;line-height:1.5}
+.phases{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.phase{position:relative;background:#fff;border:1px solid var(--line);border-radius:22px;padding:26px 24px}
+.phase::after{content:"";position:absolute;top:50%;right:-15px;width:10px;height:10px;border-top:3px solid #b9c6d8;border-right:3px solid #b9c6d8;transform:translateY(-50%) rotate(45deg)}
+.phase:last-child::after{display:none}
+.phase small{font-size:15px;font-weight:900;color:var(--blue);letter-spacing:.07em}
+.phase h3{font-size:29px;letter-spacing:-.03em;margin-top:7px}
+.phase p{font-size:18px;color:var(--body);margin-top:6px}
+.callout{margin-top:22px;border-radius:22px;padding:28px 34px;background:linear-gradient(135deg,#101828,#17345f);color:#fff;display:flex;align-items:center;justify-content:space-between;gap:26px}
+.callout h3{font-size:32px;line-height:1.35;letter-spacing:-.03em}
+.callout p{font-size:18px;color:#adc1df;margin-top:5px}
+.callout .badge{flex:0 0 auto;padding:11px 18px;border-radius:999px;border:1px solid rgba(255,255,255,.22);color:#dce9ff;font-size:17px;font-weight:750}
+footer{padding:34px 0 46px;margin-top:42px;border-top:1px solid var(--line);color:var(--muted);font-size:16px}
+@media(max-width:980px){
+  .hero-grid{grid-template-columns:1fr;gap:38px}.lead{max-width:none}
+  .route,.process{grid-template-columns:1fr 1fr}.route-card::after,.step::after{display:none}
+  .checks{grid-template-columns:repeat(3,1fr)}.mapping-grid{grid-template-columns:1fr;gap:18px}
+  .map-center{display:flex;align-items:center;gap:12px}.map-center .arrow-line{flex:1;margin:0}.map-center .map-note{display:none}
+}
+@media(max-width:680px){
+  .wrap{width:calc(100% - 28px)}body{font-size:19px}.hero{padding-top:46px}
+  h1{font-size:46px}.lead{font-size:20px}
+  .section-head{grid-template-columns:1fr;gap:12px}.section-head p{font-size:19px}
+  .route,.process,.value-row,.cap-row,.phases,.checks{grid-template-columns:1fr}
+  .flow-card{padding:22px}.flow-title{font-size:23px}.step{min-height:0}
+  .callout{flex-direction:column;align-items:flex-start;padding:24px}.callout h3{font-size:26px}
+  .brand span:last-child{display:none}
+}
+@media print{
+  @page{margin:12mm}body{background:#fff;font-size:13px}body::before,.top{display:none}
+  .wrap{width:100%}.hero{padding:0 0 16px}.section{padding-top:18px;break-inside:avoid}
+  .flow-card,.mapping,.route-card,.step,.check,.phase{box-shadow:none}
+  h1{font-size:38px}.lead{font-size:15px;margin-top:10px}.section-head h2{font-size:26px}
+}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap brand"><span class="mark">M</span><span>MasterGo</span><span>→ Elementor</span></div></header>
+<main>
+<section class="hero"><div class="wrap hero-grid">
+  <div>
+    <div class="kicker">AI 建站</div>
+    <h1>设计稿<br /><em>直接变成网站</em></h1>
+    <p class="lead">从 MasterGo 设计稿出发，生成 <b>HTML 页面</b>，转为 <b>Elementor 原生结构</b>，最后上传到 WordPress。</p>
+    <div class="tags"><span>不切图</span><span>可编辑</span><span>三端适配</span><span>模板化交付</span></div>
+  </div>
+  <div class="flow-card">
+    <div class="flow-head"><h2>交付链路</h2><span class="live">一条线跑通</span></div>
+    <div class="flow-item"><span class="flow-icon">01</span><div><div class="flow-title">MasterGo 设计稿</div><div class="flow-sub">页面、区块、文字、图片与图标</div></div></div>
+    <div class="down"></div>
+    <div class="flow-item"><span class="flow-icon">02</span><div><div class="flow-title">HTML 页面</div><div class="flow-sub">先打开验收布局与还原度</div></div></div>
+    <div class="down"></div>
+    <div class="flow-item"><span class="flow-icon">03</span><div><div class="flow-title">Elementor 结构</div><div class="flow-sub">原生容器和组件，可继续编辑</div></div></div>
+    <div class="down"></div>
+    <div class="flow-item"><span class="flow-icon">04</span><div><div class="flow-title">WordPress 网站</div><div class="flow-sub">导入模板、上传资源、生成页面</div></div></div>
+  </div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="section-head"><div class="sec-no">01</div><div><h2>一条链路，四段交付</h2><p>HTML 是中间验收产物；最终交付的是 WordPress 中可编辑的 Elementor 页面。</p></div></div>
+  <div class="route">
+    <div class="route-card"><div class="icon-box">1</div><div class="route-no">01 / 取稿</div><h3>读取设计</h3><p>自动获取结构、样式与资源，不再手工量尺寸。</p></div>
+    <div class="route-card"><div class="icon-box">2</div><div class="route-no">02 / 成型</div><h3>生成 HTML</h3><p>浏览器直接查看，先确认页面长得对不对。</p></div>
+    <div class="route-card"><div class="icon-box">3</div><div class="route-no">03 / 转换</div><h3>转为 Elementor</h3><p>HTML 映射为容器与组件，输出模板 JSON。</p></div>
+    <div class="route-card"><div class="icon-box">4</div><div class="route-no">04 / 上线</div><h3>上传网站</h3><p>导入模板、上传图片，生成页面后发布。</p></div>
+  </div>
+  <div class="value-row"><div class="value"><i>✓</i>先验收，再上线</div><div class="value"><i>✓</i>后台可以继续改</div><div class="value"><i>✓</i>单页跑通后复制整站</div></div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="section-head"><div class="sec-no">02</div><div><h2>具体怎么做</h2><p>每一步都有明确产物，出问题时能快速定位、单独重跑。</p></div></div>
+  <div class="process">
+    <div class="step"><div class="step-top"><span class="step-no">01</span><span class="step-tag">MasterGo</span></div><h3>读取设计稿</h3><p>用 MCP 拉取页面和区块，提取文字、颜色、间距、圆角、图片与图标。</p><div class="out"><b>产物</b>设计数据 + 图片资源</div></div>
+    <div class="step"><div class="step-top"><span class="step-no">02</span><span class="step-tag">HTML</span></div><h3>生成 HTML</h3><p>按设计还原布局与样式，生成桌面、平板、手机三档。</p><div class="out"><b>产物</b>可浏览的 HTML 页面</div></div>
+    <div class="step"><div class="step-top"><span class="step-no">03</span><span class="step-tag">Elementor</span></div><h3>转换结构</h3><p>参考 Chrome 插件，解析 HTML 与 CSS，映射成容器、组件和响应式样式。</p><div class="out"><b>产物</b>Elementor 模板 JSON</div></div>
+    <div class="step"><div class="step-top"><span class="step-no">04</span><span class="step-tag">WordPress</span></div><h3>上传网站</h3><p>导入模板或写入页面，图片进入媒体库，确认后发布。</p><div class="out"><b>产物</b>站点中的真实页面</div></div>
+  </div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="section-head"><div class="sec-no">03</div><div><h2>HTML 怎么变成 Elementor</h2><p>不自己造轮子，复用 Chrome 插件已验证的转换路径。</p></div></div>
+  <div class="mapping">
+    <div class="mapping-grid">
+      <div><div class="panel-label">输入 <span>HTML</span></div><div class="html-stack">
+        <div class="html-item">DOM 结构 <code>&lt;div&gt;</code></div>
+        <div class="html-item">计算样式 <code>CSS</code></div>
+        <div class="html-item">响应式断点 <code>3 档</code></div>
+        <div class="html-item">图片与图标 <code>URL</code></div>
+      </div></div>
+      <div class="map-center"><div class="map-pill">解析 · 映射</div><div class="arrow-line"></div><div class="map-note">整页或选中区块<br />都能转换</div></div>
+      <div><div class="panel-label">输出 <span>Elementor JSON</span></div><div class="json-box"><div class="json-title">TEMPLATE.JSON</div><div class="tree">
+        <div class="t1">Container</div>
+        <div><span class="muted">├─</span> <span class="t2">Heading</span></div>
+        <div><span class="muted">├─</span> <span class="t2">Paragraph</span></div>
+        <div><span class="muted">├─</span> <span class="t3">Image</span></div>
+        <div><span class="muted">├─</span> <span class="t3">Button</span></div>
+        <div><span class="muted">└─</span> <span class="t4">Grid / Container</span></div>
+      </div></div></div>
+    </div>
+    <div class="cap-row"><div class="cap">整页 / 选区转换</div><div class="cap">桌面 / 平板 / 手机</div><div class="cap">原生组件可编辑</div><div class="cap">兼容 Elementor 新版</div></div>
+  </div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="section-head"><div class="sec-no">04</div><div><h2>验收只看五件事</h2><p>不看代码量，看页面像不像、能不能改、能不能顺利上线。</p></div></div>
+  <div class="checks">
+    <div class="check"><div class="check-icon">✓</div><h3>视觉还原</h3><p>颜色、字号、间距与设计稿一致。</p></div>
+    <div class="check"><div class="check-icon">✓</div><h3>结构可编辑</h3><p>Elementor 中能按区块修改。</p></div>
+    <div class="check"><div class="check-icon">✓</div><h3>三端正常</h3><p>桌面、平板、手机都不错位。</p></div>
+    <div class="check"><div class="check-icon">✓</div><h3>资源完整</h3><p>图片、图标、字体没有失效。</p></div>
+    <div class="check"><div class="check-icon">✓</div><h3>成功导入</h3><p>模板 JSON 可被 Elementor 识别。</p></div>
+  </div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="section-head"><div class="sec-no">05</div><div><h2>推进方式</h2><p>先打通一个首页，再复制到整站，避免一开始铺得太大。</p></div></div>
+  <div class="phases">
+    <div class="phase"><small>第一步</small><h3>单页验证</h3><p>选一个真实首页，跑通设计稿到上线。</p></div>
+    <div class="phase"><small>第二步</small><h3>稳定适配</h3><p>补齐响应式、图片、图标和全局样式。</p></div>
+    <div class="phase"><small>第三步</small><h3>整站复制</h3><p>复用导航、页脚和区块，批量生成页面。</p></div>
+  </div>
+  <div class="callout"><div><h3>先把一个首页完整跑通</h3><p>设计稿 → HTML → Elementor → WordPress</p></div><span class="badge">建议从首页试点</span></div>
+</div></section>
+</main>
+<footer><div class="wrap">MasterGo 设计稿转 Elementor</div></footer>
+</body>
+</html>

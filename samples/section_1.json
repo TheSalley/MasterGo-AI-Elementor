@@ -1,13 +1,13 @@
 {
   "sectionIndex": 1,
   "section": {
-    "id": "185:8947",
-    "name": "bg",
-    "type": "GROUP"
+    "id": "20:3845",
+    "name": "表单",
+    "type": "FRAME"
   },
   "rootContainer": {
     "width": "1920px",
-    "minHeight": "8687px",
+    "minHeight": "4802px",
     "background": "#FFFFFF",
     "overflow": "hidden",
     "position": "relative"
@@ -15,62 +15,774 @@
   "structureSiblingCount": 1,
   "dsl": {
     "styles": {
-      "paint_107:01239": {
+      "font_20:1451": {
+        "value": {
+          "family": "Libre Franklin",
+          "size": 32,
+          "style": "{\"fontStyle\":\"SemiBold\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "uppercase",
+          "lineHeight": "auto",
+          "weight": "600"
+        }
+      },
+      "font_5:3795": {
+        "value": {
+          "family": "Libre Franklin",
+          "size": 14,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "auto",
+          "weight": "400"
+        }
+      },
+      "font_5:4059": {
+        "value": {
+          "family": "Libre Franklin",
+          "size": 12,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "18",
+          "weight": "400"
+        }
+      },
+      "font_5:4571": {
+        "value": {
+          "family": "Libre Franklin",
+          "size": 16,
+          "style": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "decoration": "none",
+          "case": "none",
+          "lineHeight": "auto",
+          "weight": "400"
+        }
+      },
+      "paint_20:1122": {
         "value": [
-          {
-            "url": "https://image-resource.mastergo.com/111621696712363/129208367678909/4a755bd4001e184632966db10a318ae9.png"
-          }
+          "#FA5151"
         ]
       },
-      "paint_145:23871": {
+      "paint_20:1519": {
         "value": [
-          "linear-gradient(180deg, rgba(245, 245, 245, 0) 0%, #EEEEEE 100%)"
+          "#F1EEE5"
         ]
+      },
+      "paint_2:3": {
+        "value": [
+          "#FFFFFF"
+        ]
+      },
+      "paint_5:3723": {
+        "value": [
+          "#000000"
+        ]
+      },
+      "paint_5:536": {
+        "value": [
+          "#DDBC7E"
+        ],
+        "token": "主色"
       }
     },
     "nodes": [
       {
-        "type": "GROUP",
-        "id": "185:8947",
-        "name": "bg",
+        "type": "FRAME",
+        "id": "20:3845",
+        "name": "表单",
         "layoutStyle": {
           "width": 1920,
-          "height": 1596,
+          "height": 608,
           "relativeX": 0,
           "relativeY": 0
         },
+        "fill": "paint_20:1519",
+        "_color": "#F1EEE5",
         "children": [
           {
-            "type": "LAYER",
-            "id": "185:8948",
-            "name": "image",
+            "type": "TEXT",
+            "id": "20:3846",
+            "name": "ABOUT UE ELECTRONIC",
             "layoutStyle": {
-              "width": 1920,
-              "height": 1596,
-              "relativeX": 0,
-              "relativeY": 0
+              "width": 141,
+              "height": 18,
+              "relativeX": 240,
+              "relativeY": 100
             },
-            "fill": "paint_107:01239"
+            "fill": "paint_5:536",
+            "_color": "#DDBC7E",
+            "_token": "主色",
+            "text": [
+              {
+                "text": "ABOUT UE ELECTRONIC",
+                "font": "font_5:4059"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 19,
+                "color": "paint_5:536"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "20:3850",
+            "name": "Company",
+            "layoutStyle": {
+              "width": 54,
+              "height": 18,
+              "relativeX": 912,
+              "relativeY": 100
+            },
+            "fill": "paint_5:3723",
+            "_color": "#000000",
+            "text": [
+              {
+                "text": "Company",
+                "font": "font_5:4059"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 7,
+                "color": "paint_5:3723"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "20:3854",
+            "name": "Work Email",
+            "layoutStyle": {
+              "width": 64,
+              "height": 18,
+              "relativeX": 912,
+              "relativeY": 198
+            },
+            "fill": "paint_5:3723",
+            "_color": "#000000",
+            "text": [
+              {
+                "text": "Work Email",
+                "font": "font_5:4059"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 10,
+                "color": "paint_5:3723"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "20:3858",
+            "name": "How can we help?",
+            "layoutStyle": {
+              "width": 100,
+              "height": 18,
+              "relativeX": 912,
+              "relativeY": 296
+            },
+            "fill": "paint_5:3723",
+            "_color": "#000000",
+            "text": [
+              {
+                "text": "How can we help? ",
+                "font": "font_5:4059"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 17,
+                "color": "paint_5:3723"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "20:3862",
+            "name": "Full Name",
+            "layoutStyle": {
+              "width": 56,
+              "height": 18,
+              "relativeX": 1327,
+              "relativeY": 100
+            },
+            "fill": "paint_5:3723",
+            "_color": "#000000",
+            "text": [
+              {
+                "text": "Full Name",
+                "font": "font_5:4059"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 9,
+                "color": "paint_5:3723"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "20:3866",
+            "name": "Phone",
+            "layoutStyle": {
+              "width": 37,
+              "height": 18,
+              "relativeX": 1327,
+              "relativeY": 198
+            },
+            "fill": "paint_5:3723",
+            "_color": "#000000",
+            "text": [
+              {
+                "text": "Phone",
+                "font": "font_5:4059"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 5,
+                "color": "paint_5:3723"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "20:3870",
+            "name": "*",
+            "layoutStyle": {
+              "width": 5,
+              "height": 18,
+              "relativeX": 904,
+              "relativeY": 100
+            },
+            "fill": "paint_20:1122",
+            "_color": "#FA5151",
+            "text": [
+              {
+                "text": "*",
+                "font": "font_5:4059"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 1,
+                "color": "paint_20:1122"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "20:3874",
+            "name": "*",
+            "layoutStyle": {
+              "width": 5,
+              "height": 18,
+              "relativeX": 904,
+              "relativeY": 198
+            },
+            "fill": "paint_20:1122",
+            "_color": "#FA5151",
+            "text": [
+              {
+                "text": "*",
+                "font": "font_5:4059"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 1,
+                "color": "paint_20:1122"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "20:3878",
+            "name": "*",
+            "layoutStyle": {
+              "width": 5,
+              "height": 18,
+              "relativeX": 904,
+              "relativeY": 296
+            },
+            "fill": "paint_20:1122",
+            "_color": "#FA5151",
+            "text": [
+              {
+                "text": "*",
+                "font": "font_5:4059"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 1,
+                "color": "paint_20:1122"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "20:3882",
+            "name": "*",
+            "layoutStyle": {
+              "width": 5,
+              "height": 18,
+              "relativeX": 1319,
+              "relativeY": 100
+            },
+            "fill": "paint_20:1122",
+            "_color": "#FA5151",
+            "text": [
+              {
+                "text": "*",
+                "font": "font_5:4059"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 1,
+                "color": "paint_20:1122"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "20:3886",
+            "name": "*",
+            "layoutStyle": {
+              "width": 5,
+              "height": 18,
+              "relativeX": 1319,
+              "relativeY": 198
+            },
+            "fill": "paint_20:1122",
+            "_color": "#FA5151",
+            "text": [
+              {
+                "text": "*",
+                "font": "font_5:4059"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 1,
+                "color": "paint_20:1122"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "20:3890",
+            "name": "Let’s talk about your next project.",
+            "layoutStyle": {
+              "width": 343,
+              "height": 78,
+              "relativeX": 241,
+              "relativeY": 142
+            },
+            "fill": "paint_5:3723",
+            "_color": "#000000",
+            "text": [
+              {
+                "text": "Let’s talk about\nyour next project.",
+                "font": "font_20:1451"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 35,
+                "color": "paint_5:3723"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "20:3894",
+            "name": "Share your application and power requirements with our team.",
+            "layoutStyle": {
+              "width": 403,
+              "height": 17,
+              "relativeX": 241,
+              "relativeY": 244
+            },
+            "fill": "paint_5:3723",
+            "_color": "#000000",
+            "text": [
+              {
+                "text": "T1|20:3894",
+                "font": "font_5:3795"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 60,
+                "color": "paint_5:3723"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
           },
           {
             "type": "LAYER",
-            "id": "185:8949",
-            "name": "image",
+            "id": "20:3898",
+            "name": "矩形 2413",
             "layoutStyle": {
-              "width": 1920,
-              "height": 616,
-              "relativeX": 0,
-              "relativeY": 980
+              "width": 360,
+              "height": 44,
+              "relativeX": 904,
+              "relativeY": 130
             },
-            "fill": "paint_145:23871",
-            "_color": "linear-gradient(180deg, rgba(245, 245, 245, 0) 0%, #EEEEEE 100%)"
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF"
+          },
+          {
+            "type": "LAYER",
+            "id": "20:3899",
+            "name": "矩形 2419",
+            "layoutStyle": {
+              "width": 360,
+              "height": 44,
+              "relativeX": 904,
+              "relativeY": 228
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF"
+          },
+          {
+            "type": "LAYER",
+            "id": "20:3900",
+            "name": "矩形 2418",
+            "layoutStyle": {
+              "width": 360,
+              "height": 44,
+              "relativeX": 1319,
+              "relativeY": 130
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF"
+          },
+          {
+            "type": "LAYER",
+            "id": "20:3901",
+            "name": "矩形 2420",
+            "layoutStyle": {
+              "width": 360,
+              "height": 44,
+              "relativeX": 1319,
+              "relativeY": 228
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF"
+          },
+          {
+            "type": "LAYER",
+            "id": "20:3902",
+            "name": "矩形 2417",
+            "layoutStyle": {
+              "width": 775,
+              "height": 102,
+              "relativeX": 904,
+              "relativeY": 326
+            },
+            "fill": "paint_2:3",
+            "_color": "#FFFFFF"
+          },
+          {
+            "type": "TEXT",
+            "id": "20:3903",
+            "name": "fuhua@fuhua-cn.com",
+            "layoutStyle": {
+              "width": 119,
+              "height": 18,
+              "relativeX": 273,
+              "relativeY": 336
+            },
+            "fill": "paint_5:3723",
+            "_color": "#000000",
+            "text": [
+              {
+                "text": "fuhua@fuhua-cn.com",
+                "font": "font_5:4059"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 18,
+                "color": "paint_5:3723"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "TEXT",
+            "id": "20:3907",
+            "name": "+86 769 8602 2222",
+            "layoutStyle": {
+              "width": 114,
+              "height": 18,
+              "relativeX": 273,
+              "relativeY": 302
+            },
+            "fill": "paint_5:3723",
+            "_color": "#000000",
+            "text": [
+              {
+                "text": "+86 769 8602 2222",
+                "font": "font_5:4059"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 17,
+                "color": "paint_5:3723"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
+          },
+          {
+            "type": "FRAME",
+            "id": "20:3911",
+            "name": "容器",
+            "layoutStyle": {
+              "width": 20,
+              "height": 20,
+              "relativeX": 241,
+              "relativeY": 299,
+              "preserveRatio": true
+            },
+            "children": [
+              {
+                "type": "PATH",
+                "id": "20:3912",
+                "name": "路径",
+                "layoutStyle": {
+                  "width": 16.666671752929688,
+                  "height": 15.833333015441895,
+                  "relativeX": 1.666748046875,
+                  "relativeY": 2.08349609375,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
+                },
+                "svgKey": "S1:容器|20:3912",
+                "svgShortKey": "S1#0",
+                "svgName": "容器"
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "id": "20:3913",
+            "name": "容器",
+            "layoutStyle": {
+              "width": 20,
+              "height": 20,
+              "relativeX": 241,
+              "relativeY": 334,
+              "preserveRatio": true
+            },
+            "children": [
+              {
+                "type": "PATH",
+                "id": "20:3914",
+                "name": "路径",
+                "layoutStyle": {
+                  "width": 16.66666603088379,
+                  "height": 12.5,
+                  "relativeX": 1.66650390625,
+                  "relativeY": 3.75,
+                  "constraint": {
+                    "horizontal": "SCALE",
+                    "vertical": "SCALE"
+                  }
+                },
+                "svgKey": "S1:容器|20:3914_1",
+                "svgShortKey": "S1#1",
+                "svgName": "容器"
+              }
+            ]
+          },
+          {
+            "type": "LAYER",
+            "id": "20:3915",
+            "name": "矩形 5",
+            "layoutStyle": {
+              "width": 776,
+              "height": 48,
+              "relativeX": 904.000244140625,
+              "relativeY": 460
+            },
+            "borderRadius": "2px",
+            "fill": "paint_5:536",
+            "_color": "#DDBC7E",
+            "_token": "主色"
+          },
+          {
+            "type": "TEXT",
+            "id": "20:3916",
+            "name": "Send Inquiry",
+            "layoutStyle": {
+              "width": 94,
+              "height": 19,
+              "relativeX": 1244,
+              "relativeY": 475
+            },
+            "fill": "paint_5:3723",
+            "_color": "#000000",
+            "text": [
+              {
+                "text": "Send Inquiry",
+                "font": "font_5:4571"
+              }
+            ],
+            "textColor": [
+              {
+                "start": 0,
+                "end": 12,
+                "color": "paint_5:3723"
+              }
+            ],
+            "textAlign": "left",
+            "textMode": "single-line"
           }
         ]
       }
     ],
-    "components": []
+    "components": [],
+    "rowTexts": [
+      {
+        "text": "ABOUT UE ELECTRONIC",
+        "parentType": "FRAME",
+        "parentName": "表单"
+      },
+      {
+        "text": "Company",
+        "parentType": "FRAME",
+        "parentName": "表单"
+      },
+      {
+        "text": "Work Email",
+        "parentType": "FRAME",
+        "parentName": "表单"
+      },
+      {
+        "text": "How can we help? ",
+        "parentType": "FRAME",
+        "parentName": "表单"
+      },
+      {
+        "text": "Full Name",
+        "parentType": "FRAME",
+        "parentName": "表单"
+      },
+      {
+        "text": "Phone",
+        "parentType": "FRAME",
+        "parentName": "表单"
+      },
+      {
+        "text": "*",
+        "parentType": "FRAME",
+        "parentName": "表单"
+      },
+      {
+        "text": "*",
+        "parentType": "FRAME",
+        "parentName": "表单"
+      },
+      {
+        "text": "*",
+        "parentType": "FRAME",
+        "parentName": "表单"
+      },
+      {
+        "text": "*",
+        "parentType": "FRAME",
+        "parentName": "表单"
+      },
+      {
+        "text": "*",
+        "parentType": "FRAME",
+        "parentName": "表单"
+      },
+      {
+        "text": "Let’s talk about\nyour next project.",
+        "parentType": "FRAME",
+        "parentName": "表单"
+      },
+      {
+        "text": "Share your application and power requirements with our team.",
+        "parentType": "FRAME",
+        "parentName": "表单"
+      },
+      {
+        "text": "fuhua@fuhua-cn.com",
+        "parentType": "FRAME",
+        "parentName": "表单"
+      },
+      {
+        "text": "+86 769 8602 2222",
+        "parentType": "FRAME",
+        "parentName": "表单"
+      },
+      {
+        "text": "Send Inquiry",
+        "parentType": "FRAME",
+        "parentName": "表单"
+      }
+    ]
   },
-  "nodeCount": 3,
+  "nodeCount": 27,
+  "svgNodeCount": 2,
+  "hasStrippedSvgs": true,
   "componentDocumentLinks": [],
-  "fetchProgress": "Fetched 2/31. MISSING 29 sections: [2,3,4,5,6,7,8,9,10,11... +19 more]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
+  "fetchProgress": "Fetched 2/11. MISSING 9 sections: [2,3,4,5,6,7,8,9,10]. You MUST fetch ALL remaining sections before generating HTML. Do NOT stop early."
 }
